@@ -1,0 +1,1227 @@
+{
+  "name": "The Router Index",
+  "source": "https://nivana.one/router-index",
+  "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): free to reuse with a link to the source",
+  "updated": "2026-10-25",
+  "method": "Quality from weekly pairwise evals per task judged by models from several labs (0–100); cost from live AI Gateway list prices for a typical request of that kind; speed from live traffic.",
+  "models": [
+    {
+      "name": "Claude Opus",
+      "lab": "Anthropic",
+      "quality": {
+        "quick answers": 83,
+        "writing": 95,
+        "coding": 97,
+        "reasoning": 98,
+        "maths": 93,
+        "structured data": 88,
+        "long documents": 91,
+        "translation": 91
+      },
+      "price_per_million_tokens": {
+        "input": 4,
+        "output": 20
+      },
+      "context_tokens": 1000000,
+      "page": "https://nivana.one/models/claude-opus-5-5"
+    },
+    {
+      "name": "Claude Sonnet",
+      "lab": "Anthropic",
+      "quality": {
+        "quick answers": 85,
+        "writing": 93,
+        "coding": 94,
+        "reasoning": 90,
+        "maths": 84,
+        "structured data": 88,
+        "long documents": 90,
+        "translation": 86
+      },
+      "price_per_million_tokens": {
+        "input": 2,
+        "output": 10
+      },
+      "context_tokens": 1000000,
+      "page": "https://nivana.one/models/claude-sonnet-5-5"
+    },
+    {
+      "name": "Claude Haiku",
+      "lab": "Anthropic",
+      "quality": {
+        "quick answers": 81,
+        "writing": 84,
+        "coding": 78,
+        "reasoning": 73,
+        "maths": 71,
+        "structured data": 83,
+        "long documents": 83,
+        "translation": 78
+      },
+      "price_per_million_tokens": {
+        "input": 0.1,
+        "output": 0.5
+      },
+      "context_tokens": 1000000,
+      "page": "https://nivana.one/models/claude-haiku-5-5"
+    },
+    {
+      "name": "GPT-6.1 Sol",
+      "lab": "OpenAI",
+      "quality": {
+        "quick answers": 84,
+        "writing": 89,
+        "coding": 88,
+        "reasoning": 82,
+        "maths": 77,
+        "structured data": 86,
+        "long documents": 86,
+        "translation": 83
+      },
+      "price_per_million_tokens": {
+        "input": 2,
+        "output": 10
+      },
+      "context_tokens": 1050000,
+      "page": "https://nivana.one/models/gpt-6-1-sol"
+    },
+    {
+      "name": "GPT-6 Luna",
+      "lab": "OpenAI",
+      "quality": {
+        "quick answers": 88,
+        "writing": 85,
+        "coding": 81,
+        "reasoning": 74,
+        "maths": 70,
+        "structured data": 90,
+        "long documents": 83,
+        "translation": 84
+      },
+      "price_per_million_tokens": {
+        "input": 0.1,
+        "output": 0.5
+      },
+      "context_tokens": 1050000,
+      "page": "https://nivana.one/models/gpt-6-luna"
+    },
+    {
+      "name": "GPT-5.5",
+      "lab": "OpenAI",
+      "quality": {
+        "quick answers": 87,
+        "writing": 92,
+        "coding": 90,
+        "reasoning": 84,
+        "maths": 87,
+        "structured data": 93,
+        "long documents": 90,
+        "translation": 88
+      },
+      "price_per_million_tokens": {
+        "input": 5,
+        "output": 30
+      },
+      "context_tokens": 1000000,
+      "page": "https://nivana.one/models/gpt-5-5"
+    },
+    {
+      "name": "Gemini 4 Argon",
+      "lab": "Google",
+      "quality": {
+        "quick answers": 84,
+        "writing": 85,
+        "coding": 85,
+        "reasoning": 85,
+        "maths": 87,
+        "structured data": 91,
+        "long documents": 95,
+        "translation": 89
+      },
+      "price_per_million_tokens": {
+        "input": 2,
+        "output": 10
+      },
+      "context_tokens": 1000000,
+      "page": "https://nivana.one/models/gemini-4-argon"
+    },
+    {
+      "name": "Gemini Flash",
+      "lab": "Google",
+      "quality": {
+        "quick answers": 87,
+        "writing": 81,
+        "coding": 79,
+        "reasoning": 74,
+        "maths": 80,
+        "structured data": 88,
+        "long documents": 93,
+        "translation": 87
+      },
+      "price_per_million_tokens": {
+        "input": 0.75,
+        "output": 3.75
+      },
+      "context_tokens": 1000000,
+      "page": "https://nivana.one/models/gemini-3-8-flash"
+    },
+    {
+      "name": "DeepSeek V4 Pro",
+      "lab": "DeepSeek",
+      "quality": {
+        "quick answers": 81,
+        "writing": 83,
+        "coding": 85,
+        "reasoning": 80,
+        "maths": 92,
+        "structured data": 87,
+        "long documents": 82,
+        "translation": 81
+      },
+      "price_per_million_tokens": {
+        "input": 0.66,
+        "output": 1.98
+      },
+      "context_tokens": 1000000,
+      "page": "https://nivana.one/models/deepseek-v4-pro"
+    },
+    {
+      "name": "DeepSeek Flash",
+      "lab": "DeepSeek",
+      "quality": {
+        "quick answers": 84,
+        "writing": 86,
+        "coding": 85,
+        "reasoning": 81,
+        "maths": 77,
+        "structured data": 86,
+        "long documents": 86,
+        "translation": 84
+      },
+      "price_per_million_tokens": {
+        "input": 0.075,
+        "output": 0.3
+      },
+      "context_tokens": 1048576,
+      "page": "https://nivana.one/models/deepseek-v4-1-flash-1017"
+    },
+    {
+      "name": "Mistral Large",
+      "lab": "Mistral AI",
+      "quality": {
+        "quick answers": 80,
+        "writing": 85,
+        "coding": 79,
+        "reasoning": 78,
+        "maths": 81,
+        "structured data": 87,
+        "long documents": 84,
+        "translation": 93
+      },
+      "price_per_million_tokens": {
+        "input": 1.36,
+        "output": 4.18
+      },
+      "context_tokens": 524288,
+      "page": "https://nivana.one/models/mistral-large-4"
+    },
+    {
+      "name": "Muse Spark",
+      "lab": "Meta",
+      "quality": {
+        "quick answers": 82,
+        "writing": 84,
+        "coding": 84,
+        "reasoning": 82,
+        "maths": 77,
+        "structured data": 84,
+        "long documents": 86,
+        "translation": 82
+      },
+      "price_per_million_tokens": {
+        "input": 1.25,
+        "output": 4.25
+      },
+      "context_tokens": 1048576,
+      "page": "https://nivana.one/models/muse-spark-open"
+    },
+    {
+      "name": "Kimi K3.1 Pro",
+      "lab": "Moonshot",
+      "quality": {
+        "quick answers": 84,
+        "writing": 89,
+        "coding": 87,
+        "reasoning": 83,
+        "maths": 80,
+        "structured data": 86,
+        "long documents": 86,
+        "translation": 84
+      },
+      "price_per_million_tokens": {
+        "input": 2,
+        "output": 10
+      },
+      "context_tokens": 1048576,
+      "page": "https://nivana.one/models/kimi-k3-1-pro"
+    },
+    {
+      "name": "Grok 4.7",
+      "lab": "xAI",
+      "quality": {
+        "quick answers": 83,
+        "writing": 89,
+        "coding": 83,
+        "reasoning": 80,
+        "maths": 75,
+        "structured data": 82,
+        "long documents": 82,
+        "translation": 82
+      },
+      "price_per_million_tokens": {
+        "input": 2,
+        "output": 6
+      },
+      "context_tokens": 500000,
+      "page": "https://nivana.one/models/grok-4-7"
+    }
+  ],
+  "decisions": [
+    {
+      "task": "quick answers",
+      "difficulty": "easy",
+      "picked": "GPT-6 Luna",
+      "candidates": [
+        {
+          "model": "GPT-6 Luna",
+          "lab": "OpenAI",
+          "quality": 88,
+          "expected_cost_usd": 0.000105,
+          "expected_seconds": 1.5,
+          "thinking_effort": null
+        },
+        {
+          "model": "Claude Haiku",
+          "lab": "Anthropic",
+          "quality": 81,
+          "expected_cost_usd": 0.000105,
+          "expected_seconds": 1.8,
+          "thinking_effort": null
+        },
+        {
+          "model": "DeepSeek Flash",
+          "lab": "DeepSeek",
+          "quality": 84,
+          "expected_cost_usd": 0.000067,
+          "expected_seconds": 2.2,
+          "thinking_effort": null
+        },
+        {
+          "model": "Gemini Flash",
+          "lab": "Google",
+          "quality": 87,
+          "expected_cost_usd": 0.000788,
+          "expected_seconds": 1.4,
+          "thinking_effort": null
+        }
+      ]
+    },
+    {
+      "task": "quick answers",
+      "difficulty": "medium",
+      "picked": "GPT-6 Luna",
+      "candidates": [
+        {
+          "model": "GPT-6 Luna",
+          "lab": "OpenAI",
+          "quality": 88,
+          "expected_cost_usd": 0.000105,
+          "expected_seconds": 1.5,
+          "thinking_effort": null
+        },
+        {
+          "model": "DeepSeek Flash",
+          "lab": "DeepSeek",
+          "quality": 84,
+          "expected_cost_usd": 0.000067,
+          "expected_seconds": 2.2,
+          "thinking_effort": null
+        },
+        {
+          "model": "Claude Haiku",
+          "lab": "Anthropic",
+          "quality": 81,
+          "expected_cost_usd": 0.000105,
+          "expected_seconds": 1.8,
+          "thinking_effort": null
+        },
+        {
+          "model": "Gemini Flash",
+          "lab": "Google",
+          "quality": 87,
+          "expected_cost_usd": 0.000788,
+          "expected_seconds": 1.4,
+          "thinking_effort": null
+        }
+      ]
+    },
+    {
+      "task": "quick answers",
+      "difficulty": "hard",
+      "picked": "GPT-6 Luna",
+      "candidates": [
+        {
+          "model": "GPT-6 Luna",
+          "lab": "OpenAI",
+          "quality": 88,
+          "expected_cost_usd": 0.000255,
+          "expected_seconds": 3.5,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "Gemini Flash",
+          "lab": "Google",
+          "quality": 87,
+          "expected_cost_usd": 0.001912,
+          "expected_seconds": 3.3,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "GPT-5.5",
+          "lab": "OpenAI",
+          "quality": 87,
+          "expected_cost_usd": 0.015,
+          "expected_seconds": 10.5,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "Claude Sonnet",
+          "lab": "Anthropic",
+          "quality": 85,
+          "expected_cost_usd": 0.0051,
+          "expected_seconds": 7.3,
+          "thinking_effort": "low"
+        }
+      ]
+    },
+    {
+      "task": "writing",
+      "difficulty": "easy",
+      "picked": "GPT-6 Luna",
+      "candidates": [
+        {
+          "model": "GPT-6 Luna",
+          "lab": "OpenAI",
+          "quality": 85,
+          "expected_cost_usd": 0.00037,
+          "expected_seconds": 3.8,
+          "thinking_effort": null
+        },
+        {
+          "model": "DeepSeek Flash",
+          "lab": "DeepSeek",
+          "quality": 86,
+          "expected_cost_usd": 0.00024,
+          "expected_seconds": 5.7,
+          "thinking_effort": null
+        },
+        {
+          "model": "Claude Haiku",
+          "lab": "Anthropic",
+          "quality": 84,
+          "expected_cost_usd": 0.00037,
+          "expected_seconds": 4.7,
+          "thinking_effort": null
+        },
+        {
+          "model": "Gemini Flash",
+          "lab": "Google",
+          "quality": 81,
+          "expected_cost_usd": 0.002775,
+          "expected_seconds": 3.6,
+          "thinking_effort": null
+        }
+      ]
+    },
+    {
+      "task": "writing",
+      "difficulty": "medium",
+      "picked": "GPT-6 Luna",
+      "candidates": [
+        {
+          "model": "GPT-6 Luna",
+          "lab": "OpenAI",
+          "quality": 85,
+          "expected_cost_usd": 0.00037,
+          "expected_seconds": 3.8,
+          "thinking_effort": null
+        },
+        {
+          "model": "DeepSeek Flash",
+          "lab": "DeepSeek",
+          "quality": 86,
+          "expected_cost_usd": 0.00024,
+          "expected_seconds": 5.7,
+          "thinking_effort": null
+        },
+        {
+          "model": "Claude Sonnet",
+          "lab": "Anthropic",
+          "quality": 93,
+          "expected_cost_usd": 0.0074,
+          "expected_seconds": 8,
+          "thinking_effort": null
+        },
+        {
+          "model": "Grok 4.7",
+          "lab": "xAI",
+          "quality": 89,
+          "expected_cost_usd": 0.0054,
+          "expected_seconds": 7.2,
+          "thinking_effort": null
+        }
+      ]
+    },
+    {
+      "task": "writing",
+      "difficulty": "hard",
+      "picked": "Claude Sonnet",
+      "candidates": [
+        {
+          "model": "Claude Sonnet",
+          "lab": "Anthropic",
+          "quality": 93,
+          "expected_cost_usd": 0.0104,
+          "expected_seconds": 12.3,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "Claude Opus",
+          "lab": "Anthropic",
+          "quality": 95,
+          "expected_cost_usd": 0.0208,
+          "expected_seconds": 19.2,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "GPT-5.5",
+          "lab": "OpenAI",
+          "quality": 92,
+          "expected_cost_usd": 0.03,
+          "expected_seconds": 17.5,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "GPT-6.1 Sol",
+          "lab": "OpenAI",
+          "quality": 89,
+          "expected_cost_usd": 0.0104,
+          "expected_seconds": 12.4,
+          "thinking_effort": "low"
+        }
+      ]
+    },
+    {
+      "task": "coding",
+      "difficulty": "easy",
+      "picked": "GPT-6 Luna",
+      "candidates": [
+        {
+          "model": "GPT-6 Luna",
+          "lab": "OpenAI",
+          "quality": 81,
+          "expected_cost_usd": 0.0005,
+          "expected_seconds": 3.8,
+          "thinking_effort": null
+        },
+        {
+          "model": "DeepSeek Flash",
+          "lab": "DeepSeek",
+          "quality": 85,
+          "expected_cost_usd": 0.000338,
+          "expected_seconds": 5.7,
+          "thinking_effort": null
+        },
+        {
+          "model": "Claude Haiku",
+          "lab": "Anthropic",
+          "quality": 78,
+          "expected_cost_usd": 0.0005,
+          "expected_seconds": 4.7,
+          "thinking_effort": null
+        },
+        {
+          "model": "Gemini Flash",
+          "lab": "Google",
+          "quality": 79,
+          "expected_cost_usd": 0.00375,
+          "expected_seconds": 3.6,
+          "thinking_effort": null
+        }
+      ]
+    },
+    {
+      "task": "coding",
+      "difficulty": "medium",
+      "picked": "Claude Sonnet",
+      "candidates": [
+        {
+          "model": "Claude Sonnet",
+          "lab": "Anthropic",
+          "quality": 94,
+          "expected_cost_usd": 0.013,
+          "expected_seconds": 12.3,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "GPT-6.1 Sol",
+          "lab": "OpenAI",
+          "quality": 88,
+          "expected_cost_usd": 0.013,
+          "expected_seconds": 12.4,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "Kimi K3.1 Pro",
+          "lab": "Moonshot",
+          "quality": 87,
+          "expected_cost_usd": 0.013,
+          "expected_seconds": 14.4,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "Claude Opus",
+          "lab": "Anthropic",
+          "quality": 97,
+          "expected_cost_usd": 0.026,
+          "expected_seconds": 19.2,
+          "thinking_effort": "low"
+        }
+      ]
+    },
+    {
+      "task": "coding",
+      "difficulty": "hard",
+      "picked": "Claude Sonnet",
+      "candidates": [
+        {
+          "model": "Claude Sonnet",
+          "lab": "Anthropic",
+          "quality": 94,
+          "expected_cost_usd": 0.06,
+          "expected_seconds": 79.5,
+          "thinking_effort": "high"
+        },
+        {
+          "model": "Claude Opus",
+          "lab": "Anthropic",
+          "quality": 97,
+          "expected_cost_usd": 0.12,
+          "expected_seconds": 123.6,
+          "thinking_effort": "high"
+        },
+        {
+          "model": "GPT-5.5",
+          "lab": "OpenAI",
+          "quality": 90,
+          "expected_cost_usd": 0.1775,
+          "expected_seconds": 111.5,
+          "thinking_effort": "high"
+        },
+        {
+          "model": "GPT-6.1 Sol",
+          "lab": "OpenAI",
+          "quality": 88,
+          "expected_cost_usd": 0.06,
+          "expected_seconds": 79.6,
+          "thinking_effort": "high"
+        }
+      ]
+    },
+    {
+      "task": "reasoning",
+      "difficulty": "easy",
+      "picked": "GPT-6 Luna",
+      "candidates": [
+        {
+          "model": "GPT-6 Luna",
+          "lab": "OpenAI",
+          "quality": 74,
+          "expected_cost_usd": 0.0004,
+          "expected_seconds": 3.8,
+          "thinking_effort": null
+        },
+        {
+          "model": "DeepSeek Flash",
+          "lab": "DeepSeek",
+          "quality": 81,
+          "expected_cost_usd": 0.000262,
+          "expected_seconds": 5.7,
+          "thinking_effort": null
+        },
+        {
+          "model": "Claude Haiku",
+          "lab": "Anthropic",
+          "quality": 73,
+          "expected_cost_usd": 0.0004,
+          "expected_seconds": 4.7,
+          "thinking_effort": null
+        },
+        {
+          "model": "Gemini Flash",
+          "lab": "Google",
+          "quality": 74,
+          "expected_cost_usd": 0.003,
+          "expected_seconds": 3.6,
+          "thinking_effort": null
+        }
+      ]
+    },
+    {
+      "task": "reasoning",
+      "difficulty": "medium",
+      "picked": "Claude Sonnet",
+      "candidates": [
+        {
+          "model": "Claude Sonnet",
+          "lab": "Anthropic",
+          "quality": 90,
+          "expected_cost_usd": 0.023,
+          "expected_seconds": 29.5,
+          "thinking_effort": "medium"
+        },
+        {
+          "model": "Claude Opus",
+          "lab": "Anthropic",
+          "quality": 98,
+          "expected_cost_usd": 0.046,
+          "expected_seconds": 45.8,
+          "thinking_effort": "medium"
+        },
+        {
+          "model": "Gemini 4 Argon",
+          "lab": "Google",
+          "quality": 85,
+          "expected_cost_usd": 0.023,
+          "expected_seconds": 29.8,
+          "thinking_effort": "medium"
+        },
+        {
+          "model": "GPT-5.5",
+          "lab": "OpenAI",
+          "quality": 84,
+          "expected_cost_usd": 0.0675,
+          "expected_seconds": 41.5,
+          "thinking_effort": "medium"
+        }
+      ]
+    },
+    {
+      "task": "reasoning",
+      "difficulty": "hard",
+      "picked": "Claude Opus",
+      "candidates": [
+        {
+          "model": "Claude Opus",
+          "lab": "Anthropic",
+          "quality": 98,
+          "expected_cost_usd": 0.116,
+          "expected_seconds": 123.6,
+          "thinking_effort": "high"
+        },
+        {
+          "model": "Claude Sonnet",
+          "lab": "Anthropic",
+          "quality": 90,
+          "expected_cost_usd": 0.058,
+          "expected_seconds": 79.5,
+          "thinking_effort": "high"
+        },
+        {
+          "model": "Gemini 4 Argon",
+          "lab": "Google",
+          "quality": 85,
+          "expected_cost_usd": 0.058,
+          "expected_seconds": 79.8,
+          "thinking_effort": "high"
+        },
+        {
+          "model": "GPT-5.5",
+          "lab": "OpenAI",
+          "quality": 84,
+          "expected_cost_usd": 0.1725,
+          "expected_seconds": 111.5,
+          "thinking_effort": "high"
+        }
+      ]
+    },
+    {
+      "task": "maths",
+      "difficulty": "easy",
+      "picked": "GPT-6 Luna",
+      "candidates": [
+        {
+          "model": "GPT-6 Luna",
+          "lab": "OpenAI",
+          "quality": 70,
+          "expected_cost_usd": 0.00048,
+          "expected_seconds": 5.8,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "DeepSeek Flash",
+          "lab": "DeepSeek",
+          "quality": 77,
+          "expected_cost_usd": 0.0003,
+          "expected_seconds": 8.7,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "Claude Haiku",
+          "lab": "Anthropic",
+          "quality": 71,
+          "expected_cost_usd": 0.00048,
+          "expected_seconds": 7.2,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "Gemini Flash",
+          "lab": "Google",
+          "quality": 80,
+          "expected_cost_usd": 0.0036,
+          "expected_seconds": 5.5,
+          "thinking_effort": "low"
+        }
+      ]
+    },
+    {
+      "task": "maths",
+      "difficulty": "medium",
+      "picked": "DeepSeek V4 Pro",
+      "candidates": [
+        {
+          "model": "DeepSeek V4 Pro",
+          "lab": "DeepSeek",
+          "quality": 92,
+          "expected_cost_usd": 0.004488,
+          "expected_seconds": 41.5,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "Gemini 4 Argon",
+          "lab": "Google",
+          "quality": 87,
+          "expected_cost_usd": 0.0216,
+          "expected_seconds": 29.8,
+          "thinking_effort": "medium"
+        },
+        {
+          "model": "Claude Sonnet",
+          "lab": "Anthropic",
+          "quality": 84,
+          "expected_cost_usd": 0.0216,
+          "expected_seconds": 29.5,
+          "thinking_effort": "medium"
+        },
+        {
+          "model": "Claude Opus",
+          "lab": "Anthropic",
+          "quality": 93,
+          "expected_cost_usd": 0.0432,
+          "expected_seconds": 45.8,
+          "thinking_effort": "medium"
+        }
+      ]
+    },
+    {
+      "task": "maths",
+      "difficulty": "hard",
+      "picked": "DeepSeek V4 Pro",
+      "candidates": [
+        {
+          "model": "DeepSeek V4 Pro",
+          "lab": "DeepSeek",
+          "quality": 92,
+          "expected_cost_usd": 0.011418,
+          "expected_seconds": 111.5,
+          "thinking_effort": "high"
+        },
+        {
+          "model": "Claude Opus",
+          "lab": "Anthropic",
+          "quality": 93,
+          "expected_cost_usd": 0.1132,
+          "expected_seconds": 123.6,
+          "thinking_effort": "high"
+        },
+        {
+          "model": "Gemini 4 Argon",
+          "lab": "Google",
+          "quality": 87,
+          "expected_cost_usd": 0.0566,
+          "expected_seconds": 79.8,
+          "thinking_effort": "high"
+        },
+        {
+          "model": "GPT-5.5",
+          "lab": "OpenAI",
+          "quality": 87,
+          "expected_cost_usd": 0.169,
+          "expected_seconds": 111.5,
+          "thinking_effort": "high"
+        }
+      ]
+    },
+    {
+      "task": "structured data",
+      "difficulty": "easy",
+      "picked": "GPT-6 Luna",
+      "candidates": [
+        {
+          "model": "GPT-6 Luna",
+          "lab": "OpenAI",
+          "quality": 90,
+          "expected_cost_usd": 0.00055,
+          "expected_seconds": 3.8,
+          "thinking_effort": null
+        },
+        {
+          "model": "DeepSeek Flash",
+          "lab": "DeepSeek",
+          "quality": 86,
+          "expected_cost_usd": 0.000375,
+          "expected_seconds": 5.7,
+          "thinking_effort": null
+        },
+        {
+          "model": "Claude Haiku",
+          "lab": "Anthropic",
+          "quality": 83,
+          "expected_cost_usd": 0.00055,
+          "expected_seconds": 4.7,
+          "thinking_effort": null
+        },
+        {
+          "model": "Gemini Flash",
+          "lab": "Google",
+          "quality": 88,
+          "expected_cost_usd": 0.004125,
+          "expected_seconds": 3.6,
+          "thinking_effort": null
+        }
+      ]
+    },
+    {
+      "task": "structured data",
+      "difficulty": "medium",
+      "picked": "GPT-6 Luna",
+      "candidates": [
+        {
+          "model": "GPT-6 Luna",
+          "lab": "OpenAI",
+          "quality": 90,
+          "expected_cost_usd": 0.0007,
+          "expected_seconds": 5.8,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "DeepSeek Flash",
+          "lab": "DeepSeek",
+          "quality": 86,
+          "expected_cost_usd": 0.000465,
+          "expected_seconds": 8.7,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "Gemini Flash",
+          "lab": "Google",
+          "quality": 88,
+          "expected_cost_usd": 0.00525,
+          "expected_seconds": 5.5,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "Muse Spark",
+          "lab": "Meta",
+          "quality": 84,
+          "expected_cost_usd": 0.00715,
+          "expected_seconds": 7.9,
+          "thinking_effort": "low"
+        }
+      ]
+    },
+    {
+      "task": "structured data",
+      "difficulty": "hard",
+      "picked": "Gemini 4 Argon",
+      "candidates": [
+        {
+          "model": "Gemini 4 Argon",
+          "lab": "Google",
+          "quality": 91,
+          "expected_cost_usd": 0.026,
+          "expected_seconds": 29.8,
+          "thinking_effort": "medium"
+        },
+        {
+          "model": "GPT-5.5",
+          "lab": "OpenAI",
+          "quality": 93,
+          "expected_cost_usd": 0.075,
+          "expected_seconds": 41.5,
+          "thinking_effort": "medium"
+        },
+        {
+          "model": "GPT-6 Luna",
+          "lab": "OpenAI",
+          "quality": 90,
+          "expected_cost_usd": 0.0013,
+          "expected_seconds": 13.8,
+          "thinking_effort": "medium"
+        },
+        {
+          "model": "Gemini Flash",
+          "lab": "Google",
+          "quality": 88,
+          "expected_cost_usd": 0.00975,
+          "expected_seconds": 13,
+          "thinking_effort": "low"
+        }
+      ]
+    },
+    {
+      "task": "long documents",
+      "difficulty": "easy",
+      "picked": "GPT-6 Luna",
+      "candidates": [
+        {
+          "model": "GPT-6 Luna",
+          "lab": "OpenAI",
+          "quality": 83,
+          "expected_cost_usd": 0.01225,
+          "expected_seconds": 3.8,
+          "thinking_effort": null
+        },
+        {
+          "model": "DeepSeek Flash",
+          "lab": "DeepSeek",
+          "quality": 86,
+          "expected_cost_usd": 0.00915,
+          "expected_seconds": 5.7,
+          "thinking_effort": null
+        },
+        {
+          "model": "Gemini Flash",
+          "lab": "Google",
+          "quality": 93,
+          "expected_cost_usd": 0.091875,
+          "expected_seconds": 3.6,
+          "thinking_effort": null
+        },
+        {
+          "model": "Claude Haiku",
+          "lab": "Anthropic",
+          "quality": 83,
+          "expected_cost_usd": 0.06125,
+          "expected_seconds": 4.7,
+          "thinking_effort": null
+        }
+      ]
+    },
+    {
+      "task": "long documents",
+      "difficulty": "medium",
+      "picked": "Gemini Flash",
+      "candidates": [
+        {
+          "model": "Gemini Flash",
+          "lab": "Google",
+          "quality": 93,
+          "expected_cost_usd": 0.091875,
+          "expected_seconds": 3.6,
+          "thinking_effort": null
+        },
+        {
+          "model": "DeepSeek Flash",
+          "lab": "DeepSeek",
+          "quality": 86,
+          "expected_cost_usd": 0.00915,
+          "expected_seconds": 5.7,
+          "thinking_effort": null
+        },
+        {
+          "model": "Muse Spark",
+          "lab": "Meta",
+          "quality": 86,
+          "expected_cost_usd": 0.152125,
+          "expected_seconds": 5.1,
+          "thinking_effort": null
+        },
+        {
+          "model": "Gemini 4 Argon",
+          "lab": "Google",
+          "quality": 95,
+          "expected_cost_usd": 0.245,
+          "expected_seconds": 8.3,
+          "thinking_effort": null
+        }
+      ]
+    },
+    {
+      "task": "long documents",
+      "difficulty": "hard",
+      "picked": "Gemini Flash",
+      "candidates": [
+        {
+          "model": "Gemini Flash",
+          "lab": "Google",
+          "quality": 93,
+          "expected_cost_usd": 0.0975,
+          "expected_seconds": 13,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "Gemini 4 Argon",
+          "lab": "Google",
+          "quality": 95,
+          "expected_cost_usd": 0.26,
+          "expected_seconds": 29.8,
+          "thinking_effort": "medium"
+        },
+        {
+          "model": "Claude Opus",
+          "lab": "Anthropic",
+          "quality": 91,
+          "expected_cost_usd": 0.52,
+          "expected_seconds": 45.8,
+          "thinking_effort": "medium"
+        },
+        {
+          "model": "Claude Sonnet",
+          "lab": "Anthropic",
+          "quality": 90,
+          "expected_cost_usd": 0.26,
+          "expected_seconds": 29.5,
+          "thinking_effort": "medium"
+        }
+      ]
+    },
+    {
+      "task": "translation",
+      "difficulty": "easy",
+      "picked": "GPT-6 Luna",
+      "candidates": [
+        {
+          "model": "GPT-6 Luna",
+          "lab": "OpenAI",
+          "quality": 84,
+          "expected_cost_usd": 0.00035,
+          "expected_seconds": 3.8,
+          "thinking_effort": null
+        },
+        {
+          "model": "DeepSeek Flash",
+          "lab": "DeepSeek",
+          "quality": 84,
+          "expected_cost_usd": 0.000225,
+          "expected_seconds": 5.7,
+          "thinking_effort": null
+        },
+        {
+          "model": "Claude Haiku",
+          "lab": "Anthropic",
+          "quality": 78,
+          "expected_cost_usd": 0.00035,
+          "expected_seconds": 4.7,
+          "thinking_effort": null
+        },
+        {
+          "model": "Gemini Flash",
+          "lab": "Google",
+          "quality": 87,
+          "expected_cost_usd": 0.002625,
+          "expected_seconds": 3.6,
+          "thinking_effort": null
+        }
+      ]
+    },
+    {
+      "task": "translation",
+      "difficulty": "medium",
+      "picked": "GPT-6 Luna",
+      "candidates": [
+        {
+          "model": "GPT-6 Luna",
+          "lab": "OpenAI",
+          "quality": 84,
+          "expected_cost_usd": 0.00035,
+          "expected_seconds": 3.8,
+          "thinking_effort": null
+        },
+        {
+          "model": "DeepSeek Flash",
+          "lab": "DeepSeek",
+          "quality": 84,
+          "expected_cost_usd": 0.000225,
+          "expected_seconds": 5.7,
+          "thinking_effort": null
+        },
+        {
+          "model": "Gemini Flash",
+          "lab": "Google",
+          "quality": 87,
+          "expected_cost_usd": 0.002625,
+          "expected_seconds": 3.6,
+          "thinking_effort": null
+        },
+        {
+          "model": "Mistral Large",
+          "lab": "Mistral AI",
+          "quality": 93,
+          "expected_cost_usd": 0.00345,
+          "expected_seconds": 7,
+          "thinking_effort": null
+        }
+      ]
+    },
+    {
+      "task": "translation",
+      "difficulty": "hard",
+      "picked": "Mistral Large",
+      "candidates": [
+        {
+          "model": "Mistral Large",
+          "lab": "Mistral AI",
+          "quality": 93,
+          "expected_cost_usd": 0.004704,
+          "expected_seconds": 10.8,
+          "thinking_effort": null
+        },
+        {
+          "model": "Claude Opus",
+          "lab": "Anthropic",
+          "quality": 91,
+          "expected_cost_usd": 0.02,
+          "expected_seconds": 19.2,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "Gemini 4 Argon",
+          "lab": "Google",
+          "quality": 89,
+          "expected_cost_usd": 0.01,
+          "expected_seconds": 12.6,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "GPT-5.5",
+          "lab": "OpenAI",
+          "quality": 88,
+          "expected_cost_usd": 0.029,
+          "expected_seconds": 17.5,
+          "thinking_effort": "low"
+        }
+      ]
+    }
+  ]
+}

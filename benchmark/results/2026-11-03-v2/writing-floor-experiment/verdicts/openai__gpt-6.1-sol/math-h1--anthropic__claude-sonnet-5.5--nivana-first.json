@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers give a correct contradiction proof: the constructed integer is 3 modulo 4, has a prime divisor of that form, and is divisible by none of the listed primes. A is better presented, with a clear lemma and a clean construction. B unnecessarily introduces and then discards a different construction, distracting from an otherwise valid proof.",
+ "priceUsd": 0.004571
+}

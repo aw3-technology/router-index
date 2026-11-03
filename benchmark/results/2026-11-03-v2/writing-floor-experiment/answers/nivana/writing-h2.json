@@ -1,0 +1,12 @@
+{
+ "text": "**Subject: A change to our pricing, and what it means for you**\n\nHi there,\n\nStarting June 1, the Pro plan will go from $29 to $35 per user per month.\n\nWe don't make this decision lightly. Since our last price change in 2021, we've shipped more than 40 features, including the new reporting dashboard and two-way calendar sync. We've also doubled our support team, so replies now arrive in under two hours. Keeping that pace, and building what you ask for, costs more than it used to.\n\nHere's how we're making the transition easier:\n\n- **Your current rate is locked until September 1.** You'll have plenty of time to plan.\n- **Switch to annual billing before June 1** and keep today's price for a full 12 months.\n- **Is the increase a stretch for your team?** Reply to this email. A real person will read it, and we'll work something out.\n\nWe're a small team, and your feedback has shaped nearly everything we've built. That won't change. If something isn't working for you, we want to hear about it.\n\nThank you for being with us.\n\nThe [Product] Team\n\n---\n\n*Swap in your real prices, dates, and features. Specific details like these are what keep the tone honest rather than corporate.*",
+ "model": "anthropic/claude-sonnet-5.5",
+ "route": {
+  "task": "writing",
+  "difficulty": "medium",
+  "effort": null
+ },
+ "priceUsd": 0.013000000000000001,
+ "modelCostUsd": 0.0084466,
+ "ms": 8384
+}

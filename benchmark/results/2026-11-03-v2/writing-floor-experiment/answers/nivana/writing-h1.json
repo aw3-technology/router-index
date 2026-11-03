@@ -1,0 +1,12 @@
+{
+ "text": "# Wedding Toast\n\nGood evening, everyone! For those who don't know me, I'm [Your Name], and I've had the privilege of being [Name]'s best friend for [X] years.\n\nMost couples meet over candlelit dinners or in charming little coffee shops. [Name] and [Name] met on a camping trip where it rained for two straight days, the tent collapsed at midnight, and someone forgot the matches. I won't say who, but it was me.\n\nBy Saturday, we were soggy, starving, and quietly questioning every life choice. But in the middle of that chaos, I noticed something. While the rest of us complained, these two were huddled under a leaking tarp, sharing the last granola bar and laughing like it was the best night of their lives.\n\nThat's when I knew: anyone who can enjoy a disaster together is someone worth keeping.\n\nI called that trip the worst weekend of my life. I was wrong. It was the weekend that brought two of my favorite people together.\n\n[Name], you've always been the friend who shows up, with a spare jacket and perfect timing. [Name], you've made them happier than I ever thought possible, and I can't thank you enough for that.\n\nSo here's my wish for you both: may life bring you plenty of sunshine, but when the storms come, and they will, may you always find each other under the same tarp, laughing.\n\nEveryone, please raise your glasses: to [Name] and [Name]!\n\n---\n\nThis comes in at roughly 260 words. Share a few details, like names, a memory or an inside joke, and Nivana can tailor it further or trim it to exactly 250.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "route": {
+  "task": "writing",
+  "difficulty": "medium",
+  "effort": null
+ },
+ "priceUsd": 0.024,
+ "modelCostUsd": 0.0156291,
+ "ms": 13432
+}

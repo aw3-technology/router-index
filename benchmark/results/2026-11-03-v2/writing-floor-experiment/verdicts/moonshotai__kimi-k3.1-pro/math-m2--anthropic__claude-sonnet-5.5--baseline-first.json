@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers correctly identify the prime sums (2, 3, 5, 7, 11), count 15 favorable outcomes among 36, and simplify the probability to 5/12. Both provide clear, verifiable derivations; B’s fuller enumeration does not create a meaningful quality advantage.",
+ "priceUsd": 0.003276
+}

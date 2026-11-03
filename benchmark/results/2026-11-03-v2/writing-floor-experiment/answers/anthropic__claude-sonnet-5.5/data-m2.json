@@ -1,0 +1,6 @@
+{
+ "text": "```json\n[\n  {\n    \"name\": \"Ava\",\n    \"age\": 31,\n    \"score\": 88.5\n  },\n  {\n    \"name\": \"Ben\",\n    \"age\": 27,\n    \"score\": 91\n  },\n  {\n    \"name\": \"Chloe\",\n    \"age\": 45,\n    \"score\": 79.25\n  }\n]\n```",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.00123,
+ "ms": 1208
+}

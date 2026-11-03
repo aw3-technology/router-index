@@ -1,0 +1,12 @@
+{
+ "text": "## Japanese (formal business register)\n\nご連絡への返信が遅くなりましたことを、心よりお詫び申し上げます。\n本件につきまして調査いたしましたところ、本日中に代替品をお送りいたします。\n\n**Alternative, slightly more formal/keigo-heavy version:**\n\nご返信が遅れましたこと、深くお詫び申し上げます。\n本件について確認いたしましたので、本日中に交換品を発送させていただきます。\n\n## Back-translation into English\n\n**Version 1:**\n\"We sincerely apologise for the delay in replying to your message. Having investigated this matter, we will send a replacement item within today.\"\n\n**Version 2:**\n\"We deeply apologise for the delay in our reply. As we have checked into this matter, we will ship a replacement item today.\"\n\n## Notes\n\n- **お詫び申し上げます** is the standard formal apology verb phrase (humble form), and **心より / 深く** intensify \"sincerely.\"\n- **本日中に** means \"by the end of today,\" which is a little more precise than a plain \"today\" and is the usual business phrasing for a commitment.\n- **代替品** (substitute item) and **交換品** (exchange item) both work for \"replacement.\" Use 交換品 if the replacement is for a defective product, and 代替品 if the original is unavailable.\n- Japanese business email would normally open with a greeting such as いつもお世話になっております。 and add a closing like 何卒よろしくお願い申し上げます。, which I've omitted since they weren't in the source text.\n- The phrase 調査いたしましたところ (\"upon investigating\") is a conventional connective that flows naturally into the next clause, which is why the back-translation reads slightly differently from the original's two separate sentences.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "route": {
+  "task": "reasoning",
+  "difficulty": "medium",
+  "effort": "medium"
+ },
+ "priceUsd": 0.009000000000000001,
+ "modelCostUsd": 0.0059293,
+ "ms": 13288
+}

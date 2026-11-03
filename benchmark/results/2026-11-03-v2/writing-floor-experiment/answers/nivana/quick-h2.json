@@ -1,0 +1,12 @@
+{
+ "text": "**Why we have them:** Atomic clocks (TAI) tick at a perfectly uniform rate, but the Earth's rotation is slightly irregular and gradually slowing, so astronomical time (UT1, \"where the Sun is in the sky\") drifts away from atomic time. Leap seconds are inserted — or in principle removed — to keep UTC within 0.9 seconds of UT1, so that clock time stays aligned with the actual day, which matters for astronomy, navigation and the tradition of noon meaning noon.\n\n**Why they're going:** Each leap second creates a 61- or 59-second minute that computer systems and networks don't expect, and it has caused real outages; the Earth's rotation is also increasingly unpredictable, so scheduling them far ahead is awkward. In 2022 the world's metrology body (CGPM) decided to stop inserting leap seconds by 2035 — letting UTC drift from astronomical time, at least until some coarser fix (such as a \"leap minute\") is agreed — because a continuous, predictable time scale now matters more to most users than sub-second alignment with the sky.",
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "route": {
+  "task": "quick",
+  "difficulty": "medium",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000547192,
+ "ms": 4767
+}

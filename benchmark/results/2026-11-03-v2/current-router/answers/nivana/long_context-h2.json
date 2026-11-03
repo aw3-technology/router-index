@@ -1,0 +1,12 @@
+{
+ "text": "The three most common cancellation reasons were:\n\n1. **Too expensive after the trial — 12**\n2. **Forgot about it and stopped using it — 9**\n3. **Mobile app kept logging them out — 8**\n\n**Power-user-only reasons:** no API for automation (**7**) and CSV exports dropping custom fields (**4**). No casual users mentioned either.\n\n*Note: The notes repeat user numbers across different reasons, so these are counts of entries/reasons rather than distinct user IDs.*",
+ "model": "openai/gpt-6-luna",
+ "route": {
+  "task": "data",
+  "difficulty": "medium",
+  "effort": "low"
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.0002643,
+ "ms": 9757
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers correctly identify the SQL injection, weak MD5 storage, timing issues, and provide parameterized queries with salted scrypt and constant-time comparison. A is better because its fixed code is immediately usable with the existing database: it verifies legacy MD5 hashes safely, upgrades them after successful login, and fails closed on unknown formats. B’s implementation rejects all existing MD5 hashes, locking out current users, and leaves the necessary migration as advice rather than implementing it. A also usefully flags the transaction side effect of its upgrade commit.",
+ "priceUsd": 0.010554
+}

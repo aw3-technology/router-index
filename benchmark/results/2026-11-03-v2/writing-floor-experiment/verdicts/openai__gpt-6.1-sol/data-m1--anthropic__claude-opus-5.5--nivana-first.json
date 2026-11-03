@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers provide the same valid JSON array with all dates correctly extracted in order, including May 1 as the first Friday of May 2026.",
+ "priceUsd": 0.001014
+}

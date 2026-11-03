@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both fix SQL injection, replace MD5 with salted scrypt, use constant-time comparison, and mitigate username timing leaks. B is stronger overall: its scrypt defaults meet the cited OWASP baseline, it provides concrete migration code, and it identifies the need for unique usernames. Both could improve validation of stored hash parameters and handling of malformed or NULL database values; B also overstates that GPU cracking becomes impractical.",
+ "priceUsd": 0.007421
+}

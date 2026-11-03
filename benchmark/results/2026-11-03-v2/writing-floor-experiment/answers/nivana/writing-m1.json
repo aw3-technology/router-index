@@ -1,0 +1,12 @@
+{
+ "text": "Maren Okafor is a freelance illustrator who has spent the last twelve years filling picture books with curious foxes, sleepy lighthouses, and kitchen-table adventures. Working in gouache and colored pencil, she builds soft, textured worlds that invite small hands to linger on every page. Her work has appeared in over twenty books, including the award-nominated *The Night Garden Club*. Maren draws inspiration from her years as a school librarian, where she learned which pictures make children gasp, giggle, or ask for one more story. She lives in Bristol with her husband, two cats, and a studio overflowing with pencil shavings.\n\nI invented the name and details, so swap in your own. If you share your medium, favorite projects, or location, I can tailor it.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "route": {
+  "task": "writing",
+  "difficulty": "medium",
+  "effort": null
+ },
+ "priceUsd": 0.019,
+ "modelCostUsd": 0.0123666,
+ "ms": 9471
+}

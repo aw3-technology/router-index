@@ -1,0 +1,6 @@
+{
+ "text": "Here are the common ways to do it:\n\n## Per-file counts plus a total\n```bash\nwc -l *.txt\n```\nThis prints the line count for each `.txt` file, followed by a `total` line.\n\n## Just the counts, no total\n```bash\nfor f in *.txt; do\n  printf '%s: %s\\n' \"$f\" \"$(wc -l < \"$f\")\"\ndone\n```\n\n## Total lines across all files\n```bash\ncat *.txt | wc -l\n```\n\n## Include subfolders\n```bash\nfind . -name '*.txt' -type f -exec wc -l {} +\n```\nOr in Bash 4+ with `globstar` enabled:\n```bash\nshopt -s globstar\nwc -l **/*.txt\n```\n\n## Sorted by line count\n```bash\nwc -l *.txt | sort -n\n```\n\n## Notes\n- `wc -l` counts newline characters, so a final line without a trailing newline won't be counted. If that matters, use `grep -c '' file.txt`, which counts it.\n- If no `.txt` files exist, `*.txt` stays literal and you'll get an error. Use `shopt -s nullglob` to make the glob expand to nothing instead.\n- Filenames with spaces are fine in all of the examples above as long as you keep the quotes in the loop version.\n- With very many files, `wc -l *.txt` might hit the \"Argument list too long\" limit. The `find ... -exec wc -l {} +` form handles this safely.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.0048,
+ "ms": 3903
+}

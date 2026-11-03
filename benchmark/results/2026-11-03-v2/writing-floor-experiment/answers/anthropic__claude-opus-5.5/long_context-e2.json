@@ -1,0 +1,6 @@
+{
+ "text": "After 30 updates with no progress, the issue was traced to an expired TLS certificate on the image CDN, which was renewed to restore image loading, and monitoring since then has shown everything stable.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.003624,
+ "ms": 1793
+}

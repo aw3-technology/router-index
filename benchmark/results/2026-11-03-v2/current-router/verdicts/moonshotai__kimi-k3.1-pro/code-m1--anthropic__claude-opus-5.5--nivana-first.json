@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers implement the standard debounce pattern correctly with effect cleanup on changes and unmount. A is stronger because its functional-setter wrapper also supports function-valued inputs, while B’s `setDebouncedValue(value)` would mistakenly invoke a function value as a state updater. A also handles nonpositive or nonfinite delays sensibly and provides accurate explanations and tests; its extra detail does not detract from correctness.",
+ "priceUsd": 0.007592
+}

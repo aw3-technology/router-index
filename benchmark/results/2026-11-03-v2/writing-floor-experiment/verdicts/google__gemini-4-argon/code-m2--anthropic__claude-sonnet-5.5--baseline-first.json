@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Answer A is more idiomatic and concise. It uses named regex groups, raises TypeError for non-strings (which is standard in Python), avoids redundant validation checks, and strictly rejects unrequested whitespace.",
+ "priceUsd": 0.004058
+}

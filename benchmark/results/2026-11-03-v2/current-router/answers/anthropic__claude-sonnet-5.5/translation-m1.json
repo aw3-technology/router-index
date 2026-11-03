@@ -1,0 +1,6 @@
+{
+ "text": "**Spanish (Mexico):**\n\n\"Su cita está confirmada para el martes a las 10:00 a.m. Si necesita reprogramarla, solo responda a este mensaje.\"\n\n**Notes:**\n- I used the formal *usted*, which fits a friendly but professional tone in Mexico. For a more casual brand voice, you could switch to *tú*: \"Tu cita está confirmada para el martes a las 10:00 a.m. Si necesitas reprogramarla, solo responde a este mensaje.\"\n- *Reprogramar* is the common term in Mexico for rescheduling. *Reagendar* is also widely used in everyday speech.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.002284,
+ "ms": 2231
+}

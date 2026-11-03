@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly conclude that all bloops are lazzies and explain the valid transitive inference from the two premises. A adds set-based detail and a caveat about premise truth, but B provides an equally sound and checkable explanation for this conditional question.",
+ "priceUsd": 0.002068
+}

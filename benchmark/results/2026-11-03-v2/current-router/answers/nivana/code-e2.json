@@ -1,0 +1,12 @@
+{
+ "text": "## Simple version\n\n```python\ndef is_palindrome(s: str) -> bool:\n    \"\"\"True if s reads the same forwards and backwards, ignoring case and spaces.\"\"\"\n    cleaned = \"\".join(ch for ch in s if not ch.isspace()).casefold()\n    return cleaned == cleaned[::-1]\n```\n\n- `isspace()` drops spaces, tabs, newlines and non-breaking spaces alike.\n- `casefold()` is a more aggressive `lower()` — it handles things like `\"ß\"` → `\"ss\"` and `\"İ\"`, so it's the right choice for case-insensitive comparison.\n\n## Two-pointer version (O(1) extra space)\n\n```python\ndef is_palindrome_compact(s: str) -> bool:\n    i, j = 0, len(s) - 1\n    while i < j:\n        while i < j and s[i].isspace():\n            i += 1\n        while i < j and s[j].isspace():\n            j -= 1\n        if s[i].lower() != s[j].lower():\n            return False\n        i += 1\n        j -= 1\n    return True\n```\n\nUse `.lower()` here rather than `.casefold()`, because casefold can change a single character into several (`\"ß\"` → `\"ss\"`), which would break a character-by-character comparison.\n\n## Tests\n\n```python\nimport pytest\n\n@pytest.mark.parametrize(\"s, expected\", [\n    (\"A man a plan a canal Panama\", True),\n    (\"Was it a car or a cat I saw\", True),\n    (\"\", True),\n    (\"   \", True),           # only spaces -> empty after cleaning\n    (\"a\", True),\n    (\"ab\", False),\n    (\"Race Car\", True),      # ignores internal spaces\n    (\"Hello\", False),\n    (\"No lemon, no melon\", False),  # punctuation is NOT ignored here\n    (\"Taco\\tcat\", True),     # tabs count as whitespace\n])\ndef test_is_palindrome(s, expected):\n    assert is_palindrome(s) is expected\n    assert is_palindrome_compact(s) is expected\n```\n\n## Variant: ignore all non-alphanumeric characters too\n\nOften what people actually want (so `\"No lemon, no melon\"` passes):\n\n```python\ndef is_palindrome_alnum(s: str) -> bool:\n    cleaned = [ch.casefold() for ch in s if ch.isalnum()]\n    return cleaned == cleaned[::-1]\n```\n\nNote that `str.isalnum()` is Unicode-aware, so `\"añilina\"` and accented text work as expected.",
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "route": {
+  "task": "code",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.002,
+ "modelCostUsd": 0.001261492,
+ "ms": 6358
+}

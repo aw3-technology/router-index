@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers correctly calculate the final stock as 12 units and identify 2 separate SKU-42 restocks, while appropriately excluding unrelated inventory events. Both are clear and complete.",
+ "priceUsd": 0.0021376
+}

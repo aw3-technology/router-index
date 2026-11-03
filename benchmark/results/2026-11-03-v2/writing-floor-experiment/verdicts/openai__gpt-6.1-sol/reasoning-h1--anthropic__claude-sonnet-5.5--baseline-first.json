@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both strategies correctly identify all 24 possibilities in exactly three weighings. B is better because it also explains why the crucial second weighing works: balance isolates removed coins, the same tilt isolates coins that stayed put, and a reversed tilt isolates coins that switched sides. This makes the strategy more transparent and checkable. Its final comparisons also consistently use coin 9, already known to be genuine.",
+ "priceUsd": 0.006236
+}

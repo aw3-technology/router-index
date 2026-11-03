@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers follow every single instruction, including the negative constraint of no prose. Both provide valid OpenAPI 3.1 YAML snippets (correctly using the array 'examples' keyword inside schemas) that accurately reflect all requested field constraints and response structures.",
+ "priceUsd": 0.003798
+}

@@ -1,0 +1,6 @@
+{
+ "text": "**Top three cancellation reasons**\n\n1. **Too expensive after the trial:** 12 users (30%), all casual\n2. **Forgot they had it and stopped using it:** 9 users (22.5%), all casual\n3. **Mobile app kept logging them out:** 8 users (20%), all casual\n\n**Mentioned only by power users**\n- **No API for automation:** 7 users\n- **CSV exports drop custom fields:** 4 users\n\nThese two reasons account for all 11 power users. No casual user mentioned either, and no power user gave any of the three top reasons. API is the fourth most common reason overall, just behind the mobile logouts.\n\n**Caveat:** User numbers restart within each reason (for example, \"User 1 (casual)\" appears three times). I treated each line as a separate person, which gives exactly 40 (12 + 9 + 7 + 8 + 4). If the numbering means the same people are cited for several reasons, the counts of distinct users would be lower and some people would have given multiple reasons. It's worth checking against the original notes.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.008644,
+ "ms": 5624
+}

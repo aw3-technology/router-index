@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers reach the correct conclusion with sound reasoning. Each clearly distinguishes confounding, selection/reverse causation, exposure-denominator problems, ecological inference, spillovers, and external-validity limits. Both propose a credible randomised staggered rollout, sensible quasi-experimental fallbacks, exposure-adjusted and mode-specific outcomes, spillover monitoring, co-intervention controls, and checks for regression to the mean. A is somewhat stronger in mapping design features to each inferential problem and discussing power; B adds small-number noise, regression discontinuity, and empirical-Bayes adjustment. These are complementary strengths rather than a meaningful quality gap.",
+ "priceUsd": 0.012758
+}

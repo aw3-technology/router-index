@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers provide working, clean solutions that handle edge cases well (such as empty strings matching all-optional regex groups, and using `[0-9]` instead of `\\d` to avoid matching Unicode digits). Answer B is slightly more idiomatic: it uses named capture groups with `re.VERBOSE`, `match['hours'] or 0`, and correctly raises `TypeError` rather than `ValueError` when the input is not a string.",
+ "priceUsd": 0.00498
+}

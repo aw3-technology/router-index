@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B is the stronger implementation despite both answers being truncated and omitting the requested tests. Its visible code is coherent and nearly complete, with continuous fractional refill, synchronous atomic updates, FIFO reservations, abort handling with refunds, monotonic-clock handling, and lossless idle eviction. A provides less of the implementation and contains a needlessly convoluted, error-prone token-deduction expression in tryConsume. Neither answer fully satisfies the request as written, but B is substantially closer and more robust.",
+ "priceUsd": 0.012242
+}

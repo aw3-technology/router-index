@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both correctly parse the examples and reject malformed duration syntax, including duplicate units, incorrect ordering, and trailing garbage. B better follows the explicit requirement to raise ValueError for invalid input, including non-string inputs; A raises TypeError for those instead. B also includes runnable checks without requiring pytest.",
+ "priceUsd": 0.004971
+}

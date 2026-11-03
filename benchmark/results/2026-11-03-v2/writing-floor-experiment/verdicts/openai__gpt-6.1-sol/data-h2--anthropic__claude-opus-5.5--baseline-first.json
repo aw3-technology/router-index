@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B provides the requested JSON array without extra formatting. A wraps its array in Markdown code fences, violating the JSON-only requirement.",
+ "priceUsd": 0.001674
+}

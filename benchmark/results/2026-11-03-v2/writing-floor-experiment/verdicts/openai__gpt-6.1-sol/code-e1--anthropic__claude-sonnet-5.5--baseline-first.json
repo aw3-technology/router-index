@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both provide the correct core command, `wc -l *.txt`, and useful recursive alternatives. A is slightly better because it also shows per-file counts without a total and explains how to count a final unterminated line. Both share a caveat: enabling `nullglob` alone can leave `wc -l` with no arguments, causing it to read standard input rather than safely handle an empty folder.",
+ "priceUsd": 0.004174
+}

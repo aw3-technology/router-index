@@ -1,0 +1,12 @@
+{
+ "text": "## Timeout values in the notes\n\nThere are two distinct values, each stated in more than one place:\n\n| Value | Where it appears | Quote |\n|---|---|---|\n| **30 seconds** | v3.21 release entry | \"v3.21: The default request timeout is now 30 seconds.\" |\n| **30 seconds** | FAQ (last edited for v3.30) | \"The default timeout is 30 seconds and can be changed with --timeout.\" |\n| **60 seconds** | v4.0 release entry | \"v4.0: Breaking changes: config file renamed to nivana.toml; default request timeout raised to 60 seconds.\" |\n\nNo other entry mentions a timeout. The v3.1–v3.20 entries, the repeated \"Documentation fixes\" entries (v3.1–v3.15), and the v4.0.1–v4.0.10 \"Bug fixes\" entries say nothing about it.\n\n## Which one the current version uses\n\n**60 seconds.**\n\nThe notes aren't truly contradictory once you account for the timeline:\n\n- v3.21 set the default to 30 seconds.\n- v4.0 raised it to 60 seconds (\"raised to 60 seconds\" explicitly marks it as a change from the earlier value).\n- The later v4.0.x entries (v4.0.1 to v4.0.10) are all \"Bug fixes\" and don't mention reverting it, so 60 seconds stays in effect. The latest version listed is v4.0.10.\n\nThe apparent conflict comes from the FAQ, which says 30 seconds. It was last edited for v3.30, which predates v4.0, so it's simply out of date and wasn't updated when the default changed.\n\nOne caveat: the notes are ordered oddly (the v3.1–v3.15 entries appear twice with different text, and the v3.x entries run only to v3.21 while the FAQ references v3.30), so the list may be incomplete or assembled from different sources. If your actual installed version is a 3.x release, the 30-second value would apply to you. Otherwise, on 4.0 or later, expect 60 seconds, and you can override it with `--timeout` if that flag still exists in v4 (the FAQ is the only source for it, and it may be outdated too).",
+ "model": "anthropic/claude-sonnet-5.5",
+ "route": {
+  "task": "reasoning",
+  "difficulty": "medium",
+  "effort": "medium"
+ },
+ "priceUsd": 0.015,
+ "modelCostUsd": 0.0094693,
+ "ms": 6643
+}

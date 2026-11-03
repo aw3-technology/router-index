@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "While both answers are accurate and provide a helpful table breaking down the math, Answer A is slightly better as it correctly identifies the slight ambiguity in the prompt (whether 'how many separate restocks' applies to SKU-42 or the whole log) and explicitly clarifies that it is ignoring the SKU-17 restocks.",
+ "priceUsd": 0.003908
+}

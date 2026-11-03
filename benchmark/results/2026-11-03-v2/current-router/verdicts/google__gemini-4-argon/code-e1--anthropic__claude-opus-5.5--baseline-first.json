@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Answer A is clearer, shows example output, and accurately explains edge cases like how `find ... +` can split into multiple `total` lines. Answer B contains a bug in its `awk` one-liner (for empty files, `FILENAME` is unset in `END`) and implies `-exec ... +` doesn't handle spaces or newlines when it already does.",
+ "priceUsd": 0.003566
+}

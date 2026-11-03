@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly derive the ball’s price as $0.05 using the same equation and verify both conditions. A includes an additional algebra step, while B explains why the common 10-cent answer fails; neither difference materially improves the answer.",
+ "priceUsd": 0.001488
+}

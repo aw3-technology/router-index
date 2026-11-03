@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers are correct and runnable, but A directly fulfills the request with an idiomatic solution that handles all whitespace, includes clear edge-case testing, and avoids unnecessary variations. B's main solution is correct for literal spaces, but its extra implementations are more than needed.",
+ "priceUsd": 0.0027372
+}

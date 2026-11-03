@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are identical, valid JSON arrays containing all dates in ISO 8601 format and correct order. The first Friday of May 2026 is correctly resolved as 2026-05-01.",
+ "priceUsd": 0.0014772
+}

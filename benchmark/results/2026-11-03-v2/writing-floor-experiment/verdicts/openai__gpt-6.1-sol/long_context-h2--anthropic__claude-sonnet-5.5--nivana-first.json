@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B correctly reports all counts, the top three reasons, and both power-user-only issues, with a clear caveat about repeated user numbering. A gives the correct main counts but contradicts itself by calling the API issue the only power-user-exclusive reason before listing CSV exports as another, and calls it the remaining reason despite there being two.",
+ "priceUsd": 0.0042485
+}

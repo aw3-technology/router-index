@@ -1,0 +1,12 @@
+{
+ "text": "How about **Bubbles**? It’s a classic—and perfect for a goldfish. 🐠",
+ "model": "openai/gpt-6-luna",
+ "route": {
+  "task": "quick",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.0000768,
+ "ms": 4430
+}

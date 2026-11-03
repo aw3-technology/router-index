@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers are correct and show clear steps. Answer B is slightly better because it avoids single-dollar-sign LaTeX delimiters (which clash with currency symbols in many renderers, as seen in Answer A) and helpfully addresses the common intuitive trap of 10 cents.",
+ "priceUsd": 0.00213
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A provides a clear, strict grammar and correctly rejects extraneous whitespace, trailing newlines, duplicate units, and out-of-order units. Its fullmatch-based regex is simple and explicitly limits digits to ASCII. B works for the examples but silently normalizes whitespace and uppercase despite describing itself as strict, and uses redundant anchors and validation checks.",
+ "priceUsd": 0.0047135
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B accurately captures the full sequence—30 unchanged investigation updates, the expired image-CDN TLS certificate and renewal, restored image loading, and eight green monitoring updates—while A omits that images were explicitly restored and is slightly less precise.",
+ "priceUsd": 0.0018224
+}

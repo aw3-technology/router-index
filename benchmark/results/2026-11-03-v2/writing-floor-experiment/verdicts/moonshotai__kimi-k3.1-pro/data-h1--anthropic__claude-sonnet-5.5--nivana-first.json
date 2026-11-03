@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers are valid and fully satisfy the schema requirements. B is slightly better because its request and response examples make the snippet more immediately usable without adding prose or violating the requested paths-only format.",
+ "priceUsd": 0.0037544
+}

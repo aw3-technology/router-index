@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both provide the idiomatic `wc -l *.txt` solution, but B adds useful, correct guidance for counting an unterminated final line and handling argument-list limits. Both share a caveat: enabling `nullglob` alone can leave `wc -l` with no arguments, causing it to read standard input rather than cleanly handle an empty folder.",
+ "priceUsd": 0.004004
+}

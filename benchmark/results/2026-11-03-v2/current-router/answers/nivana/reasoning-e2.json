@@ -1,0 +1,12 @@
+{
+ "text": "Yes. If every bloop is a razzie, and every razzie is a lazzie, then every bloop must also be a lazzie.\n\nIn set terms: \\(\\text{Bloops} \\subseteq \\text{Razzies} \\subseteq \\text{Lazzies}\\), so \\(\\text{Bloops} \\subseteq \\text{Lazzies}\\).",
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "route": {
+  "task": "reasoning",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000224692,
+ "ms": 2699
+}

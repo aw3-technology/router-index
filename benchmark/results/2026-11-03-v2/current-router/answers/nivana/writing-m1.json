@@ -1,0 +1,12 @@
+{
+ "text": "Maya Okafor is a freelance illustrator who has spent the last eight years bringing picture books to life, with a particular love for stories about grandparents, garden animals and small acts of courage. Working mostly in gouache and hand-cut paper, she builds each page around soft, textured light, and she's happiest when a child spots a tiny detail she tucked into the corner of a spread. Based in Bristol, she shares her studio with two rescue greyhounds and a shelf of well-loved picture books that inspire her every day.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "writing",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000095375,
+ "ms": 3070
+}

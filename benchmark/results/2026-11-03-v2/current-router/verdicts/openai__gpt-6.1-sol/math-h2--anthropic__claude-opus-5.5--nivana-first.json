@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly obtain 161 using stars and bars with inclusion–exclusion, show the same valid counts and arithmetic, and independently verify the result using the substitution y_i = 7 − x_i. Their differences are only in presentation.",
+ "priceUsd": 0.003441
+}

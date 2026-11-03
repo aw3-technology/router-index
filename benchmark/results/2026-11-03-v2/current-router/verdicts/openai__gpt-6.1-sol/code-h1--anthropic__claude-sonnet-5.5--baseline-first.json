@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A provides a complete, usable implementation of the core limiter, including continuous refill, synchronous atomic consumption, injectable time, and idle eviction. B is truncated mid-expression, so it cannot compile as supplied; its additional async reservation API also introduces unnecessary complexity. Neither answer actually includes the requested tests, which is a significant omission in both.",
+ "priceUsd": 0.010771
+}

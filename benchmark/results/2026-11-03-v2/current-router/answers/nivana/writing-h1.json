@@ -1,0 +1,12 @@
+{
+ "text": "Good evening, everyone. For those who don't know me, I'm [Your Name], and I've been [Groom's name]'s friend since [year]. I've been asked to keep this short, which is a challenge, because [Groom] once talked for three hours about a sandwich.\n\nWhen [Groom] told me he'd met [Bride] on a camping trip, I pictured a cozy weekend under the stars. What actually happened was a tent that collapsed at midnight, a campfire that refused to light, and a rainstorm that turned the campsite into a swamp. Through all of it, [Bride] was the only one who didn't panic. She calmly handed out tarps and a plan while the rest of us argued about whose fault the marshmallows were.\n\n[Groom] had nothing to do with the tent. He just volunteered to hold the flashlight, and somehow that was enough. Maybe that's what I admire most about you two. You both show up, even when things are soggy, and you find the good part of the mess.\n\nSo here's to that disastrous weekend. Here's to the damp sleeping bags, the burnt dinners, and the moment that turned a bad trip into the best thing that ever happened to either of you.\n\n[Groom] and [Bride], I've watched you grow together for years, and I've never seen either of you happier. You make each other laugh, you make each other brave, and you make the rest of us believe in love a little more.\n\nPlease raise your glasses. To [Groom] and [Bride]: may your life together always have a dry match, a sturdy tent, and each other to get through the storms.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "writing",
+  "difficulty": "medium",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.0005885,
+ "ms": 7739
+}

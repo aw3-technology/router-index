@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers correctly obtain 161 using the same clear inclusion–exclusion derivation, with all counts and arithmetic correct. Both also provide the same valid symmetry check, so they are equivalent in mathematical quality and completeness.",
+ "priceUsd": 0.003981
+}

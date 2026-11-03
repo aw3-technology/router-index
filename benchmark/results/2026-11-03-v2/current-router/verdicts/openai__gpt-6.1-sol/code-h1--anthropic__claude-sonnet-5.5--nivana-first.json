@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B provides a complete, usable implementation with continuous refill, synchronous atomic updates, injectable time, and efficient lossless idle eviction. It also explicitly documents that hard-cap LRU eviction can reset rate limits. A is truncated mid-method and cannot compile, and its extra asynchronous reservation machinery introduces unnecessary complexity. Neither answer actually includes the requested tests, but B is substantially more complete and usable.",
+ "priceUsd": 0.010881
+}

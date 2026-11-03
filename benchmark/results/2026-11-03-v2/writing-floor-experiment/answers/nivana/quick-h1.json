@@ -1,0 +1,12 @@
+{
+ "text": "## Why nothing goes faster than light\n\nThe limit is built into the structure of spacetime, not just a speed record.\n\n- **Energy diverges.** A massive object's energy is\n $$E = \\frac{mc^2}{\\sqrt{1 - v^2/c^2}}$$\n As $v \\to c$, the energy needed goes to infinity, so you can approach $c$ but never reach it. Massless things like photons always travel at exactly $c$.\n- **Causality would break.** In relativity, observers moving relative to one another disagree about the timing of distant events. For events separated by more than light could cover, some observers see A before B and others see B before A. A faster-than-light signal would, in some reference frame, arrive before it was sent. That would allow messages to your own past and paradoxes like preventing your own message from being sent.\n\nSo $c$ is really the maximum speed of **cause and effect**, of information or influence.\n\n## Does entanglement break the rule?\n\n**No.** It looks spooky, but it can't send information.\n\n- When you measure one of a pair of entangled particles, you instantly know something about the other's result, even light-years away. The outcomes are correlated in ways no \"pre-agreed hidden instructions\" can explain, as Bell's theorem and experiments show.\n- But **your individual results are completely random**. You can't choose your outcome, so you can't encode a message in it. Your partner's results look like random noise until you compare notes.\n- Comparing notes requires an ordinary signal that travels at or below $c$. This is formalized as the **no-communication theorem**.\n\n**In short:** entanglement produces faster-than-light *correlations*, but not faster-than-light *communication*, and only communication would violate relativity.",
+ "model": "anthropic/claude-opus-5.5",
+ "route": {
+  "task": "reasoning",
+  "difficulty": "medium",
+  "effort": "medium"
+ },
+ "priceUsd": 0.022,
+ "modelCostUsd": 0.014536,
+ "ms": 9659
+}

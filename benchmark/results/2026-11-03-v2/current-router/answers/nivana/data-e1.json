@@ -1,0 +1,12 @@
+{
+ "text": "[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"]",
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "route": {
+  "task": "quick",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000116692,
+ "ms": 1509
+}

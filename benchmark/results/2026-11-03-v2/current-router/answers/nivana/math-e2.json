@@ -1,0 +1,12 @@
+{
+ "text": "The original price was **$50**.\n\nLet $P$ be the original price. After a 20% discount, the customer pays 80% of $P$:\n\n$$0.8P = 40$$\n\n$$P = \\frac{40}{0.8} = 50$$\n\nCheck: 20% of $50 is $10, and $50 − $10 = $40.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "math",
+  "difficulty": "easy",
+  "effort": "low"
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000061615,
+ "ms": 1979
+}

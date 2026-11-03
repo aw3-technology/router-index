@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A uses substantially stronger, current OWASP-recommended scrypt parameters, while B defaults to a comparatively weak 16 MiB configuration. Both fix SQL injection, use salted password hashing and constant-time comparison, and address migration and timing. A also provides concrete migration code and recommends unique usernames. Neither fully validates stored hash parameters or handles every malformed database value, but A is the stronger security fix overall.",
+ "priceUsd": 0.006851
+}

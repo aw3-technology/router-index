@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Answer B is clean, idiomatic, and explains only what is needed. Answer A has a bug where it claims to support function values in `setDebounced(() => value)`, but forgets to wrap the initial `useState(value)` in an initializer function (`useState(() => value)`), meaning passing a function as `value` will still execute it on mount. Answer A is also overly verbose with unrequested unit tests.",
+ "priceUsd": 0.00555
+}

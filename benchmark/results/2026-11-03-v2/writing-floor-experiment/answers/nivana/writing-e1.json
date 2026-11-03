@@ -1,0 +1,12 @@
+{
+ "text": "Thank you for your email; I'm out of the office for the long weekend and will respond when I return on [day/date], and for anything urgent, please contact [name] at [email/phone].",
+ "model": "anthropic/claude-sonnet-5.5",
+ "route": {
+  "task": "writing",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.004,
+ "modelCostUsd": 0.0021655,
+ "ms": 2735
+}

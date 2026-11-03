@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers return the same valid JSON array of all seven days, starting with Monday, with no extra text.",
+ "priceUsd": 0.000782
+}

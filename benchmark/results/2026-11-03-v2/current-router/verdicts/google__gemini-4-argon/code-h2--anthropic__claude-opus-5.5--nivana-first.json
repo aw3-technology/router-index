@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers are very strong, covering SQL injection, weak password hashing, timing attacks, and user enumeration. Answer A wins because its implementation of the timing attack mitigation is not broken by legacy migration logic (Answer B's legacy MD5 check returns fast on failure, re-introducing user enumeration via timing for unmigrated accounts), and Answer A keeps the `hashlib.scrypt` call inside the `try/except` block during verification to safely handle corrupted parameters in the database.",
+ "priceUsd": 0.00715
+}

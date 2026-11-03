@@ -1,0 +1,6 @@
+{
+ "text": "The original price was **$50**.\n\nA 20% discount means you pay 80% of the original price:\n\n0.80 × original = $40\n\noriginal = $40 ÷ 0.80 = **$50**\n\nCheck: 20% of $50 is $10, and $50 − $10 = $40. ✓",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.000962,
+ "ms": 1250
+}

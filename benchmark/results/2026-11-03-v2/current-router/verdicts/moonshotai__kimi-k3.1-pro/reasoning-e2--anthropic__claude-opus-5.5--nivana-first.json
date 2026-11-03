@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers reach the correct conclusion and use valid subset reasoning. B is slightly better because it lays out the inference in clear, checkable steps and accurately notes that the converse does not follow, while A gives only a compact restatement of the proof.",
+ "priceUsd": 0.003444
+}

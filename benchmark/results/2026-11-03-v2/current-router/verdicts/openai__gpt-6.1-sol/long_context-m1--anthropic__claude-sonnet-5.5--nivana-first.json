@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly isolate the SKU-42 events, calculate the final stock as 12 units, and identify 2 separate restocks. Both provide an accurate running-stock breakdown without omitting any relevant events.",
+ "priceUsd": 0.0033535
+}

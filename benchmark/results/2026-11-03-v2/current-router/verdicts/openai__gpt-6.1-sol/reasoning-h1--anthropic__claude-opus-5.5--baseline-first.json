@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both give the same correct, complete three-weighing strategy, covering every possible outcome and identifying both the counterfeit coin and whether it is heavy or light. Their suspect sets and final comparisons are correct throughout, and both explain how the key second weighing partitions the possibilities. The differences are primarily presentation.",
+ "priceUsd": 0.0068535
+}

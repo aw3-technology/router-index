@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both are valid OpenAPI 3.1 YAML snippets containing only the requested paths structure, with correct request validation and 201/422 response schemas. Their minor differences are immaterial: A adds a summary and a small extra description constraint, while B is slightly more minimal.",
+ "priceUsd": 0.004124
+}

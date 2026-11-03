@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A clearly explains both the astronomical reason for leap seconds and the technical reason for ending them, while staying closer to the requested few sentences. B adds unnecessary detail and loosely conflates UTC with uniform atomic time.",
+ "priceUsd": 0.002234
+}

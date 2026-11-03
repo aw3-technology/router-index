@@ -1,0 +1,12 @@
+{
+ "text": "Two dice give $36$ equally likely outcomes. The possible sums range from $2$ to $12$, and the prime sums in that range are $2, 3, 5, 7, 11$.\n\nCounting the ways to get each prime sum:\n\n| Sum | Ways | Outcomes |\n|-----|------|----------|\n| 2 | 1 | (1,1) |\n| 3 | 2 | (1,2), (2,1) |\n| 5 | 4 | (1,4), (2,3), (3,2), (4,1) |\n| 7 | 6 | (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) |\n| 11 | 2 | (5,6), (6,5) |\n\nThat gives $1 + 2 + 4 + 6 + 2 = 15$ favourable outcomes.\n\n$$P(\\text{sum is prime}) = \\frac{15}{36} = \\frac{5}{12} \\approx 0.417$$",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "math",
+  "difficulty": "easy",
+  "effort": "low"
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.00021424,
+ "ms": 3148
+}

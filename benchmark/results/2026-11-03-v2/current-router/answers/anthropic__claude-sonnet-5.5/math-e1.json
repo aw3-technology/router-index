@@ -1,0 +1,6 @@
+{
+ "text": "Using the order of operations, do the multiplication and division first:\n\n- 7 × 8 = 56\n- 12 ÷ 4 = 3\n\nThen add: 56 + 3 = **59**",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.000686,
+ "ms": 1052
+}

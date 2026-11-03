@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Answer A is more accurate and helpful. Answer B implies that `-print0 | xargs -0` is needed for unusual filenames, whereas `find ... -exec ... {} +` already handles spaces and newlines safely. Answer B also mislabels a command that outputs *only* the grand total as outputting 'with a grand total at the end'. Answer A also provides a useful tip on how to handle the missing trailing newline edge case with `grep -c`.",
+ "priceUsd": 0.003162
+}

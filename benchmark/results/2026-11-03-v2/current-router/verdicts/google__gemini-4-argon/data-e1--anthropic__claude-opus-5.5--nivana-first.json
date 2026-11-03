@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers provide a valid JSON array of the days of the week starting with Monday, with no extra text. The only difference is whitespace after commas, which is insignificant in JSON.",
+ "priceUsd": 0.001456
+}

@@ -1,0 +1,239 @@
+{
+ "run_at": "2026-11-03T15:30:37.715Z",
+ "prompt_set": "prompts-v2.json",
+ "mode": "local (production router code, in-process)",
+ "baselines": [
+  "anthropic/claude-opus-5.5",
+  "anthropic/claude-sonnet-5.5"
+ ],
+ "judges": [
+  "openai/gpt-6.1-sol",
+  "google/gemini-4-argon",
+  "moonshotai/kimi-k3.1-pro"
+ ],
+ "prompts": 48,
+ "answered": 46,
+ "errors": [
+  {
+   "id": "code-m1",
+   "error": "Delay was aborted"
+  },
+  {
+   "id": "code-h1",
+   "error": "Delay was aborted"
+  }
+ ],
+ "stopped_at_budget": false,
+ "benchmark_cost_usd": 3.2546050569999965,
+ "spent_this_run_usd": 2.259221057,
+ "routed_to": {
+  "anthropic/claude-haiku-5.5": 20,
+  "anthropic/claude-sonnet-5.5": 8,
+  "deepseek/deepseek-v4.1-flash-1017": 7,
+  "anthropic/claude-opus-5.5": 7,
+  "openai/gpt-6-luna": 3,
+  "mistral/mistral-large-4": 1
+ },
+ "versus": {
+  "anthropic/claude-opus-5.5": {
+   "prompts": 46,
+   "score": 0.37500000000000006,
+   "score_ci95": [
+    0.2934782608695652,
+    0.46195652173913043
+   ],
+   "neutral_score": 0.36413043478260876,
+   "neutral_score_ci95": [
+    0.28079710144927533,
+    0.45108695652173914
+   ],
+   "outcomes": {
+    "win": 11,
+    "tie": 10,
+    "loss": 25
+   },
+   "nivana_usd": 0.6590000000000001,
+   "baseline_usd": 0.669752,
+   "cost_ratio": 0.9839462965396149,
+   "nivana_model_cost_usd": 0.4222889920000001,
+   "model_cost_ratio": 0.6305154624398286,
+   "nivana_median_ms": 3977.5,
+   "baseline_median_ms": 5318.5,
+   "by_task": {
+    "quick": {
+     "n": 6,
+     "score": 0.2638888888888889,
+     "nivana_usd": 0.027,
+     "baseline_usd": 0.04192
+    },
+    "writing": {
+     "n": 6,
+     "score": 0.3055555555555556,
+     "nivana_usd": 0.065,
+     "baseline_usd": 0.084164
+    },
+    "code": {
+     "n": 4,
+     "score": 0.125,
+     "nivana_usd": 0.10700000000000001,
+     "baseline_usd": 0.118812
+    },
+    "reasoning": {
+     "n": 6,
+     "score": 0.5833333333333333,
+     "nivana_usd": 0.333,
+     "baseline_usd": 0.19803600000000002
+    },
+    "math": {
+     "n": 6,
+     "score": 0.513888888888889,
+     "nivana_usd": 0.065,
+     "baseline_usd": 0.058828000000000005
+    },
+    "data": {
+     "n": 6,
+     "score": 0.5416666666666666,
+     "nivana_usd": 0.017,
+     "baseline_usd": 0.035199999999999995
+    },
+    "long_context": {
+     "n": 6,
+     "score": 0.3194444444444445,
+     "nivana_usd": 0.033,
+     "baseline_usd": 0.080096
+    },
+    "translation": {
+     "n": 6,
+     "score": 0.2638888888888889,
+     "nivana_usd": 0.012,
+     "baseline_usd": 0.052696
+    }
+   },
+   "by_level": {
+    "easy": {
+     "n": 16,
+     "score": 0.30729166666666674,
+     "nivana_usd": 0.01900000000000001,
+     "baseline_usd": 0.07867600000000001
+    },
+    "medium": {
+     "n": 15,
+     "score": 0.4666666666666666,
+     "nivana_usd": 0.23000000000000004,
+     "baseline_usd": 0.21271199999999998
+    },
+    "hard": {
+     "n": 15,
+     "score": 0.3555555555555555,
+     "nivana_usd": 0.41000000000000003,
+     "baseline_usd": 0.37836400000000003
+    }
+   },
+   "by_judge": {
+    "openai/gpt-6.1-sol": 0.40217391304347827,
+    "google/gemini-4-argon": 0.3641304347826087,
+    "moonshotai/kimi-k3.1-pro": 0.358695652173913
+   }
+  },
+  "anthropic/claude-sonnet-5.5": {
+   "prompts": 46,
+   "score": 0.46557971014492733,
+   "score_ci95": [
+    0.37500000000000006,
+    0.5579710144927537
+   ],
+   "neutral_score": 0.4547101449275361,
+   "neutral_score_ci95": [
+    0.3641304347826087,
+    0.548913043478261
+   ],
+   "outcomes": {
+    "win": 17,
+    "tie": 10,
+    "loss": 19
+   },
+   "nivana_usd": 0.6590000000000001,
+   "baseline_usd": 0.281986,
+   "cost_ratio": 2.3369954536750055,
+   "nivana_model_cost_usd": 0.4222889920000001,
+   "model_cost_ratio": 1.4975530416403653,
+   "nivana_median_ms": 3977.5,
+   "baseline_median_ms": 3515.5,
+   "by_task": {
+    "quick": {
+     "n": 6,
+     "score": 0.5,
+     "nivana_usd": 0.027,
+     "baseline_usd": 0.019979999999999998
+    },
+    "writing": {
+     "n": 6,
+     "score": 0.3888888888888889,
+     "nivana_usd": 0.065,
+     "baseline_usd": 0.036932
+    },
+    "code": {
+     "n": 4,
+     "score": 0.39583333333333337,
+     "nivana_usd": 0.10700000000000001,
+     "baseline_usd": 0.046585999999999995
+    },
+    "reasoning": {
+     "n": 6,
+     "score": 0.6944444444444443,
+     "nivana_usd": 0.333,
+     "baseline_usd": 0.087728
+    },
+    "math": {
+     "n": 6,
+     "score": 0.5972222222222222,
+     "nivana_usd": 0.065,
+     "baseline_usd": 0.019014
+    },
+    "data": {
+     "n": 6,
+     "score": 0.5277777777777778,
+     "nivana_usd": 0.017,
+     "baseline_usd": 0.02023
+    },
+    "long_context": {
+     "n": 6,
+     "score": 0.3055555555555556,
+     "nivana_usd": 0.033,
+     "baseline_usd": 0.034848
+    },
+    "translation": {
+     "n": 6,
+     "score": 0.2916666666666667,
+     "nivana_usd": 0.012,
+     "baseline_usd": 0.016668
+    }
+   },
+   "by_level": {
+    "easy": {
+     "n": 16,
+     "score": 0.3333333333333333,
+     "nivana_usd": 0.01900000000000001,
+     "baseline_usd": 0.033968
+    },
+    "medium": {
+     "n": 15,
+     "score": 0.5777777777777777,
+     "nivana_usd": 0.23000000000000004,
+     "baseline_usd": 0.10073599999999999
+    },
+    "hard": {
+     "n": 15,
+     "score": 0.4944444444444444,
+     "nivana_usd": 0.41000000000000003,
+     "baseline_usd": 0.14728200000000002
+    }
+   },
+   "by_judge": {
+    "openai/gpt-6.1-sol": 0.44565217391304346,
+    "google/gemini-4-argon": 0.41847826086956524,
+    "moonshotai/kimi-k3.1-pro": 0.532608695652174
+   }
+  }
+ }
+}

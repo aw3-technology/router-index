@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly identify the prime sums, count 15 favorable outcomes among 36 equally likely outcomes, and obtain 5/12. Their derivations are clear and verifiable; A lists the individual outcomes, while B gives the same counts concisely.",
+ "priceUsd": 0.001726
+}

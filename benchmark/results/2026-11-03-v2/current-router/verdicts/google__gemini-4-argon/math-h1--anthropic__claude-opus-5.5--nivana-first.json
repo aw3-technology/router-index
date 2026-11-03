@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers provide the same correct and well-written proof. Answer A is slightly better because it explicitly proves the lemma beforehand (rather than just stating it inside the proof) and includes a very helpful remark explaining why this specific proof structure does not work for primes of the form 4k+1.",
+ "priceUsd": 0.004142
+}

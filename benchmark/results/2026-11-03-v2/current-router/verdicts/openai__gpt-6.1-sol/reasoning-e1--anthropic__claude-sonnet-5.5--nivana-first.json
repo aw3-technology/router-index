@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly derive that the ball costs $0.05 using the same equation and verify the total and price difference. A shows one extra algebra step, while B explains the common 10-cent mistake; neither provides a meaningful quality advantage.",
+ "priceUsd": 0.001498
+}

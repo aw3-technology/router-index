@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers are very strong and cover the exact same points (SQL injection, MD5, constant-time comparison, timing side-channel for user enumeration, and stdlib scrypt implementation). Answer A wins slightly on code quality: it uses Python 3's built-in `.hex()` / `bytes.fromhex()` and f-strings rather than importing `base64` and using `.format()`, and it extracts `_MAXMEM` as a constant instead of repeating a magic number.",
+ "priceUsd": 0.006094
+}

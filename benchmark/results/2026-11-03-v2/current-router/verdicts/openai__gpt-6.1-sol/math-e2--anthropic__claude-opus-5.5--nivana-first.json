@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly derive the original price as $50 by dividing $40 by 0.80, and both verify that a $10 discount leaves a $40 price. Their explanations are equivalent in clarity and completeness.",
+ "priceUsd": 0.001238
+}

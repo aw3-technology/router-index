@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly conclude that the ball costs 5 cents, derive it with a clear algebraic equation, and verify both the total and the price difference. B’s additional explanation of the common 10-cent mistake is useful but does not materially change the quality of the answer.",
+ "priceUsd": 0.001564
+}

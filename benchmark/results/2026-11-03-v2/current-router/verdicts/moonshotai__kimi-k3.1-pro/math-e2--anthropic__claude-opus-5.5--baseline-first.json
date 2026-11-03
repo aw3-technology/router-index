@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers give the correct original price of $50, clearly derive it using 0.8P = 40, and verify the result with the same valid check.",
+ "priceUsd": 0.001708
+}

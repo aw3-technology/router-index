@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers contain the same correct JSON array with numeric ages and scores, and both equally violate the JSON-only requirement by wrapping the output in markdown code fences.",
+ "priceUsd": 0.00187
+}

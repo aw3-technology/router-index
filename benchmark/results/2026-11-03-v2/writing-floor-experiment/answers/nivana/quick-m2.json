@@ -1,0 +1,12 @@
+{
+ "text": "Weather is the day-to-day state of the atmosphere — temperature, rain, wind — in a specific place over hours or days. Climate is the long-term average and pattern of that weather over decades or more, so a cold week doesn't contradict a warming climate any more than one bad hand means a losing poker strategy.",
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "route": {
+  "task": "quick",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000159292,
+ "ms": 2571
+}

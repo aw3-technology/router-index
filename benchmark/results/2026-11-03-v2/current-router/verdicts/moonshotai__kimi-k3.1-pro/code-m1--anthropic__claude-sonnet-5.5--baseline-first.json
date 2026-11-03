@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both hooks correctly debounce and clean up timers, but B additionally handles nonpositive/nonfinite delays, avoids treating function-valued updates as state updaters, and provides useful tests and edge-case guidance. Its usage snippet has an undefined `setResults`, and neither implementation fully supports a function as the initial value, but these do not outweigh B’s stronger treatment of the requested hook.",
+ "priceUsd": 0.006984
+}

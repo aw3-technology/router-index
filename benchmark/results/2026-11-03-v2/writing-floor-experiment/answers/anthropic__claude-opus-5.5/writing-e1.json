@@ -1,0 +1,6 @@
+{
+ "text": "Thanks for your email! I'm out of the office for the long weekend and will reply when I return on [day, date]. For anything urgent, please contact [name] at [email].",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.00166,
+ "ms": 2156
+}

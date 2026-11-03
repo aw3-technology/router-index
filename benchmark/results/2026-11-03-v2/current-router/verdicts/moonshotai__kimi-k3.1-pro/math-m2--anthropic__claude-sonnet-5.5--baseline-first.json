@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers give the correct probability, 15/36 = 5/12, with clear and accurate counting of the prime sums. Answer B lists the individual outcomes, but this does not make it meaningfully better than Answer A’s already sufficient derivation.",
+ "priceUsd": 0.00269
+}

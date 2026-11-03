@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are identical, valid JSON arrays with all dates correctly converted to ISO 8601 and ordered as they appear, including the first Friday of May 2026.",
+ "priceUsd": 0.0013372
+}

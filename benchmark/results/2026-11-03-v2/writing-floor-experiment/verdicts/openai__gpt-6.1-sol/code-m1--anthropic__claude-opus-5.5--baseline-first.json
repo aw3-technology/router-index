@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both hooks implement the standard debounce pattern and correctly clear timers on dependency changes and unmount. A’s usage example also runs as written, whereas B’s example calls useEffect without importing it. A additionally provides useful tests and explains initial-value and delay-change behavior.",
+ "priceUsd": 0.004991
+}

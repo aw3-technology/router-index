@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers correctly obtain 161 using stars and bars and inclusion–exclusion, with correct intersection counts and a clear explanation that triple intersections are impossible. Both also verify the result using the substitution y_i = 7 − x_i. Their methods and mathematical quality are equivalent.",
+ "priceUsd": 0.0045135
+}

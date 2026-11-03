@@ -1,0 +1,6 @@
+{
+ "text": "Assuming two standard six-sided dice, the possible sums run from 2 to 12, and the prime sums are 2, 3, 5, 7, and 11.\n\nNumber of ways to roll each sum:\n- Sum 2: 1 way\n- Sum 3: 2 ways\n- Sum 5: 4 ways\n- Sum 7: 6 ways\n- Sum 11: 2 ways\n\nTotal favorable outcomes: 1 + 2 + 4 + 6 + 2 = 15\n\nThere are 36 equally likely outcomes in total.\n\nProbability = 15/36 = **5/12**",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.002024,
+ "ms": 1734
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers provide valid, properly structured JSON following the exact schema requested with no extra prose. Both interpretations of street suffix normalization (keeping standard postal abbreviations vs. expanding them) are valid.",
+ "priceUsd": 0.00249
+}

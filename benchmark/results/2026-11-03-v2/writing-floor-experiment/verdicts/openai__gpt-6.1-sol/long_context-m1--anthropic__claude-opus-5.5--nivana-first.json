@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers correctly calculate SKU-42’s final stock as 12 units and identify 2 separate restocks, with accurate running-stock tables. Their additional explanations are accurate and do not materially affect answer quality.",
+ "priceUsd": 0.003506
+}

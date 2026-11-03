@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both give the correct primary command and accurately explain newline counting and unmatched globs. B is slightly more useful because it adds clean per-file output without a total, a sorted-count option, and the argument-list limit with a safe workaround, while remaining correct and clearly organized.",
+ "priceUsd": 0.0040252
+}

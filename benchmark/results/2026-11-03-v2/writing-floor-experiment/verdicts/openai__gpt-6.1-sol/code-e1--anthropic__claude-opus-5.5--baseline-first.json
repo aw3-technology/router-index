@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both give the standard `wc -l *.txt` solution, but A more accurately explains edge cases: enabling `nullglob` can make `wc` wait for standard input, and batched recursive calls can produce multiple totals. B recommends `nullglob` without warning about that behavior. B’s recursive examples improve on A’s by using `-type f`, but A is more reliable overall.",
+ "priceUsd": 0.003382
+}

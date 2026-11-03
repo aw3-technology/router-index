@@ -1,0 +1,6 @@
+{
+ "text": "After 30 updates of \"still investigating, no change,\" the root cause was found to be an expired TLS certificate on the image CDN; it was renewed, images are loading again, and 8 subsequent monitoring updates show everything green.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.001912,
+ "ms": 1109
+}

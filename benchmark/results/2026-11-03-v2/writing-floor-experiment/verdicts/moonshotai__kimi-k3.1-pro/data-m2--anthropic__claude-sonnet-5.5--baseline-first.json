@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are identical: the data and numeric types are correct, but both include markdown code fences despite the JSON-only requirement. Neither is better.",
+ "priceUsd": 0.0013152
+}

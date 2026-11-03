@@ -1,0 +1,12 @@
+{
+ "text": "```json\n[\n  {\n    \"name\": \"Ava\",\n    \"age\": 31,\n    \"score\": 88.5\n  },\n  {\n    \"name\": \"Ben\",\n    \"age\": 27,\n    \"score\": 91\n  },\n  {\n    \"name\": \"Chloe\",\n    \"age\": 45,\n    \"score\": 79.25\n  }\n]\n```",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "data",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000069115,
+ "ms": 2302
+}

@@ -1,0 +1,12 @@
+{
+ "text": "There are **7 continents** under the most common convention:\n\n1. Asia\n2. Africa\n3. North America\n4. South America\n5. Antarctica\n6. Europe\n7. Australia (Oceania)\n\nThat said, the count depends on the model you use:\n\n| Model | Continents | Notes |\n|---|---|---|\n| 7-continent | Asia, Africa, N. America, S. America, Antarctica, Europe, Australia | Most common worldwide, standard in English-speaking countries |\n| 6-continent (merged) | Eurasia counted as one | Taught in parts of Russia, Eastern Europe, Japan |\n| 6-continent (merged) | North + South America as one \"America\" | Common in Latin America and parts of Europe |\n| 5-continent | No Antarctica (uninhabited) | Used in the Olympic rings symbolism |\n| 4-continent | Afro-Eurasia + Americas + Antarctica + Australia | Geological/regional grouping |\n\nSo: **7** is the standard answer, but the \"right\" number is really a convention rather than a fact about the planet.",
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "route": {
+  "task": "quick",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000385192,
+ "ms": 4016
+}

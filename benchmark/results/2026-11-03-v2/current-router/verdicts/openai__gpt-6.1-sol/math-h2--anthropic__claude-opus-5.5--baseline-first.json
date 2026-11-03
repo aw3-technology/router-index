@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers correctly obtain 161 using stars and bars with inclusion–exclusion, clearly explain the upper-bound violations, and provide the same valid independent check via y_i = 7 − x_i. Their differences are presentation only.",
+ "priceUsd": 0.003431
+}

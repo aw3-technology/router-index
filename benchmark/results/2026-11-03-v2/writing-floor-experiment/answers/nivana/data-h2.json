@@ -1,0 +1,12 @@
+{
+ "text": "[\n  {\n    \"street\": \"221B Baker St\",\n    \"city\": \"London\",\n    \"region\": null,\n    \"postal_code\": \"NW1 6XE\",\n    \"country\": \"GB\"\n  },\n  {\n    \"street\": \"1600 Amphitheatre Pkwy\",\n    \"city\": \"Mountain View\",\n    \"region\": \"CA\",\n    \"postal_code\": \"94043\",\n    \"country\": \"US\"\n  },\n  {\n    \"street\": \"Rua Augusta 100\",\n    \"city\": \"Lisboa\",\n    \"region\": null,\n    \"postal_code\": null,\n    \"country\": \"PT\"\n  },\n  {\n    \"street\": \"Shibuya 2-21-1\",\n    \"city\": \"Tokyo\",\n    \"region\": \"Tokyo\",\n    \"postal_code\": \"150-8510\",\n    \"country\": \"JP\"\n  }\n]",
+ "model": "openai/gpt-6-luna",
+ "route": {
+  "task": "data",
+  "difficulty": "medium",
+  "effort": "low"
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.0001858,
+ "ms": 5027
+}

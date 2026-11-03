@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers return only the correct JSON array of the days of the week, starting with Monday.",
+ "priceUsd": 0.000728
+}

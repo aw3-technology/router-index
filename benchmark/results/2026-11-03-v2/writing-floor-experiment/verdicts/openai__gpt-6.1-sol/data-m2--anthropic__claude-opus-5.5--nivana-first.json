@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly convert the values and use numbers for numeric fields, but both violate the JSON-only requirement by wrapping the array in Markdown code fences. Their formatting differences do not affect quality.",
+ "priceUsd": 0.001218
+}

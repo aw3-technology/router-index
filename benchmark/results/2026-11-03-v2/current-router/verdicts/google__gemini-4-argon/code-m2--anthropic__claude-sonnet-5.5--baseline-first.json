@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Answer A is more idiomatic and concise. It correctly uses `TypeError` for non-string types, avoids redundant `^` and `$` anchors when using `fullmatch`, uses `re.ASCII` to prevent non-ASCII digits from matching, and simplifies the empty-match check to `not text`.",
+ "priceUsd": 0.004474
+}

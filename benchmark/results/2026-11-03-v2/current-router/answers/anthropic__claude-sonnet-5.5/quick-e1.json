@@ -1,0 +1,6 @@
+{
+ "text": "There are **seven continents** in the most commonly taught model:\n\n1. **Africa**\n2. **Antarctica**\n3. **Asia**\n4. **Australia** (sometimes called Oceania or Australia/Oceania)\n5. **Europe**\n6. **North America**\n7. **South America**\n\nThe number varies depending on the convention used:\n\n- **Six continents**: Some countries combine Europe and Asia into *Eurasia*, or combine North and South America into a single *America*.\n- **Five continents**: This is the model reflected in the Olympic rings, which count the Americas as one and often leave out Antarctica.\n- **Four continents**: Some models group Afro-Eurasia, the Americas, Antarctica, and Australia.\n\nThe seven-continent model is the one most widely used in English-speaking countries, including the US, UK, and Australia.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.00276,
+ "ms": 2826
+}

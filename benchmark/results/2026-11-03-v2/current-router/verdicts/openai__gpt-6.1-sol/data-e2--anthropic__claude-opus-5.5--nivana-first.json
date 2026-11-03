@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers provide only a valid Markdown table with the requested columns, fruits, and appropriate colours. Spacing differences do not affect the rendered table.",
+ "priceUsd": 0.000884
+}

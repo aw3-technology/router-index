@@ -1,0 +1,12 @@
+{
+ "text": "**« Notre café, c'est du marc à célébrer ! »**\n\nI swapped *grounds* for *marc* (coffee grounds), letting the same word double as the thing worth celebrating so the coffee/occasion pun survives.",
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "route": {
+  "task": "translation",
+  "difficulty": "hard",
+  "effort": "low"
+ },
+ "priceUsd": 0.006,
+ "modelCostUsd": 0.0039759,
+ "ms": 23630
+}

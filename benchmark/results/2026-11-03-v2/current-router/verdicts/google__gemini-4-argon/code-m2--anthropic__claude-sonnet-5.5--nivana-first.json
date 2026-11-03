@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Answer B is slightly more idiomatic and concise. It uses `re.ASCII` to prevent non-ASCII digits, avoids redundant `^` and `$` anchors when using `fullmatch`, and avoids the redundant `not any(match.groupdict().values())` check (since any non-empty string that matches the regex must match at least one group).",
+ "priceUsd": 0.004574
+}

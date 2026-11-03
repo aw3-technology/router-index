@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers correctly obtain 161 using the same clear inclusion–exclusion derivation, with all counts and arithmetic correct. Both also verify the result independently using the substitution y_i = 7 − x_i. Their differences are purely presentational.",
+ "priceUsd": 0.0044535
+}

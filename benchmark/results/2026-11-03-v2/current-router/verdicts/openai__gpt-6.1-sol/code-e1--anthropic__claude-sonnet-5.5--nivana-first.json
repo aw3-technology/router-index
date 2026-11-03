@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B gives the standard command and useful alternatives, and its recursive example correctly restricts matches to regular files with `-type f`. A omits that restriction, so directories named `*.txt` cause errors, and its suggestion to obtain the sum with `tail -1` is unreliable when `find` batches commands. B has a caveat too: enabling `nullglob` alone can leave `wc` reading standard input when nothing matches.",
+ "priceUsd": 0.003742
+}

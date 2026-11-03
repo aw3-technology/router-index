@@ -1,0 +1,6 @@
+{
+ "text": "The ball costs **$0.05**.\n\nLet the ball cost x. Then the bat costs x + $1.00, and together they cost $1.10:\n\nx + (x + 1.00) = 1.10\n2x = 0.10\nx = 0.05\n\nSo the ball is 5 cents and the bat is $1.05. The bat costs exactly $1.00 more than the ball, and the total is $1.10.\n\nThe common wrong answer is 10 cents. In that case the bat would cost $1.10 and the total would be $1.20.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.00177,
+ "ms": 1968
+}

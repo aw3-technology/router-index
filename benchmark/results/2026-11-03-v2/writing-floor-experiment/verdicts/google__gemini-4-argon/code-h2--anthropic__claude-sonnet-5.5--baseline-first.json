@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers are very strong and cover the exact same points (SQLi, MD5, salting, constant-time comparison, timing attacks for user enumeration, and migration strategies). Answer A wins slightly on code quality and robustness: using `.hex()`/`bytes.fromhex()` is cleaner than Base64 helpers, it catches `TypeError`/`AttributeError` in case `pw_hash` in the DB is `NULL` (`None.split()` raises `AttributeError`, though A caught `TypeError`, wait—actually neither caught `AttributeError`, though A noted unused `sqlite3` while B accurately used `sqlite3.Connection` as a type hint). Crucially, Answer A point #1 notes that `sqlite3.execute()` cannot run `; DROP TABLE` (since sqlite3's `execute` only runs a single statement), wait—Answer A actually falsely claimed `; DROP TABLE` works, whereas Answer B accurately gave a `UNION SELECT` payload! However, Answer B's `scrypt` parameters (`N=2**17`, 128 MiB per login) are dangerously high for a web login endpoint (easily causing OOM/DoS), whereas A's `N=2**14` (16 MiB) is the standard interactive login parameter. Overall, A's code is slightly more concise and idiomatic.",
+ "priceUsd": 0.008738
+}

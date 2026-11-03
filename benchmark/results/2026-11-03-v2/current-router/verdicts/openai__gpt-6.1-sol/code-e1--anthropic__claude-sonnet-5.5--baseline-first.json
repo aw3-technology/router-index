@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both give the correct basic command, `wc -l *.txt`, but A’s recursive example correctly restricts matches to regular files with `-type f`. B omits that restriction, so directories ending in `.txt` cause errors, and its suggestion to use `tail -1` can return only a batch subtotal when `find` invokes `wc` multiple times. A is more reliable overall, though its `nullglob` advice should warn that running `wc` with no arguments reads standard input.",
+ "priceUsd": 0.003652
+}

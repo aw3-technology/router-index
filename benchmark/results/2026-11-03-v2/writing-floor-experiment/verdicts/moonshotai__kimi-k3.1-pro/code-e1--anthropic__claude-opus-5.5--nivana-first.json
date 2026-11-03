@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers give the correct core command and useful recursive and total-only variants. B is slightly better for the user: it shows sample output, explains how to target another folder, provides a clean per-file loop using `wc -l < \"$f\"`, and accurately notes important edge cases such as multiple `total` lines and `nullglob` leaving `wc` waiting for standard input. Its recursive `find` omitting `-type f` is a minor weakness, but not enough to outweigh its clearer and more practical presentation.",
+ "priceUsd": 0.005028
+}

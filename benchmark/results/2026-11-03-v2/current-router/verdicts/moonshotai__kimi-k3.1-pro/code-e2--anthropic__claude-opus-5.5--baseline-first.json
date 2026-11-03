@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers are correct and runnable, but B is slightly stronger: its primary solution uses `casefold()` for robust case-insensitive comparison and `isspace()` for all whitespace, its two-pointer implementation is clear and correctly avoids `casefold()` where multi-character mappings would break it, and its tests cover useful edge cases such as empty strings, whitespace-only strings, tabs, and punctuation. A is also good, but its main solution is narrower and its Unicode guidance comes only as a closing note.",
+ "priceUsd": 0.006858
+}

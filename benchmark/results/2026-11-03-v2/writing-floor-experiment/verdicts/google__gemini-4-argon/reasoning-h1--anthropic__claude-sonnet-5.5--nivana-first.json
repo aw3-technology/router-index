@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers provide the exact same correct strategy, but Answer A is much better formatted and easier to follow. The use of tables makes the branching logic very clear, and the added explanation of *why* the second weighing works in Cases B and C is a great pedagogical touch.",
+ "priceUsd": 0.005244
+}

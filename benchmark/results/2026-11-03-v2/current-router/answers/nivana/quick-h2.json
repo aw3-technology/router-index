@@ -1,0 +1,12 @@
+{
+ "text": "**Why leap seconds exist:** Since 1972, world time (UTC) has come from atomic clocks, which tick at a steady rate. The Earth's spin isn't steady: it speeds up and slows down by tiny amounts. To keep clock time within a second of solar time, timekeepers have added a \"leap second\" now and then. There have been 27 so far, and [the last one was at the end of 2016](https://www.jeffgeerling.com/blog/2026/rejoice-the-utc-leap-second-is-dead/).\n\n**Why they're going away:** Leap seconds have caused computer problems before. Reddit, LinkedIn, Yelp and other sites [have gone down when one was added](https://www.theverge.com/tech/1012689/leap-second-discontinue-timekeeping-change). Now the Earth has been spinning a little faster, so experts put the chance of needing the first-ever *negative* leap second (taking a second away) by 2035 at [about 30%](https://www.bipm.org/en/cgpm-2026/resolution-5). That has never been done. Officials warned it could disrupt power grids, telecoms and transport, and that getting ready would cost about as much as preparing for the Y2K bug. In 2022, the body that oversees world time had already agreed to drop leap seconds by 2035. On **15 October 2026** it voted to bring that forward: [from 20 May 2027](https://www.independent.co.uk/news/science/time-clock-calendar-utc-leap-seconds-tech-b3067966.html), UTC will run continuously and can drift up to an hour from Earth-rotation time. That's expected to take [centuries, possibly about 3,000 years](https://www.heise.de/en/news/No-more-leap-seconds-11490071.html). The downside is mainly for astronomers, who can no longer use UTC as a rough measure of the Earth's rotation.\n\n**Sources**\n- [BIPM: Resolution 5 of the 28th CGPM (2026)](https://www.bipm.org/en/cgpm-2026/resolution-5)\n- [The Independent](https://www.independent.co.uk/news/science/time-clock-calendar-utc-leap-seconds-tech-b3067966.html)\n- [The Verge](https://www.theverge.com/tech/1012689/leap-second-discontinue-timekeeping-change)\n- [Heise](https://www.heise.de/en/news/No-more-leap-seconds-11490071.html)\n- [Jeff Geerling](https://www.jeffgeerling.com/blog/2026/rejoice-the-utc-leap-second-is-dead/)",
+ "model": "anthropic/claude-opus-5.5",
+ "route": {
+  "task": "reasoning",
+  "difficulty": "medium",
+  "effort": "medium"
+ },
+ "priceUsd": 0.098,
+ "modelCostUsd": 0.0650236,
+ "ms": 13731
+}

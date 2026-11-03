@@ -1,0 +1,12 @@
+{
+ "text": "# Infinitely Many Primes of the Form $4k+3$\n\n## Lemma\n\n**If $a \\equiv 1 \\pmod 4$ and $b \\equiv 1 \\pmod 4$, then $ab \\equiv 1 \\pmod 4$.**\n\n*Proof.* Write $a = 4m+1$ and $b = 4n+1$. Then\n$$\nab = 16mn + 4m + 4n + 1 = 4(4mn + m + n) + 1 \\equiv 1 \\pmod 4.\n$$\nBy induction, any product of (one or more) integers that are all $\\equiv 1 \\pmod 4$ is itself $\\equiv 1 \\pmod 4$. $\\blacksquare$\n\n## Theorem\n\n**There are infinitely many primes $p$ with $p \\equiv 3 \\pmod 4$.**\n\n*Proof.* Suppose, for contradiction, that there are only finitely many such primes, say\n$$\np_1, p_2, \\ldots, p_n.\n$$\nThis list is nonempty, since $3$ is one of them. Define\n$$\nN = 4\\,p_1 p_2 \\cdots p_n - 1.\n$$\n\n**1. $N$ has the right form.** We have $N \\equiv -1 \\equiv 3 \\pmod 4$. Also $N \\ge 4\\cdot 3 - 1 = 11 > 1$, so $N$ has at least one prime factor.\n\n**2. Every prime factor of $N$ is odd.** Since $N$ is odd, $2 \\nmid N$. So each prime factor $q$ of $N$ satisfies $q \\equiv 1$ or $q \\equiv 3 \\pmod 4$.\n\n**3. Some prime factor of $N$ is $\\equiv 3 \\pmod 4$.** Suppose every prime factor of $N$ were $\\equiv 1 \\pmod 4$. Then $N$, being a product of such primes (with repetition), would satisfy $N \\equiv 1 \\pmod 4$ by the Lemma. This contradicts $N \\equiv 3 \\pmod 4$. Hence there is a prime $q \\mid N$ with $q \\equiv 3 \\pmod 4$.\n\n**4. Contradiction.** By assumption, $q$ must be one of the $p_i$. Then $q$ divides $4\\,p_1 p_2 \\cdots p_n$. Since $q$ also divides $N$, it divides the difference:\n$$\nq \\mid 4\\,p_1 p_2 \\cdots p_n - N = 1.\n$$\nNo prime divides $1$, so this is impossible.\n\nTherefore our assumption was false, and there are infinitely many primes of the form $4k+3$. $\\blacksquare$\n\n---\n\n### Remark\n\nThe same argument does **not** directly work for primes of the form $4k+1$. The problem is that a number $\\equiv 1 \\pmod 4$ can be a product of primes that are all $\\equiv 3 \\pmod 4$; for example, $3 \\cdot 7 = 21 \\equiv 1 \\pmod 4$. That case needs a different idea, such as considering $(2p_1\\cdots p_n)^2 + 1$ and using the fact that $-1$ is a quadratic residue mod $p$ only when $p \\equiv 1 \\pmod 4$. Both results are special cases of **Dirichlet's theorem on primes in arithmetic progressions**.",
+ "model": "anthropic/claude-opus-5.5",
+ "route": {
+  "task": "math",
+  "difficulty": "hard",
+  "effort": "high"
+ },
+ "priceUsd": 0.04,
+ "modelCostUsd": 0.0266426,
+ "ms": 12968
+}

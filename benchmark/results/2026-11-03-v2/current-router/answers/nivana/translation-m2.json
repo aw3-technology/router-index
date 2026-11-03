@@ -1,0 +1,12 @@
+{
+ "text": "免费退货期限为30天。商品须未使用，并保留原包装。",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "translation",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.0000255,
+ "ms": 2133
+}

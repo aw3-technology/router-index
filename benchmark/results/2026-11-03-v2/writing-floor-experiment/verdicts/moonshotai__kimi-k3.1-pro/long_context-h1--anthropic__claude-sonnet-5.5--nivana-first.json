@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers identify all three mentions, quote them accurately, and correctly conclude that the current default is 60 seconds because the FAQ predates v4.0. B is slightly stronger because it stays precise and notes that the pre-v3.21 default is unknown. A adds unnecessary speculation and overgeneralizes that any installed 3.x release would use 30 seconds, which is not established for releases before v3.21.",
+ "priceUsd": 0.0039528
+}

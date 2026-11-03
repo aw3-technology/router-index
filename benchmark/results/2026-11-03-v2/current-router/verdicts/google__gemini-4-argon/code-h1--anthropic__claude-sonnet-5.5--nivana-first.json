@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers were cut off before they could provide the requested tests, likely due to token limits. However, Answer B is the winner because it provides a complete, working implementation of the rate limiter class itself, whereas Answer A cuts off mid-line inside the class implementation. Additionally, Answer B's eviction algorithm is better designed: by maintaining LRU order in the Map and enforcing a minimum TTL equal to the full refill time, it achieves amortized O(1) eviction without scanning the entire Map.",
+ "priceUsd": 0.010334
+}

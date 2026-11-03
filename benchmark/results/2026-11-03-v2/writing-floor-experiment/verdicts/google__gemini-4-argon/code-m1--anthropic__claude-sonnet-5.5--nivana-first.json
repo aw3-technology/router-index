@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers provide the exact same, correct implementation of the hook. Answer B is slightly better because it uses TypeScript generics (telling the user how to easily strip them for plain JS), includes a realistic AbortController in its usage example, and calls out the important edge case regarding referential equality for object/array values. Additionally, Answer A forgot to import `useEffect` in its usage example.",
+ "priceUsd": 0.004072
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both hooks correctly debounce updates and clear timers when dependencies change or the component unmounts. A is better overall because B’s standalone usage example calls useEffect without importing it, so it fails as written. A also usefully explains reference equality and changes to delayMs.",
+ "priceUsd": 0.0036535
+}

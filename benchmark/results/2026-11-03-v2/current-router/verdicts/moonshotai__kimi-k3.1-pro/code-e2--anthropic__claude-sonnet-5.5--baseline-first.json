@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers are correct, but B is more robust and thorough: its primary solution handles all whitespace and uses `casefold()` for stronger case-insensitive matching, its two-pointer implementation correctly avoids the casefold length issue, and its tests cover empty, whitespace-only, single-character, tab, and punctuation cases. The optional alphanumeric variant is also correct and clearly distinguished from the requested behavior.",
+ "priceUsd": 0.005884
+}

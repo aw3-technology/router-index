@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B directly implements the requested behavior by ignoring case and literal spaces, and clearly separates ignoring other whitespace or punctuation as optional variations. Its main solution is idiomatic, runs as written, and handles empty strings correctly. A is also functional, but silently broadens “spaces” to all whitespace.",
+ "priceUsd": 0.00265
+}

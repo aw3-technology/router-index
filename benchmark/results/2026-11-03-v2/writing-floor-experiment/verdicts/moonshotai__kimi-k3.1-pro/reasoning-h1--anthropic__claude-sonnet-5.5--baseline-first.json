@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers give a complete, correct three-weighing strategy covering all 24 possibilities. B is slightly better because its tables are clearer and it explains why the second weighing partitions the suspects into resolvable groups, making the strategy easier to verify without adding any errors.",
+ "priceUsd": 0.00599
+}

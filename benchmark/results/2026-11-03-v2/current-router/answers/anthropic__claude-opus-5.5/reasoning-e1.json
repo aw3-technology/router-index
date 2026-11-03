@@ -1,0 +1,6 @@
+{
+ "text": "The ball costs **$0.05** (5 cents).\n\nLet the ball cost *x*. The bat then costs *x* + $1.00, so:\n\nx + (x + 1.00) = 1.10\n2x = 0.10\nx = 0.05\n\n**Check:** Ball = $0.05, Bat = $1.05. Total = $1.10, and the bat costs exactly $1.00 more than the ball.\n\nThe intuitive answer of 10 cents is wrong. The bat would then cost $1.10, making the total $1.20.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.0036,
+ "ms": 2238
+}

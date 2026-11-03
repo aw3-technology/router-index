@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers give the same correct, complete three-weighing strategy and correctly handle all 24 possibilities. A is marginally better because it additionally explains why the second weighing partitions the suspects into groups that the final weighing can resolve, making the strategy easier to verify. B is also fully correct, including its use of coin 4 as a known genuine reference in the relevant branches.",
+ "priceUsd": 0.0050868
+}

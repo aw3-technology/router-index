@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both provide valid, correctly structured OpenAPI 3.1 YAML paths snippets with the required request constraints and 201/422 response schemas. The minor differences, such as B's summary and description minLength, do not materially affect quality.",
+ "priceUsd": 0.003474
+}

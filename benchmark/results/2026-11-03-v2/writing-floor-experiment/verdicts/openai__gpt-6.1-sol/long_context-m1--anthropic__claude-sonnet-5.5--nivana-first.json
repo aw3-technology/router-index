@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly isolate the SKU-42 entries, calculate the final stock as 12 units, and identify 2 separate restocks. Each provides an accurate, clear calculation and distinguishes unrelated inventory events.",
+ "priceUsd": 0.0033485
+}

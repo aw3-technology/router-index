@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers correctly extract all four dates in ISO 8601 format, accurately calculating that the first Friday of May 2026 is May 1st. Both return only the valid JSON array as requested, differing only in insignificant whitespace.",
+ "priceUsd": 0.001774
+}

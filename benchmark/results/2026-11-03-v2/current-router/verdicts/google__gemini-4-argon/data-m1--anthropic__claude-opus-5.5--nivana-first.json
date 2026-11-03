@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers correctly extract and resolve the four dates in the requested order (including identifying May 1, 2026 as the first Friday of May) and return only a valid JSON array of ISO 8601 strings. The minor whitespace difference inside the array is functionally equivalent in JSON.",
+ "priceUsd": 0.001844
+}

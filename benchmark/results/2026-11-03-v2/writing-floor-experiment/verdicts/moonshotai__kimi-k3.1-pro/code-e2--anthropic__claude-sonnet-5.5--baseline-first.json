@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers are correct and runnable, but B is more focused while still covering empty strings and all whitespace. Its docstring, tests, and brief explanation provide everything needed without A’s unnecessary extra implementations.",
+ "priceUsd": 0.004268
+}

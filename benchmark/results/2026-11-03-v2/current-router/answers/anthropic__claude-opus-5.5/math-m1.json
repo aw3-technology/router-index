@@ -1,0 +1,6 @@
+{
+ "text": "# Tangent Line to y = x³ − 2x at x = 1\n\n**Step 1: Find the point of tangency.**\n\n$$y(1) = (1)^3 - 2(1) = -1$$\n\nThe point is **(1, −1)**.\n\n**Step 2: Find the slope using the derivative.**\n\n$$y' = 3x^2 - 2$$\n\n$$y'(1) = 3(1)^2 - 2 = 1$$\n\nThe slope is **m = 1**.\n\n**Step 3: Write the equation using point-slope form.**\n\n$$y - (-1) = 1(x - 1)$$\n\n$$y + 1 = x - 1$$\n\n$$\\boxed{y = x - 2}$$",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.005564,
+ "ms": 3091
+}

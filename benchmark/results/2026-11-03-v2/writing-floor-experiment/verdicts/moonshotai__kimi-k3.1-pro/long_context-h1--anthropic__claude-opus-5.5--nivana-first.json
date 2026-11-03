@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers correctly identify all three timeout statements, quote their sources, conclude that the latest listed version uses 60 seconds, and explain that the FAQ is outdated. B is slightly better because it presents the same complete answer more directly and cleanly, while A adds a somewhat overbroad caveat that any installed 3.x release would use 30 seconds despite earlier defaults not being documented.",
+ "priceUsd": 0.005278
+}

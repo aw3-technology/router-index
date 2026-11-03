@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A’s primary solution is simpler and matches the request exactly: remove spaces, lowercase, and compare with the reverse. It also clearly distinguishes optional handling of other whitespace and punctuation and explains empty-string behavior. B works for the examples but silently broadens “spaces” to all whitespace.",
+ "priceUsd": 0.002938
+}

@@ -1,0 +1,12 @@
+{
+ "text": "A few directions you could go:\n\n**Classic & cute**\n- Bubbles, Goldie, Nemo, Sushi (dark humor optional), Pearl\n\n**Food-ish (goldfish are basically snacks)**\n- Crackers, Cheeto, Mango, Tater Tot, Clementine\n\n**Fancy/ironic**\n- Sir Swimsalot, Captain Flake, Gatsby, Neptune, Midas (fitting, since they're gold)\n\n**Kid-friendly picks**\n- Sunny, Splash, Finley, Comet, Ziggy\n\nIf it's an orange fantail, **Midas** or **Clementine** are my favorites. Going for humor, **Tater Tot** wins.",
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "route": {
+  "task": "quick",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000271792,
+ "ms": 3116
+}

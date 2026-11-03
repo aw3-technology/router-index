@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are identical: the address data is correctly normalised, but both wrap the JSON in Markdown code fences despite the 'JSON only' instruction, so they share the same minor format violation.",
+ "priceUsd": 0.0018304
+}

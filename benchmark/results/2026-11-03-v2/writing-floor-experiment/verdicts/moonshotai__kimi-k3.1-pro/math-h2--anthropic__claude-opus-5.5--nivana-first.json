@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers give the correct result, 161, with a clear and verifiable inclusion–exclusion derivation: 1771 − 1820 + 210 = 161. Both also explain why higher intersections vanish and include the same valid symmetry check using yᵢ = 7 − xᵢ. Their quality is essentially equivalent.",
+ "priceUsd": 0.004502
+}

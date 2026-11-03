@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both implementations are correct and runnable, but B is slightly stronger: it clearly documents its strict behavior, provides comprehensive valid and invalid test cases, and deliberately avoids Unicode-digit ambiguity by using `[0-9]`. Its use of `TypeError` for non-string input and `ValueError` for malformed strings is also reasonable and well documented.",
+ "priceUsd": 0.005814
+}

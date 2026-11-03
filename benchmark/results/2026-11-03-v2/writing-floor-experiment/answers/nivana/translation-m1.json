@@ -1,0 +1,12 @@
+{
+ "text": "Tu cita está confirmada para el martes a las 10 a. m. Si necesitas cambiarla, solo responde a este mensaje.",
+ "model": "openai/gpt-6-luna",
+ "route": {
+  "task": "translation",
+  "difficulty": "medium",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.0000637,
+ "ms": 3489
+}

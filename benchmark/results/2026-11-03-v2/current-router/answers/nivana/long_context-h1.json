@@ -1,0 +1,12 @@
+{
+ "text": "The notes give three timeout values, and the current version uses **60 seconds**.\n\n| Value | Where it appears (quoted) | Version or source |\n|---|---|---|\n| 30 seconds | \"v3.21: The default request timeout is now 30 seconds.\" | v3.21 |\n| 60 seconds | \"v4.0: Breaking changes: config file renamed to nivana.toml; default request timeout raised to 60 seconds.\" | v4.0 |\n| 30 seconds | \"FAQ (last edited for v3.30): The default timeout is 30 seconds and can be changed with --timeout.\" | FAQ, last edited for v3.30 |\n\nThe current version is the highest one listed, v4.0.10. The v4.0.1 through v4.0.10 entries say only \"Bug fixes,\" so none of them changes the timeout, and the 60-second default from v4.0 still applies.\n\nThe FAQ's 30 seconds is out of date. It was last edited for v3.30, which predates the v4.0 change, and the FAQ wasn't updated when v4.0 raised the default to 60 seconds.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "reasoning",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.0005729,
+ "ms": 5534
+}

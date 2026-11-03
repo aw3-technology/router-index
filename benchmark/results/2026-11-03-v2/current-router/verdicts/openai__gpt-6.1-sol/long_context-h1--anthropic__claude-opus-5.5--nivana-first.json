@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B correctly distinguishes two distinct timeout values from their three appearances, quotes all relevant passages, and identifies 60 seconds as the default for the latest listed version, v4.0.10. A covers the same evidence but inaccurately calls these “three timeout values.” B also more carefully states that the subsequent bug-fix notes do not mention a timeout change, rather than claiming they definitively make none.",
+ "priceUsd": 0.004696
+}

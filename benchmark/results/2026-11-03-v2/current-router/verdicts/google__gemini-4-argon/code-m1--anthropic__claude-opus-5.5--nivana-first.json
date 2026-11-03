@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Answer B provides the clean, standard, idiomatic implementation of the hook. Answer A claims to handle function values as an edge case by using `setDebounced(() => value)`, but it actually breaks on initial render because it passes `value` directly to `useState(value)` instead of `useState(() => value)`. Furthermore, Answer A's usage example references an undeclared `setResults` variable, whereas Answer B's code runs as written.",
+ "priceUsd": 0.006942
+}

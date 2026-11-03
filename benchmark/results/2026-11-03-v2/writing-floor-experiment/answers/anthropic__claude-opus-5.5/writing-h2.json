@@ -1,0 +1,6 @@
+{
+ "text": "**Subject: Our prices are changing. Here's the honest version.**\n\nHi there,\n\nOn March 1, Tally's Pro plan goes from $12 to $16 per month. We wanted you to hear it from us first, with the full reasoning.\n\nWhen we set our current price four years ago, Tally was a simple invoicing tool. Since then, you asked for recurring billing, multi-currency support, client portals, and bank sync, and we built them. Those features cost real money to run, and our team has grown from three people to eleven so we could answer your support emails in hours instead of days.\n\nWe could have kept prices flat by cutting corners. We'd rather charge fairly and keep doing the work well.\n\nHere's what this means for you:\n\n- **Annual plans:** Nothing changes until your renewal date.\n- **Monthly plans:** You keep the current price through May, so you have three months to decide.\n- **Want to lock in $12?** Switch to annual before March 1 and keep it for another year.\n\nIf the new price doesn't work for you, reply to this email. A real person (probably me) will read it, and we'll figure something out together.\n\nThanks for building your business with us.\n\nMaya Chen\nFounder, Tally",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.024204,
+ "ms": 11901
+}

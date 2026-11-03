@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers provide correct, runnable fixes using parameterized queries, salted scrypt, constant-time comparison, and dummy verification. A is slightly stronger: it uses more robust scrypt parameters, gives a more accurate SQL-injection bypass example, and provides clearer migration guidance. B’s stacked-query `DROP TABLE` example is misleading for `sqlite3.execute`, which does not permit multiple statements.",
+ "priceUsd": 0.0116068
+}

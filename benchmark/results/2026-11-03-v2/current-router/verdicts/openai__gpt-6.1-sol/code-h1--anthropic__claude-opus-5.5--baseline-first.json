@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers are truncated, so neither runs as written or includes the requested tests. B is nevertheless substantially more complete: it implements bucket lookup, continuous refill, LRU handling, refunds, and sweep scheduling, whereas A stops before its essential bucket-management methods. B also has clearer token-consumption logic. Its async reservations and forced eviction still need edge-case work, particularly refunds after a key has been evicted and recreated.",
+ "priceUsd": 0.0116535
+}

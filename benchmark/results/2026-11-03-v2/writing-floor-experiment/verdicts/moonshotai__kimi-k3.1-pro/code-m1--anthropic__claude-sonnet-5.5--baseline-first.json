@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both implementations are correct, idiomatic, and clean up timers properly. A is slightly better because it provides a reusable generic TypeScript signature and useful guidance about reference-valued inputs, changing delays, and Strict Mode, along with a practical usage example that also handles request cleanup. B is correct but less comprehensive.",
+ "priceUsd": 0.004262
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A provides the standard implementation with correct timer cleanup and a runnable usage example. B's example references an undefined setResults, and its claimed support for function-valued inputs is incomplete: useState(value) still invokes an initial function value as a lazy initializer. Both hooks handle ordinary values correctly, but A avoids those additional defects.",
+ "priceUsd": 0.0061885
+}

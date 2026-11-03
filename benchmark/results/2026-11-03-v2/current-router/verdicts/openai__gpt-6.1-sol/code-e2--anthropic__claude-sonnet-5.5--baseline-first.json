@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A directly satisfies the request with a simple, correct implementation and runnable examples. B's alternatives have inconsistent Unicode behavior: the main function casefolds the whole string, the two-pointer version uses lower(), and the alphanumeric variant reverses a list of character expansions rather than the normalized string. A avoids these inconsistencies and clearly labels broader whitespace handling as optional.",
+ "priceUsd": 0.0039185
+}

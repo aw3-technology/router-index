@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both implementations are correct, idiomatic, and reject empty, repeated, out-of-order, signed, fractional, and otherwise malformed durations while allowing values such as 90m. They differ only in minor policy choices: A trims surrounding whitespace and raises ValueError for non-strings, whereas B is stricter about whitespace and uses the idiomatic TypeError for wrong input types. Neither difference materially affects quality for the request.",
+ "priceUsd": 0.0065776
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A fixes SQL injection and password hashing while preserving existing accounts through automatic MD5-to-scrypt migration. B’s replacement rejects every existing MD5 hash and leaves migration as an exercise. A also correctly flags the transaction implications of its upgrade. Both could improve malformed-hash handling and scrypt parameter validation; B handles invalid scrypt parameters more defensively, but A provides the more complete fix for the supplied code.",
+ "priceUsd": 0.007856
+}

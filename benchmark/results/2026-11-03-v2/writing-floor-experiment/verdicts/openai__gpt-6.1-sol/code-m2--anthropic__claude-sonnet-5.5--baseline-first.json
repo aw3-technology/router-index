@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both correctly parse the examples and reject malformed duration syntax, including duplicate or out-of-order units. B more consistently satisfies the requested ValueError behavior by also using it for non-string inputs; A raises TypeError instead. B additionally includes runnable assertions for the valid examples and zero durations. Its acceptance of surrounding whitespace is a reasonable choice given the unspecified whitespace policy.",
+ "priceUsd": 0.0046985
+}

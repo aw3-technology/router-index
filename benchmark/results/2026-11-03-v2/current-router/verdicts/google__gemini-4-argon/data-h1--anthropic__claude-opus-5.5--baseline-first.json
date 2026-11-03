@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are virtually identical and follow every instruction and constraint perfectly, including the negative constraint for no prose and using OpenAPI 3.1 syntax (such as schema-level `examples` array).",
+ "priceUsd": 0.003378
+}

@@ -1,0 +1,12 @@
+{
+ "text": "[\"2026-03-03\", \"2026-04-14\", \"2026-05-01\", \"2026-06-30\"]",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "data",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.00021349,
+ "ms": 3640
+}

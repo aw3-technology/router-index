@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both solutions correctly parse the examples and reject typical malformed inputs, but A is slightly more rigorous: it uses ASCII-only digits, avoids silently normalizing case and surrounding whitespace, documents its behavior precisely, and includes thorough tests. Its TypeError for non-string arguments is also idiomatic and does not conflict with the requirement to raise ValueError for malformed duration strings. B works well too, but its Unicode-digit acceptance and implicit normalization are less deliberate.",
+ "priceUsd": 0.006094
+}

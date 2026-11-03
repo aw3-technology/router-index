@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly conclude yes and give sound, checkable reasoning using transitive set inclusion. A adds a valid nested-circle explanation and a clarification about the reverse implication; B expresses the same proof more compactly. Neither has a substantive quality advantage for this request.",
+ "priceUsd": 0.00155
+}

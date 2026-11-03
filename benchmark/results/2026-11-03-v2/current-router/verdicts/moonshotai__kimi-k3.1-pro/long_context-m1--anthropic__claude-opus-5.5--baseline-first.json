@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers correctly calculate a final SKU-42 stock of 12 units and identify 2 restocks. Both clearly trace all relevant entries in log order and appropriately note the inconsistent entry numbering without introducing errors.",
+ "priceUsd": 0.003504
+}

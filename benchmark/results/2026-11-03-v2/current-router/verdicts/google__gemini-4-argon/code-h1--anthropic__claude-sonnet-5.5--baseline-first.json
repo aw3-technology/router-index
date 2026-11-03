@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers were truncated due to token limits and therefore missed the test files. However, Answer A completely finishes the implementation of the rate limiter class, so its code block is valid and runnable. Answer B cuts off right in the middle of a method inside the class implementation, resulting in a syntax error. Additionally, Answer A's eviction strategy (stopping early by leveraging Map's insertion order as an LRU queue with a guaranteed full-refill TTL) is amortized O(1) per call, whereas Answer B's approach (`acquire` allowing unbounded negative debt + iterating the entire map during sweeps) has worse algorithmic complexity and edge-case issues.",
+ "priceUsd": 0.010754
+}

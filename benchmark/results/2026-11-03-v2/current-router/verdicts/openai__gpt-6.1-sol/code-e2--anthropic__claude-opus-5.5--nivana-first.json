@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B’s main solution directly and correctly implements the requested behavior: ignore spaces and case, then compare against the reverse. A’s Unicode handling is inconsistent across variants: its two-pointer version can disagree with its primary casefold-based solution, and its alphanumeric variant compares casefolded chunks rather than the fully normalized string.",
+ "priceUsd": 0.0042035
+}

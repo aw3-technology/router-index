@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers give a correct proof using N = 4p₁⋯pₙ − 1 and show that N must have a new prime divisor congruent to 3 modulo 4. B is clearer and more polished, with a well-stated lemma and complete justification. A includes a discarded false start and an unnecessary remark about it, which distracts from the proof.",
+ "priceUsd": 0.004438
+}

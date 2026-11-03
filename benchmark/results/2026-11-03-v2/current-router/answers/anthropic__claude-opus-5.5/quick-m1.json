@@ -1,0 +1,6 @@
+{
+ "text": "Bread goes stale mainly through **starch retrogradation**: the starch molecules that softened and absorbed water during baking slowly recrystallize, pushing water out and making the crumb firm and dry-feeling.\n\nThis recrystallization happens fastest at cool temperatures just above freezing, which is exactly fridge range. Bread can stale roughly **three times faster** in the fridge than at room temperature.\n\n**Better options:**\n- **Room temperature** for a few days.\n- **Freezer** for longer storage. Freezing stops staling almost entirely.\n\nBriefly reheating stale bread in the oven temporarily reverses the process.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.005216,
+ "ms": 4163
+}

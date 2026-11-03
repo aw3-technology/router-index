@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers are outstanding and cover virtually the exact same points, from confounding and exposure denominators to stepped-wedge RCTs and Callaway-Sant'Anna staggered DiD estimators. Answer A gets a slight edge for explicitly writing out the Poisson/negative-binomial count model with an exposure offset, which is the exact econometric specification needed for this type of road safety data.",
+ "priceUsd": 0.007938
+}

@@ -1,0 +1,12 @@
+{
+ "text": "## Quickest version\n\n```bash\nwc -l *.txt\n```\n\nThat prints a per-file count plus a `total` line. Two caveats: it fails with `No such file or directory` if the folder has no `.txt` files, and it doesn't recurse into subfolders.\n\n## Safer, handles subfolders and odd filenames\n\n```bash\nfind . -name '*.txt' -exec wc -l {} +\n```\n\nOr with null-delimited names (filenames with spaces/newlines):\n\n```bash\nfind . -name '*.txt' -print0 | xargs -0 wc -l\n```\n\n## Just the total, no per-file listing\n\n```bash\nfind . -name '*.txt' -exec cat {} + | wc -l\n```\n\nor, if you want to see each file as well but only care about the sum, pipe the `wc` output through `tail -1`.\n\n## A loop, if you want to do something per file\n\n```bash\nfor f in *.txt; do\n  [ -e \"$f\" ] || continue          # skip the literal glob if nothing matched\n  printf '%6d  %s\\n' \"$(wc -l < \"$f\")\" \"$f\"\ndone\n```\n\n## Watch out: `wc -l` counts newlines, not lines\n\nA file whose last line has no trailing newline gets undercounted by one. If that matters:\n\n```bash\nawk 'END { print NR }' file.txt        # true line count of one file\nfind . -name '*.txt' -exec awk 'END{print FILENAME\": \"NR}' {} \\;\n```\n\nQuick way to spot a file missing its final newline:\n\n```bash\nfind . -name '*.txt' -exec sh -c 'tail -c1 \"$1\" | od -c | grep -q \"\\\\\\\\n\" || echo \"no trailing newline: $1\"' _ {} \\;\n```\n\n## In macOS's default bash 3.2\n\nAll of the above work; just note `find . -exec ... {} +` is fine, but `**` globstar is not available, so stick with `find` rather than `shopt -s globstar`.",
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "route": {
+  "task": "code",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.002,
+ "modelCostUsd": 0.000833992,
+ "ms": 5756
+}

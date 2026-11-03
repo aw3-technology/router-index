@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly isolate the SKU-42 transactions, calculate a final stock of 12 units, and identify 2 separate restocks. Both provide accurate running-stock calculations and fully answer the request.",
+ "priceUsd": 0.0033335
+}

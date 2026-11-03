@@ -1,0 +1,12 @@
+{
+ "text": "Let the ball cost $x$. Then the bat costs $x + 1.00$, and together they cost $1.10:\n\n$$x + (x + 1.00) = 1.10$$\n\n$$2x + 1.00 = 1.10$$\n\n$$2x = 0.10$$\n\n$$x = 0.05$$\n\nThe ball costs **$0.05** (5 cents), and the bat costs **$1.05**.\n\nCheck: $1.05 + 0.05 = 1.10$, and $1.05 - 0.05 = 1.00$.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "math",
+  "difficulty": "easy",
+  "effort": "low"
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000168025,
+ "ms": 2656
+}

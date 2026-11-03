@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers correctly fix SQL injection, replace MD5 with salted scrypt, use constant-time comparison, and mitigate username-enumeration timing differences. B is slightly stronger: it provides a complete, well-parameterized implementation, an executable legacy-MD5 upgrade helper, and the useful recommendation to enforce unique usernames. Its scrypt memory setting also comfortably accommodates its chosen parameters. Neither answer has a material correctness or security flaw.",
+ "priceUsd": 0.009456
+}

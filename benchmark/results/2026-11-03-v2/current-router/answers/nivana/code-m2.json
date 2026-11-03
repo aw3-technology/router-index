@@ -1,0 +1,12 @@
+{
+ "text": "Here's a strict parser that accepts units in descending order (`h`, `m`, `s`), each at most once:\n\n```python\nimport re\n\n_DURATION_RE = re.compile(\n    r\"\"\"^\n    (?:(?P<h>\\d+)h)?\n    (?:(?P<m>\\d+)m)?\n    (?:(?P<s>\\d+)s)?\n    $\"\"\",\n    re.VERBOSE,\n)\n\ndef parse_duration(text: str) -> int:\n    \"\"\"Convert a duration like '1h30m', '45s', '2h' or '90m15s' to seconds.\n\n    Raises ValueError for malformed input.\n    \"\"\"\n    if not isinstance(text, str):\n        raise ValueError(f\"Duration must be a string, got {type(text).__name__}\")\n\n    s = text.strip().lower()\n    match = _DURATION_RE.fullmatch(s) if s else None\n    if match is None or not any(match.groupdict().values()):\n        raise ValueError(f\"Malformed duration: {text!r}\")\n\n    hours = int(match[\"h\"] or 0)\n    minutes = int(match[\"m\"] or 0)\n    seconds = int(match[\"s\"] or 0)\n    return hours * 3600 + minutes * 60 + seconds\n```\n\n**Examples**\n\n```python\nparse_duration(\"1h30m\")   # 5400\nparse_duration(\"45s\")     # 45\nparse_duration(\"2h\")      # 7200\nparse_duration(\"90m15s\")  # 5415\n\nfor bad in [\"\", \"abc\", \"1x\", \"30m1h\", \"1h1h\", \"1.5h\", \"-5s\", \"10\", \"1h 30m\"]:\n    try:\n        parse_duration(bad)\n    except ValueError as e:\n        print(e)\n```\n\n**Design notes**\n\n- **Empty or unit-less input** (`\"\"`, `\"10\"`) is rejected, since at least one `<number><unit>` component is required.\n- **Out-of-order or repeated units** (`\"30m1h\"`, `\"1h1h\"`) fail because the regex enforces the order h → m → s, each once.\n- **Values aren't capped**, so `\"90m\"` is valid and gives 5400, matching your `90m15s` example.\n- **Decimals and negatives** are rejected, since only `\\d+` is accepted. If you want decimals like `1.5h`, change the groups to `\\d+(?:\\.\\d+)?` and use `float`, returning a float or rounded value.\n- **Internal whitespace** (`\"1h 30m\"`) is rejected. If you'd like to allow it, add `\\s*` between the groups.\n- Leading/trailing whitespace and uppercase (`\" 2H \"`) are tolerated; remove `.strip().lower()` if you want it stricter.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "route": {
+  "task": "code",
+  "difficulty": "medium",
+  "effort": "low"
+ },
+ "priceUsd": 0.016,
+ "modelCostUsd": 0.010518,
+ "ms": 7776
+}

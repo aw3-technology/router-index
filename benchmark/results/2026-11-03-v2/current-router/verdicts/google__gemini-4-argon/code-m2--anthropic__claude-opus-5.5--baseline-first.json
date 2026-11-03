@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Answer A is more idiomatic and handles edge cases better. It uses `[0-9]` instead of `\\d` to avoid accidentally matching non-ASCII Unicode digits, properly raises `TypeError` for non-string inputs (following standard library conventions like `int()`), and doesn't mix redundant `^$` anchors with `re.fullmatch`.",
+ "priceUsd": 0.004976
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both give a correct, verifiable Euclid-style proof: N = 4p₁⋯pₙ − 1 has a prime divisor congruent to 3 modulo 4 that cannot be on the assumed complete list. B avoids A’s unnecessary closing remark, whose claim about −1 being a quadratic residue requires the qualification that p is odd (p = 2 is an exception).",
+ "priceUsd": 0.0059935
+}

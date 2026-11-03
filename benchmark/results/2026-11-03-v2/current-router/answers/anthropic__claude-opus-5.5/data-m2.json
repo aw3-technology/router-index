@@ -1,0 +1,6 @@
+{
+ "text": "```json\n[\n  {\"name\": \"Ava\", \"age\": 31, \"score\": 88.5},\n  {\"name\": \"Ben\", \"age\": 27, \"score\": 91},\n  {\"name\": \"Chloe\", \"age\": 45, \"score\": 79.25}\n]\n```",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.00198,
+ "ms": 1565
+}

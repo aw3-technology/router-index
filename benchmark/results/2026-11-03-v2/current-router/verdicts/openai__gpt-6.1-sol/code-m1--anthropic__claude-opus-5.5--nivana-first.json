@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A has the stronger hook implementation: both answers correctly cancel timers on dependency changes and unmount, but A wraps state updates so function-valued inputs are not mistakenly executed as updater functions. It also explicitly handles nonpositive and nonfinite delays. Both still need `useState<T>(() => value)` to handle function-valued initial inputs correctly, and A’s usage example contains an undefined `setResults`, but its core hook handles more edge cases.",
+ "priceUsd": 0.0075435
+}

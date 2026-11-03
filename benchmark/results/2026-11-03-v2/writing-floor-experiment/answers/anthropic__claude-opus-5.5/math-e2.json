@@ -1,0 +1,6 @@
+{
+ "text": "The original price was **$50**.\n\n**Solution:**\n\nA 20% discount means you pay 80% of the original price:\n\n$$0.80 \\times \\text{Original Price} = \\$40$$\n\n$$\\text{Original Price} = \\frac{\\$40}{0.80} = \\$50$$\n\n**Check:** 20% of $50 is $10, and $50 − $10 = $40 ✓",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.003004,
+ "ms": 2402
+}

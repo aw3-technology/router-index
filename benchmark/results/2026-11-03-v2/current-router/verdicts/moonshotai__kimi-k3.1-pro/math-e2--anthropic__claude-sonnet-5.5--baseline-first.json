@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers give the correct original price of $50, clearly derive it by dividing $40 by 0.8, and verify the result with the discount calculation. They are equivalent in correctness and clarity.",
+ "priceUsd": 0.001856
+}

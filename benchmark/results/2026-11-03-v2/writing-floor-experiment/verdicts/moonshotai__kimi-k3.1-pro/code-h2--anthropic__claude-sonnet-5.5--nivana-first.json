@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers correctly fix the SQL injection, replace MD5 with salted scrypt, use constant-time comparison, and reduce username-enumeration timing differences. A is slightly stronger: it uses more robust password-hashing parameters, clearly documents its hash format and parameter choices, and provides concrete legacy-MD5 migration code rather than only describing migration. Its review is also more precise about practical exploitation and operational follow-up. B is correct and concise, but marginally less complete.",
+ "priceUsd": 0.0070512
+}

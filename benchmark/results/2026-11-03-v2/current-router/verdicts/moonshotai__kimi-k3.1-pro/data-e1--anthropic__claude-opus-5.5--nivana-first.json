@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are valid JSON arrays containing the days of the week in the correct order, starting with Monday, with no extra content. Whitespace differences are irrelevant.",
+ "priceUsd": 0.001454
+}

@@ -1,0 +1,12 @@
+{
+ "text": "Subject: Overdue Invoice #[Invoice Number] – Payment Required\n\nDear [Client Name],\n\nI hope you are well. I am writing to follow up on invoice #[Invoice Number], dated [Invoice Date], for $[Amount]. Payment was due on [Due Date] and is now 30 days overdue.\n\nPlease arrange payment of the outstanding balance by [Specific Date]. If payment has already been sent, please share the details so we can match it to your account.\n\nIf you have any questions or need to discuss the terms, please contact me directly at [Phone/Email] so we can resolve this promptly.\n\nThank you for your attention to this matter.\n\nKind regards,\n[Your Name]\n[Company Name]",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "writing",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000127875,
+ "ms": 2965
+}

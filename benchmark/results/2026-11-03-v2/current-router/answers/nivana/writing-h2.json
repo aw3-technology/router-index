@@ -1,0 +1,12 @@
+{
+ "text": "**Subject: A change to our pricing, and why**\n\nHi everyone,\n\nStarting March 1, we're raising the price of [Product]. Here's the reasoning, because you deserve more than a number.\n\nWe haven't changed our prices since 2021. In that time, server costs have gone up, and the engineers who keep the product fast and secure cost more to keep. We could have absorbed the difference for another year, but that would have meant slower development or thinner support, and we'd rather not do either.\n\nHere's what it means for you:\n\n- **Current customers keep your current price for 12 months.** Nothing changes on your bill until then.\n- **New customers** will pay the updated rates from March 1.\n- **You'll get a 60-day notice** before any change to your plan.\n\nThe new pricing also pays for things you've asked for: the faster exports, the improved permissions controls, and priority support on every plan.\n\nIf the new price doesn't work for your team, just reply to this email. We'll go through your options, including downgrading, and we won't make it awkward.\n\nThanks for building with us. We'd rather earn your trust by being upfront about this than hope you don't notice.\n\n[Your name]\n[Title], [Product]",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "writing",
+  "difficulty": "medium",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000493375,
+ "ms": 7116
+}

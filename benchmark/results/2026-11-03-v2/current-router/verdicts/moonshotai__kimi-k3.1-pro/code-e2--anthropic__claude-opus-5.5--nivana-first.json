@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Answer A directly handles case and all whitespace, uses appropriate Unicode-aware case folding, and includes clear tests and edge cases. Its two-pointer implementation also correctly explains why it uses `lower()` rather than `casefold()`. Answer B is correct and runnable, but its primary solution removes only literal spaces, and its Unicode guidance is less precise.",
+ "priceUsd": 0.004418
+}

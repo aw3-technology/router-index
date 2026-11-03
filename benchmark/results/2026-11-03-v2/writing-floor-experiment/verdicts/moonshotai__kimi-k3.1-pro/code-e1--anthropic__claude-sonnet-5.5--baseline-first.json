@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers are correct and cover the main command, recursion, and important caveats. A is slightly more useful because it also shows per-file output without a total, sorting, and the argument-list limit, while keeping filenames safely quoted.",
+ "priceUsd": 0.003946
+}

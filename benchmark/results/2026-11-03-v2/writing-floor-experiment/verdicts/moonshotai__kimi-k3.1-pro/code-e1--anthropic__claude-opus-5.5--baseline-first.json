@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both give the correct primary command and useful recursive and total-only variants. A is slightly stronger because it clearly illustrates the output, explains batched `wc` behavior, and more accurately describes the `nullglob` no-match edge case, including the risk of `wc` waiting on standard input. B is also good but omits that caveat.",
+ "priceUsd": 0.004878
+}

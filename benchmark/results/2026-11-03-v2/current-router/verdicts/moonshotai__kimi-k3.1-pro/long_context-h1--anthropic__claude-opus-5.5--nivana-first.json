@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers correctly identify all three quoted occurrences, the two distinct timeout values, and 60 seconds as the current default for v4.0.10. B is slightly clearer that there are two distinct values in three places and accurately distinguishes the outdated FAQ from the current release notes. Its additional observations about duplicate versions and the missing v3.30 entry are accurate and do not detract from the answer.",
+ "priceUsd": 0.004684
+}

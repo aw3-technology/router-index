@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers are valid, correctly structured OpenAPI 3.1 snippets, but B is slightly stronger: it reinforces the three-letter currency constraint with minLength/maxLength and provides useful request and response examples without introducing errors.",
+ "priceUsd": 0.0032544
+}

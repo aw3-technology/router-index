@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers give the correct result, 161, with a clear and verifiable stars-and-bars/inclusion–exclusion derivation. Both also correctly handle the vanishing higher-order terms and include the same valid substitution check. Neither has a meaningful quality advantage.",
+ "priceUsd": 0.003528
+}

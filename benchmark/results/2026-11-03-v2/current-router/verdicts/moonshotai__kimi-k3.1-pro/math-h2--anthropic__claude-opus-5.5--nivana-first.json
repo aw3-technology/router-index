@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers correctly compute 161 using inclusion–exclusion with clear arithmetic and the same valid substitution check. They are equivalent in correctness and explanatory quality.",
+ "priceUsd": 0.003258
+}

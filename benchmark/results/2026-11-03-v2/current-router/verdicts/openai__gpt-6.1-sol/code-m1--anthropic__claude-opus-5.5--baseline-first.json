@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both correctly restart and clean up timers, but B handles function-valued updates correctly by using `setDebounced(() => value)` and explicitly handles invalid or nonpositive delays. Its function-value support is incomplete: initialization should also use `useState<T>(() => value)`. The usage example also needs a definition for `setResults`, but B’s hook implementation is more robust overall.",
+ "priceUsd": 0.007446
+}

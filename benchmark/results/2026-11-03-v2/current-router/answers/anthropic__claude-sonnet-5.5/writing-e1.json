@@ -1,0 +1,6 @@
+{
+ "text": "Thank you for your email; I'm out of the office for the long weekend and will respond when I return on [day, date].",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.00042,
+ "ms": 1118
+}

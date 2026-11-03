@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are virtually identical in structure, explanation, and quality. Both use the Principle of Inclusion-Exclusion clearly and verify the result using the clever symmetry substitution y_i = 7 - x_i.",
+ "priceUsd": 0.004208
+}

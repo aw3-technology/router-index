@@ -1,0 +1,6 @@
+{
+ "text": "**Step 1: Find the point.** At x = 1, y = 1³ − 2(1) = −1, so the point is (1, −1).\n\n**Step 2: Find the slope.** The derivative is y′ = 3x² − 2. At x = 1, y′ = 3 − 2 = 1.\n\n**Step 3: Write the line.** Using point-slope form:\n\ny − (−1) = 1(x − 1)\n\ny + 1 = x − 1\n\n**y = x − 2**",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.001622,
+ "ms": 1591
+}

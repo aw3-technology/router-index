@@ -1,0 +1,6 @@
+{
+ "text": "**7 × 8 + 12 ÷ 4 = 59**\n\nFollowing the order of operations, multiplication and division come before addition:\n\n1. 7 × 8 = 56\n2. 12 ÷ 4 = 3\n3. 56 + 3 = **59**",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.002252,
+ "ms": 1955
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B provides a strict, complete parser that correctly handles all examples and rejects empty strings, trailing whitespace, repeated or out-of-order units, and non-ASCII digits. A also handles the examples, but silently normalizes whitespace and uppercase input, making its validation more permissive than the request suggests. B’s use of fullmatch and explicit ASCII matching makes the accepted format clearer.",
+ "priceUsd": 0.0049435
+}

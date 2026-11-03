@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both provide equivalent OpenAPI path definitions with the required request fields, array limits, numeric constraints, and response schemas. Both also wrap the YAML in Markdown fences rather than returning strictly raw YAML, so neither has a formatting advantage.",
+ "priceUsd": 0.0036935
+}

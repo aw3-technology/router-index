@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are valid JSON arrays containing the same correct ISO 8601 dates in the requested order. The whitespace difference is immaterial.",
+ "priceUsd": 0.000978
+}

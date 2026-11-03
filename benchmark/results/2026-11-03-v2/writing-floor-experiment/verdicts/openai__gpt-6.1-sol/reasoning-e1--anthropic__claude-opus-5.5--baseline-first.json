@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly conclude that the ball costs $0.05, derive it with the same valid equation, and verify both conditions. A additionally explains why 10 cents is incorrect, but this does not materially improve on B’s complete, checkable solution.",
+ "priceUsd": 0.001518
+}

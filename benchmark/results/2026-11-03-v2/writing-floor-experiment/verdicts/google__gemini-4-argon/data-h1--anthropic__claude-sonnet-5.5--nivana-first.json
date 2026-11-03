@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers follow every single instruction, including the negative constraint to include no prose, and produce valid OpenAPI 3.1 YAML snippets (correctly using the 3.1/JSON Schema 2020-12 `examples` array keyword inside schemas). Answer B adds a few extra examples and tags, while Answer A is slightly more concise, making them equally good.",
+ "priceUsd": 0.004078
+}

@@ -1,0 +1,12 @@
+{
+ "text": "**Who pays:** The landlord pays for appliance repairs, and there is one exception.\n\n**The relevant text** (the clause numbered 29 in the first run of clauses):\n\n> \"The landlord is responsible for repairs to appliances supplied with the property, except where damage results from the tenant's misuse.\"\n\n**The exception:** If the damage results from the tenant's misuse, the landlord is not responsible. The clause doesn't say outright that the tenant then pays, but that is the natural reading, since the landlord's responsibility is carved out in that case.\n\n**Notes:**\n- The clause covers only appliances *supplied with the property*. Appliances the tenant brings in aren't covered.\n- The clause doesn't define \"misuse,\" so a dispute over whether something was misuse could be open to interpretation.\n- The other clauses in the text you provided (the repeated \"keep the premises in good order as set out in the schedule\" clauses and the notice clauses) don't mention appliances. However, the general upkeep obligation refers to a schedule I haven't seen. If that schedule lists appliances or appliance care, it could affect the answer, so it's worth checking.\n- The clause numbering restarts (Clauses 1-29, then 1-22 for notices), so the appliance clause is Clause 29 in the first section.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "route": {
+  "task": "reasoning",
+  "difficulty": "medium",
+  "effort": "medium"
+ },
+ "priceUsd": 0.014,
+ "modelCostUsd": 0.0092255,
+ "ms": 4953
+}

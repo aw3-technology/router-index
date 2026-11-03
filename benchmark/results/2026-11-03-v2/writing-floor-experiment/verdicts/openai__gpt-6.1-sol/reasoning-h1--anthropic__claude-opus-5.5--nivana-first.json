@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both give a correct, complete three-weighing strategy covering all 24 possibilities. A is slightly more rigorous: it uses the outcome count as a requirement for the strategy, whereas B suggests that 27 possible outcomes alone establishes that a solution is possible. Counting is necessary but not sufficient without a realizable weighing plan. A’s branch tables and explanation supply a clear, checkable plan.",
+ "priceUsd": 0.007081
+}

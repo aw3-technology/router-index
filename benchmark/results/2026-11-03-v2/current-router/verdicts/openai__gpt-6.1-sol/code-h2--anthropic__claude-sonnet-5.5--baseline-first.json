@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B provides the same core fixes—parameterized SQL, salted scrypt, constant-time comparison, and dummy verification—with a stronger scrypt work factor and a more accurate authentication-bypass example. A misleadingly suggests stacked DROP TABLE statements work through sqlite3.execute(). Both need stricter validation of stored hash parameters and malformed values; B’s claim that its scrypt settings are OWASP-acceptable is also inaccurate.",
+ "priceUsd": 0.0068285
+}

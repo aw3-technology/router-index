@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both give the same correct, complete Euclidean contradiction proof: construct N = 4p₁⋯pₙ − 1, show it has a prime divisor congruent to 3 modulo 4, and show that divisor cannot belong to the assumed exhaustive list. Both clearly justify the key prime-factor step. B adds a correct lemma proof and an optional remark, but these do not materially improve the proof over A.",
+ "priceUsd": 0.0048735
+}

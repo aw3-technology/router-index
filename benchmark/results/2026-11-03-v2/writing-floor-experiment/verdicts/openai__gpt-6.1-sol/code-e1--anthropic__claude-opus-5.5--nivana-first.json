@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both give the correct basic command, but B explains important edge cases more accurately: `nullglob` can leave `wc` waiting on standard input, and recursive batching can produce multiple totals. A recommends `nullglob` without warning about the resulting wait. B’s recursive commands would be better with `-type f`, but its overall guidance is stronger.",
+ "priceUsd": 0.003192
+}

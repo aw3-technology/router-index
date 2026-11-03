@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both fix SQL injection, replace MD5 with salted scrypt, use constant-time comparison, and perform dummy verification for missing users. A is slightly better: it uses stronger scrypt settings and gives an authentication-bypass example that works with SQLite, whereas B’s stacked DROP TABLE example is rejected by sqlite3.execute(). A’s claim that its exact scrypt settings are OWASP-acceptable is inaccurate, and both implementations could better validate malformed stored hashes.",
+ "priceUsd": 0.0067085
+}

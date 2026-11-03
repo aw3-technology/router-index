@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers are very strong, covering SQL injection, weak hashing, timing attacks, user enumeration, and hash migration using only the standard library. Answer A is slightly better because its timing-attack mitigation is unbroken (Answer B integrates the fast MD5 check directly into the main `login` path without doing a dummy scrypt work on failure, leaking which existing users still have legacy MD5 hashes via timing) and because A uses modern OWASP-recommended scrypt parameters (properly adjusting `maxmem` to avoid OpenSSL errors in Python).",
+ "priceUsd": 0.008004
+}

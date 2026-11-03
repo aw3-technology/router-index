@@ -1,0 +1,6 @@
+{
+ "text": "**Values given: two distinct values (30 s and 60 s), mentioned in three places**\n\n1. **v3.21:** \"The default request timeout is now 30 seconds.\"\n2. **v4.0:** \"Breaking changes: config file renamed to nivana.toml; default request timeout raised to 60 seconds.\"\n3. **FAQ (last edited for v3.30):** \"The default timeout is 30 seconds and can be changed with --timeout.\"\n\n**Current version: 60 seconds**\n\nThe latest entry is v4.0.10. The v4.0 release raised the default from 30 to 60 seconds, and the v4.0.1 to v4.0.10 entries only say \"Bug fixes,\" so nothing changed it back.\n\n**Why they seem to disagree**\n\nThe sources don't conflict. The FAQ is out of date. It was last edited for v3.30, before the v4.0 change, so its 30-second figure matches v3.21 but no longer describes the current default. The FAQ should be updated to say 60 seconds.\n\nThe many \"Internal refactoring\" and \"Documentation fixes\" entries (v3.1 to v3.20 and v3.1 to v3.15) say nothing about timeouts. The notes also don't say what the default was before v3.21.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.009546,
+ "ms": 6005
+}

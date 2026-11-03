@@ -1,0 +1,12 @@
+{
+ "text": "```javascript\nimport { useEffect, useState } from \"react\";\n\n/**\n * Returns `value` only after it has stopped changing for `delayMs` milliseconds.\n *\n * @template T\n * @param {T} value - The value to debounce.\n * @param {number} delayMs - How long the value must remain unchanged, in milliseconds.\n * @returns {T} The debounced value.\n */\nexport function useDebouncedValue(value, delayMs) {\n  const [debouncedValue, setDebouncedValue] = useState(value);\n\n  useEffect(() => {\n    // Schedule an update. Any previous timer for an older value is cleared\n    // by the cleanup function of the previous effect run.\n    const timerId = setTimeout(() => {\n      setDebouncedValue(value);\n    }, delayMs);\n\n    // Cleanup: runs before the next effect and on unmount.\n    // Cancelling the timer ensures stale values are never committed\n    // and no state update happens after unmount.\n    return () => {\n      clearTimeout(timerId);\n    };\n  }, [value, delayMs]);\n\n  return debouncedValue;\n}\n```\n\n**Usage example:**\n\n```javascript\nimport { useState } from \"react\";\nimport { useDebouncedValue } from \"./useDebouncedValue\";\n\nfunction SearchBox() {\n  const [query, setQuery] = useState(\"\");\n  const debouncedQuery = useDebouncedValue(query, 300);\n\n  useEffect(() => {\n    if (debouncedQuery) {\n      // e.g. fetch results only once typing has paused for 300ms\n      console.log(\"Searching for:\", debouncedQuery);\n    }\n  }, [debouncedQuery]);\n\n  return (\n    <input\n      value={query}\n      onChange={(e) => setQuery(e.target.value)}\n      placeholder=\"Search...\"\n    />\n  );\n}\n```\n\n**How it works:**\n\n- On every change of `value` or `delayMs`, the effect schedules a `setTimeout`.\n- If `value` changes again before the timer fires, the cleanup clears the previous timer, so only the latest value survives.\n- When the timer fires, the debounced state updates to the latest value.\n- On unmount, the cleanup clears any pending timer, so no state update runs on an unmounted component.\n- The hook returns the initial `value` on first render, so there is no delay on mount.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "code",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000398365,
+ "ms": 5254
+}

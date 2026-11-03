@@ -1,0 +1,12 @@
+{
+ "text": "**Top three reasons for cancelling (out of 40 users):**\n\n| Rank | Reason | Count |\n|---|---|---|\n| 1 | Too expensive after the trial | 12 |\n| 2 | Forgot they had it and stopped using it | 9 |\n| 3 | Mobile app kept logging them out | 8 |\n\nThe remaining reason, no API for automation, was mentioned by 7 users. The counts total 40, so each note was counted once.\n\n**Mentioned only by power users:**\n\n- **No API for automation** (7 power users). This is the only reason in the notes that appears exclusively in power-user interviews and is the most common power-user complaint.\n- **CSV exports drop custom fields** (4 power users). This is also power-user only.\n\nTogether these account for 11 of the 40 entries. Neither the price nor the forgotten-subscription reasons came up among power users, and the mobile logout issue came up only among casual users.\n\nThe user numbers restart within each group, so I've treated every line as a separate person. If some numbers refer to the same person across groups, the totals would change.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "data",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000595365,
+ "ms": 6575
+}

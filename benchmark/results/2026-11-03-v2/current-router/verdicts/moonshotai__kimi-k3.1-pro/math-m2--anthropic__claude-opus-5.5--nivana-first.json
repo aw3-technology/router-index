@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers correctly identify the prime sums (2, 3, 5, 7, 11), count 15 favorable outcomes out of 36, and simplify the probability to 5/12 ≈ 0.417. Their derivations are clear and verifiable, with no meaningful quality difference.",
+ "priceUsd": 0.002716
+}

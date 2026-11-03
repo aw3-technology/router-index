@@ -1,0 +1,6 @@
+{
+ "text": "**Final stock of SKU-42: 12 units.** There were **2 separate restocks.**\n\nTracing only the SKU-42 entries:\n\n| Entry | Action | Change | Running Stock |\n|-------|--------|--------|---------------|\n| 21 | Starting stock | — | 10 |\n| 32 | Sold | −4 | 6 |\n| 33 | **Restocked** | +12 | 18 |\n| 44 | Sold | −9 | 9 |\n| 45 | **Restocked** | +6 | 15 |\n| 56 | Sold | −3 | **12** |\n\nThe two restocks added 18 units in total (12 + 6), and sales removed 16 units (4 + 9 + 3).\n\nThe entry numbering in the log is inconsistent. Several blocks restart at \"Entry 1\" for SKU-17 and SKU-88. This doesn't affect the SKU-42 result, but it could cause confusion if you're auditing the full log.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.011828,
+ "ms": 4250
+}

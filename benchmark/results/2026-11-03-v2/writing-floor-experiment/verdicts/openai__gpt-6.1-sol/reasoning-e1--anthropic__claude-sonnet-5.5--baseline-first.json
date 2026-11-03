@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly conclude that the ball costs $0.05, derive it using the same valid equation, and verify both the total and the price difference. A’s additional explanation of the common 10-cent error is accurate but does not materially change the quality of the answer.",
+ "priceUsd": 0.001564
+}

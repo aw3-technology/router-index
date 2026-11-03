@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers give the correct result, 161, with a complete and verifiable inclusion–exclusion derivation. They also provide the same valid symmetry check using yᵢ = 7 − xᵢ. There are no substantive differences in correctness, clarity, or method.",
+ "priceUsd": 0.0025396
+}

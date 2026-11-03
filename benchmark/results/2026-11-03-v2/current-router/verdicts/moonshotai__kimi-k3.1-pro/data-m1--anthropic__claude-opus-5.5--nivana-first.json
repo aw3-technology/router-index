@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are valid JSON arrays containing the same four correctly extracted ISO 8601 dates in the requested order, with 2026 assumed where needed and the first Friday of May correctly identified as 2026-05-01. Whitespace formatting does not affect quality.",
+ "priceUsd": 0.001972
+}

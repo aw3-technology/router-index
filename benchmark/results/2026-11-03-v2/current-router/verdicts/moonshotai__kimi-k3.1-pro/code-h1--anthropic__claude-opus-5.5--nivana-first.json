@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Answer A is substantially cleaner and more coherent: its synchronous reservation design, continuous refill, abort refunds, lossless idle eviction, and optional hard key cap are well explained, and the visible implementation is idiomatic and consistent. Answer B also has a sound high-level design, but its visible token update in tryConsume (`Math.max(...) || b.tokens - cost`) is convoluted and suspicious, and it adds unnecessary complexity. Both answers are severely incomplete because their code is truncated and neither includes the requested injectable-clock tests, so neither fully satisfies the request; A is the stronger partial answer.",
+ "priceUsd": 0.011242
+}

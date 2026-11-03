@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A more faithfully matches the requested schema: B adds an unrequested minLength: 1 constraint on line descriptions, rejecting valid empty strings. Both otherwise provide the required path, constraints, and responses, though both wrap the YAML in code fences rather than returning raw YAML only.",
+ "priceUsd": 0.003222
+}

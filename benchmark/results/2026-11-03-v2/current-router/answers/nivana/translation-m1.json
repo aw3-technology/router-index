@@ -1,0 +1,12 @@
+{
+ "text": "Here's the Spanish (Mexico) translation, keeping a friendly but professional tone:\n\n\"Su cita está confirmada para el martes a las 10:00 a. m. Si necesita reprogramarla, simplemente responda a este mensaje.\"",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "translation",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000055625,
+ "ms": 2373
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers give a correct contradiction proof using N = 4p₁⋯pₙ − 1 and show that N must have a prime divisor congruent to 3 modulo 4 outside the assumed finite list. A is clearer and more polished, with a fully verified lemma and no distracting material. B includes an abandoned false start and a defensive closing remark, which unnecessarily clutter an otherwise correct proof.",
+ "priceUsd": 0.0029956
+}

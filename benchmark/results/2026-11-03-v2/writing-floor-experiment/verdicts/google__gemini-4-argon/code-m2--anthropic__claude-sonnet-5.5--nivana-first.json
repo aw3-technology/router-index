@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers provide very solid, clean implementations. Answer B is slightly more idiomatic: it uses named capture groups with `match['h']`, raises `TypeError` for non-string inputs (standard Python practice vs `ValueError`), and doesn't perform redundant checks like `not any(match.groups())` once the empty string is already ruled out. B is also stricter about rejecting surrounding whitespace by default while briefly noting how to relax it if desired.",
+ "priceUsd": 0.004588
+}

@@ -1,0 +1,12 @@
+{
+ "text": "**The landlord pays for appliance repairs, with one exception for tenant misuse.**\n\nThe relevant text is in the first block of clauses, at Clause 29:\n\n> \"The landlord is responsible for repairs to appliances supplied with the property, except where damage results from the tenant's misuse.\"\n\n**What this means:**\n- **General rule:** The landlord is responsible for repairing appliances that were supplied with the property.\n- **Exception:** If the damage results from the tenant's misuse, the landlord is not responsible. The clause doesn't say so expressly, but by implication the tenant would then bear the cost.\n\n**Points to note:**\n- The clause covers only appliances *supplied with the property*. Appliances the tenant brings in are not covered.\n- \"Misuse\" isn't defined in the text provided, so what counts as misuse (as opposed to ordinary wear and tear) could be disputed.\n- Clauses 1-28 in that block all say the tenant must keep the premises in good order \"as set out in the schedule.\" The schedule wasn't included in what you shared, so I can't tell whether it adds anything about appliances. It would be worth checking, since the general duty to keep the premises in good order could interact with Clause 29.\n- The notice clauses (the second block) say notices must be given in writing to the addresses above, so a repair request to the landlord should be made in writing.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "route": {
+  "task": "reasoning",
+  "difficulty": "medium",
+  "effort": "medium"
+ },
+ "priceUsd": 0.015,
+ "modelCostUsd": 0.0094155,
+ "ms": 4928
+}

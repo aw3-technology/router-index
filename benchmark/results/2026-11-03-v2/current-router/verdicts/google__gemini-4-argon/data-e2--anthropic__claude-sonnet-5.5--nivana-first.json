@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers follow all instructions, including the negative constraint. They render identically in Markdown.",
+ "priceUsd": 0.001314
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both identify the three mentions, quote their sources, and correctly conclude that v4.0.10 uses the 60-second default while the FAQ is outdated. A is slightly more accurate in saying there are two distinct values across three places, whereas B misleadingly calls them “three timeout values.” A’s additional observations about duplicate versions and the missing v3.30 entry are accurate.",
+ "priceUsd": 0.004804
+}

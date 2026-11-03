@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A provides a complete replacement that preserves existing users’ ability to log in by integrating MD5 verification and automatic migration. B’s main login rejects all existing MD5 hashes; its migration helper requires additional integration. A also explicitly warns about committing the caller’s transaction. Both fix SQL injection and introduce salted scrypt with constant-time comparison. B uses stronger scrypt parameters and handles malformed hash parameters better, but A is the more complete, usable fix for the supplied code.",
+ "priceUsd": 0.0085985
+}

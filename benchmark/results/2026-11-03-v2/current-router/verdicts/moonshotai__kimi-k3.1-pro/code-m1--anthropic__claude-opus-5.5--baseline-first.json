@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both hooks implement the core debounce behavior and timer cleanup correctly. B narrowly wins because its functional state updater avoids treating a function-valued update as a React updater, and it handles zero, negative, and non-finite delays explicitly. Its cleanup, dependency handling, and fake-timer tests are sound. Minor issues include an incomplete usage snippet (`setResults` is undefined) and an overstatement about function-valued values: `useState(value)` would still treat an initial function as a lazy initializer. A is otherwise simpler and fully adequate, but lacks those extra setter safeguards.",
+ "priceUsd": 0.011232
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both provide equivalent paths schemas with the required fields, array limits, numeric constraints, and response structures. Both also wrap the YAML in Markdown fences, equally deviating from a strict YAML-only requirement.",
+ "priceUsd": 0.0009007
+}

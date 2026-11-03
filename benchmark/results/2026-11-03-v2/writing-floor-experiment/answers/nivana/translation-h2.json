@@ -1,0 +1,12 @@
+{
+ "text": "**Japanese (formal business email register):**\n\nご返信が遅くなりましたこと、誠に申し訳ございません。件の問題につきまして確認いたしましたところ、本日中に代替品を発送いたします。\n\n**Back-translation into English:**\n\nWe sincerely apologise for the delay in our reply. Upon checking the matter, we will dispatch a replacement today.",
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "route": {
+  "task": "translation",
+  "difficulty": "hard",
+  "effort": "low"
+ },
+ "priceUsd": 0.002,
+ "modelCostUsd": 0.001269892,
+ "ms": 8003
+}

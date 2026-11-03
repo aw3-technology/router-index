@@ -1,0 +1,12 @@
+{
+ "text": "Juniper",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "quick",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000344525,
+ "ms": 3012
+}

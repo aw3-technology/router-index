@@ -1,0 +1,6 @@
+{
+ "text": "| Fruit  | Colour |\n|--------|--------|\n| Banana | Yellow |\n| Lime   | Green  |\n| Plum   | Purple |",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.001244,
+ "ms": 1509
+}

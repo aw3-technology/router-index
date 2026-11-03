@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers correctly identify and fix the SQL injection, weak password hashing, comparison timing, and user-enumeration issues. A is stronger because its replacement is complete and runnable as the main solution, including an integrated legacy-MD5 upgrade path so existing users are not locked out. B’s primary `login()` accepts only its new scrypt format; its migration helper is separate, must be manually wired in, and is less robust. A also clearly flags the transaction side effect of committing during login. B uses stronger default scrypt parameters and adds some useful hardening advice, but that does not outweigh its less complete fix.",
+ "priceUsd": 0.01244
+}

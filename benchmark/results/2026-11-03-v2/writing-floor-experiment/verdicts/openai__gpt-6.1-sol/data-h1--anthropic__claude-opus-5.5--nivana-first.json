@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both provide the requested path, request constraints, and response schemas, but B more faithfully models description as any string; A adds an unrequested minLength: 1 restriction. Both share the same formatting issue of wrapping the YAML in code fences.",
+ "priceUsd": 0.003002
+}

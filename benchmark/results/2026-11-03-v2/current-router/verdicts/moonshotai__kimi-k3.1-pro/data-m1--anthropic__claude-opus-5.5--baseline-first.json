@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers return the same valid JSON array with all four dates correctly converted to ISO 8601 and in order. The only difference is insignificant whitespace.",
+ "priceUsd": 0.001692
+}

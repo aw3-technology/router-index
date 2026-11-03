@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Answer B is slightly more idiomatic and catches a few nice Python-specific details: it uses `[0-9]` instead of `\\d` to avoid matching Unicode digits, omits redundant `^` and `$` anchors when using `fullmatch`, uses `match.groups()` instead of `match.groupdict().values()`, and raises `TypeError` rather than `ValueError` for non-string inputs.",
+ "priceUsd": 0.005086
+}

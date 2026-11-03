@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers give the correct result, 161, with a clear and accurate inclusion–exclusion derivation. Both also include the same valid symmetry check using y_i = 7 − x_i. Neither has a substantive advantage in correctness or clarity.",
+ "priceUsd": 0.0022964
+}

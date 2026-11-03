@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Answer A strictly follows the 'JSON only' instruction by returning raw JSON, whereas Answer B wraps the output in markdown code blocks.",
+ "priceUsd": 0.002444
+}

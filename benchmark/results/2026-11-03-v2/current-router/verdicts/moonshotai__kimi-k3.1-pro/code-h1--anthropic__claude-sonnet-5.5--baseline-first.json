@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Answer A provides a complete, usable limiter with continuous refill, synchronous atomic updates, injectable time, lossless idle eviction, and an optional LRU memory cap. Its major flaw is that it stops before delivering the requested tests. Answer B also omits the tests and, more seriously, is truncated mid-expression, leaving syntactically incomplete code that cannot compile or run.",
+ "priceUsd": 0.011616
+}

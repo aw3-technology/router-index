@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "The answers are identical, including correctly normalized fields. Both violate the JSON-only requirement by wrapping the array in Markdown code fences.",
+ "priceUsd": 0.001682
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B validates the entire input without silently stripping whitespace, so malformed strings such as '1h\\n' are rejected. Its named groups are readable, it handles zero values and unrestricted unit magnitudes correctly, and it clearly documents the accepted format. Both handle the requested examples correctly.",
+ "priceUsd": 0.0048985
+}

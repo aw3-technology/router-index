@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Answer A uses the most idiomatic and performant string methods (`s.replace(' ', '').lower()` and `''.join(s.split()).lower()`) rather than a character-by-character generator expression, and thoughtfully includes the common punctuation-ignoring variation.",
+ "priceUsd": 0.002886
+}

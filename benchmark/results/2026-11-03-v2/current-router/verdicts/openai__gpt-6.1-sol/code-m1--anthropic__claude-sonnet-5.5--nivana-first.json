@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both correctly cancel pending timers when dependencies change and on unmount. A is more robust because `setDebounced(() => value)` preserves function-valued updates, whereas B treats them as state updater functions. However, both should initialize with `useState<T>(() => value)` to avoid invoking a function-valued initial value.",
+ "priceUsd": 0.0059185
+}

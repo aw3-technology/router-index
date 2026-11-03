@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B validates the entire input without silently stripping whitespace, better matching the requirement to reject malformed durations. Both correctly parse the examples and reject missing, repeated, or out-of-order units, but B states its accepted format more explicitly and tests more edge cases. Its TypeError for non-string arguments is idiomatic; malformed strings raise ValueError as requested.",
+ "priceUsd": 0.005071
+}

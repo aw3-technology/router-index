@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers follow all instructions, including the negative constraint. They render identically in Markdown, though A is slightly nicer to look at in raw text due to the aligned pipes.",
+ "priceUsd": 0.001414
+}

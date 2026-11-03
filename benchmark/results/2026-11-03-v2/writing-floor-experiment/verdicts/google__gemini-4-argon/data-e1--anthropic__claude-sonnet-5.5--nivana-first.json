@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers return only a valid JSON array of the days of the week starting with Monday, with no extra text. The minor difference in spacing inside the JSON array is irrelevant.",
+ "priceUsd": 0.001346
+}

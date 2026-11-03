@@ -1,0 +1,12 @@
+{
+ "text": "**Final stock of SKU-42: 12 units**\n\nStarting from 10 units:\n\n$$10 - 4 + 12 - 9 + 6 - 3 = 12$$\n\n| Entry | Event | Change | Running stock |\n|---|---|---|---|\n| 21 | Starting stock | — | 10 |\n| 32 | Sold 4 | −4 | 6 |\n| 33 | Restocked 12 | +12 | 18 |\n| 44 | Sold 9 | −9 | 9 |\n| 45 | Restocked 6 | +6 | 15 |\n| 56 | Sold 3 | −3 | 12 |\n\n**SKU-42 had 2 restocks** (entries 33 and 45). The restocks of SKU-17 and the sales of SKU-88 don't affect this count.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "math",
+  "difficulty": "easy",
+  "effort": "low"
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000403615,
+ "ms": 4117
+}

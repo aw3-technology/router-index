@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Answer A is clean, idiomatic, and explains only what is needed. Answer B introduces a subtle bug in the initial state initialization if `value` is a function (it fixes `setDebounced(() => value)` for function values, but forgets `useState(() => value)`), has an undeclared `setResults` variable in its usage example, and includes unnecessary bloat like unit tests.",
+ "priceUsd": 0.00545
+}

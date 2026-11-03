@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B directly matches the request by ignoring literal spaces and case, using a simple, idiomatic implementation. It separately explains how to ignore all whitespace and notes casefold() for Unicode-aware caseless matching. A also works for typical inputs, but silently broadens “spaces” to all whitespace.",
+ "priceUsd": 0.002832
+}

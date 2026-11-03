@@ -1,0 +1,6 @@
+{
+ "text": "Bread goes stale mainly through **starch retrogradation**: the starch molecules (amylopectin) that were gelatinized during baking recrystallize and push out moisture, making the bread firm and dry-feeling. This recrystallization happens fastest at temperatures just above freezing, roughly 0-5°C, which is right where a fridge sits.\n\nAt room temperature the process is slower, and in the freezer the water is locked up as ice, so retrogradation nearly stops.\n\nIt's not about moisture loss to the air, since bread stales in the fridge even when wrapped. Fridge storage does help prevent mold, but if you want to keep bread for longer, freeze it. You can toast or reheat slices straight from frozen, and heating above about 60°C also reverses some of the staling.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.002598,
+ "ms": 3333
+}

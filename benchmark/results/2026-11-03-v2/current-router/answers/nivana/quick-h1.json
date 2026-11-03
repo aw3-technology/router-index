@@ -1,0 +1,12 @@
+{
+ "text": "**Why nothing can outrun light**\n\n- **Spacetime structure:** In special relativity, the speed of light $c$ is the universal speed limit for cause and effect. It's built into how space and time relate, not just a property of light itself.\n- **Energy cost:** For an object with mass, the energy is $E = \\gamma m c^2$, where $\\gamma = 1/\\sqrt{1 - v^2/c^2}$. As $v \\to c$, $\\gamma \\to \\infty$, so reaching $c$ would take infinite energy.\n- **Causality:** If something could carry information faster than light, then in some observers' reference frames it would arrive *before* it was sent. That allows paradoxes (effects preceding causes), so the theory forbids it.\n\nMassless particles like photons are the flip side: they *must* travel at exactly $c$.\n\n**Does entanglement break the rule?**\n\nNo. When two particles are entangled, measuring one gives a result correlated with the other, no matter the distance. It looks \"spooky,\" but:\n\n- **Each result is random.** You can't choose what outcome you get on your side, so you can't encode a message in it.\n- **The correlation only shows up when you compare results**, and that comparison requires a normal, slower-than-light channel (a phone call, an email).\n- **The no-communication theorem** proves that entanglement alone can't transmit information, so causality stays intact.\n\nBell test experiments confirm that the correlations are stronger than any classical \"hidden information\" explanation allows. Nature is genuinely non-local in its correlations, but not in a way that lets you send signals faster than light.\n\n**One caveat:** the universe's expansion can carry distant galaxies away from us faster than $c$. That's not a violation either, because nothing is moving *through* space faster than light; space itself is stretching.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "route": {
+  "task": "reasoning",
+  "difficulty": "medium",
+  "effort": "medium"
+ },
+ "priceUsd": 0.012,
+ "modelCostUsd": 0.007463,
+ "ms": 7539
+}

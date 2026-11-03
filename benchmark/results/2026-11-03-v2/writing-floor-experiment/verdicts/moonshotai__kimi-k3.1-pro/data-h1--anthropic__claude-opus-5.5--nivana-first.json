@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both provide valid OpenAPI 3.1 paths-only YAML with the required request constraints and 201/422 response schemas. Differences such as Answer A's summary and extra string-length constraint do not materially affect quality.",
+ "priceUsd": 0.003604
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers provide working, robust solutions that catch edge cases like empty strings and non-ASCII digits. Answer A is slightly more idiomatic: it uses `re.VERBOSE` with named capture groups for readability, and it correctly raises `TypeError` for non-string inputs while raising `ValueError` for malformed strings.",
+ "priceUsd": 0.00471
+}

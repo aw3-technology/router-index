@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are valid JSON arrays listing all seven days in order starting with Monday. Whitespace differences do not affect JSON validity.",
+ "priceUsd": 0.0008
+}

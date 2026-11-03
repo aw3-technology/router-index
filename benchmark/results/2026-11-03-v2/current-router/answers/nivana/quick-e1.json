@@ -1,0 +1,12 @@
+{
+ "text": "There are **7 continents** in the most commonly taught model: Africa, Antarctica, Asia, Europe, North America, Australia, and South America. Some models group them differently.",
+ "model": "openai/gpt-6-luna",
+ "route": {
+  "task": "quick",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.0000653,
+ "ms": 3912
+}

@@ -1,0 +1,70 @@
+{
+  "_comment": "Second held-out set, written after the 2026-11-03 run so router changes made in response to that run can be tested on prompts they were not shaped by. Same layout and rubrics as prompts.json: six per task, two easy, two medium, two hard. {{repeat N}}…{{/repeat}} expands to N copies with {i} numbered from 1.",
+  "rubrics": {
+    "quick": "Correct, brief, friendly. No padding, no hedging, no lecture.",
+    "writing": "Clear, well-structured, matches the requested tone and length exactly, no clichés or filler, sounds human.",
+    "code": "Correct, idiomatic, handles edge cases, runs as written, explains only what is needed.",
+    "reasoning": "Reaches the right conclusion with sound, checkable steps; states assumptions; no leaps.",
+    "math": "Correct final answer with a clear, verifiable derivation. A wrong final answer is a loss whatever the working.",
+    "data": "Valid, exactly-structured output that follows the schema or format requested, nothing else. Any deviation (extra prose, wrong keys, invalid JSON) is a loss.",
+    "long_context": "Accurate: captures the key points, answers exactly what was asked, invents nothing, misses nothing asked for.",
+    "translation": "Accurate, natural in the target language, correct register, preserves tone and meaning; nothing added or dropped."
+  },
+  "prompts": [
+    { "id": "quick-e1", "task": "quick", "level": "easy", "prompt": "How many continents are there?" },
+    { "id": "quick-e2", "task": "quick", "level": "easy", "prompt": "hey, what's a good name for a goldfish?" },
+    { "id": "quick-m1", "task": "quick", "level": "medium", "prompt": "Why does bread go stale faster in the fridge? Short answer." },
+    { "id": "quick-m2", "task": "quick", "level": "medium", "prompt": "What's the difference between weather and climate, in two sentences?" },
+    { "id": "quick-h1", "task": "quick", "level": "hard", "prompt": "Briefly: why can't anything travel faster than light, and does quantum entanglement break that rule?" },
+    { "id": "quick-h2", "task": "quick", "level": "hard", "prompt": "In a few sentences, why do we have leap seconds and why are they being abolished?" },
+
+    { "id": "writing-e1", "task": "writing", "level": "easy", "prompt": "Write a one-sentence out-of-office reply for a long weekend." },
+    { "id": "writing-e2", "task": "writing", "level": "easy", "prompt": "Give me three name ideas for a podcast about urban gardening." },
+    { "id": "writing-m1", "task": "writing", "level": "medium", "prompt": "Write a 100-word bio for a freelance illustrator who specialises in children's books. Third person, warm, specific." },
+    { "id": "writing-m2", "task": "writing", "level": "medium", "prompt": "Write a polite but firm email to a client whose invoice is 30 days overdue. Under 120 words." },
+    { "id": "writing-h1", "task": "writing", "level": "hard", "prompt": "Write a 250-word speech for a best friend's wedding toast that is funny without embarrassing anyone and ends on a sincere note. The couple met at a disastrous camping trip." },
+    { "id": "writing-h2", "task": "writing", "level": "hard", "prompt": "Write a 200-word product announcement for a price increase on a SaaS tool, explaining why, without sounding defensive or corporate, and keeping existing customers on board." },
+
+    { "id": "code-e1", "task": "code", "level": "easy", "prompt": "Bash: how do I count the lines in every .txt file in a folder?" },
+    { "id": "code-e2", "task": "code", "level": "easy", "prompt": "Python: check whether a string is a palindrome, ignoring case and spaces." },
+    { "id": "code-m1", "task": "code", "level": "medium", "prompt": "Write a React hook `useDebouncedValue(value, delayMs)` that returns the value after it has stopped changing for delayMs. Clean up timers correctly." },
+    { "id": "code-m2", "task": "code", "level": "medium", "prompt": "Write a Python function that parses durations like '1h30m', '45s', '2h' and '90m15s' into seconds. Reject malformed input with a ValueError." },
+    { "id": "code-h1", "task": "code", "level": "hard", "prompt": "Implement a token-bucket rate limiter in TypeScript that supports many keys, refills continuously (not per tick), is safe to call concurrently in one Node process, and evicts idle keys so memory doesn't grow without bound. Include tests using an injectable clock." },
+    { "id": "code-h2", "task": "code", "level": "hard", "prompt": "Review this Python for correctness and security issues and fix them:\n\n```python\nimport sqlite3, hashlib\n\ndef login(db, username, password):\n    cur = db.execute(f\"SELECT pw_hash FROM users WHERE name = '{username}'\")\n    row = cur.fetchone()\n    if row and row[0] == hashlib.md5(password.encode()).hexdigest():\n        return True\n    return False\n```" },
+
+    { "id": "reasoning-e1", "task": "reasoning", "level": "easy", "prompt": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?" },
+    { "id": "reasoning-e2", "task": "reasoning", "level": "easy", "prompt": "If all bloops are razzies and all razzies are lazzies, are all bloops definitely lazzies?" },
+    { "id": "reasoning-m1", "task": "reasoning", "level": "medium", "prompt": "Our support tickets doubled the week after we launched a redesign. The PM says the redesign confused users. What else could explain it, and how would you tell the explanations apart with data we probably already have?" },
+    { "id": "reasoning-m2", "task": "reasoning", "level": "medium", "prompt": "Should a 5-person startup with $400k in the bank hire a sixth engineer or spend that money on marketing? List what you'd need to know and how each answer would change the decision." },
+    { "id": "reasoning-h1", "task": "reasoning", "level": "hard", "prompt": "You have 12 coins, one of which is counterfeit and either heavier or lighter than the others. With a balance scale and exactly three weighings, find the counterfeit coin and say whether it is heavier or lighter. Give the full strategy." },
+    { "id": "reasoning-h2", "task": "reasoning", "level": "hard", "prompt": "A city finds that neighbourhoods with more bike lanes have fewer traffic deaths per capita and proposes building bike lanes everywhere to cut deaths. Identify at least three distinct problems with this inference and describe a study design that would give a more credible estimate of the causal effect." },
+
+    { "id": "math-e1", "task": "math", "level": "easy", "prompt": "What is 7 × 8 + 12 ÷ 4?" },
+    { "id": "math-e2", "task": "math", "level": "easy", "prompt": "A shirt costs $40 after a 20% discount. What was the original price?" },
+    { "id": "math-m1", "task": "math", "level": "medium", "prompt": "Find the equation of the line tangent to y = x^3 - 2x at x = 1." },
+    { "id": "math-m2", "task": "math", "level": "medium", "prompt": "Two dice are rolled. What is the probability that the sum is a prime number?" },
+    { "id": "math-h1", "task": "math", "level": "hard", "prompt": "Prove that there are infinitely many primes of the form 4k + 3." },
+    { "id": "math-h2", "task": "math", "level": "hard", "prompt": "Find the number of integer solutions to x1 + x2 + x3 + x4 = 20 with 0 ≤ xi ≤ 7 for each i. Show the method." },
+
+    { "id": "data-e1", "task": "data", "level": "easy", "prompt": "Return only a JSON array of the days of the week, starting Monday." },
+    { "id": "data-e2", "task": "data", "level": "easy", "prompt": "Make a Markdown table with columns Fruit and Colour for banana, lime and plum. Table only." },
+    { "id": "data-m1", "task": "data", "level": "medium", "prompt": "Extract every date from this text and return JSON only: an array of ISO 8601 dates in the order they appear. Assume the year 2026 where it is missing.\n\n\"Kickoff is March 3rd, the beta ships 14/04, and we review on the first Friday of May before the June 30 deadline.\"" },
+    { "id": "data-m2", "task": "data", "level": "medium", "prompt": "Convert this CSV to a JSON array of objects with numeric fields as numbers. JSON only.\n\nname,age,score\nAva,31,88.5\nBen,27,91\nChloe,45,79.25" },
+    { "id": "data-h1", "task": "data", "level": "hard", "prompt": "Write an OpenAPI 3.1 YAML snippet (paths only, no prose) for POST /v1/invoices that accepts customer_id (string, required), currency (ISO 4217 three-letter code, required), lines (array, 1–100 items, each {description: string, quantity: integer ≥ 1, unit_amount: integer cents ≥ 0}), and returns 201 with {id, total} or 422 with {error: {code, message}}." },
+    { "id": "data-h2", "task": "data", "level": "hard", "prompt": "Normalise these addresses into a JSON array of {street, city, region, postal_code, country (ISO 3166-1 alpha-2)}. Use null for anything missing. JSON only.\n\n1. 221B Baker St, London NW1 6XE, UK\n2. 1600 Amphitheatre Pkwy, Mountain View, CA 94043\n3. Rua Augusta 100, Lisboa, Portugal\n4. Shibuya 2-21-1, Tokyo 150-8510" },
+
+    { "id": "long_context-e1", "task": "long_context", "level": "easy", "prompt": "Which room is the meeting in? Answer with the room only.\n{{repeat 45}}Line {i}: Reminder that the cafeteria closes at 3pm on Fridays. {{/repeat}}Line 46: Tomorrow's planning meeting is in room Juniper. {{repeat 30}}Line {i}: Please keep the kitchen tidy. {{/repeat}}" },
+    { "id": "long_context-e2", "task": "long_context", "level": "easy", "prompt": "Summarise this status thread in one sentence.\n{{repeat 30}}Update {i}: Still investigating, no change. {{/repeat}}Update 31: Root cause found: an expired TLS certificate on the image CDN; renewed, images loading again. {{repeat 8}}Update {i}: Monitoring, all green. {{/repeat}}" },
+    { "id": "long_context-m1", "task": "long_context", "level": "medium", "prompt": "From this inventory log, what is the final stock of item SKU-42, and how many separate restocks were there?\n{{repeat 20}}Entry {i}: SKU-17 sold 1. {{/repeat}}Entry 21: SKU-42 starting stock 10. {{repeat 10}}Entry {i}: SKU-17 restocked 5. {{/repeat}}Entry 32: SKU-42 sold 4. Entry 33: SKU-42 restocked 12. {{repeat 10}}Entry {i}: SKU-88 sold 2. {{/repeat}}Entry 44: SKU-42 sold 9. Entry 45: SKU-42 restocked 6. {{repeat 10}}Entry {i}: SKU-17 sold 1. {{/repeat}}Entry 56: SKU-42 sold 3." },
+    { "id": "long_context-m2", "task": "long_context", "level": "medium", "prompt": "Under this lease, who pays for appliance repairs, and is there any exception? Quote the relevant text.\n{{repeat 28}}Clause {i}. The tenant shall keep the premises in good order as set out in the schedule. {{/repeat}}Clause 29. The landlord is responsible for repairs to appliances supplied with the property, except where damage results from the tenant's misuse. {{repeat 22}}Clause {i}. Notices shall be given in writing to the addresses above. {{/repeat}}" },
+    { "id": "long_context-h1", "task": "long_context", "level": "hard", "prompt": "These release notes disagree about the default timeout. Find every value given, quote where each appears, and say which one the current version uses.\n{{repeat 20}}v3.{i}: Internal refactoring; no user-facing changes. {{/repeat}}v3.21: The default request timeout is now 30 seconds. {{repeat 15}}v3.{i}: Documentation fixes. {{/repeat}}v4.0: Breaking changes: config file renamed to nivana.toml; default request timeout raised to 60 seconds. {{repeat 10}}v4.0.{i}: Bug fixes. {{/repeat}}FAQ (last edited for v3.30): The default timeout is 30 seconds and can be changed with --timeout." },
+    { "id": "long_context-h2", "task": "long_context", "level": "hard", "prompt": "Below are interview notes from 40 users. What are the three most common reasons people cancelled, with counts, and is there anything that only power users mentioned?\n{{repeat 12}}User {i} (casual): Cancelled because it got too expensive after the trial. {{/repeat}}{{repeat 9}}User {i} (casual): Cancelled because I forgot I had it and stopped using it. {{/repeat}}{{repeat 7}}User {i} (power user): Cancelled because there is no API for automation. {{/repeat}}{{repeat 8}}User {i} (casual): Cancelled because the mobile app kept logging me out. {{/repeat}}{{repeat 4}}User {i} (power user): Cancelled because exports to CSV drop custom fields. {{/repeat}}" },
+
+    { "id": "translation-e1", "task": "translation", "level": "easy", "prompt": "Translate into German: \"Good night, sleep well.\"" },
+    { "id": "translation-e2", "task": "translation", "level": "easy", "prompt": "Translate into Portuguese (Portugal): \"Can I pay by card?\"" },
+    { "id": "translation-m1", "task": "translation", "level": "medium", "prompt": "Translate into Spanish (Mexico), friendly but professional: \"Your appointment is confirmed for Tuesday at 10am. If you need to reschedule, just reply to this message.\"" },
+    { "id": "translation-m2", "task": "translation", "level": "medium", "prompt": "Translate into Simplified Chinese for an e-commerce site: \"Free returns within 30 days. Items must be unused and in their original packaging.\"" },
+    { "id": "translation-h1", "task": "translation", "level": "hard", "prompt": "Translate this marketing line into French so it keeps the pun or finds an equivalent one, and explain your choice in one sentence: \"Our coffee is grounds for celebration.\"" },
+    { "id": "translation-h2", "task": "translation", "level": "hard", "prompt": "Translate into Japanese, keeping the formal apology register used in Japanese business email, then back-translate into English: \"We sincerely apologise for the delay in our reply. We have looked into the issue and will send a replacement today.\"" }
+  ]
+}

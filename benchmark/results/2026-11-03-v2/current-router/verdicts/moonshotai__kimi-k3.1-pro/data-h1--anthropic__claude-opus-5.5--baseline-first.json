@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both are valid, complete OpenAPI 3.1 paths-only snippets, but A more exactly matches the request. B adds an unrequested minLength constraint on line descriptions, while A avoids that extra restriction and satisfies all required fields, constraints, and response schemas.",
+ "priceUsd": 0.004434
+}

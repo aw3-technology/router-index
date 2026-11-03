@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A’s main solution is simpler and matches the request precisely: remove spaces, normalize case, and compare with the reverse. It also clearly distinguishes ignoring literal spaces from ignoring all whitespace and notes casefold() for stronger Unicode case handling. B works for ordinary inputs but silently broadens spaces to all whitespace.",
+ "priceUsd": 0.00336
+}

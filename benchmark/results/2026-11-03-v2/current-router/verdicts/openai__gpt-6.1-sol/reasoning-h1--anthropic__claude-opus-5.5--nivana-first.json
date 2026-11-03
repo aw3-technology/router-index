@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both give the same correct, complete three-weighing strategy and resolve all 24 possibilities. B provides a clearer explanation of the second weighing by identifying which coins stay, switch pans, or are removed, and explaining the genuine coin’s role. It also avoids A’s unjustified claim that each weighing must split possibilities as evenly as possible.",
+ "priceUsd": 0.0064235
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both implementations are correct, strict about unit order and repetition, and handle all requested examples. B is slightly better because it consistently raises ValueError for invalid input as requested, explicitly verifies that at least one duration component is present, and includes executable assertions for valid and malformed cases. Its acceptance of surrounding whitespace is a reasonable leniency.",
+ "priceUsd": 0.00618
+}

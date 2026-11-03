@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both identify all three occurrences, quote them accurately, and correctly conclude that the current default is 60 seconds because v4.0 superseded v3.21 and the FAQ is outdated. A is slightly more precise and avoids B’s erroneous wording that each value appears in more than one place (60 seconds appears only once), as well as B’s unnecessary speculation about installed versions and the --timeout flag.",
+ "priceUsd": 0.0042244
+}

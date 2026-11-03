@@ -1,0 +1,6 @@
+{
+ "text": "# Probability the Sum of Two Dice Is Prime\n\nRolling two dice gives **36** equally likely outcomes. The possible sums range from 2 to 12, and the prime sums are **2, 3, 5, 7, and 11**.\n\n## Counting the favorable outcomes\n\n| Prime Sum | Outcomes | Count |\n|-----------|----------|-------|\n| 2 | (1,1) | 1 |\n| 3 | (1,2), (2,1) | 2 |\n| 5 | (1,4), (4,1), (2,3), (3,2) | 4 |\n| 7 | (1,6), (6,1), (2,5), (5,2), (3,4), (4,3) | 6 |\n| 11 | (5,6), (6,5) | 2 |\n\n**Total favorable outcomes:** 1 + 2 + 4 + 6 + 2 = **15**\n\n## Probability\n\n$$P(\\text{prime sum}) = \\frac{15}{36} = \\frac{5}{12} \\approx 0.417$$\n\nThe probability is **5/12**.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.008088,
+ "ms": 4115
+}

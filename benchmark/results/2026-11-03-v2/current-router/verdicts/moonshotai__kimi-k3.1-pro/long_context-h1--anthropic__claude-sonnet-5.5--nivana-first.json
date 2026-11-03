@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers correctly identify all three mentions, quote their sources, and conclude that v4.0.10 uses 60 seconds because the later bug-fix releases do not change it. B is slightly clearer that there are two distinct values across three appearances, while A’s opening phrase “three timeout values” is mildly imprecise. B also adds useful, accurate context that the refactoring and documentation entries are irrelevant and that the pre-v3.21 default is unspecified.",
+ "priceUsd": 0.0033296
+}

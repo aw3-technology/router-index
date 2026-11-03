@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B provides a strict, full-string parser with clear validation rules and thorough tests for valid and malformed inputs. Its explicit ASCII digit matching avoids unintentionally accepting Unicode digits, and it rejects whitespace and uppercase units rather than silently normalizing them. Both handle the requested examples correctly; B's TypeError for non-string arguments is idiomatic, while malformed duration strings consistently raise ValueError.",
+ "priceUsd": 0.005426
+}

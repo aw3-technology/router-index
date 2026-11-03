@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A directly and correctly implements the requested behavior with a simple, idiomatic solution. B’s main solution is good, but its alternatives have inconsistent Unicode behavior: the two-pointer version does not match the casefold-based version, and the alphanumeric variant compares casefolded chunks rather than the resulting characters, so inputs such as \"ßs\" are handled incorrectly.",
+ "priceUsd": 0.0050035
+}

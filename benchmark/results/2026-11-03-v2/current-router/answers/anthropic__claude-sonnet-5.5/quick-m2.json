@@ -1,0 +1,6 @@
+{
+ "text": "Weather describes the atmospheric conditions in a specific place over a short period, such as today's rain or this week's heat wave. Climate is the average of those conditions over a long period, typically 30 years or more, showing what's typical for a region.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.000812,
+ "ms": 1765
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers are accurate and provide safe recursive options, but B is more immediately useful: it shows the expected output, explains the efficient `find ... -exec ... +` form and its batching behavior, and gives clear, relevant caveats about newlines and unmatched globs. A is also good but includes more peripheral material without adding much practical value.",
+ "priceUsd": 0.005742
+}

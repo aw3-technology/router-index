@@ -1,0 +1,6 @@
+{
+ "text": "[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"]",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.000448,
+ "ms": 911
+}

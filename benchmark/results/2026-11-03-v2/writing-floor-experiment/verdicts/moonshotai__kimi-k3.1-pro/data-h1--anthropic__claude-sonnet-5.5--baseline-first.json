@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers are valid OpenAPI 3.1 paths-only YAML and satisfy the request. Answer A is slightly more complete, with explicit currency length constraints and useful request/response examples, without adding anything invalid or extraneous.",
+ "priceUsd": 0.0035252
+}

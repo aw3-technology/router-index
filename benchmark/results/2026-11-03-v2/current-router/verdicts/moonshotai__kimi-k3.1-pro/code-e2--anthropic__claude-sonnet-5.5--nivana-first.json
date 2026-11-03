@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Answer A is correct and idiomatic, handles all whitespace and Unicode case folding, and provides a genuinely O(1)-extra-space two-pointer alternative plus useful tests and a punctuation-ignoring variant. Answer B also satisfies the basic request, but its two-pointer version still builds a cleaned string and its implementations are less robust for Unicode case-insensitive comparison.",
+ "priceUsd": 0.0039824
+}

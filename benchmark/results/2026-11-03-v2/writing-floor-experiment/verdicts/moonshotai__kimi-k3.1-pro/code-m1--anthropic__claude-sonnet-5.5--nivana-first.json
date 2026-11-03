@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both hooks are correct and clean up timers properly. B is slightly better because its generic TypeScript signature preserves the value type, and it explains useful edge cases such as reference-based dependencies, delay changes, and Strict Mode. A is also solid, but its usage example omits the `useEffect` import.",
+ "priceUsd": 0.0033404
+}

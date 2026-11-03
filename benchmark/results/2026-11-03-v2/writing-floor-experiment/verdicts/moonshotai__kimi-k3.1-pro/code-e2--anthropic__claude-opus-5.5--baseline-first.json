@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers are correct and runnable, but A provides the simple requested solution plus clearly separated, correct variations for broader whitespace, punctuation, memory efficiency, and Unicode case handling. Its examples and edge-case guidance make it slightly more useful without compromising the core answer.",
+ "priceUsd": 0.003242
+}

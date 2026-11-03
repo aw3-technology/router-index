@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers quote all three occurrences and correctly identify 60 seconds as the current default in v4.0.10. A is more precise: it distinguishes two distinct values from three mentions, whereas B incorrectly says there are three timeout values.",
+ "priceUsd": 0.0038035
+}

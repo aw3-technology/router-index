@@ -1,0 +1,12 @@
+{
+ "text": "30天内可免费退货。商品须未使用且保留原包装。",
+ "model": "openai/gpt-6-luna",
+ "route": {
+  "task": "translation",
+  "difficulty": "medium",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.0000586,
+ "ms": 2744
+}

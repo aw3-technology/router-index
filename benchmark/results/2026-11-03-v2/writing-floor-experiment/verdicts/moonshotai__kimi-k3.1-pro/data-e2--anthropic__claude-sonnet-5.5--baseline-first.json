@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both responses provide only a valid Markdown table with the requested Fruit and Colour columns and correct entries for banana, lime, and plum.",
+ "priceUsd": 0.0010472
+}

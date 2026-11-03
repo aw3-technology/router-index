@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly give SKU-42’s final stock as 12 units and identify 2 separate restocks, with accurate running-stock calculations. Neither omits a requested detail or introduces a factual error.",
+ "priceUsd": 0.003486
+}

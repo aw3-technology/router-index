@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both give a correct contradiction proof using N = 4p₁⋯pₙ − 1 and establish that it has a new prime divisor congruent to 3 modulo 4. B is better presented: it proceeds directly with the valid construction and explicitly accounts for repeated prime factors, whereas A includes an unnecessary discarded false start that distracts from the proof.",
+ "priceUsd": 0.0044985
+}

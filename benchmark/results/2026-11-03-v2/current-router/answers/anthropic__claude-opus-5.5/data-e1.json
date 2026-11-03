@@ -1,0 +1,6 @@
+{
+ "text": "[\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\", \"Sunday\"]",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.001016,
+ "ms": 1405
+}

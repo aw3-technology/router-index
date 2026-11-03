@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers correctly fix SQL injection, replace MD5 with salted scrypt, use constant-time comparison, and mitigate username-enumeration timing. B is more complete and immediately usable for the existing database because it verifies and transparently upgrades legacy MD5 hashes, rejects malformed or unknown hash formats, and handles null stored values. It also gives practical operational cautions, including the important side effect of committing the caller’s transaction. A is sound but leaves migration as a manual exercise and is slightly less robust.",
+ "priceUsd": 0.008384
+}

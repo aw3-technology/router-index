@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly find the original price as $50 by dividing $40 by 0.8, clearly explain why 80% is paid, and verify the result. Their differences are only formatting.",
+ "priceUsd": 0.00117
+}

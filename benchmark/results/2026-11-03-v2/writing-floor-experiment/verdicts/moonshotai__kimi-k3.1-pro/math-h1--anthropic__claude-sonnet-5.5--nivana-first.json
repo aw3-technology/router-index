@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers give a correct, complete proof using N = 4p₁⋯pₙ − 1. Answer A is better because it presents the argument cleanly and rigorously, including the product lemma and all necessary divisibility steps. Answer B includes an unexplained false start and an unnecessary remark about it, which makes the exposition less polished without adding value.",
+ "priceUsd": 0.0029496
+}

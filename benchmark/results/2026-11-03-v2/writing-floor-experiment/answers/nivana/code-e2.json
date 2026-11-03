@@ -1,0 +1,12 @@
+{
+ "text": "```python\ndef is_palindrome(text: str) -> bool:\n    \"\"\"Return True if text is a palindrome, ignoring case and spaces.\"\"\"\n    cleaned = \"\".join(ch.lower() for ch in text if not ch.isspace())\n    return cleaned == cleaned[::-1]\n\n\nif __name__ == \"__main__\":\n    tests = [\n        \"Never odd or even\",   # True\n        \"A man a plan a canal Panama\",  # True\n        \"Hello World\",         # False\n        \"\",                    # True (empty string)\n    ]\n    for s in tests:\n        print(f\"{s!r:35} -> {is_palindrome(s)}\")\n```\n\n**How it works:**\n\n1. `ch.isspace()` removes all whitespace (spaces, tabs, newlines), not just the space character.\n2. `ch.lower()` makes the comparison case-insensitive.\n3. `cleaned[::-1]` reverses the string, and the function checks whether it equals the original cleaned version.\n\nOutput:\n\n```\n'Never odd or even'                 -> True\n'A man a plan a canal Panama'       -> True\n'Hello World'                       -> False\n''                                  -> True\n```",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "code",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000198365,
+ "ms": 3983
+}

@@ -1,0 +1,12 @@
+{
+ "text": "Nivana: Fridge temperatures speed up starch crystallization in bread, making it firm and dry faster. Freezing slows this process.",
+ "model": "openai/gpt-6-luna",
+ "route": {
+  "task": "quick",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000084,
+ "ms": 4528
+}

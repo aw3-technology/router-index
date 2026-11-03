@@ -1,0 +1,12 @@
+{
+ "text": "[\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\", \"Sunday\"]",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "quick",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000031875,
+ "ms": 2732
+}

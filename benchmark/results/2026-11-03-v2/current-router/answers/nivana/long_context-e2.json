@@ -1,0 +1,12 @@
+{
+ "text": "The incident was under investigation for 30 updates with no progress until the root cause was found: an expired TLS certificate on the image CDN, which was renewed, and monitoring has since shown all systems green.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "quick",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000111625,
+ "ms": 2183
+}

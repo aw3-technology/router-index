@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both hooks correctly debounce updates, include `value` and `delayMs` in the dependencies, and clear pending timers between effects and on unmount. B is stronger overall because its usage example is complete and correct, and it adds useful guidance about reference equality, Strict Mode, delay changes, and tests for debouncing and cleanup. A’s usage example omits the `useEffect` import, so it does not run as written.",
+ "priceUsd": 0.00649
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers are very strong, covering SQL injection, weak hashing, timing attacks, user enumeration, and legacy hash migration. Answer A is slightly better because it integrates the legacy MD5 upgrade path directly into the main solution, uses simpler `.hex()`/`bytes.fromhex()` instead of `base64` boilerplate, and includes a crucial warning about `db.commit()` side effects and pre-hashing offline accounts (`scrypt(md5)`).",
+ "priceUsd": 0.007844
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers have correct fields, values, and ISO country codes, and both improperly include Markdown fences despite the “JSON only” instruction. A is slightly better because it normalizes the street abbreviations (“St” to “Street” and “Pkwy” to “Parkway”), while B merely preserves them.",
+ "priceUsd": 0.002968
+}

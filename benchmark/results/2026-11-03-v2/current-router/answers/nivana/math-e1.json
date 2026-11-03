@@ -1,0 +1,12 @@
+{
+ "text": "$$7 \\times 8 + 12 \\div 4 = 56 + 3 = 59$$\n\nMultiplication and division are done first ($7 \\times 8 = 56$ and $12 \\div 4 = 3$), then the addition gives $59$.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "math",
+  "difficulty": "easy",
+  "effort": "low"
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.00005024,
+ "ms": 2825
+}

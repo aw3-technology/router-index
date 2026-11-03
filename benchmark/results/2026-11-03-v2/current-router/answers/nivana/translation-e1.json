@@ -1,0 +1,12 @@
+{
+ "text": "Gute Nacht, schlaf gut.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "translation",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.0000874,
+ "ms": 2276
+}

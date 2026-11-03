@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both provide equivalent OpenAPI paths and correctly specify the required fields, array bounds, numeric constraints, and response schemas. Both also wrap the YAML in Markdown fences, deviating equally from the strict YAML-only output request.",
+ "priceUsd": 0.0010307
+}

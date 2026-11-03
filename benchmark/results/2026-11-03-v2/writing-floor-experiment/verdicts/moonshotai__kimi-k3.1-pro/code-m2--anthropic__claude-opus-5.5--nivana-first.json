@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both implementations are correct and reject duplicates, out-of-order units, trailing garbage, signs, decimals, and empty input. B is slightly better because its behavior is more precisely documented, its strict whitespace handling is consistent, and its tests cover more edge cases, including non-ASCII digits and non-string input.",
+ "priceUsd": 0.00579
+}

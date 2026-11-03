@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers provide the exact same correct algorithm. However, Answer B is much better formatted using markdown tables to clearly map out the decision tree, and it includes a helpful explanation of the intuition behind the tricky second weighing.",
+ "priceUsd": 0.005194
+}

@@ -1,0 +1,12 @@
+{
+ "text": "I'm out of the office for a long weekend and will reply when I'm back on Tuesday; for urgent matters, please contact [colleague's name] at [email address].",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "writing",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.00010615,
+ "ms": 2729
+}

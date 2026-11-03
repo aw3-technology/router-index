@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers follow every instruction, including the negative constraint against extra prose, and produce valid, accurate OpenAPI 3.1 YAML snippets (correctly using the 2020-12 JSON Schema `examples` array keyword). The only differences are minor optional additions like examples and tags.",
+ "priceUsd": 0.003898
+}

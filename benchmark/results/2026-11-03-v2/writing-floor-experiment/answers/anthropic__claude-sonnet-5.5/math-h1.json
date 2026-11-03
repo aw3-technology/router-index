@@ -1,0 +1,6 @@
+{
+ "text": "**Claim.** There are infinitely many primes p with p ≡ 3 (mod 4).\n\n**Proof.** Suppose, for contradiction, that there are only finitely many such primes. Note that 3 is one of them, so the list is nonempty. Let them be p₁ = 3, p₂, …, pₙ. Define\n\nN = 4p₂p₃⋯pₙ + 3 ... \n\nThis choice does not obviously work, so we use the standard one instead:\n\nN = 4p₁p₂⋯pₙ − 1.\n\nThen N ≡ 3 (mod 4), and N > 1. Also N is odd, so every prime divisor of N is odd, and hence is congruent to 1 or 3 modulo 4.\n\n**Step 1: N has a prime divisor congruent to 3 mod 4.** Suppose every prime divisor of N were ≡ 1 (mod 4). A product of numbers that are ≡ 1 (mod 4) is ≡ 1 (mod 4), since (4a+1)(4b+1) = 4(4ab+a+b)+1. Then N, being a product of such primes, would be ≡ 1 (mod 4). This contradicts N ≡ 3 (mod 4). So N has a prime divisor q with q ≡ 3 (mod 4).\n\n**Step 2: q is not in the list.** By assumption q = pᵢ for some i. Then q divides 4p₁⋯pₙ, and q divides N, so q divides the difference 4p₁⋯pₙ − N = 1. This is impossible since q > 1.\n\nThis contradicts the assumption that p₁, …, pₙ were all the primes of the form 4k+3. Hence there are infinitely many primes of the form 4k + 3. ∎\n\n(Remark: the false start above was discarded and plays no role; the proof uses only N = 4p₁⋯pₙ − 1.)",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.006292,
+ "ms": 4740
+}

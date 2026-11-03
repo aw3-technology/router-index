@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both are accurate one-sentence summaries, but A is more precise, capturing the 30 unchanged investigation updates, the expired TLS certificate on the image CDN, the renewal and restored images, and the eight all-green monitoring updates. B is correct but less specific and adds a mild inference that images were broken during the entire investigation.",
+ "priceUsd": 0.0019724
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both implementations correctly parse the examples and reject malformed strings, but B is slightly stricter and more robust: it uses ASCII-only digits, avoids silently accepting surrounding whitespace or uppercase units, and explicitly handles the empty-match case. Its TypeError for non-string input is a minor deviation from the requested ValueError, but does not outweigh its cleaner validation for the specified string inputs.",
+ "priceUsd": 0.0051616
+}

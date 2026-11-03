@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers correctly determine the original price as $50, show that paying 80% gives 0.8P = 40, and verify the result by subtracting the $10 discount. They are equivalent in correctness, clarity, and completeness.",
+ "priceUsd": 0.00193
+}

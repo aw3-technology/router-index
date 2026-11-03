@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers provide the exact same correct strategy. Answer A is better because it uses markdown tables, which makes tracking the branching outcomes and remaining suspects much easier to read and verify. Answer A also includes a helpful explanation of the intuition behind the second weighing.",
+ "priceUsd": 0.004882
+}

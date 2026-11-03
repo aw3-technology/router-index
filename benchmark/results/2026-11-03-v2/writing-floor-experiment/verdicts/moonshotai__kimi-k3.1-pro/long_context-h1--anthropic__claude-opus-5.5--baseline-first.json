@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers identify all three timeout statements, quote their sources accurately, distinguish the two values, and correctly conclude that the latest listed version (v4.0.10) uses 60 seconds because v4.0 raised the default and no later entry changes it. Both also correctly explain that the FAQ predates v4.0 and is outdated, flag the unusual version history, and appropriately qualify whether --timeout remains valid. Their minor presentational differences do not create a meaningful quality gap.",
+ "priceUsd": 0.006728
+}

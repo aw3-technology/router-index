@@ -1,0 +1,12 @@
+{
+ "text": "The ball costs **$0.05** (5 cents).\n\nLet $b$ be the price of the ball. Then the bat costs $b + 1.00$, and together they cost $1.10:\n\n$$b + (b + 1.00) = 1.10$$\n\n$$2b + 1.00 = 1.10$$\n\n$$2b = 0.10$$\n\n$$b = 0.05$$\n\nCheck: the ball is $0.05 and the bat is $1.05, which sum to $1.10, and the bat is $1.00 more than the ball.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "math",
+  "difficulty": "easy",
+  "effort": "low"
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000166525,
+ "ms": 2769
+}

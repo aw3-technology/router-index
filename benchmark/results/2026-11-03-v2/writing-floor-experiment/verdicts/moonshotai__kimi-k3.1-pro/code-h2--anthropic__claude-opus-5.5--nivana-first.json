@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers correctly identify SQL injection, unsalted MD5, timing leaks, and input robustness, and both provide runnable parameterized scrypt-based replacements. B is stronger because it integrates legacy-MD5 verification and transparent upgrades directly into login, fails closed on unknown formats, and gives practical migration and transaction caveats. A leaves migration as a loosely specified extra step, making its fixed login reject all existing users until additional integration work is done. B’s lower default scrypt cost is weaker than A’s OWASP-oriented setting, but it is explicitly tunable and does not outweigh B’s completeness.",
+ "priceUsd": 0.01021
+}

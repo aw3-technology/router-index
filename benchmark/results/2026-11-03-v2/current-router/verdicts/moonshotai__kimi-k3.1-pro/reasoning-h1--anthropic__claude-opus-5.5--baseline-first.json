@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers give the same complete, correct strategy. All branches are valid: balanced first weighings isolate coins 9–12, while unbalanced cases use the swap-and-remove second weighing to reduce eight possibilities to groups of 3, 3, and 2, each resolved correctly by the third weighing. Both also identify whether the counterfeit is heavy or light. B’s tables are slightly more compact, but this does not create a meaningful quality difference.",
+ "priceUsd": 0.006156
+}

@@ -1,0 +1,12 @@
+{
+ "text": "**French:** « Notre café, une marque à célébrer. »\n\n**Why:** I swapped the “grounds/reason” pun for a **marque/marc** pun—*marque* (brand/mark) echoes *marc* (coffee grounds)—so the line still works as both a brand claim and a coffee-specific joke.",
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "route": {
+  "task": "translation",
+  "difficulty": "medium",
+  "effort": null
+ },
+ "priceUsd": 0.007,
+ "modelCostUsd": 0.004473292,
+ "ms": 26384
+}

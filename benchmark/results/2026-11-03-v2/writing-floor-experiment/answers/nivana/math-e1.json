@@ -1,0 +1,12 @@
+{
+ "text": "$7 \\times 8 + 12 \\div 4 = 56 + 3 = 59$\n\nMultiplication and division come before addition, so:\n- $7 \\times 8 = 56$\n- $12 \\div 4 = 3$\n- $56 + 3 = 59$",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "math",
+  "difficulty": "easy",
+  "effort": "low"
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.00005274,
+ "ms": 1824
+}

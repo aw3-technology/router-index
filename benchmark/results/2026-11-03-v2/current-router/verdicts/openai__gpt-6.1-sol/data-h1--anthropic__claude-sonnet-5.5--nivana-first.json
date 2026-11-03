@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both provide equivalent OpenAPI 3.1 path definitions with the required fields, array bounds, numeric constraints, and 201/422 response schemas. B adds examples and redundant currency-length constraints without materially improving compliance. Both wrap the YAML in Markdown fences rather than returning strictly YAML only.",
+ "priceUsd": 0.0040135
+}

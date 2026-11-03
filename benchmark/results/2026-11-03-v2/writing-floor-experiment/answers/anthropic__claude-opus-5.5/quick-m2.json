@@ -1,0 +1,6 @@
+{
+ "text": "Weather is the short-term state of the atmosphere at a specific time and place, like today's temperature, rain, or wind. Climate is the long-term pattern of weather in a region, typically averaged over 30 years or more.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.001784,
+ "ms": 2522
+}

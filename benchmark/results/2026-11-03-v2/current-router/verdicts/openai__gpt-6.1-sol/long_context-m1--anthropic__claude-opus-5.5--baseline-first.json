@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly report 12 units remaining and 2 separate SKU-42 restocks, and both show the correct running-stock calculation while excluding other SKUs. Their differences in formatting and commentary do not materially affect answer quality.",
+ "priceUsd": 0.003821
+}

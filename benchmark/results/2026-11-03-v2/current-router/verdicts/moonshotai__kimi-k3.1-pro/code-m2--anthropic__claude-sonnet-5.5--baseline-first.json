@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Answer A is a clean, strict implementation that correctly handles all examples, rejects empty and malformed input, enforces unit order and uniqueness, and avoids surprising acceptance of Unicode digits. Its non-string `TypeError` is idiomatic Python. Answer B also works, but silently accepting surrounding whitespace and uppercase units is unnecessary leniency for an otherwise strict parser, and its anchors plus `fullmatch` are redundant.",
+ "priceUsd": 0.008074
+}

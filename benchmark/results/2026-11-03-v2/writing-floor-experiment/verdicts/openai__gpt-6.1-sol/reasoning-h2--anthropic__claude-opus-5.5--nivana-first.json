@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A more carefully distinguishes correlation from causation and offers a well-specified randomized rollout, including cluster sizes that capture traffic diversion, contemporaneous untreated comparisons, and explicit treatment of bundled interventions. It also clearly addresses external validity, rare outcomes, and network effects. B is similarly strong and adds useful power planning, but makes a less qualified claim about 'safety in numbers' and suggests construction delays as natural experiments without emphasizing that their exogeneity must be justified. A is slightly more rigorous about causal assumptions.",
+ "priceUsd": 0.0095035
+}

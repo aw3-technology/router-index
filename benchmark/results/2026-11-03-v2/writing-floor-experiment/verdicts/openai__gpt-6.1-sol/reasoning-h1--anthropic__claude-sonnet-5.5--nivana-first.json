@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both give a correct, complete three-weighing decision tree covering all 24 possibilities and identifying both the coin and whether it is heavy or light. Their strategies are essentially identical. The only substantive procedural difference—using coin 9 versus coin 4 as a reference in two branches—is valid because both are known genuine in those branches. A adds explanatory context, but B’s deductions are equally sound and checkable.",
+ "priceUsd": 0.006466
+}

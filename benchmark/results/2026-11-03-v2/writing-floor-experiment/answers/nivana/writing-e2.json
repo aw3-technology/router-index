@@ -1,0 +1,12 @@
+{
+ "text": "Here are three name ideas for your urban gardening podcast:\n\n1. **Concrete Roots**: a nod to growing life in city spaces, with a grounded, earthy feel.\n2. **The Rooftop Harvest**: evokes the image of food grown high above the streets and invites stories of creative city growing.\n3. **Dirt Under the Dome**: playful and memorable, suggesting that gardening happens everywhere, even in the middle of the city.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "quick",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.00008325,
+ "ms": 3243
+}

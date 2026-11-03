@@ -1,0 +1,6 @@
+{
+ "text": "We have leap seconds because two kinds of time don't quite match. Atomic clocks keep extremely steady time, but the Earth's rotation is slightly irregular and, over the long term, gradually slowing, largely due to tidal friction from the Moon. Since 1972, timekeepers have occasionally inserted an extra second into Coordinated Universal Time (UTC) to keep it within 0.9 seconds of the time defined by Earth's rotation.\n\nIn 2022, the General Conference on Weights and Measures voted to stop adding them by 2035. Leap seconds are announced only months in advance and have caused real bugs and outages in computer systems, telecommunications, financial networks, and navigation, all of which rely on precise, continuous timekeeping. The Earth's rotation has also recently sped up slightly, raising the prospect of an unprecedented \"negative\" leap second that much software has never been tested to handle. The plan is to let atomic time and Earth time drift further apart, likely by up to a minute or more over a century, before any correction is made.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.012152,
+ "ms": 7980
+}

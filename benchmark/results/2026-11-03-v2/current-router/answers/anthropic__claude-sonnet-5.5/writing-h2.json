@@ -1,0 +1,6 @@
+{
+ "text": "**Subject: Our pricing is changing on August 1**\n\nHi [Name],\n\nWe're raising our prices on August 1. Here's what's changing and why.\n\n**The new pricing**\n- Starter: $19 → $24/month\n- Team: $49 → $59/month\n- Business: $99 → $119/month\n\n**Why we're doing it**\nWe haven't changed our prices since 2021. Since then, we've added [feature A, B, and C], expanded support hours, and absorbed rising costs for hosting and security. This increase lets us keep improving the product without cutting corners or adding ads and surprise limits.\n\n**What it means for you**\nYour current rate stays in place until August 1, so you have three months' notice. If you'd like to lock in today's price, switch to annual billing by July 31 and keep your current rate for a full year.\n\n**What's next**\nThis year we're focused on [faster reporting, a mobile app, and deeper integrations]. Much of that roadmap came from your feedback.\n\nIf the change creates a budget problem, just reply to this email. We'd rather talk it through than lose you over a number.\n\nThank you for being part of this.\n\n[Name]\n[Company]",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.009082,
+ "ms": 7659
+}

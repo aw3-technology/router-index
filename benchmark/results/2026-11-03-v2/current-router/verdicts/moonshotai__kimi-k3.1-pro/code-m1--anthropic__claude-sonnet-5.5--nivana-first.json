@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both provide the correct debounce effect and timer cleanup, but A is more robust: it safely supports function-valued values through the state-updater wrapper and handles nonpositive or nonfinite delays sensibly. B’s `setDebounced(value)` would incorrectly treat a function value as an updater. A’s extra explanation and tests are mostly accurate and do not detract from the implementation.",
+ "priceUsd": 0.0044
+}

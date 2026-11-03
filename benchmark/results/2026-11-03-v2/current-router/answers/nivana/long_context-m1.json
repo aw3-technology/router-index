@@ -1,0 +1,12 @@
+{
+ "text": "**Final stock of SKU-42: 12 units**\n\n**Restocks: 2** (one of 12 units and one of 6 units)\n\nSKU-42 starts at 10 units, and the log records these changes in order:\n\n| Step | Event | Change | Running stock |\n|---|---|---|---|\n| Start | Starting stock | — | 10 |\n| 1 | Sold 4 | −4 | 6 |\n| 2 | Restocked 12 | +12 | 18 |\n| 3 | Sold 9 | −9 | 9 |\n| 4 | Restocked 6 | +6 | 15 |\n| 5 | Sold 3 | −3 | **12** |\n\nThe entry numbers restart within each block, so I've treated the SKU-42 events in the order they appear in the log.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "math",
+  "difficulty": "easy",
+  "effort": "low"
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000395115,
+ "ms": 4078
+}

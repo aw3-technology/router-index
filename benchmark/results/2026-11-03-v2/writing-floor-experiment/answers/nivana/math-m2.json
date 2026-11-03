@@ -1,0 +1,12 @@
+{
+ "text": "Nivana's answer: the probability is $\\frac{5}{12}$.\n\n**Step 1: Count the outcomes.** Two fair six-sided dice give $6 \\times 6 = 36$ equally likely outcomes.\n\n**Step 2: Identify the possible sums.** The sum ranges from 2 to 12. The prime numbers in this range are 2, 3, 5, 7 and 11.\n\n**Step 3: Count the ways to roll each prime sum.**\n\n| Sum | Ways to roll it | Count |\n|-----|-----------------|-------|\n| 2 | (1,1) | 1 |\n| 3 | (1,2), (2,1) | 2 |\n| 5 | (1,4), (2,3), (3,2), (4,1) | 4 |\n| 7 | (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) | 6 |\n| 11 | (5,6), (6,5) | 2 |\n\n**Step 4: Compute the probability.**\n\n$$P(\\text{prime sum}) = \\frac{1 + 2 + 4 + 6 + 2}{36} = \\frac{15}{36} = \\frac{5}{12} \\approx 0.4167$$",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "math",
+  "difficulty": "easy",
+  "effort": "low"
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.00025724,
+ "ms": 3636
+}

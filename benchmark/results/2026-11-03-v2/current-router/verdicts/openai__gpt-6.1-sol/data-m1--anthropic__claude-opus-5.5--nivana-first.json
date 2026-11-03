@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers provide the same valid JSON array with every date correctly converted to ISO 8601 in order, including May 1 as the first Friday of May 2026. Whitespace differences are immaterial.",
+ "priceUsd": 0.001128
+}

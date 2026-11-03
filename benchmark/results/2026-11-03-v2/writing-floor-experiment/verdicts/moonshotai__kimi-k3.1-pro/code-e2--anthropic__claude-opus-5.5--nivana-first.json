@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers provide correct, runnable solutions. B is slightly better because its primary solution directly matches the request, while its optional variations correctly handle all whitespace, punctuation, memory efficiency, and Unicode case folding. A is also solid but offers less practical guidance.",
+ "priceUsd": 0.005362
+}

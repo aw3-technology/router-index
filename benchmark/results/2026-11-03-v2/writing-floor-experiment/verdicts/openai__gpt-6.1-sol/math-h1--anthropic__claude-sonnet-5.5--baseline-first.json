@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers give a correct, verifiable contradiction proof using N = 4p₁⋯pₙ − 1. B is better presented: it proceeds directly with the valid construction and clearly explains why N has a prime factor congruent to 3 modulo 4 that cannot be on the assumed complete list. A unnecessarily includes an abandoned construction and a remark defending that false start, which distract from an otherwise sound proof.",
+ "priceUsd": 0.005001
+}

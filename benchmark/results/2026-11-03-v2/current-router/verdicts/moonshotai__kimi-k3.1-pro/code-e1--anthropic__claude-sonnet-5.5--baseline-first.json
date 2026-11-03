@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Answer A directly solves the request with the idiomatic `wc -l *.txt`, then adds useful, correct alternatives and concise edge-case notes. Answer B is also largely correct but unnecessarily elaborate for the question, and its recursive `find` examples omit `-type f`.",
+ "priceUsd": 0.0053
+}

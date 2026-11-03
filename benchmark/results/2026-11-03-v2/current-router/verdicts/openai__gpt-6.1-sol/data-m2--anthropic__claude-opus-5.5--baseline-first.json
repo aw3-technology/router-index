@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers contain the correct objects and numeric values, but both violate the JSON-only requirement by wrapping the array in Markdown code fences. Their only difference is insignificant whitespace.",
+ "priceUsd": 0.001188
+}

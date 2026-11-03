@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers give the same correct, exhaustive three-weighing strategy and handle all 24 possibilities. B is slightly better because its tables make every branch easier to follow, it consistently uses a known-genuine coin in the final two-suspect checks, and it explains why the second weighing splits the remaining possibilities into resolvable groups of 3, 3, and 2.",
+ "priceUsd": 0.005816
+}

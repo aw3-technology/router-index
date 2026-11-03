@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers accurately find all three mentions of the timeout values, quote them verbatim, and correctly explain why the current version uses 60 seconds (because the FAQ is outdated since v3.30). Answer B is slightly more precise in stating there are 'two distinct values mentioned in three places' rather than 'three timeout values', while Answer A presents the quotes in a very clean table format. Overall, they are equally excellent.",
+ "priceUsd": 0.004188
+}

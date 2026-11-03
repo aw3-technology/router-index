@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both implementations correctly parse the examples and reject malformed, out-of-order, and repeated units. B is slightly better because it is self-contained and runs as written, consistently raises ValueError for invalid inputs, and reasonably tolerates surrounding whitespace. A is also strong, but its pytest-based tests are less immediately runnable and its TypeError for non-string input is an unnecessary distinction given the request.",
+ "priceUsd": 0.00515
+}

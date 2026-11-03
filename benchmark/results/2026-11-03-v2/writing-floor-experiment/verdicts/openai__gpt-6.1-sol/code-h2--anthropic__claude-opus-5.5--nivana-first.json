@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B provides a more complete drop-in fix: it parameterizes SQL, uses salted scrypt and constant-time comparison, and integrates verification and upgrading of existing MD5 hashes. A's main replacement rejects every existing MD5 password until its separate migration helper is manually integrated. B also handles null hashes and explains the transaction side effect of upgrading. However, B should increase its scrypt work factor, validate stored KDF parameters and catch KDF errors, and address timing differences for legacy accounts.",
+ "priceUsd": 0.0089485
+}

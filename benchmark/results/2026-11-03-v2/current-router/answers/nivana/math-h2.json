@@ -1,0 +1,12 @@
+{
+ "text": "Use stars-and-bars with inclusion–exclusion.\n\nWithout upper bounds, the number of nonnegative integer solutions to\n\n\\[\nx_1+x_2+x_3+x_4=20\n\\]\n\nis\n\n\\[\n\\binom{20+4-1}{4-1}=\\binom{23}{3}=1771.\n\\]\n\nNow exclude solutions where some \\(x_i\\ge 8\\). Let \\(A_i\\) be the set where \\(x_i\\ge 8\\). Put \\(y_i=x_i-8\\ge 0\\). If \\(k\\) variables are forced to be at least \\(8\\), the remaining sum is \\(20-8k\\), giving\n\n\\[\n\\binom{20-8k+3}{3}\n\\]\n\nsolutions, provided \\(20-8k\\ge 0\\).\n\nBy inclusion–exclusion:\n\n\\[\n\\begin{aligned}\nN&=\\binom{23}{3}\n-\\binom41\\binom{15}{3}\n+\\binom42\\binom{7}{3}\\\\\n&=1771-4\\cdot455+6\\cdot35\\\\\n&=1771-1820+210\\\\\n&=\\boxed{161}.\n\\end{aligned}\n\\]\n\nThe \\(k=3\\) term vanishes since \\(20-24<0\\).\n\nQuick check: setting \\(y_i=7-x_i\\) transforms the problem into \\(y_1+y_2+y_3+y_4=8\\) with \\(0\\le y_i\\le 7\\). There are \\(\\binom{11}{3}=165\\) unrestricted solutions, and exactly \\(4\\) violate a bound (one \\(y_i=8\\), the rest \\(0\\)), giving \\(165-4=161\\).",
+ "model": "mistral/mistral-large-4",
+ "route": {
+  "task": "math",
+  "difficulty": "medium",
+  "effort": null
+ },
+ "priceUsd": 0.005,
+ "modelCostUsd": 0.0027013,
+ "ms": 12481
+}

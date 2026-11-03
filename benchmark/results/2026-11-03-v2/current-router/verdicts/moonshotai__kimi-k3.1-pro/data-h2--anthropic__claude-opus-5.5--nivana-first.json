@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers have the same valid fields and values, but B better normalises the street addresses by expanding 'St' to 'Street' and 'Pkwy' to 'Parkway'. Both improperly include Markdown fences despite the JSON-only instruction.",
+ "priceUsd": 0.003058
+}

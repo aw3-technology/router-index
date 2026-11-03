@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers were truncated before the end of the implementation and thus neither actually included the requested test suite. However, Answer A is more complete (only missing the last few lines of the class) and has a cleaner, better-designed API (combining `now` and `sleep` into the `Clock` interface, supporting `AbortSignal` with token refunds, and avoiding weird logic like Answer B's `Math.max(b.tokens - cost, b.tokens > cost ? 0 : 0) || b.tokens - cost`).",
+ "priceUsd": 0.011164
+}

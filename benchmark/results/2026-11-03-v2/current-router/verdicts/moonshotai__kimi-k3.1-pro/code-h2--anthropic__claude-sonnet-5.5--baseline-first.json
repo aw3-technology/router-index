@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers correctly fix SQL injection, replace MD5 with salted scrypt, use constant-time comparison, and mitigate username-enumeration timing. B is slightly stronger overall: it uses higher scrypt work parameters, gives a more precise authentication-bypass example, cleanly types the database connection, and explains the changes and migration path especially clearly. Its code is complete and runnable as written, with no meaningful advantage in A to offset these improvements.",
+ "priceUsd": 0.01399
+}

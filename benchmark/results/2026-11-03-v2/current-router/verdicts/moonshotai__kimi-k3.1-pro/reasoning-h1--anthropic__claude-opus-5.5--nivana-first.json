@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers give the same complete, correct adaptive strategy and cover every outcome. B is slightly better because its final explanation precisely verifies the second weighing: unchanged tilt, reversed tilt, and balance correspond respectively to coins that stayed, swapped pans, or were removed. This makes the strategy easier to check, while A’s explanation is less explicit.",
+ "priceUsd": 0.006516
+}

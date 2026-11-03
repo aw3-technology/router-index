@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B fixes SQL injection and password storage while also providing a working migration for existing MD5 accounts; A's replacement rejects every existing MD5 hash and only describes migration separately. B also explicitly flags its transaction side effect. It still needs tighter validation and exception handling for stored scrypt parameters, and legacy-login timing remains distinguishable, but its end-to-end fix is more usable for the existing application.",
+ "priceUsd": 0.008286
+}

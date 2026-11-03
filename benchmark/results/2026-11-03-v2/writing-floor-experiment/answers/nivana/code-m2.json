@@ -1,0 +1,12 @@
+{
+ "text": "```python\nimport re\n\n# Each unit is optional, but when present must appear in h, m, s order.\n_DURATION_RE = re.compile(r\"(?:([0-9]+)h)?(?:([0-9]+)m)?(?:([0-9]+)s)?\")\n\n\ndef parse_duration(text: str) -> int:\n    \"\"\"Convert a duration string such as '1h30m', '45s', '2h' or '90m15s' to seconds.\n\n    Raises ValueError if the input is malformed.\n    \"\"\"\n    if not isinstance(text, str):\n        raise ValueError(f\"Duration must be a string, got {type(text).__name__}\")\n\n    s = text.strip()\n    match = _DURATION_RE.fullmatch(s)\n\n    # Reject empty strings and strings with no units (e.g. '' or '  ').\n    if not s or match is None or not any(match.groups()):\n        raise ValueError(f\"Invalid duration: {text!r}\")\n\n    hours, minutes, seconds = (int(g) if g is not None else 0 for g in match.groups())\n    return hours * 3600 + minutes * 60 + seconds\n\n\nif __name__ == \"__main__\":\n    # Valid examples\n    assert parse_duration(\"1h30m\") == 5400\n    assert parse_duration(\"45s\") == 45\n    assert parse_duration(\"2h\") == 7200\n    assert parse_duration(\"90m15s\") == 5415\n    assert parse_duration(\"0s\") == 0\n\n    # Malformed examples\n    for bad in [\"\", \"1h30\", \"30m1h\", \"1h1h\", \"abc\", \"-5s\", \"1.5h\", \"10x\", \"m\"]:\n        try:\n            parse_duration(bad)\n        except ValueError as e:\n            print(f\"OK, rejected {bad!r}: {e}\")\n        else:\n            raise AssertionError(f\"{bad!r} should have been rejected\")\n```\n\n**How it works**\n\n- A single regular expression matches optional `Nh`, `Nm`, `Ns` groups in that order. `fullmatch` ensures the entire string matches, so stray characters are rejected.\n- Only ASCII digits (`[0-9]`) are accepted, so Unicode digits and signs like `-5s` are rejected.\n- Empty strings and strings with no units are rejected.\n- Repeated or out-of-order units such as `1h1h` or `30m1h` don't match and raise `ValueError`.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "code",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.002,
+ "modelCostUsd": 0.00072124,
+ "ms": 7391
+}

@@ -1,0 +1,12 @@
+{
+ "text": "| Fruit | Colour |\n|--------|--------|\n| Banana | Yellow |\n| Lime | Green |\n| Plum | Purple |",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "data",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.0001059,
+ "ms": 2100
+}

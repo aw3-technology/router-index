@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B directly answers the common cases with clear, idiomatic commands and useful caveats about missing files, subfolders, filenames, trailing newlines, and argument-list limits. A is also largely correct and thorough, but it is more elaborate than necessary and includes secondary pipelines that add complexity and edge cases without improving the core answer.",
+ "priceUsd": 0.0055384
+}

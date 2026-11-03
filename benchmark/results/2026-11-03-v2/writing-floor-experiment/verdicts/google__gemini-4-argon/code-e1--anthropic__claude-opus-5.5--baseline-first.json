@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Answer A is much more accurate regarding edge cases. Answer B gives two bad pieces of advice: first, it suggests using `shopt -s nullglob` before `wc -l *.txt`, which will cause `wc` to hang waiting for stdin if no files match (which Answer A explicitly warns about). Second, Answer B implies `find -print0 | xargs -0` is needed over `find -exec {} +` for spaces and newlines in filenames, when `-exec {} +` already handles those safely.",
+ "priceUsd": 0.003458
+}

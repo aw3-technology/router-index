@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers provide the exact same correct derivation using stars-and-bars with inclusion-exclusion, and both even include the exact same clever verification method using complementary variables. Both are clearly written and well-formatted.",
+ "priceUsd": 0.003374
+}

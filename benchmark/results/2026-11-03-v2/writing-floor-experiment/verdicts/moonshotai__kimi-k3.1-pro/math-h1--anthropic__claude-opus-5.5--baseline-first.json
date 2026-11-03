@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers give the same complete, correct contradiction proof with a clearly verified construction. B is slightly better because its accurate remarks explain why the construction uses −1, why the argument does not transfer directly to primes of the form 4k+1, and how the result relates to Dirichlet’s theorem, adding useful context without obscuring the proof.",
+ "priceUsd": 0.005522
+}

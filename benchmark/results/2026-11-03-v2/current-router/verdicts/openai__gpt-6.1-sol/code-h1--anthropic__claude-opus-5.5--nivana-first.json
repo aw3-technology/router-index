@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers are truncated and neither includes the requested tests or a complete runnable implementation. B is nevertheless better: it provides more of the implementation, defaults to a hard key-count cap, bounds reservation debt, and explicitly documents that forced LRU eviction fails open. A defaults to unlimited keys and leaves the rate-limit implications of forced eviction unexplained.",
+ "priceUsd": 0.0112335
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are identical, valid JSON arrays with the exact correct ISO 8601 dates and no extra prose.",
+ "priceUsd": 0.00151
+}

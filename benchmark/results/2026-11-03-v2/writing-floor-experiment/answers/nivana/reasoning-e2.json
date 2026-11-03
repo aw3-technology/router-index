@@ -1,0 +1,12 @@
+{
+ "text": "Yes. All bloops are lazzies.\n\nThis is a valid syllogism:\n\n1. All bloops are razzies.\n2. All razzies are lazzies.\n3. Therefore, all bloops are lazzies.\n\nAny bloop belongs to the razzy group, and every razzy belongs to the lazzy group, so every bloop must also belong to the lazzy group.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "reasoning",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000158775,
+ "ms": 2796
+}

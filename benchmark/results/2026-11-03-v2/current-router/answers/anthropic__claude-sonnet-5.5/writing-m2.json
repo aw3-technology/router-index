@@ -1,0 +1,6 @@
+{
+ "text": "**Subject:** Overdue Invoice #[Number] – Payment Required\n\nDear [Client Name],\n\nI hope you're well. Our records show that invoice #[Number] for [$Amount], due on [Date], is now 30 days overdue.\n\nPlease arrange payment by [specific date, e.g., within 5 business days]. If payment has already been sent, kindly share the confirmation details so we can reconcile our records. If there is an issue with the invoice, let me know right away so we can resolve it.\n\nPlease note that continued non-payment may require us to pause services and apply late fees as outlined in our agreement.\n\nI appreciate your prompt attention and value our working relationship.\n\nKind regards,\n[Your Name]\n[Your Title]\n[Contact Information]",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.002522,
+ "ms": 2436
+}

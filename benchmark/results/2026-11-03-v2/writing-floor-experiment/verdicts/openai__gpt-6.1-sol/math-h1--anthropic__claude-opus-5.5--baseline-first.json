@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both give the same correct, complete Euclid-style proof: construct N = 4p₁⋯pₙ − 1, show that N must have a prime divisor congruent to 3 modulo 4, and show that this divisor cannot be on the assumed exhaustive list. Both clearly justify the key factorization step and the contradiction. B adds context, but neither has a meaningful advantage in proving the requested result.",
+ "priceUsd": 0.006106
+}

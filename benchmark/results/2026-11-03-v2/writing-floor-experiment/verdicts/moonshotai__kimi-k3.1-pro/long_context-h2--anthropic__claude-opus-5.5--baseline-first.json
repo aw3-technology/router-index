@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers give the correct top-three reasons and counts and identify both power-user-only issues. A is slightly clearer and more complete: it explicitly distinguishes mentions from unique users and accurately explains the two interpretations of the repeated IDs. B is also strong, but calling no API 'the remaining reason' immediately after the top three is mildly confusing because CSV export problems are another remaining reason.",
+ "priceUsd": 0.006548
+}

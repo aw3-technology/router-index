@@ -1,0 +1,12 @@
+{
+ "text": "We want the number of non‑negative integer solutions of  \n\n\\[\nx_1+x_2+x_3+x_4=20,\\qquad 0\\le x_i\\le 7\\;(i=1,2,3,4).\n\\]\n\nA standard way to handle upper bounds is the **Inclusion–Exclusion Principle**.\n\n---\n\n### Step 1: Unrestricted solutions\nIgnoring the upper bounds, the number of non‑negative integer solutions of  \n\n\\[\nx_1+x_2+x_3+x_4=20\n\\]\n\nis given by stars and bars:\n\n\\[\n\\binom{20+4-1}{4-1}=\\binom{23}{3}=1771.\n\\]\n\n---\n\n### Step 2: Subtract solutions where some \\(x_i\\ge 8\\)\nLet \\(A_i\\) be the set of solutions with \\(x_i\\ge 8\\).  \nSet \\(x_i'=x_i-8\\ (\\ge 0)\\). Then the equation becomes\n\n\\[\nx_i' + \\sum_{j\\ne i}x_j = 20-8 = 12,\n\\]\n\nwhich has  \n\n\\[\n\\binom{12+4-1}{4-1}=\\binom{15}{3}=455\n\\]\n\nsolutions. There are \\(\\binom{4}{1}=4\\) choices for which variable exceeds 7, so we subtract\n\n\\[\n4\\cdot 455 = 1820.\n\\]\n\n---\n\n### Step 3: Add back solutions where two variables are \\(\\ge 8\\)\nIf \\(x_i\\ge 8\\) and \\(x_j\\ge 8\\) (with \\(i\\ne j\\)), write \\(x_i'=x_i-8,\\; x_j'=x_j-8\\).  \nThe equation becomes\n\n\\[\nx_i'+x_j'+\\sum_{k\\ne i,j}x_k = 20-16 = 4,\n\\]\n\nwhich has  \n\n\\[\n\\binom{4+4-1}{4-1}=\\binom{7}{3}=35\n\\]\n\nsolutions. There are \\(\\binom{4}{2}=6\\) pairs \\(\\{i,j\\}\\), so we add back\n\n\\[\n6\\cdot 35 = 210.\n\\]\n\n---\n\n### Step 4: Higher overlaps are impossible\nIf three or more variables were \\(\\ge 8\\), the sum would be at least \\(3\\cdot 8=24>20\\), so those terms are \\(0\\).\n\n---\n\n### Final count\n\\[\nN=\\binom{23}{3}-\\binom{4}{1}\\binom{15}{3}+\\binom{4}{2}\\binom{7}{3}\n   =1771-1820+210\n   =161.\n\\]\n\n---\n\n### Quick check via symmetry\nLet \\(y_i = 7-x_i\\). Then \\(0\\le y_i\\le 7\\) and\n\n\\[\n\\sum_{i=1}^4 y_i = 4\\cdot 7 - 20 = 8.\n\\]\n\nThe number of non‑negative solutions to \\(y_1+y_2+y_3+y_4=8\\) is \\(\\binom{8+3}{3}=\\binom{11}{3}=165\\).  \nThe only way the bound \\(y_i\\le 7\\) is violated is if one \\(y_i=8\\) (and the rest are \\(0\\)); there are \\(4\\) such cases. Hence\n\n\\[\n165-4 = 161,\n\\]\n\nconfirming the result.",
+ "model": "mistral/mistral-large-4",
+ "route": {
+  "task": "math",
+  "difficulty": "medium",
+  "effort": null
+ },
+ "priceUsd": 0.012,
+ "modelCostUsd": 0.0079807,
+ "ms": 65593
+}

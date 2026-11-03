@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B correctly identifies both timeout values, quotes all three occurrences, and explains why the latest listed version, v4.0.10, uses 60 seconds. A also covers the essentials, but incorrectly says each value appears in more than one place and adds an unsupported blanket claim that 30 seconds applies to any 3.x release, although the notes do not establish the default before v3.21.",
+ "priceUsd": 0.004766
+}

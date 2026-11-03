@@ -1,0 +1,6 @@
+{
+ "text": "**30天内免费退货。商品须未使用且保持原包装。**\n\nA few notes on usage:\n\n- If you want a slightly more casual, customer-friendly tone (common on consumer sites), you could use: **30天内支持免费退货。商品需未使用,且包装完好。**\n- \"支持免费退货\" is a very common phrasing on Chinese e-commerce platforms such as Taobao and JD.com.\n- If you need to stress \"original packaging\" more strictly (e.g., including the outer box and tags), you could use \"原包装\" → \"原始包装(含吊牌及配件)\", but only if that matches your actual policy.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.002158,
+ "ms": 2725
+}

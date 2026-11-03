@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers are very strong and cover the right strategic concepts (runway, PMF, reversibility, unit economics). Answer B is better because it grounds the decision in the actual math of the prompt: a 5-person team with $400k in the bank likely only has 6-7 months of runway if they don't have revenue, meaning hiring an engineer cuts their runway down to ~5 months before the person even ramps up. B's use of tables also makes the 'what you'd need to know -> how it changes the decision' prompt constraint much easier to read and check.",
+ "priceUsd": 0.00817
+}

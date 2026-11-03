@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Answer A is better organized and more accurate. Answer B has a few minor flaws: it omits `-type f` in its `find` commands (which would cause errors if a directory ends in `.txt`), it implies `find -exec` doesn't handle spaces/newlines as well as `xargs -0` (it does), and its `awk` one-liner prints `: 0` rather than the filename on empty files.",
+ "priceUsd": 0.00347
+}

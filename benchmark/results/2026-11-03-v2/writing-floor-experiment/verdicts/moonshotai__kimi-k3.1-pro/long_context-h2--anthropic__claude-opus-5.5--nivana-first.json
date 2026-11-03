@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers give the correct top-three reasons and counts (12, 9, 8) and correctly identify the two power-user-only reasons (7 and 4). B is stronger because it more clearly explains the complete casual/power-user split and gives a fuller, more useful caveat about repeated user IDs, including the correct alternative interpretation of 19 unique users and mentions versus people. A is accurate overall but calls no API the singular 'remaining reason' despite CSV exports also remaining, and its data-quality caveat is less precise.",
+ "priceUsd": 0.005808
+}

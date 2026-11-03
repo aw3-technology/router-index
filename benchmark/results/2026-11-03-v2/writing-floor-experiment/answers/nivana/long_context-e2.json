@@ -1,0 +1,12 @@
+{
+ "text": "Images were broken for a long stretch of investigation until the root cause was found to be an expired TLS certificate on the image CDN, which was renewed, and monitoring has since shown everything green.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "data",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000110115,
+ "ms": 2347
+}

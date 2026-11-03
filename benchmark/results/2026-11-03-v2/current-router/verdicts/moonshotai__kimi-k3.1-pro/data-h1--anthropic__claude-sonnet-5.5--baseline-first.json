@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers provide valid paths-only OpenAPI 3.1 YAML with the required request fields, array and numeric constraints, currency pattern, and correctly structured 201 and 422 responses. Answer A adds useful examples and redundant currency length constraints, but these do not create a meaningful quality advantage.",
+ "priceUsd": 0.0036152
+}

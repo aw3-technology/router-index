@@ -1,0 +1,12 @@
+{
+ "text": "Here are a few ways to do it in Bash.\n\n**Per-file counts plus a total:**\n\n```bash\nwc -l *.txt\n```\n\nThis prints the line count for each `.txt` file in the current directory, followed by a `total` line.\n\n**Only the total:**\n\n```bash\ncat *.txt | wc -l\n```\n\n**Recursively, through subfolders too (using `find`):**\n\n```bash\nfind . -type f -name \"*.txt\" -exec wc -l {} +\n```\n\n**Recursive, with a grand total at the end:**\n\n```bash\nfind . -type f -name \"*.txt\" -exec cat {} + | wc -l\n```\n\n**Safe with unusual filenames (spaces, newlines):**\n\n```bash\nfind . -type f -name \"*.txt\" -print0 | xargs -0 wc -l\n```\n\n**Notes:**\n- If no files match `*.txt`, the shell passes the literal pattern to `wc`, which then errors. You can avoid this with `shopt -s nullglob` before the command.\n- `wc -l` counts newline characters, so a final line without a trailing newline isn't counted. For most text files this is fine.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "code",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000261525,
+ "ms": 3486
+}

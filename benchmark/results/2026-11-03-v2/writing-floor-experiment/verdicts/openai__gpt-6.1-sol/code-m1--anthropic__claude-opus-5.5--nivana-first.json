@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both hooks correctly restart the timer when the value or delay changes and clear it on cleanup. B is more complete and runs as written, including its usage example; A’s example calls useEffect without importing it. B also provides useful TypeScript typing and tests for debouncing and unmount cleanup.",
+ "priceUsd": 0.0053885
+}

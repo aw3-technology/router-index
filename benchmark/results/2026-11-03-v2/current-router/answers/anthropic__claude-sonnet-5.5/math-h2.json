@@ -1,0 +1,6 @@
+{
+ "text": "**Answer: 161**\n\n**Method: inclusion–exclusion**\n\n1. **Count without the upper bound.** The number of nonnegative integer solutions of x₁+x₂+x₃+x₄ = 20 is C(20+3, 3) = C(23,3) = 1771.\n\n2. **Subtract solutions where some xᵢ ≥ 8.** Fix i and set xᵢ = 8 + yᵢ. Then the sum of the variables is 12, which gives C(12+3, 3) = C(15,3) = 455 solutions. There are 4 choices of i, so we subtract 4·455 = 1820.\n\n3. **Add back solutions where two variables are ≥ 8.** Setting both equal to 8 + y leaves a sum of 20 − 16 = 4, which gives C(4+3, 3) = C(7,3) = 35 solutions. There are C(4,2) = 6 pairs, so we add 6·35 = 210.\n\n4. **Three or more variables ≥ 8.** This would need a sum of at least 24 > 20, so there are none.\n\nTotal = 1771 − 1820 + 210 = **161**.\n\n**Check by symmetry.** Substitute yᵢ = 7 − xᵢ, so each yᵢ is in 0..7 and y₁+y₂+y₃+y₄ = 28 − 20 = 8.\n- Without the upper bound there are C(11,3) = 165 solutions.\n- Solutions with some yᵢ ≥ 8 force that yᵢ = 8 and the others 0, giving 4 solutions.\n- So 165 − 4 = 161, which agrees.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.007428,
+ "ms": 5343
+}

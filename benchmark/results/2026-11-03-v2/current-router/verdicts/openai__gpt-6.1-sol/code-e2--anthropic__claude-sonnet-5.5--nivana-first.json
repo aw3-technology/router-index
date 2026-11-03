@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B directly solves the requested case-and-space-insensitive check with runnable, idiomatic code and clear examples. A’s main solution is sound, but its alternatives introduce Unicode inconsistencies: the two-pointer version does not match the casefold-based version, and the alphanumeric version compares casefolded chunks rather than the fully normalized string. B’s alternatives are more consistent with its main implementation.",
+ "priceUsd": 0.0035985
+}

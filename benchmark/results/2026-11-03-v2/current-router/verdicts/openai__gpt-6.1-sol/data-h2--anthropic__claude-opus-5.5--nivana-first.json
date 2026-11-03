@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers violate the JSON-only requirement by wrapping the array in Markdown code fences. Their schemas and address data are otherwise equivalent; expanding street abbreviations does not resolve the shared format violation.",
+ "priceUsd": 0.0018
+}

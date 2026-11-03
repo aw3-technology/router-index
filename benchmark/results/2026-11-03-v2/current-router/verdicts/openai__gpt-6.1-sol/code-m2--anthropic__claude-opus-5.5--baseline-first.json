@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A provides a clearly defined strict grammar, uses fullmatch to reject extraneous characters, and includes comprehensive edge-case tests. Its ASCII digit matching and rejection of whitespace and uppercase avoid silently broadening the accepted format. B works for the examples, but its normalization is less consistent with its description as a strict parser.",
+ "priceUsd": 0.005136
+}

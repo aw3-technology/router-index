@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers correctly extract all three mentions of the timeout, quote them accurately, and correctly deduce that the current version uses 60 seconds because the FAQ is outdated. Answer A is slightly better because Answer B makes a false statement in its opening sentence (\"There are two distinct values, each stated in more than one place\", when 60 seconds is only stated in one place).",
+ "priceUsd": 0.004648
+}

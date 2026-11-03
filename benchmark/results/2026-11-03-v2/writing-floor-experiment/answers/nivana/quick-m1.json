@@ -1,0 +1,12 @@
+{
+ "text": "**Staling is starch retrogradation** — the gelatinized starch in baked bread slowly re-crystallizes, squeezing out water and turning the crumb firm and dry.\n\nThat recrystallization happens **fastest right around 0–4°C**, which is exactly fridge temperature. So the fridge speeds up the very reaction that makes bread stale — often faster than leaving it at room temperature (where it's above that peak zone). The dry fridge air also pulls moisture out of the crust.\n\n**Bottom line:** room temperature in a paper bag or bread box for short-term, freezer (−18°C) for long-term, fridge never.",
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "route": {
+  "task": "quick",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000323692,
+ "ms": 3185
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers give the same complete, valid adaptive strategy and correctly resolve every branch, including identifying whether the counterfeit is heavy or light. Answer A adds a useful explanation of why the second weighing splits the possibilities, while Answer B is slightly more concise; neither has a substantive correctness or usability advantage.",
+ "priceUsd": 0.0050528
+}

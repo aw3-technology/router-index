@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B correctly identifies both values, quotes all three occurrences, and explains why the latest listed version, v4.0.10, uses 60 seconds. A also reaches the right conclusion, but incorrectly says each value appears more than once and overgeneralizes that any 3.x installation uses 30 seconds, which the notes do not establish for versions before v3.21.",
+ "priceUsd": 0.0052985
+}

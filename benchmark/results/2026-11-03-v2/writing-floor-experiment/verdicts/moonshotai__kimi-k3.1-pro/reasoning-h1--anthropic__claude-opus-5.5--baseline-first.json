@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers give the same correct, complete three-weighing strategy. They cover every outcome of each weighing, correctly narrow the suspects, and always identify both the counterfeit coin and whether it is heavy or light. The counting argument and explanation of the second weighing are also sound; the presentation differences do not affect quality.",
+ "priceUsd": 0.00657
+}

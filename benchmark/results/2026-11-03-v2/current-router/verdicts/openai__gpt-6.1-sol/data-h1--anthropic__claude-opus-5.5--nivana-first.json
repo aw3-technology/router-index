@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B more faithfully models description as any string; A adds an unrequested minLength: 1 restriction. Otherwise the schemas are essentially equivalent. Both include Markdown fences despite the request for YAML only.",
+ "priceUsd": 0.002922
+}

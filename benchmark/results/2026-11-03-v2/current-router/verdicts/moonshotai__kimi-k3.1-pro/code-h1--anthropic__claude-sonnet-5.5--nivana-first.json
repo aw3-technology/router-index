@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers fail to include the requested tests, but A is also truncated mid-method and therefore cannot compile or run. B provides a complete, idiomatic implementation with continuous refill, synchronous atomic updates, lossless idle eviction, an optional LRU memory cap, and sensible handling of costs exceeding capacity. Its missing tests are a significant omission, but it is still substantially more useful and complete than A.",
+ "priceUsd": 0.0064096
+}

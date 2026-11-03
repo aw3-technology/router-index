@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers provide the exact same correct, idiomatic implementation of the hook. However, Answer B has a bug in its usage example (it uses `useEffect` without importing it). Answer A's usage example runs as written, and Answer A also includes valuable notes on edge cases (like reference equality with objects) and unit tests.",
+ "priceUsd": 0.005204
+}

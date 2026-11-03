@@ -16,6 +16,7 @@
  * Usage (Node 22+):
  *   npm install
  *   NIVANA_API_KEY=nvn_sk_… AI_GATEWAY_API_KEY=… node run.mjs                 # the public API, as any caller sees it
+ *   node run.mjs --prompts prompts-v2.json                                    # the second held-out set
  *   node run.mjs --limit 4 --dry                                              # plan only
  *   node run.mjs --baseline anthropic/claude-opus-5.5 --judge openai/gpt-6.1-sol --judge google/gemini-4-argon
  *   node --env-file=…/.env node run.mjs --local ../../nivana-ai               # Nivana's own run: the production router in-process
@@ -50,7 +51,8 @@ const CREDIT_USD = 0.001
 
 /* ─── prompts ─── */
 
-const suite = JSON.parse(fs.readFileSync(path.join(here, 'prompts.json'), 'utf8'))
+const PROMPTS = path.resolve(here, one('--prompts', 'prompts.json'))
+const suite = JSON.parse(fs.readFileSync(PROMPTS, 'utf8'))
 const expand = (s) => s.replace(/\{\{repeat (\d+)\}\}([\s\S]*?)\{\{\/repeat\}\}/g, (_, n, body) => Array.from({ length: Number(n) }, (_, i) => body.replaceAll('{i}', String(i + 1))).join(''))
 const prompts = suite.prompts.slice(0, LIMIT).map((p) => ({ ...p, text: expand(p.prompt) }))
 
@@ -184,6 +186,7 @@ async function versus(p, mine, theirs, base) {
 
 const calls = prompts.length * (1 + BASELINES.length + BASELINES.length * JUDGES.length * 2)
 console.log(`${prompts.length} prompts × (Nivana + ${BASELINES.length} baselines + ${BASELINES.length} × ${JUDGES.length} judges × 2 orders) = ${calls} calls, minus cached. Budget $${BUDGET}.`)
+console.log(`Prompts: ${path.relative(here, PROMPTS)}`)
 console.log(`Nivana: ${LOCAL ? `in-process router from ${path.resolve(LOCAL)}` : `${NIVANA_URL}/v1/chat`}\nBaselines: ${BASELINES.join(', ')}\nJudges: ${JUDGES.join(', ')}\nOutput: ${OUT}`)
 if (has('--dry')) process.exit(0)
 
@@ -281,6 +284,7 @@ const vs = Object.fromEntries(
 const routedTo = Object.fromEntries(Object.entries(groupBy(ok, (r) => r.routed_to)).map(([m, rs]) => [m, rs.length]).sort((a, b) => b[1] - a[1]))
 const summary = {
   run_at: new Date().toISOString(),
+  prompt_set: path.relative(here, PROMPTS),
   mode: LOCAL ? 'local (production router code, in-process)' : `api (${NIVANA_URL}/v1/chat)`,
   baselines: BASELINES,
   judges: JUDGES,
@@ -298,7 +302,7 @@ const pct = (x) => (x == null ? '–' : `${(x * 100).toFixed(0)}%`)
 const usd = (x) => `$${x.toFixed(x < 1 ? 4 : 2)}`
 const name = (id) => id.split('/')[1]
 let md = `# Nivana routing benchmark, ${summary.run_at.slice(0, 10)}\n\n`
-md += `${summary.answered}/${summary.prompts} held-out prompts answered (${summary.mode}). Judges: ${JUDGES.map(name).join(', ')}, each in both orders. Calls behind these results cost ${usd(total)}.\n\n`
+md += `${summary.answered}/${summary.prompts} held-out prompts from ${summary.prompt_set} answered (${summary.mode}). Judges: ${JUDGES.map(name).join(', ')}, each in both orders. Calls behind these results cost ${usd(total)}.\n\n`
 md += `Score = how often the judges preferred Nivana's answer (50% = as good as the baseline). Cost = what the caller pays Nivana (model cost plus Nivana's margin) against the baseline's list price.${LOCAL ? ` "Model only" is the routed model's own cost before Nivana's margin: the effect of routing alone.` : ''}\n\n`
 md += `| Against | Score (95% CI) | Same-lab judges excluded | Nivana wins / ties / losses | Nivana cost | Baseline cost | Nivana ÷ baseline |${LOCAL ? ' Model only ÷ baseline |' : ''} Median latency, Nivana / baseline |\n|---|---|---|---|---|---|---|---|${LOCAL ? '---|' : ''}\n`
 for (const [b, v] of Object.entries(vs)) md += `| ${name(b)} | ${pct(v.score)} (${pct(v.score_ci95[0])}–${pct(v.score_ci95[1])}) | ${pct(v.neutral_score)} (${pct(v.neutral_score_ci95[0])}–${pct(v.neutral_score_ci95[1])}) | ${v.outcomes.win} / ${v.outcomes.tie} / ${v.outcomes.loss} | ${usd(v.nivana_usd)} | ${usd(v.baseline_usd)} | ${pct(v.cost_ratio)} |${LOCAL ? ` ${pct(v.model_cost_ratio)} |` : ''} ${(v.nivana_median_ms / 1000).toFixed(1)} s / ${(v.baseline_median_ms / 1000).toFixed(1)} s |\n`

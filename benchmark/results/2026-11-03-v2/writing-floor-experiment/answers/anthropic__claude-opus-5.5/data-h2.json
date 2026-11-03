@@ -1,0 +1,6 @@
+{
+ "text": "```json\n[\n  {\n    \"street\": \"221B Baker Street\",\n    \"city\": \"London\",\n    \"region\": null,\n    \"postal_code\": \"NW1 6XE\",\n    \"country\": \"GB\"\n  },\n  {\n    \"street\": \"1600 Amphitheatre Parkway\",\n    \"city\": \"Mountain View\",\n    \"region\": \"CA\",\n    \"postal_code\": \"94043\",\n    \"country\": \"US\"\n  },\n  {\n    \"street\": \"Rua Augusta 100\",\n    \"city\": \"Lisboa\",\n    \"region\": null,\n    \"postal_code\": null,\n    \"country\": \"PT\"\n  },\n  {\n    \"street\": \"Shibuya 2-21-1\",\n    \"city\": \"Tokyo\",\n    \"region\": null,\n    \"postal_code\": \"150-8510\",\n    \"country\": \"JP\"\n  }\n]\n```",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.013596,
+ "ms": 6934
+}

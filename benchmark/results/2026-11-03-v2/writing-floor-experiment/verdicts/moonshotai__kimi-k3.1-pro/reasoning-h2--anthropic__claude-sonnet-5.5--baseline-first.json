@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers correctly identify confounding, selection/reverse causality, exposure and denominator problems, spillovers, heterogeneity, and rare-event noise, and both propose credible randomized or staggered-rollout designs. B is slightly stronger because it more clearly explains how crash location can distort neighbourhood per-capita rates, distinguishes co-occurring street changes from the lane effect, and gives a fuller set of feasible designs with their identifying assumptions (parallel trends, synthetic-control fit, and RD comparability). It also ties design choices such as multi-year baselines, spillover measurement, exposure adjustment, and heterogeneous effects directly back to the inference problems.",
+ "priceUsd": 0.007674
+}

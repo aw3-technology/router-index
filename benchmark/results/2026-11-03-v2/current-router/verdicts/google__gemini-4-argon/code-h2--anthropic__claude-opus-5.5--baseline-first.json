@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers are very strong, identifying all the major security issues and implementing a stdlib-only scrypt solution with dummy-hash timing equalization. Answer B wins on a subtle correctness detail: Python's `hashlib.scrypt` defaults to `maxmem=32*1024*1024` (and OpenSSL enforces a slight overhead margin), so setting `n=2**15, r=8` without increasing `maxmem` raises `ValueError: memory limit exceeded`. Answer B properly passes `maxmem` (and sets stronger OWASP-compliant parameters), while also keeping `login()` free of unexpected transaction commit side effects.",
+ "priceUsd": 0.00755
+}

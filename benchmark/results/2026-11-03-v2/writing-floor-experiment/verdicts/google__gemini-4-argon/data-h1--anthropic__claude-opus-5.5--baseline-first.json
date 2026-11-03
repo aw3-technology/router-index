@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are nearly identical, valid OpenAPI 3.1 YAML snippets that follow every constraint in the prompt without any extra prose.",
+ "priceUsd": 0.003248
+}

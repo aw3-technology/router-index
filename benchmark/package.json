@@ -1,0 +1,10 @@
+{
+  "name": "nivana-routing-benchmark",
+  "private": true,
+  "type": "module",
+  "description": "Nivana's automatic routing against always calling one strong model: quality (pairwise, two judges, both orders) and cost.",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": { "bench": "node run.mjs" },
+  "dependencies": { "ai": "7.0.153" }
+}

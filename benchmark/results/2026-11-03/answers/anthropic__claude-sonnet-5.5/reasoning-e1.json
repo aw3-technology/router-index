@@ -1,0 +1,6 @@
+{
+ "text": "**5 minutes.**\n\nEach machine makes 1 widget in 5 minutes, since 5 machines make 5 widgets in 5 minutes. So 100 machines working at the same time would make 100 widgets in those same 5 minutes.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.000902,
+ "ms": 1365
+}

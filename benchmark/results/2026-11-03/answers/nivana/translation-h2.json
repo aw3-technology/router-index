@@ -1,0 +1,12 @@
+{
+ "text": "**Japanese UI**\n- 変更が保存されていません。このページを離れますか？\n- **離れる** / **編集を続ける**\n\n**Back-translation**\n- Your changes haven’t been saved. Do you want to leave this page?\n- **Leave** / **Continue editing**",
+ "model": "openai/gpt-6-luna",
+ "route": {
+  "task": "translation",
+  "difficulty": "medium",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.0001545,
+ "ms": 5225
+}

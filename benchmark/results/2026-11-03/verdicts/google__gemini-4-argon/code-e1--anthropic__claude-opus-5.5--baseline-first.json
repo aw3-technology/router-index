@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers provide the exact same idiomatic one-liner, and both correctly note the edge case regarding multiple spaces. However, Answer A is slightly more helpful because it shows how to handle that edge case (using `split(\" \")`) as well as providing the `reversed()` alternative.",
+ "priceUsd": 0.002004
+}

@@ -1,0 +1,6 @@
+{
+ "text": "**Japanese (UI copy)**\n\nMessage: 変更内容が保存されていません。このまま移動しますか?\n\nButtons:\n- 移動する\n- 編集を続ける\n\n**Back-translation (English)**\n\nMessage: \"Your changes have not been saved. Do you want to move away as is?\"\n\nButtons:\n- \"Leave\" (literally \"Move away\")\n- \"Continue editing\"\n\n**Notes**\n\n- **Message:** 変更内容 is more natural in UI than 変更 alone. \"このまま〜しますか?\" carries the sense of \"anyway\" in \"Leave anyway?\"\n- **Leave button:** 移動する works for page navigation. If the action closes a dialog, editor, or window, 閉じる is a common alternative. If it discards edits, 破棄する (Discard) is clearer, though it changes the nuance from \"leave\" to \"discard.\"\n- **Keep editing button:** 編集を続ける is natural and clear. A shorter option is 編集に戻る (\"Back to editing\"), but 続ける better matches the original.\n- **Tone:** The message uses polite です/ます form, which is standard for Japanese product UI. Buttons use the plain dictionary form, also standard.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.004074,
+ "ms": 3831
+}

@@ -1,0 +1,12 @@
+{
+ "text": "Here is the translation in polite Korean (해요체):\n\n오늘 와 주셔서 감사해요. 계약서에 대해 궁금한 점이 있으시면 말씀해 주세요.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "translation",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000045375,
+ "ms": 2409
+}

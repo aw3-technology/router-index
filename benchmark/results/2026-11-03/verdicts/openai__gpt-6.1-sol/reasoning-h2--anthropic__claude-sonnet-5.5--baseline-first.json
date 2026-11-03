@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both correctly compute 28.2% using conditional independence and explain why repeat tests can share systematic errors. A is better because B additionally claims the true probability must lie between 1.9% and 28%, which is not guaranteed without specifying the dependence within diseased and healthy groups. Strictly, both should qualify the bias as typically downward: positive correlation alone does not establish its direction, because the posterior depends on how dependence changes both likelihoods.",
+ "priceUsd": 0.005321
+}

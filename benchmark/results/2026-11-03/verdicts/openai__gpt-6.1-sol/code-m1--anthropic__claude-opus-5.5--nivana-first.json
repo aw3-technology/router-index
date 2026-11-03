@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both provide the same correct implementation and three useful tests. A is better because B incorrectly claims that NaN would make the loop run forever; it would instead terminate after the first iteration. A also gives clearer file naming and execution instructions.",
+ "priceUsd": 0.003366
+}

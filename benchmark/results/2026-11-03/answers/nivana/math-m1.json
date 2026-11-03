@@ -1,0 +1,12 @@
+{
+ "text": "Monthly rate: \\(i=\\frac{0.06}{12}=0.005\\), number of payments: \\(n=5\\cdot12=60\\).\n\n\\[\nM=P\\frac{i(1+i)^n}{(1+i)^n-1}\n=20000\\cdot \\frac{0.005(1.005)^{60}}{(1.005)^{60}-1}\n\\]\n\n\\[\nM \\approx 386.6558\n\\]\n\nSo the monthly payment is **\\$386.66**.",
+ "model": "mistral/mistral-large-4",
+ "route": {
+  "task": "math",
+  "difficulty": "medium",
+  "effort": null
+ },
+ "priceUsd": 0.007,
+ "modelCostUsd": 0.0042469,
+ "ms": 23124
+}

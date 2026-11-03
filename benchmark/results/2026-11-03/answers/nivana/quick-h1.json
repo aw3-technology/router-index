@@ -1,0 +1,12 @@
+{
+ "text": "**Why the Moon keeps one face to us**\n\nThe Moon spins on its axis in exactly the time it takes to orbit Earth (~27.3 days) — \"synchronous rotation.\" This isn't a coincidence: early on, the Moon spun faster, but Earth's gravity raised tidal bulges in the Moon's body, and the resulting friction bled off spin energy until the rotation period matched the orbital period. That's tidal locking, and it's the stable end state for a close satellite.\n\n**Is Earth locked to the Moon?**\n\nNo. Earth turns once a day while the Moon takes a month to orbit, so the Moon sees every side of Earth in turn. Earth's spin *is* slowly being braked by lunar tides (~1.8 ms per century, with the Moon drifting away ~3.8 cm/yr), so in principle Earth would eventually lock to the Moon too — but that would take tens of billions of years, long after the Sun has become a red giant and swallowed both. So the locking is one-sided: the Moon is locked to Earth, not the reverse.\n\n(One subtlety: since the Moon is locked, Earth hangs nearly motionless in the lunar sky rather than rising and setting — it just wobbles slightly thanks to libration.)",
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "route": {
+  "task": "reasoning",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.002,
+ "modelCostUsd": 0.000834892,
+ "ms": 6705
+}

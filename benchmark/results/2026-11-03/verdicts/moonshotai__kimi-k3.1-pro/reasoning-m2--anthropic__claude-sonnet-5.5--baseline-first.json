@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B gives the clearest, most checkable explanation: it quantifies how three optional looks inflate the false-positive rate, explains the winner’s curse, and correctly derives the roughly 53,000-users-per-arm requirement. Its recommendations distinguish fixed-horizon and valid sequential designs, with concrete stopping thresholds and practical next steps. A is also accurate and useful, but B is more precise and actionable; neither has a material flaw that would outweigh B’s advantages.",
+ "priceUsd": 0.00947
+}

@@ -1,0 +1,12 @@
+{
+ "text": "Add 7 to both sides:\n\n$$4x - 7 + 7 = 21 + 7 \\implies 4x = 28$$\n\nDivide both sides by 4:\n\n$$x = \\frac{28}{4} = 7$$\n\n**Check:** $4(7) - 7 = 28 - 7 = 21$ ✓\n\n**Answer: $x = 7$**",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "math",
+  "difficulty": "easy",
+  "effort": "low"
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.00006749,
+ "ms": 2519
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers provide valid JSON Schema (draft 2020-12) without prose and meet all constraints. Answer B is slightly better because it strictly follows the requested schema specifications without assuming a 'title' property ('User') that was not in the prompt.",
+ "priceUsd": 0.002482
+}

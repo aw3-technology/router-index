@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers are correct and follow the exact same mathematical steps. Answer A is slightly better because of its clean LaTeX formatting and explicit inclusion of the symbolic inclusion-exclusion formula, whereas Answer B includes a stream-of-consciousness check at the end where it stumbles briefly before correcting itself.",
+ "priceUsd": 0.003784
+}

@@ -1,0 +1,12 @@
+{
+ "text": "Let\n\n\\[\nI_n=\\int_0^\\infty x^n e^{-x}\\,dx,\\qquad n=0,1,2,\\dots\n\\]\n\nThis is the Gamma function value \\(\\Gamma(n+1)\\).\n\n## Convergence\n\nThe integral converges for every non-negative integer \\(n\\): near \\(x=0\\), \\(x^n e^{-x}\\sim x^n\\) is integrable, and as \\(x\\to\\infty\\), \\(e^{-x}\\) decays faster than any polynomial, so \\(x^n e^{-x}\\le C e^{-x/2}\\) eventually.\n\n## Base case\n\n\\[\nI_0=\\int_0^\\infty e^{-x}\\,dx=\\left[-e^{-x}\\right]_0^\\infty=1.\n\\]\n\n## Recurrence by integration by parts\n\nFor \\(n\\ge 1\\), take \\(u=x^n\\) and \\(dv=e^{-x}dx\\), so \\(du=n x^{n-1}dx\\) and \\(v=-e^{-x}\\). Then\n\n\\[\n\\begin{aligned}\nI_n\n&=\\int_0^\\infty x^n e^{-x}\\,dx \\\\\n&=\\left[-x^n e^{-x}\\right]_0^\\infty+\\int_0^\\infty n x^{n-1}e^{-x}\\,dx .\n\\end{aligned}\n\\]\n\nThe boundary term vanishes:\n\n\\[\n\\lim_{x\\to\\infty}x^n e^{-x}=0,\\qquad \\left.-x^n e^{-x}\\right|_{x=0}=0 \\quad (n\\ge1).\n\\]\n\nHence\n\n\\[\nI_n=n\\int_0^\\infty x^{n-1}e^{-x}\\,dx=nI_{n-1}.\n\\]\n\n## Induction\n\nSince \\(I_0=1\\) and \\(I_n=nI_{n-1}\\), induction gives\n\n\\[\nI_n=n(n-1)(n-2)\\cdots 1\\cdot I_0=n!.\n\\]\n\nTherefore\n\n\\[\n\\boxed{\\int_0^\\infty x^n e^{-x}\\,dx=n!}\n\\qquad (n=0,1,2,\\dots).\n\\]\n\nIn particular, for \\(n=2\\),\n\n\\[\n\\boxed{\\int_0^\\infty x^2 e^{-x}\\,dx=2!=2.}\n\\]",
+ "model": "mistral/mistral-large-4",
+ "route": {
+  "task": "math",
+  "difficulty": "medium",
+  "effort": null
+ },
+ "priceUsd": 0.004,
+ "modelCostUsd": 0.0026229,
+ "ms": 17691
+}

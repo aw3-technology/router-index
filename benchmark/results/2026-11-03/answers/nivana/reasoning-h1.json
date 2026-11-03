@@ -1,0 +1,12 @@
+{
+ "text": "# Who owns the fish?\n\n**No one can. These ten clues contradict each other, so the puzzle has no solution.** Here is the deduction.\n\n## Fixed facts\n\n- **Clue 4:** The Norwegian is in house 1.\n- **Clue 5:** House 2 is blue, since it is the only house next to house 1.\n- **Clue 9:** The bird is in house 3.\n\n## Placing green and white (Clue 3)\n\nGreen must be immediately left of white. House 2 is blue, so the pair is either houses **3–4** or houses **4–5**.\n\nIn both cases, red and yellow fill the two remaining houses, one of which is house 1. The Brit lives in red (Clue 1), but house 1 is the Norwegian's. So **house 1 is yellow**. Then:\n\n- **Clue 6:** The cat is in house 1.\n- **Clue 10:** The horse is in house 2, the only house next to yellow.\n\n## Case A: green 3, white 4, red 5\n\n| House | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| Colour | Yellow | Blue | Green | White | Red |\n| Nationality | Norwegian | ? | German (7) | ? | Brit (1) |\n| Pet | Cat | Horse | Bird | ? | ? |\n\n- The Swede and the Dane take houses 2 and 4.\n- The Swede keeps a dog (Clue 2), but house 2 has the horse. So the Swede is in house 4 and the **Dane is in house 2**.\n- **Clue 8:** The fish must be in house 3, but house 3 has the bird. ❌ **Contradiction.**\n\n## Case B: red 3, green 4, white 5\n\n| House | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| Colour | Yellow | Blue | Red | Green | White |\n| Nationality | Norwegian | ? | Brit (1) | German (7) | ? |\n| Pet | Cat | Horse | Bird | ? | ? |\n\n- The Swede and the Dane take houses 2 and 5.\n- House 2 has the horse, so the Swede (with the dog) is in house 5 and the **Dane is in house 2**.\n- **Clue 8:** The fish must again be in house 3, which has the bird. ❌ **Contradiction.**\n\nReading \"left\" as the other direction, or numbering from the other end, leads to the same kind of dead end.\n\n## Where the conflict lies\n\nEvery possible arrangement forces the Dane into house 2. Clue 8 then puts the fish in house 3, while Clue 9 puts the bird there.\n\nIf you **drop Clue 9**, the puzzle becomes solvable but not unique:\n- In Case A, the **German** owns the fish.\n- In Case B, the **Brit** owns the fish.\n\nSo one clue was probably mistyped from the original version. If you check your source, I'm happy to re-solve it.",
+ "model": "anthropic/claude-opus-5.5",
+ "route": {
+  "task": "reasoning",
+  "difficulty": "medium",
+  "effort": "medium"
+ },
+ "priceUsd": 0.068,
+ "modelCostUsd": 0.0447782,
+ "ms": 20566
+}

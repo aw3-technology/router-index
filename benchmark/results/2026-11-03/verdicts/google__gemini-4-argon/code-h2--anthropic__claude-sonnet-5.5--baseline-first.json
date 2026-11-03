@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers are excellent and correctly identify how an `if` instead of a `for` loop around `Wait()`, combined with a missing `defer p.mu.Unlock()` and panic recovery (like in `net/http`), leads to a deadlock under load. Answer A is slightly better because it is more thorough in listing other potential pitfalls as requested, and Answer B includes a weird self-introduction ('Nivana here') at the very beginning.",
+ "priceUsd": 0.006816
+}

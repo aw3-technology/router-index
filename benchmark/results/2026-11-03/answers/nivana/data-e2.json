@@ -1,0 +1,12 @@
+{
+ "text": "- apple\n- banana\n- cherry\n- mango\n- pear",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "data",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000092775,
+ "ms": 2758
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers are truncated and therefore not runnable as written, but B has the stronger implementation. Its sentinel cleanly distinguishes an omitted TTL from `ttl=None`, allowing non-expiring entries even when a default TTL exists; it also has better `get` typing, robust TTL validation, and clean linked-list primitives. Its completed tests exercise LRU eviction, recency, lazy expiry, and boundary expiry. A’s core cache is mostly correct, but it conflates omitted TTL with `None`, includes a misleading `\"forever\"` test comment, and adds unnecessary hit/miss machinery and typing workarounds.",
+ "priceUsd": 0.01417
+}

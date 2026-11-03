@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers correctly generate the requested JSON Schema without extra prose. Answer A is slightly better because it strictly follows the requested specification, whereas Answer B invents an unrequested \"title\": \"User\" field.",
+ "priceUsd": 0.002322
+}

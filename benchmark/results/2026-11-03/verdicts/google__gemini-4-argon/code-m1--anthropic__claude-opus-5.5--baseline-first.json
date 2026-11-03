@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers provide identical, correct, and robust implementations that handle edge cases like `NaN` and floats. Answer B is slightly better because it is more concise, explains only what is needed, and includes the `.ts` extension in the import statement so it works with modern Node's native type-stripping as well as `tsx`.",
+ "priceUsd": 0.003804
+}

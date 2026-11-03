@@ -1,0 +1,12 @@
+{
+ "text": "Dove si trova la stazione dei treni?",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "translation",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000087525,
+ "ms": 2093
+}

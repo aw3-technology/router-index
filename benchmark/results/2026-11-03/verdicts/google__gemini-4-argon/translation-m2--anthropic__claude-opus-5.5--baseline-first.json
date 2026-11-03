@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both models provide the exact same natural Korean translation in the requested register (해요체). However, Answer B is slightly more faithful to the source text because Answer A adds the word '언제든지' ('anytime'), which was not in the original prompt.",
+ "priceUsd": 0.001958
+}

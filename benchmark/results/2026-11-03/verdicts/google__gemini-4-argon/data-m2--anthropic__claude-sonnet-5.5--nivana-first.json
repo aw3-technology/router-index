@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are identical and correctly convert the YAML to minified JSON with no extra text.",
+ "priceUsd": 0.001326
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both implementations are correct, idiomatic, non-mutating, and safely reject zero, negative, fractional, and NaN sizes. B is slightly stronger because it provides exactly three clearly separated test cases in a conventional test file and includes explicit commands for running them. A is also correct and usefully tests empty input, but its third test case bundles several assertions and it gives no execution command.",
+ "priceUsd": 0.0063
+}

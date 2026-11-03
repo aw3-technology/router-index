@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both give the correct answer, 36, with a clear and verifiable derivation. A uses a 10% + 5% decomposition, while B uses direct multiplication by 0.15; both are equally suitable.",
+ "priceUsd": 0.001782
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers correctly count the integers from 1 to 999, compute all single and intersection counts, and explicitly apply inclusion–exclusion to obtain 265 divisible by at least one divisor and 734 divisible by none. Their derivations are clear, verifiable, and substantively equivalent.",
+ "priceUsd": 0.003386
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers give the correct result, 734, with accurate inclusion–exclusion calculations and correct LCM-based intersections. Answer B adds a valid modular-arithmetic verification, though it is somewhat messier than Answer A; this does not create a meaningful overall quality difference.",
+ "priceUsd": 0.0042944
+}

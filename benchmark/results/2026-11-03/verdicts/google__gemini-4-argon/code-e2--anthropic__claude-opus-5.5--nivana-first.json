@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are virtually identical in content, structure, and quality. Both lead with the idiomatic `[...new Set(numbers)]` approach, mention `Array.from`, show the `filter` and `reduce` alternatives along with their O(n²) complexity drawbacks, and accurately point out the `NaN` edge case and numeric sorting.",
+ "priceUsd": 0.003338
+}

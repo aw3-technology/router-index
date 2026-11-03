@@ -1,0 +1,6 @@
+{
+ "text": "Let y = x². Then the equation becomes y² − 5y + 4 = 0, which factors as (y − 1)(y − 4) = 0.\n\nSo y = 1 or y = 4.\n\n- If x² = 1, then x = ±1.\n- If x² = 4, then x = ±2.\n\n**Solutions: x = −2, −1, 1, 2**",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.00123,
+ "ms": 1413
+}

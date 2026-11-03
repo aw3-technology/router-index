@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers provide identical, correct implementations that thoughtfully guard against `NaN` and floats. Answer A is slightly better because it stays more concise without unnecessary notes, and its `.ts` import extension allows the code to run natively on modern Node.js (as its command shows).",
+ "priceUsd": 0.003604
+}

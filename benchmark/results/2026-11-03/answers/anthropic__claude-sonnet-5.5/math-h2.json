@@ -1,0 +1,6 @@
+{
+ "text": "We count the positive integers 1 to 999 and remove those divisible by 6, 10, or 15.\n\n**Single sets**\n- A = multiples of 6: ⌊999/6⌋ = 166\n- B = multiples of 10: ⌊999/10⌋ = 99\n- C = multiples of 15: ⌊999/15⌋ = 66\n\n**Pairwise intersections**\n- A∩B = multiples of lcm(6,10) = 30: ⌊999/30⌋ = 33\n- A∩C = multiples of lcm(6,15) = 30: ⌊999/30⌋ = 33\n- B∩C = multiples of lcm(10,15) = 30: ⌊999/30⌋ = 33\n\n**Triple intersection**\n- A∩B∩C = multiples of lcm(6,10,15) = 30: ⌊999/30⌋ = 33\n\n**Inclusion-exclusion**\n\n|A∪B∪C| = (166 + 99 + 66) − (33 + 33 + 33) + 33\n= 331 − 99 + 33\n= 265\n\n**Complement**\n\n999 − 265 = 734\n\n(Check: every pairwise intersection is the same set of multiples of 30, so the union equals the multiples of 6, 10, or 15. Counting by residues mod 30, the numbers 1 to 30 that are divisible by none of 6, 10, 15 number 30 − 15 − ... let us verify: multiples of 6 in 1–30: 5, of 10: 3, of 15: 2, of 30: 1, giving 5+3+2−1−1−1+1 = 8. So 22 of every 30 survive. In 999 = 33·30 + 9, there are 33·22 = 726 from the full blocks. In the remaining 991–999 (residues 1–9), the multiples of 6, 10, 15 are only residue 6, so 8 survive. Total 726 + 8 = 734. ✓)\n\n**Answer: 734**",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.006552,
+ "ms": 4680
+}

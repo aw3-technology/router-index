@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers violate the JSON-only requirement by wrapping the output in Markdown code fences. Their extracted data is otherwise equivalent; “oak shelves” versus “oak shelf” does not materially change the item.",
+ "priceUsd": 0.001486
+}

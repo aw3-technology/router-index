@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers are truncated mid-test and therefore do not run as written. A nevertheless has the stronger complete cache implementation: its TTL sentinel distinguishes an omitted TTL from explicit None (never expire), its validation rejects NaN, and its get overloads accurately describe return types. Both use the required O(1) dictionary-plus-linked-list design and injectable clocks.",
+ "priceUsd": 0.0130335
+}

@@ -1,0 +1,6 @@
+{
+ "text": "Some customers were unexpectedly signed out of their accounts. This happened because of a timing problem in how our system kept your login active. We've fixed the issue, and you should no longer be signed out unexpectedly. If you're still having trouble, please contact our support team. We apologize for the inconvenience.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.001266,
+ "ms": 1675
+}

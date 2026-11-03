@@ -1,0 +1,12 @@
+{
+ "text": "{\"service\":\"api\",\"replicas\":3,\"ports\":[80,443],\"env\":{\"LOG_LEVEL\":\"info\",\"FEATURE_X\":false}}",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "data",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000042115,
+ "ms": 1813
+}

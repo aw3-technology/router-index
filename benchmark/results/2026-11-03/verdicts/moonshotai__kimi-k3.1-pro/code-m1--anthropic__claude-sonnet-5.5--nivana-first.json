@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both implementations are correct, handle invalid sizes safely, and provide three effective test cases. A is slightly stronger because it exports the function for reuse, uses a structured test runner, and gives clear commands for running the tests as written.",
+ "priceUsd": 0.0041284
+}

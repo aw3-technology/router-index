@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B identifies and fixes the core lost-wakeup bug with the required condition-check loop and panic-safe unlock, while also covering more relevant robustness issues: initialization, indefinite blocking, connection leaks, nil/double Put, copying, and memory retention. Its channel alternative is also safer when the pool is full. Both answers slightly overstate Go's spurious-wakeup behavior, but this does not change the comparison.",
+ "priceUsd": 0.006352
+}

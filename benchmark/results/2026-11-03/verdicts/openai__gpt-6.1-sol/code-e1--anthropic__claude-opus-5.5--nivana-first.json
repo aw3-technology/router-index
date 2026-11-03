@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both provide the correct, idiomatic one-liner, but B adds a misleading claim that split(\" \") preserves original spacing exactly. Reversing that list can move leading, trailing, and repeated spaces to different positions. A is accurate and sufficient.",
+ "priceUsd": 0.001716
+}

@@ -1,0 +1,6 @@
+{
+ "text": "**Natural German version:**\n\n„Ehrlich gesagt war der Launch ein einziges Desaster, aber in letzter Minute haben wir noch die Kurve gekriegt, und keiner hat etwas davon mitbekommen.\"\n\n**Notes on the choices:**\n\n- **\"dumpster fire\"** → *ein einziges Desaster* keeps the exaggerated, informal punch. Alternatives: *eine Vollkatastrophe*, *ein Totalausfall*, or *ein Griff ins Klo* (very colloquial).\n- **\"pulled it out of the bag at the eleventh hour\"** → *in letzter Minute die Kurve kriegen* is a natural German idiom for rescuing a bad situation. *Gerade noch rechtzeitig die Kurve gekriegt* works too. A more literal \"eleventh hour\" (*in der elften Stunde*) exists in German but sounds more formal or literary.\n- **\"nobody was any the wiser\"** → *keiner hat etwas davon mitbekommen* is natural and neutral. Alternatives: *niemand hat etwas gemerkt* (simpler) or *kein Mensch hat's gemerkt* (more casual).\n\n**A slightly more casual, spoken-style variant:**\n\n„Ganz ehrlich, der Launch war eine Vollkatastrophe, aber wir haben auf den letzten Drücker noch die Kurve gekriegt, und kein Mensch hat was gemerkt.\"\n\n(*Auf den letzten Drücker* = \"at the very last moment,\" colloquial and fitting the casual tone.)",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.00549,
+ "ms": 4605
+}

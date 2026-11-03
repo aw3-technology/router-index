@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers were truncated right at the very end of the test suite. However, Answer A gets much further into its tests, completing all the required eviction and expiry assertions before getting cut off on an extra validation test. Answer A also explicitly tracks `hits` and `misses` to directly demonstrate the prompt's requirement that expired entries count as misses.",
+ "priceUsd": 0.011538
+}

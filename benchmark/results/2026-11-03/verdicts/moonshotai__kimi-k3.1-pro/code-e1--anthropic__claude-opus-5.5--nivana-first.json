@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both give the correct idiomatic one-liner, but A answers the simple request directly and notes the whitespace behavior. B’s extra material is unnecessary, and its claim that `split(\" \")` preserves the original spacing exactly is misleading: it does not handle tabs or other whitespace correctly and can introduce empty-string artifacts.",
+ "priceUsd": 0.002668
+}

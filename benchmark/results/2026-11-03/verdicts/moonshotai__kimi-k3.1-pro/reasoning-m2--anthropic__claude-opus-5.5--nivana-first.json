@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers correctly identify optional stopping, effect-size inflation, short duration, and likely underpowering, and both give appropriate next steps. A is slightly stronger because it makes the sample-size calculation explicitly checkable, provides concrete valid sequential-testing alternatives and thresholds, and includes the useful caveat that Bayesian methods are not automatically immune to peeking. B is also strong and more clearly notes that restarting is cleaner than continuing, but this does not outweigh A’s additional actionable and verifiable detail.",
+ "priceUsd": 0.009534
+}

@@ -1,0 +1,6 @@
+{
+ "text": "**Monthly payment ≈ $386.66**\n\nUse the amortization formula with monthly rate r = 0.06/12 = 0.005 and n = 5 × 12 = 60 payments:\n\n$$\nPMT = \\frac{P\\,r}{1-(1+r)^{-n}} = \\frac{20{,}000(0.005)}{1-(1.005)^{-60}}\n$$\n\nSince (1.005)⁶⁰ ≈ 1.348850, we get (1.005)⁻⁶⁰ ≈ 0.741372, so\n\n$$\nPMT = \\frac{100}{0.258628} \\approx 386.66\n$$",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.00542,
+ "ms": 4311
+}

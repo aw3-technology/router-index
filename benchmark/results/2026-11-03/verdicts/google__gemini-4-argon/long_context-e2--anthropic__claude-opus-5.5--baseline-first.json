@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Answer B is slightly more accurate because it clearly separates which changes belong to the v1.x releases (dependency and UI polish) and which belong to the v2.0.x releases (bug fixes), whereas Answer A lumps them together.",
+ "priceUsd": 0.003074
+}

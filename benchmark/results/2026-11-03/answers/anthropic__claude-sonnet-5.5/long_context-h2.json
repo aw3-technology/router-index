@@ -1,0 +1,6 @@
+{
+ "text": "**Counts**\n\nThe numbering restarts four times, so I treated the responses as four separate groups totaling 49:\n\n| Group | Responses | Content |\n|---|---|---|\n| A | 14 | Dark mode request |\n| B | 9 | Price complaint |\n| C | 20 | No complaints |\n| D | 6 | Price complaint and dark mode request |\n\n- **Asked for dark mode:** 20 (14 in group A + 6 in group D)\n- **Complained about price:** 15 (9 in group B + 6 in group D)\n\n**Most common complaint: the lack of dark mode (20 vs. 15 for price)**\n\nTwo representative quotes:\n1. \"The app is great but please add a dark mode, my eyes hurt at night.\"\n2. \"Pricing is steep compared to competitors, and there is still no dark mode.\"\n\n**Caveats:** The responses within each group are word-for-word identical. If they are accidental duplicates rather than distinct respondents, the real counts would be much lower: 2 unique dark mode requests and 2 unique price complaints, which would be a tie. Also, if the restarted numbering means the same 20 people answered several questions, the totals above could overlap. It's worth checking the raw data.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.00894,
+ "ms": 5159
+}

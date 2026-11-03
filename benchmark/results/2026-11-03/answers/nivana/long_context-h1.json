@@ -1,0 +1,12 @@
+{
+ "text": "# The Contradiction\n\nThese two entries give conflicting accounts of the failover:\n\n> **10:04 UTC** — \"Automatic failover to replica completed; writes resumed.\"\n\n> **11:40 UTC** — \"Postmortem note: failover was triggered manually at 10:31 after automation failed.\"\n\nThey disagree on both **when** the failover happened (10:04 vs 10:31) and **how** (automatic vs manual after automation failed).\n\n# Which Is More Likely Correct\n\n**The 10:04 entry is more likely correct**, because the rest of the timeline supports it:\n\n1. **Recovery follows 10:04.** Right after it, the log shows a steady run of \"Error rates declining; investigating root cause\" up to 10:20. Errors falling from about 10:05 is what you'd expect if writes resumed at 10:04. If the primary had been down until a manual failover at 10:31, errors should have stayed high or kept climbing through 10:20.\n\n2. **Nothing was logged at 10:31.** A manual failover after failed automation is a major intervention. It would almost certainly get its own entry, such as \"automation failed\" or \"initiating manual failover.\" The log goes from 10:20 straight to 11:40 with no such entry.\n\n3. **The 10:04 entry was written in real time.** It records an observed outcome (\"writes resumed\") as it happened. The postmortem note was written about 1.5 hours later and refers back to events, so it is more open to memory errors or mixing up separate events. For example, 10:31 might have been a manual follow-up action, like re-promoting a node or verifying replication, that was mistaken for the failover itself.\n\n# Caveat\n\nPostmortems sometimes exist to correct real-time logs, so the 11:40 note shouldn't be dismissed outright. The best way to settle it is to check primary sources:\n- the database or cluster manager's failover and promotion logs\n- the orchestration or automation logs for a failed trigger\n- write-success metrics between 10:02 and 10:31\n\n*Side note:* many timestamps in this log are malformed (e.g., \"09:1\", \"10:1\", \"12:1\" instead of \"09:01\"). This makes the order of events around 10:01–10:09 ambiguous and is worth fixing in the record too.",
+ "model": "anthropic/claude-opus-5.5",
+ "route": {
+  "task": "reasoning",
+  "difficulty": "medium",
+  "effort": "medium"
+ },
+ "priceUsd": 0.05,
+ "modelCostUsd": 0.0326782,
+ "ms": 14670
+}

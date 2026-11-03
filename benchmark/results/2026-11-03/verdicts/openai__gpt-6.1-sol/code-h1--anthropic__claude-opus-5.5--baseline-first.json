@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B has the stronger implementation: it distinguishes omitted TTL from explicit None (allowing non-expiring entries despite a default TTL), rejects NaN TTLs, and provides more accurate get type hints. Both use O(1) dictionary/list operations and lazy expiry correctly. However, both answers are truncated in their tests and therefore do not run as written; B still offers the better complete cache implementation.",
+ "priceUsd": 0.0128935
+}

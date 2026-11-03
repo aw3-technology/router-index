@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B is complete and runnable, with a correct O(1) dict-plus-doubly-linked-list implementation, per-entry TTL handling, lazy eviction, and thorough asserts covering LRU eviction, expiry, TTL resets, and edge cases. A’s design is sound, but its answer is truncated inside `_run_tests()` (`clock.advance(5`), leaving syntactically incomplete code and unfinished tests, so it does not run as written.",
+ "priceUsd": 0.0067188
+}

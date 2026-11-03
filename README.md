@@ -55,6 +55,10 @@
 | Kimi K3.1 Pro | Moonshot | 91 | 92 | 89 | 85 | 81 | 92 | 90 | 91 | $2 / $10 |
 | Grok 4.7 | xAI | 90 | 90 | 85 | 80 | 79 | 85 | 85 | 86 | $2 / $6 |
 
+## Does routing beat one strong model?
+
+The [routing benchmark](benchmark/) compares Nivana's automatic routing with always calling Claude Opus 5.5 or Sonnet 5.5, on 48 held-out prompts. Three judges from other labs compared each pair in both orders. On 2026-11-03, the judges rated Nivana's answers level with Opus (49%, 95% CI 41–57%). The routed models cost 56% of Opus, and a caller paid 88% of the Opus price after Nivana's fee. Against Sonnet, Nivana's answers were preferred 55% of the time, but they cost about twice as much. Writing was the weak spot. Prompts, answers, verdicts and the harness are all in [`benchmark/`](benchmark/), so anyone can run it again.
+
 ## Method
 
 Quality from weekly pairwise evals per task judged by models from several labs (0–100); cost from live AI Gateway list prices for a typical request of that kind; speed from live traffic.

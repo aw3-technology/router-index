@@ -1,0 +1,6 @@
+{
+ "text": "Yes. Section 31 allows termination for convenience, and it applies to either party, so the customer is included.\n\n**Clause (Section 31):**\n> \"Either party may terminate this agreement for convenience by giving not less than sixty (60) days' written notice.\"\n\n**Notice required:** at least 60 days, in writing.\n\n**Caveats:**\n- The excerpt does not define who the \"customer\" is. Section 31 refers only to \"either party,\" so the right is mutual rather than customer-specific.\n- Nearly every other section just defers to a \"master agreement\" that I haven't seen. If that agreement has its own termination provisions, such as minimum terms, termination fees, or limits on convenience termination, they could modify or conflict with Section 31. I'd check it before relying on this.\n- The numbering restarts at \"Section 1\" partway through with a different set of provisions (definitions). That suggests the document combines separate parts, such as an agreement and a schedule or annex. Confirm that Section 31 sits in the operative agreement and not in a part that doesn't apply.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.006096,
+ "ms": 3228
+}

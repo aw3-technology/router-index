@@ -1,0 +1,6 @@
+{
+ "text": "Across releases v1.1.0–v1.35.0 and v2.0.1–v2.0.10 the changes were only minor dependency updates, UI polish, and bug fixes, except for the breaking v2.0.0 release, which moved the REST API to /v2 and made API keys expire after 90 days.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.00606,
+ "ms": 2402
+}

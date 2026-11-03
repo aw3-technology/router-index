@@ -1,0 +1,12 @@
+{
+ "text": "```json\n{\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\",\n      \"format\": \"uuid\"\n    },\n    \"email\": {\n      \"type\": \"string\",\n      \"format\": \"email\"\n    },\n    \"age\": {\n      \"type\": \"integer\",\n      \"minimum\": 13,\n      \"maximum\": 120\n    },\n    \"tags\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"string\",\n        \"minLength\": 1\n      },\n      \"uniqueItems\": true,\n      \"maxItems\": 10\n    }\n  },\n  \"required\": [\"id\", \"email\"],\n  \"additionalProperties\": false\n}\n```",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "code",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.00013499,
+ "ms": 3060
+}

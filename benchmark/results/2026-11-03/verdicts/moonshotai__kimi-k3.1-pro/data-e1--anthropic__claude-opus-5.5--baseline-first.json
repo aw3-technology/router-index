@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are identical, valid JSON with exactly the requested keys and correct values, with no extra prose.",
+ "priceUsd": 0.001388
+}

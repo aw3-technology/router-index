@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers are correct and prove the general result by integration by parts and induction. A is stronger because it explicitly justifies the polynomial-times-exponential limit, performs the improper-integral limiting argument rigorously on finite intervals, and separately evaluates the requested n=2 case. B is concise and valid but leaves convergence and decay justification more sketchy.",
+ "priceUsd": 0.005262
+}

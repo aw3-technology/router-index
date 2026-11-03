@@ -1,0 +1,12 @@
+{
+ "text": "Let $u = x^2$. The equation becomes a quadratic in $u$:\n\n$$u^2 - 5u + 4 = 0$$\n\nFactoring:\n\n$$(u - 1)(u - 4) = 0$$\n\nSo $u = 1$ or $u = 4$.\n\nSubstituting back $u = x^2$:\n\n- $x^2 = 1 \\implies x = \\pm 1$\n- $x^2 = 4 \\implies x = \\pm 2$\n\n**Check:** For $x = 1$: $1 - 5 + 4 = 0$ ✓. For $x = 2$: $16 - 20 + 4 = 0$ ✓.\n\n**Answer:** The real solutions are $x = -2,\\ -1,\\ 1,\\ 2$.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "math",
+  "difficulty": "easy",
+  "effort": "low"
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000133115,
+ "ms": 2596
+}

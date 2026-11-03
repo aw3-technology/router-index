@@ -1,0 +1,12 @@
+{
+ "text": "Some users were being logged out at random. This came from a timing bug in how we keep your sign-in active. We've fixed it, so you should now stay signed in as expected. Thank you for your patience.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "writing",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000047125,
+ "ms": 3105
+}

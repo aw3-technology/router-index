@@ -1,0 +1,12 @@
+{
+ "text": "At around 35,000 feet the air is thin enough that drag drops sharply, so the engines burn less fuel per mile while still getting enough oxygen and the wings enough lift to fly efficiently. It also puts the plane above most weather and turbulence. Going higher is even more fuel-efficient, but thrust, lift, and cabin-pressurization limits make roughly 30,000–40,000 feet the practical sweet spot.",
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "route": {
+  "task": "reasoning",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000369292,
+ "ms": 3505
+}

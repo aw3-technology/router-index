@@ -54,6 +54,8 @@ const suite = JSON.parse(fs.readFileSync(path.join(here, 'prompts.json'), 'utf8'
 const expand = (s) => s.replace(/\{\{repeat (\d+)\}\}([\s\S]*?)\{\{\/repeat\}\}/g, (_, n, body) => Array.from({ length: Number(n) }, (_, i) => body.replaceAll('{i}', String(i + 1))).join(''))
 const prompts = suite.prompts.slice(0, LIMIT).map((p) => ({ ...p, text: expand(p.prompt) }))
 
+const sum = (xs) => xs.reduce((s, x) => s + x, 0)
+
 /* ─── cache ─── */
 
 const file = (...parts) => path.join(OUT, ...parts)
@@ -72,7 +74,9 @@ async function cached(f, work) {
 
 /* ─── spend ─── */
 
+/** Spent in this run (what the budget caps) and the cost of every call behind the results, cached or not */
 let spent = 0
+let total = 0
 const gatewayCost = (r) => {
   const c = Number(r?.providerMetadata?.gateway?.cost)
   return Number.isFinite(c) ? c : 0
@@ -168,7 +172,10 @@ async function versus(p, mine, theirs, base) {
       judgeOnce(judge, p, theirs.text, mine.text, `${tag}--baseline-first`).then((v) => ({ judge, ...v, nivanaIs: 'B' })),
     ]),
   )
-  for (const v of verdicts) if (v.fresh) spent += v.priceUsd
+  for (const v of verdicts) {
+    total += v.priceUsd
+    if (v.fresh) spent += v.priceUsd
+  }
   const points = verdicts.map((v) => (v.winner === 'tie' ? 0.5 : v.winner === v.nivanaIs ? 1 : 0))
   return { score: points.reduce((s, x) => s + x, 0) / points.length, verdicts: verdicts.map(({ judge, winner, nivanaIs, reason }) => ({ judge, nivana_is: nivanaIs, winner, reason })) }
 }
@@ -192,8 +199,9 @@ async function worker() {
     const p = queue.shift()
     try {
       const [mine, ...theirs] = await Promise.all([nivana(p), ...BASELINES.map((b) => baseline(b, p))])
-      if (mine.fresh && LOCAL) spent += mine.modelCostUsd ?? 0
-      else if (mine.fresh) spent += mine.priceUsd
+      const mineUsd = LOCAL ? (mine.modelCostUsd ?? 0) : mine.priceUsd
+      total += mineUsd + sum(theirs.map((t) => t.priceUsd))
+      if (mine.fresh) spent += mineUsd
       for (const t of theirs) if (t.fresh) spent += t.priceUsd
       const against = {}
       for (const [i, base] of BASELINES.entries()) {
@@ -216,7 +224,6 @@ await Promise.all(Array.from({ length: CONCURRENCY }, worker))
 const order = new Map(prompts.map((p, i) => [p.id, i]))
 rows.sort((a, b) => order.get(a.id) - order.get(b.id))
 const ok = rows.filter((r) => !r.error)
-const sum = (xs) => xs.reduce((s, x) => s + x, 0)
 const mean = (xs) => (xs.length ? sum(xs) / xs.length : null)
 const median = (xs) => {
   const s = [...xs].sort((a, b) => a - b)
@@ -259,6 +266,9 @@ const vs = Object.fromEntries(
         nivana_usd: nivanaUsd,
         baseline_usd: baseUsd,
         cost_ratio: baseUsd ? nivanaUsd / baseUsd : null,
+        // Local runs only: the routed model's own cost, before Nivana's margin and rounding
+        nivana_model_cost_usd: LOCAL ? sum(ok.map((r) => r.nivana_model_cost_usd ?? 0)) : null,
+        model_cost_ratio: LOCAL && baseUsd ? sum(ok.map((r) => r.nivana_model_cost_usd ?? 0)) / baseUsd : null,
         nivana_median_ms: median(ok.map((r) => r.nivana_ms)),
         baseline_median_ms: median(ok.map((r) => r.against[b].ms)),
         by_task: by('task'),
@@ -278,7 +288,8 @@ const summary = {
   answered: ok.length,
   errors: rows.filter((r) => r.error).map((r) => ({ id: r.id, error: r.error })),
   stopped_at_budget: stopped,
-  benchmark_spend_usd: spent,
+  benchmark_cost_usd: total,
+  spent_this_run_usd: spent,
   routed_to: routedTo,
   versus: vs,
 }
@@ -287,10 +298,10 @@ const pct = (x) => (x == null ? '–' : `${(x * 100).toFixed(0)}%`)
 const usd = (x) => `$${x.toFixed(x < 1 ? 4 : 2)}`
 const name = (id) => id.split('/')[1]
 let md = `# Nivana routing benchmark, ${summary.run_at.slice(0, 10)}\n\n`
-md += `${summary.answered}/${summary.prompts} held-out prompts answered (${summary.mode}). Judges: ${JUDGES.map(name).join(', ')}, each in both orders. Benchmark spend ${usd(spent)}.\n\n`
-md += `Score = how often the judges preferred Nivana's answer (50% = as good as the baseline). Cost = what the caller pays Nivana (model cost plus Nivana's margin) against the baseline's list price.\n\n`
-md += `| Against | Score (95% CI) | Same-lab judges excluded | Nivana wins / ties / losses | Nivana cost | Baseline cost | Nivana ÷ baseline | Median latency, Nivana / baseline |\n|---|---|---|---|---|---|---|---|\n`
-for (const [b, v] of Object.entries(vs)) md += `| ${name(b)} | ${pct(v.score)} (${pct(v.score_ci95[0])}–${pct(v.score_ci95[1])}) | ${pct(v.neutral_score)} (${pct(v.neutral_score_ci95[0])}–${pct(v.neutral_score_ci95[1])}) | ${v.outcomes.win} / ${v.outcomes.tie} / ${v.outcomes.loss} | ${usd(v.nivana_usd)} | ${usd(v.baseline_usd)} | ${pct(v.cost_ratio)} | ${(v.nivana_median_ms / 1000).toFixed(1)} s / ${(v.baseline_median_ms / 1000).toFixed(1)} s |\n`
+md += `${summary.answered}/${summary.prompts} held-out prompts answered (${summary.mode}). Judges: ${JUDGES.map(name).join(', ')}, each in both orders. Calls behind these results cost ${usd(total)}.\n\n`
+md += `Score = how often the judges preferred Nivana's answer (50% = as good as the baseline). Cost = what the caller pays Nivana (model cost plus Nivana's margin) against the baseline's list price.${LOCAL ? ` "Model only" is the routed model's own cost before Nivana's margin: the effect of routing alone.` : ''}\n\n`
+md += `| Against | Score (95% CI) | Same-lab judges excluded | Nivana wins / ties / losses | Nivana cost | Baseline cost | Nivana ÷ baseline |${LOCAL ? ' Model only ÷ baseline |' : ''} Median latency, Nivana / baseline |\n|---|---|---|---|---|---|---|---|${LOCAL ? '---|' : ''}\n`
+for (const [b, v] of Object.entries(vs)) md += `| ${name(b)} | ${pct(v.score)} (${pct(v.score_ci95[0])}–${pct(v.score_ci95[1])}) | ${pct(v.neutral_score)} (${pct(v.neutral_score_ci95[0])}–${pct(v.neutral_score_ci95[1])}) | ${v.outcomes.win} / ${v.outcomes.tie} / ${v.outcomes.loss} | ${usd(v.nivana_usd)} | ${usd(v.baseline_usd)} | ${pct(v.cost_ratio)} |${LOCAL ? ` ${pct(v.model_cost_ratio)} |` : ''} ${(v.nivana_median_ms / 1000).toFixed(1)} s / ${(v.baseline_median_ms / 1000).toFixed(1)} s |\n`
 for (const [b, v] of Object.entries(vs)) {
   md += `\n## Against ${name(b)}\n\n| Task | n | Score | Nivana cost | ${name(b)} cost |\n|---|---|---|---|---|\n`
   for (const [k, g] of Object.entries(v.by_task)) md += `| ${k} | ${g.n} | ${pct(g.score)} | ${usd(g.nivana_usd)} | ${usd(g.baseline_usd)} |\n`

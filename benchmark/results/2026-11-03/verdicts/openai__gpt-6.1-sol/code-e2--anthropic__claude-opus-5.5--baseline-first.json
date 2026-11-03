@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both give the idiomatic Set solution and correct alternatives, but A explains the NaN edge case more precisely: filter with indexOf removes all NaN values, rather than merely failing to deduplicate them. Otherwise, the answers are essentially equivalent in correctness and usefulness.",
+ "priceUsd": 0.002476
+}

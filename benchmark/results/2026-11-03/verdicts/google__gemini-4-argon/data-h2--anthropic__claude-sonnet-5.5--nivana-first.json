@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "The prompt requested 'JSON only'. Answer A provided pure JSON, while Answer B wrapped the output in markdown code fences.",
+ "priceUsd": 0.002448
+}

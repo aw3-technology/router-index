@@ -1,0 +1,6 @@
+{
+ "text": "The simplest way is to use a `Set`, which only stores unique values:\n\n```javascript\nconst numbers = [1, 2, 2, 3, 4, 4, 5];\nconst unique = [...new Set(numbers)];\n\nconsole.log(unique); // [1, 2, 3, 4, 5]\n```\n\nYou can also use `Array.from`:\n\n```javascript\nconst unique = Array.from(new Set(numbers));\n```\n\n## Alternatives\n\n**Using `filter` and `indexOf`** (works everywhere, but slower for large arrays since it's O(n²)):\n\n```javascript\nconst unique = numbers.filter((n, i) => numbers.indexOf(n) === i);\n```\n\n**Using `reduce`:**\n\n```javascript\nconst unique = numbers.reduce((acc, n) => {\n  if (!acc.includes(n)) acc.push(n);\n  return acc;\n}, []);\n```\n\n## Notes\n\n- The `Set` approach is the fastest and most readable, with O(n) time complexity.\n- Order is preserved: the first occurrence of each value is kept.\n- `Set` treats `NaN` as equal to `NaN`, so duplicates of `NaN` are removed (unlike `indexOf`, which never finds `NaN`).\n- `Set` treats `0` and `-0` as the same value.\n- None of these modify the original array; they all return a new one. If you want to modify in place, reassign: `numbers = [...new Set(numbers)];` (with `let`).",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.004854,
+ "ms": 3636
+}

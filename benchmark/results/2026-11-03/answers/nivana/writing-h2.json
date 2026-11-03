@@ -1,0 +1,12 @@
+{
+ "text": "**The Toolbox**\n\nThe toolbox sat open on the garage floor, its red paint worn grey where their father's hands had gripped it.\n\n\"Left or right?\" Dani held up a socket set.\n\n\"Keep it.\" Marcus didn't look up from the drawer he was emptying: rubber bands, a pencil stub, three keys nobody would ever identify.\n\n\"You keep it. You're closer to the tools.\"\n\n\"I'm closer to the tools,\" he repeated flatly. Then, after a while: \"Dad would've wanted the level in your car.\"\n\n\"Dad never said anything about the level.\"\n\n\"He didn't have to.\"\n\nShe turned the socket set over. Someone had written on the lid in marker, faded to almost nothing: *M.* A boy's name, from when a boy was allowed to hold the ratchet while his father worked. She set it on the pile marked *keep* and rested her hand on it a second longer than she meant to.\n\nMarcus found the hammer, its handle split and wrapped in electrical tape. He weighed it in his palm. Their father had never replaced anything that still worked, and he had never once asked either of them to come over and fix something. But the tape was new. Pulled tight. Clean.\n\n\"He fixed this recently,\" Marcus said.\n\nDani didn't answer. She was looking at the phone on the workbench, its screen lit with a call log, a long column of the same unknown number. Hers. Changed twice since the last time he'd tried.\n\n\"Put the hammer with the keep pile,\" she said at last.\n\n\"It's yours.\"\n\n\"I know it's mine.\"",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "writing",
+  "difficulty": "medium",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000565125,
+ "ms": 8185
+}

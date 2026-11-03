@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Answer A is truncated inside the code block (`clock.advance(5`), causing a syntax error so it cannot run as written. Answer B's code block is complete, runs without error, and passes all requirements, even though the trailing markdown explanation gets cut off at the very end.",
+ "priceUsd": 0.011416
+}

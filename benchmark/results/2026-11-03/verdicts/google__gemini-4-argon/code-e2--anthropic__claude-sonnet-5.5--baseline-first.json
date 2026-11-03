@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are essentially identical in structure, code examples, and edge-case coverage (like NaN and time complexity). Both are accurate, idiomatic, and directly answer the prompt.",
+ "priceUsd": 0.002872
+}

@@ -1,0 +1,12 @@
+{
+ "text": "The two coins are a **quarter (25¢) and a nickel (5¢)**.\n\nAmong US coins, the only two that add up to 30¢ are 25 + 5. The clue that one coin is not a nickel is satisfied by the quarter.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "math",
+  "difficulty": "easy",
+  "effort": "low"
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.00022899,
+ "ms": 4393
+}

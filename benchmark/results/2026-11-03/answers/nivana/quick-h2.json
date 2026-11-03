@@ -1,0 +1,12 @@
+{
+ "text": "This puzzle is called **Olbers' paradox**. If the universe were infinite, eternal, and static and evenly filled with stars, every line of sight would eventually end on a star's surface, and the whole night sky would blaze as bright as the Sun. The sky is dark mainly because **the universe has a finite age** of about 13.8 billion years. Light travels at a finite speed, so we can only see objects whose light has had time to reach us. Within that observable region there are far too few stars to cover every direction, and stars don't live long enough to fill space with that much light anyway. **Cosmic expansion** adds to the effect by stretching light from distant galaxies to longer, dimmer, redder wavelengths. The universe's early glow actually *does* fill the entire sky, but expansion has redshifted it into faint microwaves, the cosmic microwave background, which our eyes can't see. (Interstellar dust doesn't solve the paradox on its own, since dust absorbing that much light would heat up and glow too.) So the darkness of the night sky is evidence that the universe had a beginning and is expanding.",
+ "model": "anthropic/claude-opus-5.5",
+ "route": {
+  "task": "reasoning",
+  "difficulty": "medium",
+  "effort": "medium"
+ },
+ "priceUsd": 0.021,
+ "modelCostUsd": 0.013616,
+ "ms": 7494
+}

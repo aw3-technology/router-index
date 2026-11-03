@@ -1,0 +1,12 @@
+{
+ "text": "[\n  {\n    \"ts\": \"2026-11-02T08:14:03.112Z\",\n    \"level\": \"WARN\",\n    \"service\": \"billing\",\n    \"latency_ms\": 1830,\n    \"msg\": \"slow charge customer=c_91\"\n  },\n  {\n    \"ts\": \"2026-11-02T08:15:00Z\",\n    \"level\": \"INFO\",\n    \"service\": \"auth\",\n    \"latency_ms\": null,\n    \"msg\": \"login ok\"\n  },\n  {\n    \"ts\": \"2026-11-02T08:16:41Z\",\n    \"level\": \"ERROR\",\n    \"service\": \"billing\",\n    \"latency_ms\": 212,\n    \"msg\": \"charge failed: card_declined\"\n  }\n]",
+ "model": "openai/gpt-6-luna",
+ "route": {
+  "task": "data",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.0002148,
+ "ms": 4498
+}

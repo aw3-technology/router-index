@@ -1,0 +1,6 @@
+{
+ "text": "**Ehrlich gesagt war der Launch eine einzige Katastrophe, aber wir haben auf den letzten Drücker doch noch die Kurve gekriegt, und keiner hat was gemerkt.**\n\n**Alternatives depending on tone:**\n\n- *Even more colloquial:* „Mal ehrlich, der Launch war ein Totalchaos, aber wir haben's kurz vor knapp noch rumgerissen, und niemand hat's mitgekriegt.\"\n- *Slightly more neutral/professional:* „Ehrlich gesagt lief der Launch ziemlich chaotisch, aber wir haben in letzter Minute noch das Ruder herumgerissen, und niemand hat etwas bemerkt.\"\n\n**Notes on the choices:**\n\n- **dumpster fire** → *eine einzige Katastrophe / ein Totalchaos*. German has no direct equivalent, but these carry the same \"total mess\" exasperation. *Ging total in die Hose* would also work if you restructure the sentence.\n- **pulled it out of the bag** → *die Kurve gekriegt / das Ruder herumgerissen*. Both convey a last-minute rescue.\n- **at the eleventh hour** → *auf den letzten Drücker / kurz vor knapp*. These are more natural in casual speech than the literal *in elfter Stunde*, which sounds stilted or biblical.\n- **nobody was any the wiser** → *keiner hat was gemerkt / niemand hat's mitgekriegt*. Simple and idiomatic, with the same \"we got away with it\" feel.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.0173,
+ "ms": 9331
+}

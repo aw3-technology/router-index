@@ -1,0 +1,6 @@
+{
+ "text": "There is no missing dollar. The puzzle adds numbers that shouldn't be added.\n\n**Where the money actually is**\n\n- The friends paid a net total of $27 (3 × $9).\n- That $27 is fully accounted for: $25 went to the hotel and $2 went to the bellhop.\n- The friends also each got $1 back, which is $3.\n- $27 + $3 = $30, the original amount.\n\n**Where the puzzle misleads**\n\nIt says \"$27 + $2 = $29, so where's the missing dollar?\" But the $2 the bellhop kept is already included in the $27. Adding it again double-counts it.\n\nThe $27 isn't \"hotel + something else.\" It *is* hotel + bellhop:\n\n- $27 = $25 (hotel) + $2 (bellhop)\n\nSo the correct comparison is that the $27 the friends paid equals the $25 plus the $2, with no leftover. The $2 should be subtracted from $27 to get the room cost ($25), not added to it.\n\n**Another check: follow each person's money**\n\n| Who | Amount |\n|---|---|\n| Hotel | $25 |\n| Bellhop | $2 |\n| Friends (refunds) | $3 |\n| **Total** | **$30** |\n\nThe puzzle works as a trick because $29 looks close to $30 and invites you to search for a missing $1. But $29 is a meaningless figure here, since it combines the friends' payments (which already include the tip) with the tip again.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.00495,
+ "ms": 4790
+}

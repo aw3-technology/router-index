@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly conclude 5 minutes and explain the same constant-rate, parallel-production assumption. A provides clear steps; B adds a correct rate calculation that verifies the same reasoning. Neither has a meaningful quality advantage.",
+ "priceUsd": 0.001362
+}

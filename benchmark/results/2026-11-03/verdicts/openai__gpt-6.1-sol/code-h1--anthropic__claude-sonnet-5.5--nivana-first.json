@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B provides a complete, runnable implementation and asserts covering LRU eviction, lazy expiry, TTL overrides, and TTL reset with an injectable clock. A is truncated inside `clock.advance(5`, leaving its code syntactically invalid. Both use the appropriate dictionary-plus-doubly-linked-list design for O(1) get and put.",
+ "priceUsd": 0.0122735
+}

@@ -1,0 +1,12 @@
+{
+ "text": "Here's a draft for you:\n\nTwo people, one workshop, and more bent wheels than we'd like to admit. We're [Name] and [Name], and we've been fixing bikes in Lisbon long enough to know which hills are actually steep and which just feel that way after a long day. We do the honest work: flat tyres, squeaky brakes, gears that skip when you're climbing, and the occasional frame that arrived in a worse state than the owner described. We'll tell you what needs doing, what can wait, and what isn't worth fixing. Bring the bike in as it is. We've seen worse, and we'll have it rolling again before the pastéis de nata at the café down the street are finished.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "writing",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.00012225,
+ "ms": 3121
+}

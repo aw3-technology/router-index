@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers correctly diagnose the non-sargable predicates, provide a safe half-open date-range rewrite, and recommend appropriate composite and expression indexes. B is slightly stronger because it more clearly addresses the original case-insensitivity semantics, explains data normalization and exact expression-index matching, and adds the important selectivity caveat that an index scan is not always optimal when the predicates match most rows. Its verification guidance is also directly actionable.",
+ "priceUsd": 0.006608
+}

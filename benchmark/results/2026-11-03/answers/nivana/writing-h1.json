@@ -1,0 +1,12 @@
+{
+ "text": "**Your Customers Don't Need You to Own a Parking Lot**\n\nEvery time a new café, dental office or hardware shop opens, the city can require its owner to build a set number of parking spaces first. These rules, called parking minimums, were written for a different kind of city. They make small businesses pay for land they may not need, and they often push out the storefronts that give a street its life.\n\nThe objection most of you will raise first is that customers drive, and without parking they will go elsewhere. Some will. But a parking requirement doesn't guarantee anyone a space. It guarantees asphalt. Where minimums apply, those spaces often sit empty most of the day while the shop next door struggles to pay rent. Removing the minimum lets you decide how much parking your customers actually need and spend the difference on inventory, staff or a lower lease. Where a street already has curb parking, shoppers can use it, and the cost can be carried through meters rather than through your own land.\n\nThe second objection is that without minimums, developers will build cheap projects with no parking and clog the street with spillover cars. This is a fair worry, and it is why reform should come with market-priced curb parking and proper loading zones. But the absence of a rule doesn't dictate the result. Many developers still provide parking where tenants demand it. Where they don't, a busier street with more foot traffic is worth more to a shop than an empty lot behind the building.\n\nCities including Buffalo and Hartford have repealed or scaled back their minimums without becoming car-free wastelands. They have simply stopped requiring every business to act as a parking operator. If you run a shop, that decision about your property should be yours, not the zoning code's.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "writing",
+  "difficulty": "medium",
+  "effort": null
+ },
+ "priceUsd": 0.002,
+ "modelCostUsd": 0.000766,
+ "ms": 9332
+}

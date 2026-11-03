@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly identify a quarter and a nickel, explain that the quarter satisfies “one of them is not a nickel,” and correctly state that this is the only US coin pair totaling 30 cents. A provides slightly more detail, but no meaningful improvement in correctness or reasoning.",
+ "priceUsd": 0.001604
+}

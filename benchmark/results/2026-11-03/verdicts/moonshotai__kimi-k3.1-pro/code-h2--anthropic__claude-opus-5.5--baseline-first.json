@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers correctly identify the missing condition-check loop, explain how barging can cause an empty-slice panic, and connect the non-deferred unlock to a persistent deadlock when the panic is recovered. A is stronger overall: it covers additional real edge cases such as Pool copying and zero-value initialization, provides a safe constructor, validates nil puts, bounds the channel-based pool, and avoids blocking Put callers. Its fixes are complete and idiomatic. B is also correct and useful, but its alternative channel implementation can block indefinitely on an unexpected or duplicate Put, and the unrelated 'Nivana here' introduction slightly reduces polish.",
+ "priceUsd": 0.010086
+}

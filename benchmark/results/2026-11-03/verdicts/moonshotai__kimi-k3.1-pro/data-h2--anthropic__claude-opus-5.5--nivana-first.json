@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A is valid raw JSON with correctly parsed timestamps, fields, latencies, and messages. B wraps the output in Markdown code fences, violating the explicit \"JSON only\" requirement, and redundantly retains latency fields in msg.",
+ "priceUsd": 0.002614
+}

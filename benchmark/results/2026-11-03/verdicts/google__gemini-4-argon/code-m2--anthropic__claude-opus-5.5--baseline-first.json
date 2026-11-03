@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers are excellent and cover the exact same core concepts (sargability, half-open date ranges, composite index column order, covering indexes, collations, and expression indexes). Answer A edges out Answer B slightly because it correctly includes the double parentheses required for MySQL functional indexes in an executable code block (Answer B uses `...`), and it explicitly explains the optimizer selectivity caveat (why the DB might still do a full table scan even with the index if 2026 paid orders make up a high percentage of the table).",
+ "priceUsd": 0.006062
+}

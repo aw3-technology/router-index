@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both schemas correctly express all requested constraints, and B's optional title does not affect validation. Both equally violate the JSON-only requirement by including Markdown code fences.",
+ "priceUsd": 0.001616
+}

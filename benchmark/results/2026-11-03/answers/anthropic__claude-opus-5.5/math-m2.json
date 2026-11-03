@@ -1,0 +1,6 @@
+{
+ "text": "The real solutions are **x = −2, −1, 1, 2**.\n\n**Step 1: Reduce to a quadratic.** Let y = x². The equation becomes\n\n$$y^2 - 5y + 4 = 0.$$\n\n**Step 2: Factor.**\n\n$$(y - 1)(y - 4) = 0 \\quad\\Rightarrow\\quad y = 1 \\text{ or } y = 4.$$\n\n**Step 3: Return to x.**\n- x² = 1 gives x = ±1.\n- x² = 4 gives x = ±2.\n\nBoth values of y are positive, so all four roots are real.\n\n**Check:** The original polynomial factors as (x − 1)(x + 1)(x − 2)(x + 2). This confirms the roots.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.006,
+ "ms": 3456
+}

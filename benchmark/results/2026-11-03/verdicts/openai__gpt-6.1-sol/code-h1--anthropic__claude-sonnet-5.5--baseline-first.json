@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both implement O(1) dictionary-plus-linked-list operations and correctly demonstrate lazy expiry and LRU eviction with an injectable clock. B is slightly stronger: it rejects NaN TTLs, bounds keys to Hashable, provides more flexible typed get defaults, and uses separate sentinel links rather than casting None into node fields. Its explanation is also complete, whereas A ends mid-sentence.",
+ "priceUsd": 0.0125535
+}

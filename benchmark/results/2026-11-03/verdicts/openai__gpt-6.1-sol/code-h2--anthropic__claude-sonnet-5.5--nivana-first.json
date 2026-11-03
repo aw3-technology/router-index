@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A correctly explains the stolen-wakeup race, the panic-with-lock-held path to deadlock, and the minimal loop-based fix. Both answers incorrectly suggest Go's sync.Cond permits spurious wakeups; Go explicitly guarantees otherwise. B adds further inaccuracies: sync.Cond can be integrated with context cancellation, an initially empty pool need not deadlock if producers later call Put, and Put(nil) does not itself duplicate a connection. Its channel alternative also assumes an unspecified Conn.Close method and silently changes overflow behavior. A is therefore the more accurate answer overall.",
+ "priceUsd": 0.007521
+}

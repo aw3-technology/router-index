@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers are excellent and cover the exact same technical ground (sargability, half-open intervals, composite index column order, covering indexes, and collations/functional indexes). Answer B edges out A because it includes the very important real-world caveat about selectivity: if 2026 paid orders make up a huge percentage of the table, the optimizer will still choose a sequential scan over an index scan unless it's a covering index.",
+ "priceUsd": 0.005882
+}

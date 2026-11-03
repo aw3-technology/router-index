@@ -1,0 +1,6 @@
+{
+ "text": "**Solve 4x − 7 = 21**\n\n1. Add 7 to both sides:\n 4x = 28\n\n2. Divide both sides by 4:\n x = 7\n\n**Check:** 4(7) − 7 = 28 − 7 = 21 ✓\n\n**x = 7**",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.000974,
+ "ms": 1250
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both correctly prove the clues are inconsistent: house 1 must be yellow with the cat, house 2 has the horse, and house 3 has the bird. In each possible green–white placement, the nationality and dog clues force the Dane into house 2, so clue 8 incorrectly requires a fish in house 3. Both exhaust the possibilities with checkable deductions, and their different observations about dropping a clue are also correct.",
+ "priceUsd": 0.007001
+}

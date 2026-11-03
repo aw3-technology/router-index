@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers are correct and well derived, but B is slightly stronger: it evaluates the n = 2 case explicitly, proves the needed decay fact, and handles the improper integrals rigorously using finite upper limits before taking b → ∞. Its induction also establishes convergence and the recurrence cleanly.",
+ "priceUsd": 0.005014
+}

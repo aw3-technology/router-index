@@ -1,0 +1,6 @@
+{
+ "text": "**There is no missing dollar.** The puzzle adds numbers that shouldn't be added.\n\n**Where the money actually is**\n\nThe friends paid $27 in total. That $27 is split like this:\n\n- $25 with the hotel\n- $2 with the bellhop\n\nSo $27 = $25 + $2. The bellhop's $2 is already *inside* the $27. Adding it again ($27 + $2 = $29) counts it twice. It should be subtracted to find what the hotel kept ($27 − $2 = $25).\n\n**Accounting for the original $30**\n\n| Where it ended up | Amount |\n|---|---|\n| Hotel | $25 |\n| Bellhop | $2 |\n| Returned to friends | $3 |\n| **Total** | **$30** |\n\n**Why the trick works**\n\nThe riddle compares $29 to $30, which suggests the two should match. But $27 + $2 means nothing in particular. The $27 is money paid *out* by the friends, and the $2 is part of where that money went. The correct check is to add what the friends got back ($3) to what they paid ($27), which gives $30.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.00798,
+ "ms": 4738
+}

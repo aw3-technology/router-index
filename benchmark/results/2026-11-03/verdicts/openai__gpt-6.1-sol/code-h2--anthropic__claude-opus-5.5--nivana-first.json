@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B explains the actual race and the recovered-panic-to-deadlock chain clearly, provides a correct minimal fix, and additionally identifies the Pool-copying hazard. A misleadingly invokes spurious wakeups without clarifying that Go's sync.Cond does not permit them. B has caveats—context cancellation can be implemented around sync.Cond with additional coordination, and its channel alternative assumes Conn.Close—but its core diagnosis and coverage are stronger.",
+ "priceUsd": 0.008046
+}

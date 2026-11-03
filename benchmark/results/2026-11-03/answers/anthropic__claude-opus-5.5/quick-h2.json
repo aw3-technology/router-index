@@ -1,0 +1,6 @@
+{
+ "text": "This puzzle, known as **Olbers' paradox**, arises because in an infinite, eternal, unchanging universe filled evenly with stars, every line of sight would eventually end on a star's surface, so the whole sky should glow as brightly as the Sun. The sky is dark mainly because **the universe has a finite age** (about 13.8 billion years). Light travels at a finite speed, so we can only see objects whose light has had time to reach us, and that observable region contains too few stars to cover the sky. Stars also have finite lifetimes, so the universe has never held enough luminous material to fill every sightline. A secondary factor is **the expansion of the universe**, which stretches light from distant galaxies to longer, redder, lower-energy wavelengths. Even the brightest \"background\" we can detect, the afterglow of the Big Bang, has been redshifted from visible light into faint microwaves, so the darkness of the night sky is itself evidence that the universe had a beginning and is expanding.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.0069,
+ "ms": 4663
+}

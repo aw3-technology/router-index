@@ -1,0 +1,6 @@
+{
+ "text": "This puzzle is known as Olbers' paradox: in an infinite, eternal, unchanging universe, every line of sight would eventually end on a star's surface, so the night sky should blaze as bright as a star's surface. It doesn't, mainly because the universe isn't infinitely old. It began about 13.8 billion years ago, so we can only see light from objects close enough that their light has had time to reach us, which means most lines of sight end in the dark gap before the first stars formed (or at the cosmic microwave background, which is now cooled to microwaves and invisible to our eyes). Stars also have finite lifetimes, and the expansion of the universe stretches the light from distant sources to longer, redder, lower-energy wavelengths, dimming it further. The finite age is the dominant factor, while expansion plays a smaller supporting role. The result is that there simply isn't enough starlight reaching us to light up the night sky.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.00304,
+ "ms": 3914
+}

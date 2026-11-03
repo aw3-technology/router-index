@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers give the correct result, 734, with clear and verifiable inclusion–exclusion calculations. They correctly compute the single-set counts, pairwise and triple intersections using LCM 30, and subtract the union count from 999. Neither has a meaningful quality advantage.",
+ "priceUsd": 0.0033
+}

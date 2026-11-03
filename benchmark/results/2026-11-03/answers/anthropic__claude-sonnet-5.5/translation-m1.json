@@ -1,0 +1,6 @@
+{
+ "text": "**French translation (formal business register):**\n\n« Nous regrettons de vous informer que l'expédition sera retardée de deux semaines en raison d'un problème survenu chez l'un de nos fournisseurs. Nous vous prions de bien vouloir nous excuser pour la gêne occasionnée. »\n\n**Notes:**\n- *Nous vous prions de bien vouloir nous excuser* is a courteous, formal way to apologise. A shorter alternative is *Nous vous présentons nos excuses pour ce désagrément.*\n- *Expédition* can be replaced by *livraison* if you are referring to delivery to the customer rather than dispatch. *Commande* may also be used if the context is an order.\n- *En raison d'un problème survenu chez l'un de nos fournisseurs* makes the cause more explicit. A more literal version would be *en raison d'un problème lié à un fournisseur*.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.003136,
+ "ms": 2668
+}

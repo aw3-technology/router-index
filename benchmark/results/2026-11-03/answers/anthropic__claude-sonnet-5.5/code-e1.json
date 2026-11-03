@@ -1,0 +1,6 @@
+{
+ "text": "```python\nprint(\" \".join(input().split()[::-1]))\n```\n\nOr as an expression on a string `s`:\n\n```python\n\" \".join(s.split()[::-1])\n```\n\n**How it works:**\n- `s.split()` splits the sentence into a list of words (handling any amount of whitespace)\n- `[::-1]` reverses the list\n- `\" \".join(...)` glues the words back together with single spaces\n\n**Example:**\n```python\ns = \"the quick brown fox\"\nprint(\" \".join(s.split()[::-1]))  # fox brown quick the\n```\n\nAlternative using `reversed`:\n```python\n\" \".join(reversed(s.split()))\n```\n\nNote that both versions collapse multiple spaces into one. If you need to preserve the original spacing, use `re`:\n```python\nimport re; \"\".join(re.split(r'(\\s+)', s)[::-1])\n```",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.002892,
+ "ms": 2460
+}

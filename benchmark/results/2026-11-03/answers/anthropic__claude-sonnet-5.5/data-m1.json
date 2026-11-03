@@ -1,0 +1,6 @@
+{
+ "text": "```json\n{\n  \"order_id\": \"A-7731\",\n  \"items\": [\n    {\"name\": \"oak shelves\", \"qty\": 2},\n    {\"name\": \"brass lamp\", \"qty\": 1}\n  ],\n  \"ship_by\": \"2026-11-20\"\n}\n```",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.001106,
+ "ms": 1102
+}

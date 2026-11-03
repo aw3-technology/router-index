@@ -1,0 +1,6 @@
+{
+ "text": "- **Draft the pricing page**: Owner: Sam; Due: Nov 14\n- **Book the venue for the offsite**: Owner: Leila; Due: Nov 21\n- **Review the security audit**: Owners: Sam and Ana; Due: Dec 1",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.006988,
+ "ms": 2078
+}

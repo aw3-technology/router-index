@@ -1,0 +1,6 @@
+{
+ "text": "The coins are a **quarter (25¢) and a nickel (5¢)**.\n\nThis is a classic riddle. The statement says \"one of them is not a nickel,\" which is true here because the quarter is not a nickel. It does not say that *neither* is a nickel, so the other coin can still be one.\n\nChecking the other combinations of US coins shows no alternative pair adds up to 30¢:\n- Dime + 20¢ coin: there's no 20¢ coin in circulation\n- Half dollar and dollar coins are too large\n- Pennies and dimes can't reach 30¢ with only two coins\n\nSo the quarter and the nickel are the only answer.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.002182,
+ "ms": 2506
+}

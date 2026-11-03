@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers correctly identify the primary cause of the deadlock (using `if` instead of `for` with `cond.Wait()`, leading to an index-out-of-bounds panic while holding the lock, which causes a deadlock if recovered, such as in an HTTP handler). Answer B is slightly better as it doesn't include weird self-introductory filler ('Nivana here.'), gives a clearer step-by-step trace of the race condition, and provides a safer non-blocking `Put` in its channel-based alternative.",
+ "priceUsd": 0.007006
+}

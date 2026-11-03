@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A clearly and accurately assigns dependency/UI updates to v1 releases, breaking changes to v2.0.0, and bug fixes to subsequent patches, while B blends the routine release categories and awkwardly describes v2.0.0 as an exception to ranges that exclude it.",
+ "priceUsd": 0.002842
+}

@@ -1,0 +1,6 @@
+{
+ "text": "**Nous avons le regret de vous informer que l'expédition subira un retard de deux semaines en raison d'un problème rencontré chez notre fournisseur. Nous vous prions de bien vouloir nous excuser pour la gêne occasionnée.**\n\n**Notes:**\n- *Nous avons le regret de vous informer* is the standard formal equivalent of \"We regret to inform you.\"\n- *subira un retard de* is more formal than *sera retardée de*.\n- *Nous vous prions de bien vouloir nous excuser pour la gêne occasionnée* is the conventional formal apology in French business correspondence. \"Nous nous excusons\" is common but considered less correct by purists.\n- If \"shipment\" refers to the delivery to the client rather than the dispatch, you can replace *l'expédition* with *la livraison*.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.010172,
+ "ms": 5578
+}

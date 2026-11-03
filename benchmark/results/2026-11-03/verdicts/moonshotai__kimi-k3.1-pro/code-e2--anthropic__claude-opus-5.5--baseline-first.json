@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are correct, idiomatic, and runnable. They recommend the same Set-based solution, provide equivalent alternatives with appropriate O(n²) warnings, and accurately cover NaN behavior and numeric sorting. Neither offers a meaningful practical advantage over the other.",
+ "priceUsd": 0.0042
+}

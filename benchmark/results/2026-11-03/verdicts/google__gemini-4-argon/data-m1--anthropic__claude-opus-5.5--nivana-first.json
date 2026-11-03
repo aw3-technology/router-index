@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers provide valid JSON with the exact keys and types requested, and no extra prose. The only difference is 'oak shelves' vs 'oak shelf', both of which are completely valid ways to extract the item name.",
+ "priceUsd": 0.001846
+}

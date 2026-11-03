@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both parse the logs correctly, but A wraps the output in a Markdown code fence, violating the JSON-only requirement. B is a valid raw JSON array with the requested structure and values.",
+ "priceUsd": 0.0022972
+}

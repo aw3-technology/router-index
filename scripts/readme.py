@@ -42,6 +42,10 @@ readme = f"""# The Router Index
 |---|---|{'---|' * len(tasks)}---|
 {scores}
 
+## Does routing beat one strong model?
+
+The [routing benchmark](benchmark/) compares Nivana's automatic routing with always calling Claude Opus 5.5 or Sonnet 5.5, on 48 held-out prompts. Three judges from other labs compared each pair in both orders. On 2026-11-03, the judges rated Nivana's answers level with Opus (49%, 95% CI 41–57%). The routed models cost 56% of Opus, and a caller paid 88% of the Opus price after Nivana's fee. Against Sonnet, Nivana's answers were preferred 55% of the time, but they cost about twice as much. Writing was the weak spot. Prompts, answers, verdicts and the harness are all in [`benchmark/`](benchmark/), so anyone can run it again.
+
 ## Method
 
 {d['method']}

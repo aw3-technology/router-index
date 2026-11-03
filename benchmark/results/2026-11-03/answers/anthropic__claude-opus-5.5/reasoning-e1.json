@@ -1,0 +1,6 @@
+{
+ "text": "The answer is **5 minutes**.\n\n- 5 machines make 5 widgets in 5 minutes, so **each machine makes 1 widget in 5 minutes**.\n- With 100 machines working at the same time, each makes 1 widget in those same 5 minutes.\n- That gives 100 widgets in **5 minutes**.\n\nThe tempting answer is 100 minutes, but adding machines increases how many widgets get made at once. It doesn't change how long each widget takes.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.003564,
+ "ms": 2600
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both implementations are correct and runnable, but A is slightly stronger: its tests also cover empty input, its test command is clearer, and its concise notes explain the final partial chunk and copy semantics. B is also good, but its suggestion to floor non-integer sizes is an unnecessary and potentially surprising behavioral recommendation.",
+ "priceUsd": 0.006046
+}

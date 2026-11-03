@@ -1,0 +1,12 @@
+{
+ "text": "The chemical symbol for gold is **Au**, from the Latin *aurum*.",
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "route": {
+  "task": "quick",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.0001656,
+ "ms": 1731
+}

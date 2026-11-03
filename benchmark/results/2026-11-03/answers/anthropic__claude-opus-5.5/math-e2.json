@@ -1,0 +1,6 @@
+{
+ "text": "**x = 7**\n\n1. Add 7 to both sides: 4x = 28\n2. Divide both sides by 4: x = 7\n\n**Check:** 4(7) − 7 = 28 − 7 = 21 ✓",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.001828,
+ "ms": 1674
+}

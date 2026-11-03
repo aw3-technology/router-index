@@ -1,0 +1,12 @@
+{
+ "text": "It would take **5 minutes**.\n\nEach machine makes 1 widget in 5 minutes. The rate is the same per machine, so with 100 machines working in parallel, each one still makes its own widget in 5 minutes. Total output scales with the number of machines, so 100 machines make 100 widgets in the same 5 minutes.\n\nRate check: 5 machines × (1 widget / 5 min) = 1 widget/min, so 5 widgets take 5 minutes. 100 machines × (1 widget / 5 min) = 20 widgets/min, so 100 widgets would take $\\frac{100}{20} = 5$ minutes.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "math",
+  "difficulty": "easy",
+  "effort": "low"
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.00018715,
+ "ms": 2727
+}

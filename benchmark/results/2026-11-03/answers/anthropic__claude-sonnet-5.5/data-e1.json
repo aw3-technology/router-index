@@ -1,0 +1,6 @@
+{
+ "text": "{\"city\": \"Montréal\", \"country\": \"Canada\"}",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.000298,
+ "ms": 765
+}

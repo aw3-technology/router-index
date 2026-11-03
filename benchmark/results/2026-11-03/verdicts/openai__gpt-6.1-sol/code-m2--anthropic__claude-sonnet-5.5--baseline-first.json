@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both explain the non-sargable predicates and provide the correct half-open date range and composite index, with options for preserving case-insensitive matching. A is more reliable: B’s supposedly covering index omits the selected order_id column, so it is not covering in PostgreSQL (and only conditionally so in SQL Server). Both overstate that functions necessarily force a full scan and that SELECT * always prevents index-only access, but A avoids B’s concrete index-definition error.",
+ "priceUsd": 0.0058085
+}

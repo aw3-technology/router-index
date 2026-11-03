@@ -1,0 +1,6 @@
+{
+ "text": "15% of 240 = **36**\n\nYou can get this by multiplying 240 × 0.15 = 36.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.000384,
+ "ms": 1275
+}

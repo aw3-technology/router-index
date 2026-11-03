@@ -1,0 +1,6 @@
+{
+ "text": "**Why the Moon shows one face:** It's *tidally locked*. Earth's gravity stretched the early Moon into a slightly elongated shape with tidal bulges. Because the Moon was spinning faster than it orbited, those bulges were constantly dragged out of line with Earth. Earth's pull on them created a torque that slowed the Moon's spin, and internal friction dissipated the energy. This continued until the Moon's rotation period matched its orbital period (~27.3 days). Now the bulge stays pointed at Earth, so we always see the same side.\n\n**Is it happening to Earth?** Yes, but much more slowly, because Earth is far more massive and the Moon's tidal pull on it is weaker.\n\n- The Moon's tides act as a brake on Earth's spin, lengthening our day by roughly 2 milliseconds per century.\n- The angular momentum Earth loses goes to the Moon, which is drifting away by about 3.8 cm per year.\n- In principle, Earth would eventually become locked too, with one hemisphere permanently facing the Moon. That would take tens of billions of years, so the Sun's evolution in about 5 billion years will intervene first.\n\n**A real example of the end state:** Pluto and Charon are already mutually locked. Each always shows the same face to the other.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.012304,
+ "ms": 7016
+}

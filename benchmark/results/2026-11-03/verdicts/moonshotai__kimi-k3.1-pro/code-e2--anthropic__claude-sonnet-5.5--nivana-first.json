@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers are correct, idiomatic, and provide working solutions with useful complexity and NaN caveats. A is slightly better because B inaccurately describes reassignment as modifying the array “in place”; it does not mutate the original array, and other references to it would remain unchanged.",
+ "priceUsd": 0.0030584
+}

@@ -1,0 +1,6 @@
+{
+ "text": "```json\n[\n  {\n    \"ts\": \"2026-11-02T08:14:03.112Z\",\n    \"level\": \"WARN\",\n    \"service\": \"billing\",\n    \"latency_ms\": 1830,\n    \"msg\": \"slow charge customer=c_91\"\n  },\n  {\n    \"ts\": \"2026-11-02T08:15:00Z\",\n    \"level\": \"INFO\",\n    \"service\": \"auth\",\n    \"latency_ms\": null,\n    \"msg\": \"login ok\"\n  },\n  {\n    \"ts\": \"2026-11-02T08:16:41Z\",\n    \"level\": \"ERROR\",\n    \"service\": \"billing\",\n    \"latency_ms\": 212,\n    \"msg\": \"charge failed: card_declined\"\n  }\n]\n```",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.002706,
+ "ms": 1878
+}

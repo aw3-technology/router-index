@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A gives the more reliable guidance: it explains optional stopping and inflated effect estimates, separates statistical evidence from business risk, and explicitly warns that simply adding data and retesting at 0.05 does not fix the original stopping rule. B's false-positive-rate table presents unjustified precision: those rates depend on the timing and dependence of the interim looks, not just their number. A also overstates matters by suggesting roughly 10% false positives without those assumptions and calling the test probably underpowered without knowing traffic, but its overall reasoning and recovery advice are better qualified.",
+ "priceUsd": 0.0072885
+}

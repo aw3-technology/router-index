@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers provide the exact same idiomatic one-liner, and both note the edge case where multiple spaces are collapsed. However, Answer A is better because it also provides the one-liner solution for when the user actually needs to preserve that original spacing, as well as the `reversed()` alternative.",
+ "priceUsd": 0.002138
+}

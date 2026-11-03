@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B more fully preserves “Leave anyway?” with 「このまま移動しますか?」, uses natural UI wording 「変更内容」, and provides concise, appropriate button labels. Its back-translation is somewhat literal but clear, and the contextual notes are useful without altering the translation. A is also good but drops the nuance of “anyway.”",
+ "priceUsd": 0.0031312
+}

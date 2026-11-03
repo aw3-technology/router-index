@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers correctly identify the double-counting error: the bellhop’s $2 is already included in the friends’ $27 payment. Both also provide valid accounting for the $27 ($25 hotel + $2 bellhop) and the original $30 ($25 + $2 + $3 returned), and explain the correct comparisons ($27 − $2 = $25 and $27 + $3 = $30). Neither contains errors or unjustified steps.",
+ "priceUsd": 0.003654
+}

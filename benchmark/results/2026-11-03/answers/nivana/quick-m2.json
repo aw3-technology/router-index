@@ -1,0 +1,12 @@
+{
+ "text": "# Viruses vs. Bacteria — the short version\n\n**Bacteria are tiny living cells. Viruses are not really cells at all — they're more like packets of instructions that hijack cells.**\n\n## The big differences\n\n| | **Bacteria** | **Viruses** |\n|---|---|---|\n| **What they are** | Single-celled living organisms | A scrap of genetic material (DNA or RNA) wrapped in a protein coat |\n| **Size** | About 1,000 times bigger than a virus (visible under a normal microscope) | Extremely small — you need an electron microscope |\n| **Living?** | Yes — they eat, grow, and split in two to reproduce | Debatable — they can't do anything on their own; they only \"work\" inside a host cell |\n| **Reproduction** | Copy themselves by dividing | Force a host cell to build copies of them, usually destroying the cell |\n| **Can they be killed by antibiotics?** | Yes | **No** — antibiotics do nothing to viruses |\n| **What does work?** | Antibiotics | Vaccines (prevention) and antivirals (some treatments); most viral illnesses just need rest and time |\n| **Good or bad?** | Mostly harmless or helpful — gut bacteria help you digest food, and we use them to make yogurt and cheese | Almost always harmful (though some viruses help control bacteria) |\n| **Examples** | Strep throat, urinary tract infections, food poisoning, tuberculosis | Colds, flu, COVID-19, chickenpox, HIV |\n\n## The key thing to remember\n\nA bacterium is a **self-sufficient little machine**. A virus is **just a set of blueprints with a delivery envelope** — it has no engine of its own. That's why a virus can sit on a doorknob for hours doing nothing, and why antibiotics (which target bacterial machinery) are useless against it.\n\nThis is also why **taking antibiotics for a cold is a bad idea**: it won't help you, and it helps breed antibiotic-resistant bacteria.",
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "route": {
+  "task": "quick",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.002,
+ "modelCostUsd": 0.0007257,
+ "ms": 4849
+}

@@ -1,0 +1,12 @@
+{
+ "text": "**Yes.** Under Section 31, the customer can terminate for convenience with **60 days' written notice**. The clause is mutual, so either party may terminate on the same terms.\n\n> \"Section 31. Either party may terminate this agreement for convenience by giving not less than sixty (60) days' written notice.\"\n\nTwo points to check:\n\n- **The notice period is a minimum.** The clause says \"not less than sixty (60) days,\" so a longer notice period is allowed, but 60 days is the shortest the customer can give.\n- **The rest of the document is incomplete.** Sections 1 to 30 and 1 to 25 simply refer to the \"master agreement\" and contain no substantive terms. The master agreement itself was not provided, so it may contain other termination rights, notice requirements, or early-termination fees that could affect this answer. Review it before relying on Section 31.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "reasoning",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000499275,
+ "ms": 4799
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers are very strong and cover the exact same statistical concepts, including the correct sample size calculation of ~53,000 per arm. Answer B is slightly better because it shows the actual formula and steps for the sample size calculation, provides a helpful table illustrating how false-positive rates scale with the number of looks, and gives the exact p-value thresholds for the sequential testing methods (Pocock and O'Brien-Fleming) with 3 looks.",
+ "priceUsd": 0.006416
+}

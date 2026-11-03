@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B is valid JSON only and accurately parses all timestamps, levels, services, latencies, and messages. A wraps its output in Markdown code fences, violating the explicit JSON-only requirement.",
+ "priceUsd": 0.002714
+}

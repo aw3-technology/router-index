@@ -1,0 +1,12 @@
+{
+ "text": "Here are a few options:\n\n- **\"Up before you are, so the bread is ready.\"**\n- **\"Fresh bread, before the sun's up.\"**\n- **\"Your day starts warm at 6.\"**",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "writing",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.00004225,
+ "ms": 2113
+}

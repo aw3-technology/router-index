@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers provide the exact same optimal implementation, including checking for integers/NaN. Answer A is slightly better because it uses Node's built-in test runner (`node:test`) to properly structure the three test cases and keeps the explanations concise.",
+ "priceUsd": 0.003386
+}

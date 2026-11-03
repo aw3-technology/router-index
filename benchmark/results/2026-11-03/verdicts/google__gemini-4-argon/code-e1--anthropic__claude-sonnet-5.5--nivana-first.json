@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Answer A is concise and directly answers the prompt, explaining only what is needed while noting the whitespace edge case. Answer B includes unnecessary variations and puts a stdin/stdout wrapper as the primary solution.",
+ "priceUsd": 0.001858
+}

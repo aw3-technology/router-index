@@ -1,0 +1,6 @@
+{
+ "text": "# Answer: **734**\n\nWe count the positive integers from 1 to 999 and remove those divisible by 6, 10, or 15.\n\n## Define the sets\n\n- A = multiples of 6\n- B = multiples of 10\n- C = multiples of 15\n\n## Single sets\n\n$$|A| = \\left\\lfloor \\tfrac{999}{6} \\right\\rfloor = 166,\\quad |B| = \\left\\lfloor \\tfrac{999}{10} \\right\\rfloor = 99,\\quad |C| = \\left\\lfloor \\tfrac{999}{15} \\right\\rfloor = 66$$\n\n## Pairwise intersections\n\nA number divisible by two of these is divisible by their least common multiple:\n\n- lcm(6, 10) = 30\n- lcm(6, 15) = 30\n- lcm(10, 15) = 30\n\nSo each pairwise intersection is the set of multiples of 30:\n\n$$|A\\cap B| = |A\\cap C| = |B\\cap C| = \\left\\lfloor \\tfrac{999}{30} \\right\\rfloor = 33$$\n\n## Triple intersection\n\nlcm(6, 10, 15) = 30, so\n\n$$|A\\cap B\\cap C| = 33$$\n\n## Inclusion–exclusion\n\n$$|A\\cup B\\cup C| = (166 + 99 + 66) - (33 + 33 + 33) + 33$$\n$$= 331 - 99 + 33 = 265$$\n\n## Complement\n\n$$999 - 265 = \\boxed{734}$$\n\nSo 734 positive integers less than 1000 are divisible by none of 6, 10, or 15.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.013044,
+ "ms": 5908
+}

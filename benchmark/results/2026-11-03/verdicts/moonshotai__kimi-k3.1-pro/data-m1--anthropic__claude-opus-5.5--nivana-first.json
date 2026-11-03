@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers include unnecessary Markdown fences despite the JSON-only instruction, but A more faithfully preserves the item name \"oak shelves\" from the email. All keys, quantities, and the ISO date are otherwise correct and equivalent.",
+ "priceUsd": 0.002228
+}

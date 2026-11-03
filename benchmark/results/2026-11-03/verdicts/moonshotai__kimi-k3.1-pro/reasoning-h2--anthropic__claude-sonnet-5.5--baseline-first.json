@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers correctly compute 28.2%, verify the result, and explain that positively correlated false positives make the independence-based estimate too high. B is slightly stronger because it explicitly quantifies how the healthy-person double-positive probability can rise from 0.0025 toward 0.05, contrasts this with the much smaller change on the diseased side, and clearly bounds the true posterior between roughly 1.9% and 28.2%.",
+ "priceUsd": 0.005476
+}

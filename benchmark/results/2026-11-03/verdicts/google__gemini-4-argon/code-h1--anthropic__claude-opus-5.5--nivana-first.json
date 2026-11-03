@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers were truncated right at the very end of the test suite, so neither runs directly as written without closing the final statement. However, Answer A's implementation and typing are significantly better. Answer A uses a separate `_Link` base class for sentinels and a sentinel Enum for default TTL, meaning it passes strict type checking cleanly and allows per-entry override of a default TTL to `None` (never expire). Answer B relies on several `# type: ignore` hacks, cannot override a default TTL with `None`, and includes an awkward comment in its tests (`t.put(\"z\", \"forever\", ttl=None) # falls back to default_ttl=10`).",
+ "priceUsd": 0.012308
+}

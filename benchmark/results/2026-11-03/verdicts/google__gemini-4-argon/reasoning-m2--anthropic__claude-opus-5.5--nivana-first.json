@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers are excellent and cover the exact same statistical concepts, numbers, and practical advice. Answer A is slightly better because it explicitly shows the math behind the sample size calculation (53,000 per arm) and gives the specific p-value thresholds for Pocock and O'Brien-Fleming sequential designs for 3 looks, making the steps much more checkable and concrete.",
+ "priceUsd": 0.006454
+}

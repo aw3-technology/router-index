@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers provide the exact same idiomatic implementation, thoughtfully handle the NaN/non-integer edge cases with `Number.isInteger(size)`, and provide three clear test cases using Node's built-in modules with concise explanations.",
+ "priceUsd": 0.003286
+}

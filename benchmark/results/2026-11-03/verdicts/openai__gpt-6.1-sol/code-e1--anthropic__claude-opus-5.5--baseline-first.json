@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both provide the correct, idiomatic one-liner, but B accurately explains its whitespace behavior without adding a misleading alternative. A’s claim that split(\" \") keeps the original spacing exactly is not generally true: reversing the tokens also changes where repeated and leading/trailing spaces appear.",
+ "priceUsd": 0.001838
+}

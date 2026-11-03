@@ -1,0 +1,12 @@
+{
+ "text": "¡Feliz cumpleaños! Espero que tengas un día maravilloso.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "translation",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000025375,
+ "ms": 2051
+}

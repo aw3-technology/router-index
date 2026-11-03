@@ -1,0 +1,12 @@
+{
+ "text": "Dear [Neighbour's name],\n\nThank you so much for watering my plants while I was away; it meant more than I can say to come home to green leaves and healthy blooms. I truly appreciate your kindness and generosity, and I hope I can return the favour someday.\n\nWarmly,\n[Your name]",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "writing",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.00012915,
+ "ms": 2135
+}

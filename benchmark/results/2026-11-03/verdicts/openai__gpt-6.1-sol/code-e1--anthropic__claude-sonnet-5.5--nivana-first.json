@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A gives the requested idiomatic one-liner and accurately notes whitespace normalization. B’s main solutions are also correct, but its extra regex suggestion can misleadingly imply that spacing stays in its original positions; it actually reverses the order of whitespace segments too.",
+ "priceUsd": 0.002304
+}

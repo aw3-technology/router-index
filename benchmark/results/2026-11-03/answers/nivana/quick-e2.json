@@ -1,0 +1,12 @@
+{
+ "text": "Good morning! Here are a few that actually move the needle:\n\n**Pick one thing first.** Before you open email or messages, decide the single most important task for today — and start it within the first 30 minutes if you can. Momentum in the morning is hard to buy back later.\n\n**Protect one block of time.** Put 60–90 minutes on your calendar for that task and treat it like a meeting. Everything else can wait an hour.\n\n**Make distractions physically annoying.** Phone in another room or a drawer beats \"I'll just leave it face down.\" Close the tabs you're not using. Friction is more reliable than willpower.\n\n**Work in sprints, not marathons.** 25–50 minutes of full attention, then a real 5-minute break away from the screen. The break is what keeps the focus quality up.\n\n**When you stall, shrink the task.** Ask \"what's the next physical action?\" — not \"how do I do all of this.\" Usually the blocker is that the next step is vague.\n\n**Handle the small stuff in a batch.** Don't do one quick reply now, one later — collect the small things and knock them out in a single 15-minute pass.\n\nOne nudge to start: what's the one thing you'd most like to have done by lunchtime? Committing to it out loud makes it a lot more likely to happen.",
+ "model": "deepseek/deepseek-v4.1-flash-1017",
+ "route": {
+  "task": "quick",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.002,
+ "modelCostUsd": 0.0007014,
+ "ms": 4848
+}

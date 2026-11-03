@@ -1,0 +1,6 @@
+{
+ "text": "15% of 240 is **36**.\n\n10% of 240 is 24, and 5% is half of that, 12. Adding them gives 24 + 12 = 36.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.001248,
+ "ms": 1832
+}

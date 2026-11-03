@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are identical and define the requested draft 2020-12 schema correctly, including required fields, constraints, and additionalProperties: false. Both have the same minor formatting deviation of using Markdown code fences despite the request for JSON only.",
+ "priceUsd": 0.002694
+}

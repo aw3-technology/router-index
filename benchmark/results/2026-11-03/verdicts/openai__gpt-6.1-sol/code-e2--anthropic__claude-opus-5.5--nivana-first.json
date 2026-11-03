@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both provide correct, idiomatic Set-based solutions and useful alternatives. B is slightly better because it precisely explains the indexOf edge case: it removes all NaN values, rather than merely failing to deduplicate them.",
+ "priceUsd": 0.002376
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Answer B directly follows the prompt's requested order (evaluating n=2 first, then the general case). Furthermore, its proof is much more rigorous, explicitly using limits for the improper integrals and proving that the boundary term vanishes at infinity using the Taylor series of e^x.",
+ "priceUsd": 0.004732
+}

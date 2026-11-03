@@ -1,0 +1,6 @@
+{
+ "text": "# Monthly Payment: **$386.66**\n\n## Formula\n\nFor a fully amortizing loan with equal payments:\n\n$$M = P \\cdot \\frac{r}{1 - (1+r)^{-n}}$$\n\nwhere:\n- $P = 20{,}000$ (principal)\n- $r = \\dfrac{0.06}{12} = 0.005$ (monthly interest rate)\n- $n = 5 \\times 12 = 60$ (number of payments)\n\n## Calculation\n\n1. Compute the growth factor:\n$$(1.005)^{60} \\approx 1.348850$$\n\n2. Take its reciprocal:\n$$(1.005)^{-60} \\approx 0.741372$$\n\n3. Find the denominator:\n$$1 - 0.741372 = 0.258628$$\n\n4. Find the numerator:\n$$P \\cdot r = 20{,}000 \\times 0.005 = 100$$\n\n5. Divide:\n$$M = \\frac{100}{0.258628} \\approx 386.656$$\n\nRounded to the cent, the payment is **$386.66**.\n\n## Check\nTotal paid over 60 months is about 60 × $386.66 ≈ $23,199.60. That means about **$3,199.60** goes to interest.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.01288,
+ "ms": 6974
+}

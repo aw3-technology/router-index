@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both correctly identify the primary failure: using `if` instead of `for` permits an empty-slice panic after a stolen wakeup, and the non-deferred unlock can then leave the mutex permanently locked. A better satisfies the request to explain every problem by additionally covering nil `cond` initialization, empty-pool behavior, connection leaks and cancellation, double/nil `Put`, copying the mutex, shutdown broadcasting, and backing-array retention. Its fixed code is correct and idiomatic. B is also strong, but is less comprehensive and includes the unnecessary “Nivana here” introduction.",
+ "priceUsd": 0.0090152
+}

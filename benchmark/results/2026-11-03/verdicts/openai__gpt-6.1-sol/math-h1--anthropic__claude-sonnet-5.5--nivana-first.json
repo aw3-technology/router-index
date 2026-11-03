@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers correctly obtain 2 and n! using integration by parts and induction. A provides the clearer, consistently valid presentation, including convergence and vanishing boundary terms. B ultimately supplies a valid proof too, but its convergence discussion contains a malformed intermediate inequality and an unfinished expression before correcting course.",
+ "priceUsd": 0.004586
+}

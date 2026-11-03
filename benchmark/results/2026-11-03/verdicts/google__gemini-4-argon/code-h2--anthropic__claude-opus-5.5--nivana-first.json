@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers correctly identify the core issue (using `if` instead of `for` around `cond.Wait()` causes an out-of-bounds panic, which turns into a deadlock when recovered because `Unlock()` was not deferred). Answer B is slightly better because it gives a clearer step-by-step walkthrough of how the race happens, notes why `recover()` is so common in Go (e.g., `net/http` handlers), and its alternative channel-based implementation is safer because `Put` uses a non-blocking `select` rather than potentially deadlocking if extra connections are added.",
+ "priceUsd": 0.007866
+}

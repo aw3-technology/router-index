@@ -1,0 +1,6 @@
+{
+ "text": "## Japanese UI Text\n\n**Message:**\n変更が保存されていません。このまま移動しますか？\n\n**Buttons:**\n- **移動する**\n- **編集を続ける**\n\n## Back-Translation (English)\n\n**Message:**\n\"Changes have not been saved. Move (leave) as is?\"\n\n**Buttons:**\n- \"Move / Leave\"\n- \"Continue editing\"\n\n## Notes\n\n- **このまま (kono mama)** means \"as is\" or \"in this state.\" It conveys the nuance of \"anyway\" naturally, and it's standard in Japanese confirmation dialogs.\n- **移動する (idō suru)** literally means \"move.\" It's the usual choice for navigating away in apps and web UIs. If the action closes a page or window, you could use **ページを離れる** (\"leave page\"). For an even shorter button, use **移動**.\n- **編集を続ける (henshū o tsuzukeru)** is already compact. If space is very tight, **戻る** (\"go back\") is a common alternative, though it's slightly less explicit.\n- The polite **〜ますか？** form is the norm for system dialogs and keeps the tone neutral and professional.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.010748,
+ "ms": 6506
+}

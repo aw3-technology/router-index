@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers correctly obtain 2 and n! using integration by parts. B gives the more explicit, verifiable proof: it establishes the vanishing boundary terms with a concrete bound, works on finite intervals before taking limits, and proves convergence within the induction. It also evaluates the n=2 case first, as requested.",
+ "priceUsd": 0.005361
+}

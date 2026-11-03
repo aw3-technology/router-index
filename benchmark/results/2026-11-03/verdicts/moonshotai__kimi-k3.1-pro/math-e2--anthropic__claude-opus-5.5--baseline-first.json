@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers give the correct solution x = 7 with clear, verifiable steps (adding 7 to both sides, then dividing by 4) and an identical substitution check confirming 4(7) - 7 = 21. They differ only in formatting, which does not affect quality for the user.",
+ "priceUsd": 0.001832
+}

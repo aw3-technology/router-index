@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers have sound O(1) dict-plus-linked-list implementations, but both are truncated and therefore syntactically invalid as written. B is more complete overall: it finishes all required eviction, expiry, TTL-refresh, and lazy-eviction tests before being cut off in an ancillary validation block, whereas A is truncated earlier in its TTL tests. A has cleaner handling of ttl=None as an explicit no-expiry override when a default TTL exists, but B otherwise satisfies the requested behavior with simpler code.",
+ "priceUsd": 0.01476
+}

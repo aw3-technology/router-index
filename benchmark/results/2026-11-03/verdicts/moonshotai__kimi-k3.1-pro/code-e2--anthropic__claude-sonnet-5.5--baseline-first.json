@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers give the correct, idiomatic `[...new Set(numbers)]` solution, show working alternatives, preserve first-occurrence order, and accurately explain the O(n²) tradeoff and the `NaN` edge case. Their extra notes differ, but neither has a meaningful correctness or usability advantage.",
+ "priceUsd": 0.005742
+}

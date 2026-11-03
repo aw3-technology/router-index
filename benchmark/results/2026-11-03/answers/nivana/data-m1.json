@@ -1,0 +1,12 @@
+{
+ "text": "```json\n{\n  \"order_id\": \"A-7731\",\n  \"items\": [\n    {\"name\": \"oak shelves\", \"qty\": 2},\n    {\"name\": \"brass lamp\", \"qty\": 1}\n  ],\n  \"ship_by\": \"2026-11-20\"\n}\n```",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "data",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.00006374,
+ "ms": 2476
+}

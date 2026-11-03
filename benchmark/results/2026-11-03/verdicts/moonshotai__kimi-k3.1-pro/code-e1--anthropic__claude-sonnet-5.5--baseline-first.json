@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers give a correct, idiomatic one-liner. A is slightly more useful because it includes both a directly runnable input-based version and an expression for an existing string, plus a clear example and whitespace caveat. B is concise and correct but less complete.",
+ "priceUsd": 0.00331
+}

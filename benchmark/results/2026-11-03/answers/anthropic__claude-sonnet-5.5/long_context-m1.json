@@ -1,0 +1,6 @@
+{
+ "text": "- **Draft the pricing page**: Sam, due Nov 14\n- **Book the venue for the offsite**: Leila, due Nov 21\n- **Review the security audit**: Sam and Ana, due Dec 1\n\nAll other notes were general discussion, status updates, or Q&A with no decisions or action items.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.003364,
+ "ms": 1520
+}

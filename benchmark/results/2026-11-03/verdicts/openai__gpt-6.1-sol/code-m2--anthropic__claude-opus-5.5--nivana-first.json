@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both give the essential fix: a half-open date range, an indexable status comparison where semantics permit, and an index on (status, created_at). A is more reliable: B reuses the same index name for multiple CREATE INDEX statements, and its normalization UPDATE can silently change nothing under a case-insensitive collation. B usefully notes that a scan may still be optimal for many matching rows. Both incorrectly imply their covering indexes include every selected column; the selected ID must also be available, which is not automatic in PostgreSQL.",
+ "priceUsd": 0.0069535
+}

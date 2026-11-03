@@ -1,0 +1,12 @@
+{
+ "text": "Nous regrettons de vous informer que l'expédition sera retardée de deux semaines en raison d'un problème chez notre fournisseur. Nous vous prions de nous excuser pour le désagrément occasionné.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "translation",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000050625,
+ "ms": 2219
+}

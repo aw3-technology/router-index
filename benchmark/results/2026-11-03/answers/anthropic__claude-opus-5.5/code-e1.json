@@ -1,0 +1,6 @@
+{
+ "text": "```python\nreversed_sentence = \" \".join(sentence.split()[::-1])\n```\n\n**Example:**\n```python\nsentence = \"The quick brown fox\"\nprint(\" \".join(sentence.split()[::-1]))\n# Output: fox brown quick The\n```\n\n**How it works:**\n- `sentence.split()` splits the string on whitespace into a list of words\n- `[::-1]` reverses the list\n- `\" \".join(...)` glues the words back together with single spaces\n\n**Alternative** using `reversed()`:\n```python\n\" \".join(reversed(sentence.split()))\n```\n\n**Note:** `split()` with no arguments collapses repeated spaces and strips leading/trailing whitespace. If you need to keep the original spacing exactly, use `split(\" \")`:\n```python\n\" \".join(sentence.split(\" \")[::-1])\n```",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.005864,
+ "ms": 3083
+}

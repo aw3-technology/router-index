@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B gives the stronger practical recommendation: treat the result as preliminary, explain optional stopping and effect-size inflation, and use a preplanned fixed-horizon or valid sequential design. It also explicitly notes that restarting is cleaner than continuing after a data-dependent stop. Both answers overstate the universality of their false-positive-rate tables—the actual inflation depends on the timing and correlation of the looks—and neither can infer inadequate sample size from three days alone. A adds further unjustified precision with specific sequential boundaries and the definitive claim that false-positive risk roughly doubled. B is therefore slightly better calibrated overall.",
+ "priceUsd": 0.0075685
+}

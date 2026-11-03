@@ -1,0 +1,12 @@
+{
+ "text": "- **Draft the pricing page**: Owner: Sam. Due: Nov 14.\n- **Book the venue for the offsite**: Owner: Leila. Due: Nov 21.\n- **Review the security audit**: Owners: Sam and Ana. Due: Dec 1.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "data",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000282115,
+ "ms": 2810
+}

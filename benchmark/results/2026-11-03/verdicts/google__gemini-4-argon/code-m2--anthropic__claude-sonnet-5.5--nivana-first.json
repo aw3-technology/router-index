@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are virtually identical in structure, accuracy, and depth. Both correctly identify the non-sargable predicates and the issues with SELECT *, provide the exact same half-open date range rewrite, recommend the proper composite index ordering (equality before range), and offer great database-specific solutions for case sensitivity and scaling.",
+ "priceUsd": 0.004994
+}

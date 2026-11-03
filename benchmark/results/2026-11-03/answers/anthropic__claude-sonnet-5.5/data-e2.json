@@ -1,0 +1,6 @@
+{
+ "text": "- apple\n- banana\n- cherry\n- mango\n- pear",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.000316,
+ "ms": 766
+}

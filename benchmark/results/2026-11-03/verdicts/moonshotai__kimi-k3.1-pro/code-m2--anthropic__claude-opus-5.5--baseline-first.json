@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Both answers correctly identify the non-sargable predicates, provide a safe half-open date range, recommend an equality-first composite index, and address case-insensitive status handling. A is slightly stronger because it gives a concrete data-normalization option, dialect-specific functional-index syntax, and the important caveat that a full scan can still be optimal when a large fraction of rows match. B adds useful partitioning and partial-index options, but its suggestion that an expression index on YEAR(created_at) generally works is less portable and precise.",
+ "priceUsd": 0.008298
+}

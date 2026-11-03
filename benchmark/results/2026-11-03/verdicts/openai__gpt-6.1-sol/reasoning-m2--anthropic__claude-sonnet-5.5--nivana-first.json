@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "B gives the more careful actionable recommendation: it distinguishes statistical confirmation from a risk-based shipping decision and explicitly warns that simply adding data and retesting at 0.05 does not repair optional stopping. A instead suggests continuing to a newly chosen sample size without that important qualification. Both correctly explain optional stopping, effect-size inflation, and the need for a planned design. Both also overstate what can be inferred from three days and assert an unsupported roughly 10% false-positive rate—the actual inflation depends on the timing and dependence of the looks—but A compounds this with a precise-looking table and repeated claims that the risk roughly doubled.",
+ "priceUsd": 0.0073485
+}

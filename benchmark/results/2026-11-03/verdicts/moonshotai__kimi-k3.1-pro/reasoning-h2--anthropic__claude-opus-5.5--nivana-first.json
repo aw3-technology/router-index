@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers correctly apply Bayes’ theorem under conditional independence, obtain about 28.2%, clearly state that assumption, and accurately explain why correlated false positives make the independence-based estimate upwardly biased. Both also give the appropriate limiting range of roughly 1.9% to 28.2% and note the value of confirmation using a different testing mechanism. There is no meaningful quality difference.",
+ "priceUsd": 0.00509
+}

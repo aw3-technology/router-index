@@ -1,0 +1,12 @@
+{
+ "text": "Here are the most common ways to remove duplicates from an array of numbers in JavaScript.\n\n## 1. Using `Set` (recommended)\n\n```javascript\nconst numbers = [1, 2, 2, 3, 4, 4, 5];\n\nconst unique = [...new Set(numbers)];\n// [1, 2, 3, 4, 5]\n```\n\n`Set` stores only unique values, and spreading it back into an array keeps the original order. This is the simplest and fastest option for most cases.\n\n## 2. Using `Array.from`\n\n```javascript\nconst unique = Array.from(new Set(numbers));\n```\n\nThis does the same thing as the spread version.\n\n## 3. Using `filter` and `indexOf`\n\n```javascript\nconst unique = numbers.filter(\n  (value, index, arr) => arr.indexOf(value) === index\n);\n```\n\nThis keeps only the first occurrence of each value. It works, but it's O(n²), so it's slow on large arrays.\n\n## 4. Using `reduce`\n\n```javascript\nconst unique = numbers.reduce((acc, value) => {\n  if (!acc.includes(value)) acc.push(value);\n  return acc;\n}, []);\n```\n\nLike the `filter` approach, this is O(n²) and is best avoided for large arrays.\n\n## Notes\n\n- **`NaN`:** `Set` treats `NaN` as equal to itself, so `[NaN, NaN]` becomes `[NaN]`. The `indexOf` approach would fail here, since `NaN !== NaN`.\n- **Sorting:** If you want the result sorted, add `.sort((a, b) => a - b)`. The numeric comparator is needed because the default sort compares values as strings.\n\n```javascript\nconst sorted = [...new Set(numbers)].sort((a, b) => a - b);\n```\n\nFor most code, use `[...new Set(numbers)]`.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "code",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.00031224,
+ "ms": 3718
+}

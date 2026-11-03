@@ -1,0 +1,12 @@
+{
+ "text": "**Dark mode requests:** 14 respondents explicitly asked for one. Six more (the \"Pricing is steep\" responses) say \"there is still no dark mode,\" so 20 of 49 responses mention it.\n\n**Price complaints:** 15 respondents complained about price: 9 said it was \"too expensive for what it does,\" and 6 said \"pricing is steep compared to competitors.\"\n\n**Most common complaint:** Dark mode, with 20 mentions (14 explicit requests), ahead of price at 15. Representative quotes:\n\n1. \"The app is great but please add a dark mode, my eyes hurt at night.\"\n2. \"Pricing is steep compared to competitors, and there is still no dark mode.\"",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "data",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.00059024,
+ "ms": 5930
+}

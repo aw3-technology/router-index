@@ -1,0 +1,12 @@
+{
+ "text": "Let $U=\\{1,2,\\dots,999\\}$ be the set of positive integers less than $1000$, so $|U|=999$.\n\nDefine  \n- $A$: multiples of $6$ in $U$  \n- $B$: multiples of $10$ in $U$  \n- $C$: multiples of $15$ in $U$\n\nWe want the count of numbers divisible by **none** of $6,10,15$, i.e. $|U|-|A\\cup B\\cup C|$.\n\n---\n\n### Step 1: Single sets\n$$|A|=\\left\\lfloor\\frac{999}{6}\\right\\rfloor = 166,\\qquad\n|B|=\\left\\lfloor\\frac{999}{10}\\right\\rfloor = 99,\\qquad\n|C|=\\left\\lfloor\\frac{999}{15}\\right\\rfloor = 66.$$\n\n### Step 2: Pairwise intersections\nSince $\\operatorname{lcm}(6,10)=\\operatorname{lcm}(6,15)=\\operatorname{lcm}(10,15)=30$,\n$$|A\\cap B|=|A\\cap C|=|B\\cap C|=\\left\\lfloor\\frac{999}{30}\\right\\rfloor = 33.$$\n\n### Step 3: Triple intersection\n$$\\operatorname{lcm}(6,10,15)=30\\quad\\Longrightarrow\\quad\n|A\\cap B\\cap C|=\\left\\lfloor\\frac{999}{30}\\right\\rfloor = 33.$$\n\n---\n\n### Step 4: Inclusion–Exclusion\n$$\n\\begin{aligned}\n|A\\cup B\\cup C|\n&=|A|+|B|+|C|\n-|A\\cap B|-|A\\cap C|-|B\\cap C|\n+|A\\cap B\\cap C| \\\\[4pt]\n&=166+99+66-33-33-33+33 \\\\[4pt]\n&=331-99+33 = 265.\n\\end{aligned}\n$$\n\n---\n\n### Step 5: Numbers divisible by neither\n$$|U|-|A\\cup B\\cup C| = 999-265 = \\boxed{734}.$$",
+ "model": "mistral/mistral-large-4",
+ "route": {
+  "task": "math",
+  "difficulty": "medium",
+  "effort": null
+ },
+ "priceUsd": 0.011,
+ "modelCostUsd": 0.0072247,
+ "ms": 33488
+}

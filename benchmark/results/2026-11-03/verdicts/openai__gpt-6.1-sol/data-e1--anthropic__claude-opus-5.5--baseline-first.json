@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers provide identical valid JSON with exactly the requested keys and correctly identify Montréal as the city and Canada as the country.",
+ "priceUsd": 0.00079
+}

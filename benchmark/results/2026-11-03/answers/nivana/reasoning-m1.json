@@ -1,0 +1,12 @@
+{
+ "text": "# There Is No Missing Dollar\n\nThe puzzle adds two numbers that shouldn't be added together. The \\$2 the bellhop kept is already **part of** the \\$27, so adding it again double-counts it.\n\n## Where the \\$27 actually went\n\nThe friends paid \\$27 in total, and that amount is fully accounted for:\n\n$$\n\\underbrace{\\$25}_{\\text{hotel}} + \\underbrace{\\$2}_{\\text{bellhop}} = \\$27\n$$\n\n## Where the original \\$30 went\n\nThe original \\$30 is also fully accounted for:\n\n$$\n\\underbrace{\\$25}_{\\text{hotel}} + \\underbrace{\\$2}_{\\text{bellhop}} + \\underbrace{\\$3}_{\\text{returned to friends}} = \\$30\n$$\n\n## Why the puzzle's arithmetic is wrong\n\nThe riddle computes $\\$27 + \\$2 = \\$29$ and compares it to \\$30. That sum is meaningless:\n\n- The **\\$27** is money the friends *paid out*.\n- The **\\$2** is money the bellhop *received*, and it came out of that same \\$27.\n\nAdding a payment to a portion of itself gives a number with no meaning. Valid bookkeeping either:\n\n- **Subtracts** the bellhop's share from what was paid: $\\$27 - \\$2 = \\$25$ (what the hotel kept), or\n- **Adds** the money given back to what was paid: $\\$27 + \\$3 = \\$30$ (the original amount).\n\nThe \"missing dollar\" is just a trick of wording that steers you into adding numbers from opposite sides of the ledger.",
+ "model": "anthropic/claude-opus-5.5",
+ "route": {
+  "task": "reasoning",
+  "difficulty": "medium",
+  "effort": "medium"
+ },
+ "priceUsd": 0.018000000000000002,
+ "modelCostUsd": 0.0117632,
+ "ms": 7822
+}

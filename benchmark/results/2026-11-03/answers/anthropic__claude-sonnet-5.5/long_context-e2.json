@@ -1,0 +1,6 @@
+{
+ "text": "Versions 1.1.0 through 1.35.0 were all minor dependency updates and small UI polish, v2.0.0 introduced breaking changes (the REST API moved to /v2 and API keys now expire after 90 days), and v2.0.1 through v2.0.10 were bug-fix releases.",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.00304,
+ "ms": 1191
+}

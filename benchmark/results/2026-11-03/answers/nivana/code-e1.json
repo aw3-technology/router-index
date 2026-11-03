@@ -1,0 +1,12 @@
+{
+ "text": "```python\nreversed_words = \" \".join(sentence.split()[::-1])\n```\n\nFor example, with `sentence = \"the quick brown fox\"`, this gives `\"fox brown quick the\"`. `split()` with no arguments also collapses repeated spaces, so the output has single spaces between words.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "code",
+  "difficulty": "easy",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.00012765,
+ "ms": 2509
+}

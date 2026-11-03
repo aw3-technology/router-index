@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers use the correct amortizing-loan formula with a monthly rate of 0.005 and 60 payments, and both correctly round the monthly payment to $386.66. Each provides a clear, verifiable calculation.",
+ "priceUsd": 0.002218
+}

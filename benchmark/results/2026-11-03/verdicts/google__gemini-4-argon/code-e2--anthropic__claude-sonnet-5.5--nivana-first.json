@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are nearly identical in structure and content. They both provide the idiomatic ES6 Set solution first, offer standard alternatives with appropriate Big-O performance warnings, and cover JavaScript-specific number edge cases like NaN.",
+ "priceUsd": 0.003062
+}

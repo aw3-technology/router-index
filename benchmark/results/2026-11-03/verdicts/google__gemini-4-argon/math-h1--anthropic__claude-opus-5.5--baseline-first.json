@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "Answer A follows the exact structure of the prompt by evaluating the n=2 case first and then the general case. It is also much more rigorous, explicitly proving the limit of the boundary term and handling the improper integral via limits rather than hand-waving.",
+ "priceUsd": 0.004692
+}

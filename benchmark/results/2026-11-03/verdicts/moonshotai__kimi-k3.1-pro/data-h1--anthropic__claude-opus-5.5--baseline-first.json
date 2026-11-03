@@ -1,0 +1,5 @@
+{
+ "winner": "tie",
+ "reason": "Both answers are identical, valid JSON Schema draft 2020-12 definitions that satisfy every requirement. Both use the same markdown code fence, so neither has a formatting advantage.",
+ "priceUsd": 0.002314
+}

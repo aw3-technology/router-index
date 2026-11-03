@@ -1,0 +1,6 @@
+{
+ "text": "**A quarter and a nickel.**\n\nThe trick is in the wording: \"one of them is not a nickel\" doesn't mean *neither* is a nickel. The quarter is the one that isn't a nickel; the other one is.\n\nIt's also the only possible answer. With US coins (1¢, 5¢, 10¢, 25¢, 50¢), the only pair that adds up to 30¢ is 25¢ + 5¢.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.005224,
+ "ms": 3176
+}

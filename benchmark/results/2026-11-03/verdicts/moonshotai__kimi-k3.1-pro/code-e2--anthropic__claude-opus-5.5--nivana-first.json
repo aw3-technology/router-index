@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers are correct, runnable, and recommend the same idiomatic Set-based solution. B is slightly better because it is more concise and explains the NaN edge case more precisely: the filter/indexOf approach removes all NaN values, rather than merely failing to deduplicate them.",
+ "priceUsd": 0.00337
+}

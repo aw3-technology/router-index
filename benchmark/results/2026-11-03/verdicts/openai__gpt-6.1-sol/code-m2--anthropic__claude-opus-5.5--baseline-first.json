@@ -1,0 +1,5 @@
+{
+ "winner": "A",
+ "reason": "A gives the same useful range rewrite and composite-index strategy, but more accurately qualifies index behavior and explains that a full scan may still be optimal when many rows match. It also specifies the correct MySQL version for functional indexes. Both answers have a flaw: their PostgreSQL covering indexes omit the selected ID column, so they are not actually covering as shown.",
+ "priceUsd": 0.0063535
+}

@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Answer B translates the technical jargon ('race condition' and 'session-token refresh path') into plain English ('a timing bug in how we keep your sign-in active') rather than just replacing it with a vague 'technical issue'. Answer A also hallucinates a detail about account information not being affected, and wraps the output in unnecessary quotation marks.",
+ "priceUsd": 0.001918
+}

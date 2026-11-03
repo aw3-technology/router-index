@@ -1,0 +1,12 @@
+{
+ "text": "„Ganz ehrlich: Der Launch war ein totales Desaster, aber in letzter Sekunde haben wir noch die Kurve gekriegt – und keiner hat etwas davon mitbekommen.“",
+ "model": "openai/gpt-6-luna",
+ "route": {
+  "task": "translation",
+  "difficulty": "medium",
+  "effort": null
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000158,
+ "ms": 5043
+}

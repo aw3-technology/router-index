@@ -1,0 +1,6 @@
+{
+ "text": "The simplest and most common way is to use a `Set`, which only stores unique values:\n\n```javascript\nconst numbers = [1, 2, 2, 3, 4, 4, 5];\nconst unique = [...new Set(numbers)];\n\nconsole.log(unique); // [1, 2, 3, 4, 5]\n```\n\nYou can also use `Array.from(new Set(numbers))`, which does the same thing.\n\n### Alternatives\n\n**Using `filter` with `indexOf`** keeps only the first occurrence of each value:\n\n```javascript\nconst unique = numbers.filter((num, index) => numbers.indexOf(num) === index);\n```\n\nThis is O(n²), so it's slow on large arrays.\n\n**Using `reduce`:**\n\n```javascript\nconst unique = numbers.reduce((acc, num) => {\n  if (!acc.includes(num)) acc.push(num);\n  return acc;\n}, []);\n```\n\nThis is also O(n²).\n\n### Notes\n- The `Set` approach is O(n), the fastest of these, and it preserves the original order.\n- `Set` treats `NaN` as equal to `NaN`, so duplicates of `NaN` are removed. The `indexOf` approach removes *all* `NaN` values instead, because `indexOf(NaN)` always returns `-1`.\n- If you also want the result sorted, chain a sort with a numeric comparator: `[...new Set(numbers)].sort((a, b) => a - b)`. Without the comparator, `sort` compares values as strings, so `10` would come before `2`.",
+ "model": "anthropic/claude-opus-5.5",
+ "priceUsd": 0.010488,
+ "ms": 5254
+}

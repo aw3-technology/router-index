@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both are accurate one-sentence summaries, but B more clearly maps each version range to its specific changes; A groups dependency updates, UI polish, and bug fixes together across both ranges.",
+ "priceUsd": 0.002412
+}

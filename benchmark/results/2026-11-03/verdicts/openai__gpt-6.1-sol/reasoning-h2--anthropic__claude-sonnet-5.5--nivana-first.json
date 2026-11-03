@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both correctly compute 28.2% under conditional independence and explain why repeated systematic false positives usually make that estimate too high. B is better because A additionally asserts an unjustified universal range of 1.9%–28%. The actual posterior depends on dependence within both disease-status groups; positive correlation alone does not establish those bounds or guarantee a downward correction. B also slightly overstates the certainty of the bias direction, but avoids A’s stronger unsupported range claim.",
+ "priceUsd": 0.005261
+}

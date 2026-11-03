@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both correctly identify non-sargable predicates, provide a safe half-open date range, and recommend an appropriate composite index. B is slightly stronger because it addresses index selectivity and time-zone boundaries, gives clear database-specific handling for case-insensitive status matching, and avoids A’s minor covering-index inconsistency (A omits selected order_id from its supposedly covering index).",
+ "priceUsd": 0.0048708
+}

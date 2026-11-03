@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers correctly identify the non-sargable predicates, provide a half-open timestamp range, and recommend appropriate indexes. B is slightly better because it more clearly addresses case-sensitivity semantics, gives concrete covering and expression-index examples, and includes database-specific syntax and verification advice without sacrificing clarity. A is also strong, but somewhat less complete and precise in its implementation guidance.",
+ "priceUsd": 0.006334
+}

@@ -1,0 +1,12 @@
+{
+ "text": "15% of 240 is **36**.\n\nTo check: 10% of 240 is 24, and 5% is half of that, 12. Adding them gives 24 + 12 = 36.",
+ "model": "anthropic/claude-haiku-5.5",
+ "route": {
+  "task": "math",
+  "difficulty": "easy",
+  "effort": "low"
+ },
+ "priceUsd": 0.001,
+ "modelCostUsd": 0.000036365,
+ "ms": 2826
+}

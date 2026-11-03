@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both implementations are correct and runnable. B is slightly stronger because its tests also cover empty input and generic use with strings, its test command explicitly enables test mode, and its notes clarify shallow-copy behavior and oversized chunks without adding unnecessary complexity.",
+ "priceUsd": 0.004806
+}

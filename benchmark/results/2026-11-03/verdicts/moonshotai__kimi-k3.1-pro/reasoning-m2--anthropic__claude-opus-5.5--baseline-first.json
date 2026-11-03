@@ -1,0 +1,5 @@
+{
+ "winner": "B",
+ "reason": "Both answers reach the correct conclusion and explain optional stopping, inflated effect estimates, insufficient duration, and the need for fixed-horizon or valid sequential testing. B is slightly better because it shows the sample-size calculation and its assumptions, gives concrete sequential-testing thresholds, and adds useful cautions about Bayesian methods and post hoc segment analysis. Its numerical claims and practical recommendations are sound and checkable.",
+ "priceUsd": 0.008004
+}

@@ -1,0 +1,6 @@
+{
+ "text": "{\"service\":\"api\",\"replicas\":3,\"ports\":[80,443],\"env\":{\"LOG_LEVEL\":\"info\",\"FEATURE_X\":false}}",
+ "model": "anthropic/claude-sonnet-5.5",
+ "priceUsd": 0.000688,
+ "ms": 1016
+}

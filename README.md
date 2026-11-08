@@ -4,6 +4,7 @@
 
 - Live page: https://nivana.one/router-index
 - Data: [`data/router-index.csv`](data/router-index.csv) · [`data/router-index.json`](data/router-index.json) (also at https://nivana.one/router-index.csv and https://nivana.one/router-index.json)
+- On Hugging Face: [willschulz/router-index](https://huggingface.co/datasets/willschulz/router-index)
 - Updated: **2026-11-01**
 - Licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Free to reuse, including commercially, with a link to https://nivana.one/router-index.
 

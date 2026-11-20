@@ -5,7 +5,7 @@
 - Live page: https://nivana.one/router-index
 - Data: [`data/router-index.csv`](data/router-index.csv) · [`data/router-index.json`](data/router-index.json) (also at https://nivana.one/router-index.csv and https://nivana.one/router-index.json)
 - On Hugging Face: [willschulz/router-index](https://huggingface.co/datasets/willschulz/router-index)
-- Updated: **2026-11-01**
+- Updated: **2026-11-20**
 - Licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Free to reuse, including commercially, with a link to https://nivana.one/router-index.
 
 ## What the router picks
@@ -17,44 +17,44 @@
 | quick answers | hard | GPT-6 Luna | Gemini Flash |
 | writing | easy | GPT-6 Luna | Claude Haiku |
 | writing | medium | GPT-6 Luna | Claude Haiku |
-| writing | hard | Claude Sonnet | GPT-6.1 Sol |
+| writing | hard | Claude Opus | Claude Sonnet |
 | coding | easy | GPT-6 Luna | Claude Haiku |
 | coding | medium | Claude Sonnet | GPT-6.1 Sol |
 | coding | hard | Claude Opus | Claude Sonnet |
 | reasoning | easy | GPT-6 Luna | Claude Haiku |
 | reasoning | medium | Claude Sonnet | Claude Opus |
 | reasoning | hard | Claude Opus | Claude Sonnet |
-| maths | easy | GPT-6 Luna | Claude Haiku |
-| maths | medium | Mistral Large | DeepSeek V4 Pro |
+| maths | easy | Claude Haiku | GPT-6 Luna |
+| maths | medium | Mistral Large | Claude Opus |
 | maths | hard | Claude Opus | Mistral Large |
 | structured data | easy | GPT-6 Luna | Claude Haiku |
 | structured data | medium | GPT-6 Luna | Claude Haiku |
 | structured data | hard | GPT-6 Luna | Gemini Flash |
 | long documents | easy | GPT-6 Luna | Gemini Flash |
 | long documents | medium | GPT-6 Luna | Gemini Flash |
-| long documents | hard | Gemini Flash | Gemini 4 Argon |
+| long documents | hard | Gemini Flash | DeepSeek Flash |
 | translation | easy | GPT-6 Luna | Claude Haiku |
-| translation | medium | GPT-6 Luna | Gemini Flash |
+| translation | medium | GPT-6 Luna | Claude Haiku |
 | translation | hard | GPT-6 Luna | Gemini Flash |
 
 ## Measured quality by task (0–100)
 
 | Model | Lab | Quick answers | Writing | Coding | Reasoning | Maths | Structured data | Long documents | Translation | Price in / out per 1M tokens |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Claude Opus | Anthropic | 82 | 94 | 98 | 99 | 96 | 87 | 87 | 92 | $4 / $20 |
+| Claude Opus | Anthropic | 83 | 96 | 98 | 98 | 96 | 88 | 88 | 93 | $4 / $20 |
 | Claude Sonnet | Anthropic | 85 | 93 | 94 | 90 | 84 | 88 | 90 | 86 | $2 / $10 |
-| Claude Haiku | Anthropic | 85 | 89 | 82 | 74 | 79 | 86 | 87 | 83 | $0.1 / $0.5 |
-| GPT-6.1 Sol | OpenAI | 91 | 93 | 93 | 82 | 79 | 91 | 91 | 89 | $2 / $10 |
-| GPT-6 Luna | OpenAI | 93 | 90 | 84 | 77 | 70 | 93 | 88 | 90 | $0.1 / $0.5 |
-| GPT-5.5 | OpenAI | 93 | 94 | 91 | 79 | 82 | 96 | 93 | 92 | $5 / $30 |
-| Gemini 4 Argon | Google | 88 | 82 | 82 | 82 | 86 | 93 | 92 | 88 | $2 / $10 |
-| Gemini Flash | Google | 91 | 81 | 80 | 74 | 85 | 93 | 94 | 92 | $0.75 / $3.75 |
-| DeepSeek V4 Pro | DeepSeek | 89 | 88 | 83 | 76 | 87 | 93 | 88 | 89 | $0.66 / $1.98 |
-| DeepSeek Flash | DeepSeek | 91 | 87 | 85 | 80 | 78 | 92 | 91 | 90 | $0.3 / $1.2 |
-| Mistral Large | Mistral AI | 82 | 84 | 78 | 76 | 87 | 90 | 89 | 91 | $0.7 / $2.1 |
-| Muse Spark | Meta | 89 | 86 | 84 | 83 | 80 | 88 | 90 | 89 | $1.25 / $4.25 |
-| Kimi K3.1 Pro | Moonshot | 91 | 92 | 89 | 85 | 81 | 92 | 90 | 91 | $2 / $10 |
-| Grok 4.7 | xAI | 90 | 90 | 85 | 80 | 79 | 85 | 85 | 86 | $2 / $6 |
+| Claude Haiku | Anthropic | 88 | 88 | 85 | 73 | 82 | 85 | 90 | 86 | $0.1 / $0.5 |
+| GPT-6.1 Sol | OpenAI | 93 | 92 | 94 | 82 | 76 | 90 | 93 | 91 | $2 / $10 |
+| GPT-6 Luna | OpenAI | 95 | 89 | 87 | 78 | 69 | 92 | 91 | 92 | $0.1 / $0.5 |
+| GPT-5.5 | OpenAI | 94 | 93 | 92 | 78 | 78 | 94 | 94 | 94 | $5 / $30 |
+| Gemini 4 Argon | Google | 91 | 81 | 81 | 80 | 86 | 92 | 89 | 90 | $2 / $10 |
+| Gemini Flash | Google | 92 | 80 | 81 | 73 | 83 | 93 | 96 | 93 | $0.75 / $3.75 |
+| DeepSeek V4 Pro | DeepSeek | 91 | 88 | 83 | 75 | 84 | 92 | 90 | 91 | $1.32 / $3.96 |
+| DeepSeek Flash | DeepSeek | 92 | 85 | 88 | 78 | 76 | 91 | 93 | 92 | $0.3 / $1.2 |
+| Mistral Large | Mistral AI | 84 | 84 | 78 | 75 | 88 | 88 | 91 | 91 | $0.7 / $2.1 |
+| Muse Spark | Meta | 91 | 85 | 82 | 83 | 81 | 87 | 92 | 91 | $1.25 / $4.25 |
+| Kimi K3.1 Pro | Moonshot | 92 | 92 | 92 | 86 | 79 | 92 | 92 | 92 | $2 / $10 |
+| Grok 4.7 | xAI | 91 | 88 | 88 | 81 | 80 | 87 | 89 | 89 | $2 / $6 |
 
 ## Does routing beat one strong model?
 
@@ -72,7 +72,7 @@ The best pick depends on the request, not just the top score. A few points of qu
 
 ## Cite
 
-> The Router Index, Nivana (AW3 Technology), 2026-11-01. https://nivana.one/router-index. CC BY 4.0.
+> The Router Index, Nivana (AW3 Technology), 2026-11-20. https://nivana.one/router-index. CC BY 4.0.
 
 ---
 

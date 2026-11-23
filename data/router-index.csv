@@ -1,97 +1,97 @@
 task,difficulty,rank,model,lab,quality_0_100,expected_cost_usd,expected_seconds,thinking_effort,updated
-quick answers,Easy,1,GPT-6 Luna,OpenAI,95,0.000105,1.5,none,2026-11-20
-quick answers,Easy,2,Claude Haiku,Anthropic,88,0.000105,1.8,none,2026-11-20
-quick answers,Easy,3,DeepSeek Flash,DeepSeek,92,0.00027,2.2,none,2026-11-20
-quick answers,Easy,4,Gemini Flash,Google,92,0.000788,1.4,none,2026-11-20
-quick answers,Medium,1,GPT-6 Luna,OpenAI,95,0.000105,1.5,none,2026-11-20
-quick answers,Medium,2,Claude Haiku,Anthropic,88,0.000105,1.8,none,2026-11-20
-quick answers,Medium,3,Gemini Flash,Google,92,0.000788,1.4,none,2026-11-20
-quick answers,Medium,4,DeepSeek Flash,DeepSeek,92,0.00027,2.2,none,2026-11-20
-quick answers,Hard,1,GPT-6 Luna,OpenAI,95,0.000255,3.5,low,2026-11-20
-quick answers,Hard,2,Gemini Flash,Google,92,0.001912,3.3,low,2026-11-20
-quick answers,Hard,3,DeepSeek Flash,DeepSeek,92,0.00063,5.2,low,2026-11-20
-quick answers,Hard,4,GPT-6.1 Sol,OpenAI,93,0.0051,7.4,low,2026-11-20
-writing,Easy,1,GPT-6 Luna,OpenAI,89,0.00037,3.8,none,2026-11-20
-writing,Easy,2,Claude Haiku,Anthropic,88,0.00037,4.7,none,2026-11-20
-writing,Easy,3,DeepSeek Flash,DeepSeek,85,0.00096,5.7,none,2026-11-20
-writing,Easy,4,Gemini Flash,Google,80,0.002775,3.6,none,2026-11-20
-writing,Medium,1,GPT-6 Luna,OpenAI,89,0.00037,3.8,none,2026-11-20
-writing,Medium,2,Claude Haiku,Anthropic,88,0.00037,4.7,none,2026-11-20
-writing,Medium,3,Claude Sonnet,Anthropic,93,0.0074,8,none,2026-11-20
-writing,Medium,4,GPT-6.1 Sol,OpenAI,92,0.0074,8.1,none,2026-11-20
-writing,Hard,1,Claude Opus,Anthropic,96,0.0208,19.2,low,2026-11-20
-writing,Hard,2,Claude Sonnet,Anthropic,93,0.0104,12.3,low,2026-11-20
-writing,Hard,3,GPT-5.5,OpenAI,93,0.03,17.5,low,2026-11-20
-writing,Hard,4,GPT-6.1 Sol,OpenAI,92,0.0104,12.4,low,2026-11-20
-coding,Easy,1,GPT-6 Luna,OpenAI,87,0.0005,3.8,none,2026-11-20
-coding,Easy,2,Claude Haiku,Anthropic,85,0.0005,4.7,none,2026-11-20
-coding,Easy,3,DeepSeek Flash,DeepSeek,88,0.00135,5.7,none,2026-11-20
-coding,Easy,4,Gemini Flash,Google,81,0.00375,3.6,none,2026-11-20
-coding,Medium,1,Claude Sonnet,Anthropic,94,0.013,12.3,low,2026-11-20
-coding,Medium,2,GPT-6.1 Sol,OpenAI,94,0.013,12.4,low,2026-11-20
-coding,Medium,3,Kimi K3.1 Pro,Moonshot,92,0.013,14.4,low,2026-11-20
-coding,Medium,4,Claude Opus,Anthropic,98,0.026,19.2,low,2026-11-20
-coding,Hard,1,Claude Opus,Anthropic,98,0.12,123.6,high,2026-11-20
-coding,Hard,2,Claude Sonnet,Anthropic,94,0.06,79.5,high,2026-11-20
-coding,Hard,3,GPT-6.1 Sol,OpenAI,94,0.06,79.6,high,2026-11-20
-coding,Hard,4,GPT-5.5,OpenAI,92,0.1775,111.5,high,2026-11-20
-reasoning,Easy,1,GPT-6 Luna,OpenAI,78,0.0004,3.8,none,2026-11-20
-reasoning,Easy,2,Claude Haiku,Anthropic,73,0.0004,4.7,none,2026-11-20
-reasoning,Easy,3,DeepSeek Flash,DeepSeek,78,0.00105,5.7,none,2026-11-20
-reasoning,Easy,4,Gemini Flash,Google,73,0.003,3.6,none,2026-11-20
-reasoning,Medium,1,Claude Sonnet,Anthropic,90,0.023,29.5,medium,2026-11-20
-reasoning,Medium,2,Claude Opus,Anthropic,98,0.046,45.8,medium,2026-11-20
-reasoning,Medium,3,Kimi K3.1 Pro,Moonshot,86,0.023,34.4,low,2026-11-20
-reasoning,Medium,4,Muse Spark,Meta,83,0.010375,18.8,medium,2026-11-20
-reasoning,Hard,1,Claude Opus,Anthropic,98,0.116,123.6,high,2026-11-20
-reasoning,Hard,2,Claude Sonnet,Anthropic,90,0.058,79.5,high,2026-11-20
-reasoning,Hard,3,Kimi K3.1 Pro,Moonshot,86,0.058,92.8,high,2026-11-20
-reasoning,Hard,4,Muse Spark,Meta,83,0.02525,50.6,high,2026-11-20
-maths,Easy,1,Claude Haiku,Anthropic,82,0.00048,7.2,low,2026-11-20
-maths,Easy,2,GPT-6 Luna,OpenAI,69,0.00048,5.8,low,2026-11-20
-maths,Easy,3,Gemini Flash,Google,83,0.0036,5.5,low,2026-11-20
-maths,Easy,4,DeepSeek Flash,DeepSeek,76,0.0012,8.7,low,2026-11-20
-maths,Medium,1,Mistral Large,Mistral AI,88,0.00476,25.8,none,2026-11-20
-maths,Medium,2,Claude Opus,Anthropic,96,0.0432,45.8,medium,2026-11-20
-maths,Medium,3,Gemini 4 Argon,Google,86,0.0216,29.8,medium,2026-11-20
-maths,Medium,4,DeepSeek V4 Pro,DeepSeek,84,0.008976,41.5,low,2026-11-20
-maths,Hard,1,Claude Opus,Anthropic,96,0.1132,123.6,high,2026-11-20
-maths,Hard,2,Mistral Large,Mistral AI,88,0.01211,69.5,high,2026-11-20
-maths,Hard,3,Gemini 4 Argon,Google,86,0.0566,79.8,high,2026-11-20
-maths,Hard,4,DeepSeek V4 Pro,DeepSeek,84,0.022836,111.5,high,2026-11-20
-structured data,Easy,1,GPT-6 Luna,OpenAI,92,0.00055,3.8,none,2026-11-20
-structured data,Easy,2,Claude Haiku,Anthropic,85,0.00055,4.7,none,2026-11-20
-structured data,Easy,3,Gemini Flash,Google,93,0.004125,3.6,none,2026-11-20
-structured data,Easy,4,DeepSeek Flash,DeepSeek,91,0.0015,5.7,none,2026-11-20
-structured data,Medium,1,GPT-6 Luna,OpenAI,92,0.0007,5.8,low,2026-11-20
-structured data,Medium,2,Claude Haiku,Anthropic,85,0.0007,7.2,low,2026-11-20
-structured data,Medium,3,Gemini Flash,Google,93,0.00525,5.5,low,2026-11-20
-structured data,Medium,4,DeepSeek Flash,DeepSeek,91,0.00186,8.7,low,2026-11-20
-structured data,Hard,1,GPT-6 Luna,OpenAI,92,0.0013,13.8,medium,2026-11-20
-structured data,Hard,2,Gemini Flash,Google,93,0.00975,13,medium,2026-11-20
-structured data,Hard,3,DeepSeek Flash,DeepSeek,91,0.0033,20.7,low,2026-11-20
-structured data,Hard,4,Gemini 4 Argon,Google,92,0.026,29.8,medium,2026-11-20
-long documents,Easy,1,GPT-6 Luna,OpenAI,91,0.01225,3.8,none,2026-11-20
-long documents,Easy,2,Gemini Flash,Google,96,0.091875,3.6,none,2026-11-20
-long documents,Easy,3,DeepSeek Flash,DeepSeek,93,0.0366,5.7,none,2026-11-20
-long documents,Easy,4,Claude Haiku,Anthropic,90,0.06125,4.7,none,2026-11-20
-long documents,Medium,1,GPT-6 Luna,OpenAI,91,0.01225,3.8,none,2026-11-20
-long documents,Medium,2,Gemini Flash,Google,96,0.091875,3.6,none,2026-11-20
-long documents,Medium,3,DeepSeek Flash,DeepSeek,93,0.0366,5.7,none,2026-11-20
-long documents,Medium,4,Claude Haiku,Anthropic,90,0.06125,4.7,none,2026-11-20
-long documents,Hard,1,Gemini Flash,Google,96,0.0975,13,medium,2026-11-20
-long documents,Hard,2,DeepSeek Flash,DeepSeek,93,0.0384,20.7,low,2026-11-20
-long documents,Hard,3,GPT-6.1 Sol,OpenAI,93,0.26,29.6,medium,2026-11-20
-long documents,Hard,4,GPT-5.5,OpenAI,94,0.66,41.5,medium,2026-11-20
-translation,Easy,1,GPT-6 Luna,OpenAI,92,0.00035,3.8,none,2026-11-20
-translation,Easy,2,Claude Haiku,Anthropic,86,0.00035,4.7,none,2026-11-20
-translation,Easy,3,Gemini Flash,Google,93,0.002625,3.6,none,2026-11-20
-translation,Easy,4,DeepSeek Flash,DeepSeek,92,0.0009,5.7,none,2026-11-20
-translation,Medium,1,GPT-6 Luna,OpenAI,92,0.00035,3.8,none,2026-11-20
-translation,Medium,2,Claude Haiku,Anthropic,86,0.00035,4.7,none,2026-11-20
-translation,Medium,3,Gemini Flash,Google,93,0.002625,3.6,none,2026-11-20
-translation,Medium,4,DeepSeek Flash,DeepSeek,92,0.0009,5.7,none,2026-11-20
-translation,Hard,1,GPT-6 Luna,OpenAI,92,0.0005,5.8,low,2026-11-20
-translation,Hard,2,Gemini Flash,Google,93,0.00375,5.5,low,2026-11-20
-translation,Hard,3,DeepSeek Flash,DeepSeek,92,0.00126,8.7,low,2026-11-20
-translation,Hard,4,Muse Spark,Meta,91,0.00465,7.9,low,2026-11-20
+quick answers,Easy,1,GPT-6 Luna,OpenAI,95,0.000105,1.5,none,2026-11-23
+quick answers,Easy,2,Claude Haiku,Anthropic,89,0.000105,1.8,none,2026-11-23
+quick answers,Easy,3,DeepSeek Flash,DeepSeek,93,0.00027,2.2,none,2026-11-23
+quick answers,Easy,4,Gemini Flash,Google,93,0.000788,1.4,none,2026-11-23
+quick answers,Medium,1,GPT-6 Luna,OpenAI,95,0.000105,1.5,none,2026-11-23
+quick answers,Medium,2,Claude Haiku,Anthropic,89,0.000105,1.8,none,2026-11-23
+quick answers,Medium,3,Gemini Flash,Google,93,0.000788,1.4,none,2026-11-23
+quick answers,Medium,4,DeepSeek Flash,DeepSeek,93,0.00027,2.2,none,2026-11-23
+quick answers,Hard,1,GPT-6 Luna,OpenAI,95,0.000255,3.5,low,2026-11-23
+quick answers,Hard,2,Gemini Flash,Google,93,0.001912,3.3,low,2026-11-23
+quick answers,Hard,3,DeepSeek Flash,DeepSeek,93,0.00063,5.2,low,2026-11-23
+quick answers,Hard,4,Muse Spark,Meta,92,0.002288,4.7,low,2026-11-23
+writing,Easy,1,GPT-6 Luna,OpenAI,90,0.00037,3.8,none,2026-11-23
+writing,Easy,2,Claude Haiku,Anthropic,89,0.00037,4.7,none,2026-11-23
+writing,Easy,3,DeepSeek Flash,DeepSeek,85,0.00096,5.7,none,2026-11-23
+writing,Easy,4,Gemini Flash,Google,80,0.002775,3.6,none,2026-11-23
+writing,Medium,1,GPT-6 Luna,OpenAI,90,0.00037,3.8,none,2026-11-23
+writing,Medium,2,Claude Haiku,Anthropic,89,0.00037,4.7,none,2026-11-23
+writing,Medium,3,Muse Spark,Meta,87,0.003625,5.1,none,2026-11-23
+writing,Medium,4,Claude Sonnet,Anthropic,93,0.0074,8,none,2026-11-23
+writing,Hard,1,Claude Sonnet,Anthropic,93,0.0104,12.3,low,2026-11-23
+writing,Hard,2,Claude Opus,Anthropic,96,0.0208,19.2,low,2026-11-23
+writing,Hard,3,GPT-5.5,OpenAI,93,0.03,17.5,low,2026-11-23
+writing,Hard,4,GPT-6.1 Sol,OpenAI,92,0.0104,12.4,low,2026-11-23
+coding,Easy,1,GPT-6 Luna,OpenAI,87,0.0005,3.8,none,2026-11-23
+coding,Easy,2,Claude Haiku,Anthropic,86,0.0005,4.7,none,2026-11-23
+coding,Easy,3,DeepSeek Flash,DeepSeek,88,0.00135,5.7,none,2026-11-23
+coding,Easy,4,Gemini Flash,Google,80,0.00375,3.6,none,2026-11-23
+coding,Medium,1,Grok 4.7,xAI,89,0.0098,10.9,low,2026-11-23
+coding,Medium,2,GPT-6.1 Sol,OpenAI,95,0.013,12.4,low,2026-11-23
+coding,Medium,3,Claude Sonnet,Anthropic,94,0.013,12.3,low,2026-11-23
+coding,Medium,4,Kimi K3.1 Pro,Moonshot,93,0.013,14.4,low,2026-11-23
+coding,Hard,1,Claude Opus,Anthropic,98,0.12,123.6,high,2026-11-23
+coding,Hard,2,GPT-6.1 Sol,OpenAI,95,0.06,79.6,high,2026-11-23
+coding,Hard,3,Claude Sonnet,Anthropic,94,0.06,79.5,high,2026-11-23
+coding,Hard,4,Kimi K3.1 Pro,Moonshot,93,0.06,92.8,high,2026-11-23
+reasoning,Easy,1,GPT-6 Luna,OpenAI,77,0.0004,3.8,none,2026-11-23
+reasoning,Easy,2,Claude Haiku,Anthropic,73,0.0004,4.7,none,2026-11-23
+reasoning,Easy,3,DeepSeek Flash,DeepSeek,77,0.00105,5.7,none,2026-11-23
+reasoning,Easy,4,Gemini Flash,Google,73,0.003,3.6,none,2026-11-23
+reasoning,Medium,1,Claude Sonnet,Anthropic,90,0.023,29.5,medium,2026-11-23
+reasoning,Medium,2,Claude Opus,Anthropic,98,0.046,45.8,medium,2026-11-23
+reasoning,Medium,3,Kimi K3.1 Pro,Moonshot,85,0.023,34.4,low,2026-11-23
+reasoning,Medium,4,Muse Spark,Meta,82,0.010375,18.8,medium,2026-11-23
+reasoning,Hard,1,Claude Opus,Anthropic,98,0.116,123.6,high,2026-11-23
+reasoning,Hard,2,Claude Sonnet,Anthropic,90,0.058,79.5,high,2026-11-23
+reasoning,Hard,3,Kimi K3.1 Pro,Moonshot,85,0.058,92.8,high,2026-11-23
+reasoning,Hard,4,Muse Spark,Meta,82,0.02525,50.6,high,2026-11-23
+maths,Easy,1,Claude Haiku,Anthropic,83,0.00048,7.2,low,2026-11-23
+maths,Easy,2,GPT-6 Luna,OpenAI,69,0.00048,5.8,low,2026-11-23
+maths,Easy,3,Gemini Flash,Google,83,0.0036,5.5,low,2026-11-23
+maths,Easy,4,DeepSeek Flash,DeepSeek,75,0.0012,8.7,low,2026-11-23
+maths,Medium,1,Mistral Large,Mistral AI,88,0.00476,25.8,none,2026-11-23
+maths,Medium,2,Claude Opus,Anthropic,97,0.0432,45.8,medium,2026-11-23
+maths,Medium,3,Gemini 4 Argon,Google,85,0.0216,29.8,medium,2026-11-23
+maths,Medium,4,Claude Sonnet,Anthropic,84,0.0216,29.5,medium,2026-11-23
+maths,Hard,1,Claude Opus,Anthropic,97,0.1132,123.6,high,2026-11-23
+maths,Hard,2,Mistral Large,Mistral AI,88,0.01211,69.5,high,2026-11-23
+maths,Hard,3,Gemini 4 Argon,Google,85,0.0566,79.8,high,2026-11-23
+maths,Hard,4,Claude Sonnet,Anthropic,84,0.0566,79.5,high,2026-11-23
+structured data,Easy,1,GPT-6 Luna,OpenAI,91,0.00055,3.8,none,2026-11-23
+structured data,Easy,2,Claude Haiku,Anthropic,84,0.00055,4.7,none,2026-11-23
+structured data,Easy,3,Gemini Flash,Google,92,0.004125,3.6,none,2026-11-23
+structured data,Easy,4,DeepSeek Flash,DeepSeek,90,0.0015,5.7,none,2026-11-23
+structured data,Medium,1,GPT-6 Luna,OpenAI,91,0.0007,5.8,low,2026-11-23
+structured data,Medium,2,Gemini Flash,Google,92,0.00525,5.5,low,2026-11-23
+structured data,Medium,3,Claude Haiku,Anthropic,84,0.0007,7.2,low,2026-11-23
+structured data,Medium,4,DeepSeek Flash,DeepSeek,90,0.00186,8.7,low,2026-11-23
+structured data,Hard,1,GPT-6 Luna,OpenAI,91,0.0013,13.8,medium,2026-11-23
+structured data,Hard,2,Gemini Flash,Google,92,0.00975,13,medium,2026-11-23
+structured data,Hard,3,DeepSeek Flash,DeepSeek,90,0.0033,20.7,low,2026-11-23
+structured data,Hard,4,Gemini 4 Argon,Google,92,0.026,29.8,medium,2026-11-23
+long documents,Easy,1,GPT-6 Luna,OpenAI,91,0.01225,3.8,none,2026-11-23
+long documents,Easy,2,Gemini Flash,Google,96,0.091875,3.6,none,2026-11-23
+long documents,Easy,3,DeepSeek Flash,DeepSeek,93,0.0366,5.7,none,2026-11-23
+long documents,Easy,4,Claude Haiku,Anthropic,90,0.06125,4.7,none,2026-11-23
+long documents,Medium,1,GPT-6 Luna,OpenAI,91,0.01225,3.8,none,2026-11-23
+long documents,Medium,2,Gemini Flash,Google,96,0.091875,3.6,none,2026-11-23
+long documents,Medium,3,DeepSeek Flash,DeepSeek,93,0.0366,5.7,none,2026-11-23
+long documents,Medium,4,Claude Haiku,Anthropic,90,0.06125,4.7,none,2026-11-23
+long documents,Hard,1,Gemini Flash,Google,96,0.0975,13,medium,2026-11-23
+long documents,Hard,2,DeepSeek Flash,DeepSeek,93,0.0384,20.7,low,2026-11-23
+long documents,Hard,3,GPT-6.1 Sol,OpenAI,93,0.26,29.6,medium,2026-11-23
+long documents,Hard,4,GPT-5.5,OpenAI,95,0.66,41.5,medium,2026-11-23
+translation,Easy,1,GPT-6 Luna,OpenAI,92,0.00035,3.8,none,2026-11-23
+translation,Easy,2,Claude Haiku,Anthropic,87,0.00035,4.7,none,2026-11-23
+translation,Easy,3,Gemini Flash,Google,93,0.002625,3.6,none,2026-11-23
+translation,Easy,4,DeepSeek Flash,DeepSeek,92,0.0009,5.7,none,2026-11-23
+translation,Medium,1,GPT-6 Luna,OpenAI,92,0.00035,3.8,none,2026-11-23
+translation,Medium,2,Claude Haiku,Anthropic,87,0.00035,4.7,none,2026-11-23
+translation,Medium,3,Gemini Flash,Google,93,0.002625,3.6,none,2026-11-23
+translation,Medium,4,DeepSeek Flash,DeepSeek,92,0.0009,5.7,none,2026-11-23
+translation,Hard,1,GPT-6 Luna,OpenAI,92,0.0005,5.8,low,2026-11-23
+translation,Hard,2,Gemini Flash,Google,93,0.00375,5.5,low,2026-11-23
+translation,Hard,3,DeepSeek Flash,DeepSeek,92,0.00126,8.7,low,2026-11-23
+translation,Hard,4,Muse Spark,Meta,92,0.00465,7.9,low,2026-11-23

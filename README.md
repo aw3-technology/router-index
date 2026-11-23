@@ -5,7 +5,7 @@
 - Live page: https://nivana.one/router-index
 - Data: [`data/router-index.csv`](data/router-index.csv) · [`data/router-index.json`](data/router-index.json) (also at https://nivana.one/router-index.csv and https://nivana.one/router-index.json)
 - On Hugging Face: [willschulz/router-index](https://huggingface.co/datasets/willschulz/router-index)
-- Updated: **2026-11-20**
+- Updated: **2026-11-23**
 - Licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Free to reuse, including commercially, with a link to https://nivana.one/router-index.
 
 ## What the router picks
@@ -17,10 +17,10 @@
 | quick answers | hard | GPT-6 Luna | Gemini Flash |
 | writing | easy | GPT-6 Luna | Claude Haiku |
 | writing | medium | GPT-6 Luna | Claude Haiku |
-| writing | hard | Claude Opus | Claude Sonnet |
+| writing | hard | Claude Sonnet | Claude Opus |
 | coding | easy | GPT-6 Luna | Claude Haiku |
-| coding | medium | Claude Sonnet | GPT-6.1 Sol |
-| coding | hard | Claude Opus | Claude Sonnet |
+| coding | medium | Grok 4.7 | GPT-6.1 Sol |
+| coding | hard | Claude Opus | GPT-6.1 Sol |
 | reasoning | easy | GPT-6 Luna | Claude Haiku |
 | reasoning | medium | Claude Sonnet | Claude Opus |
 | reasoning | hard | Claude Opus | Claude Sonnet |
@@ -28,7 +28,7 @@
 | maths | medium | Mistral Large | Claude Opus |
 | maths | hard | Claude Opus | Mistral Large |
 | structured data | easy | GPT-6 Luna | Claude Haiku |
-| structured data | medium | GPT-6 Luna | Claude Haiku |
+| structured data | medium | GPT-6 Luna | Gemini Flash |
 | structured data | hard | GPT-6 Luna | Gemini Flash |
 | long documents | easy | GPT-6 Luna | Gemini Flash |
 | long documents | medium | GPT-6 Luna | Gemini Flash |
@@ -41,20 +41,20 @@
 
 | Model | Lab | Quick answers | Writing | Coding | Reasoning | Maths | Structured data | Long documents | Translation | Price in / out per 1M tokens |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Claude Opus | Anthropic | 83 | 96 | 98 | 98 | 96 | 88 | 88 | 93 | $4 / $20 |
+| Claude Opus | Anthropic | 82 | 96 | 98 | 98 | 97 | 88 | 87 | 94 | $4 / $20 |
 | Claude Sonnet | Anthropic | 85 | 93 | 94 | 90 | 84 | 88 | 90 | 86 | $2 / $10 |
-| Claude Haiku | Anthropic | 88 | 88 | 85 | 73 | 82 | 85 | 90 | 86 | $0.1 / $0.5 |
-| GPT-6.1 Sol | OpenAI | 93 | 92 | 94 | 82 | 76 | 90 | 93 | 91 | $2 / $10 |
-| GPT-6 Luna | OpenAI | 95 | 89 | 87 | 78 | 69 | 92 | 91 | 92 | $0.1 / $0.5 |
-| GPT-5.5 | OpenAI | 94 | 93 | 92 | 78 | 78 | 94 | 94 | 94 | $5 / $30 |
-| Gemini 4 Argon | Google | 91 | 81 | 81 | 80 | 86 | 92 | 89 | 90 | $2 / $10 |
-| Gemini Flash | Google | 92 | 80 | 81 | 73 | 83 | 93 | 96 | 93 | $0.75 / $3.75 |
-| DeepSeek V4 Pro | DeepSeek | 91 | 88 | 83 | 75 | 84 | 92 | 90 | 91 | $1.32 / $3.96 |
-| DeepSeek Flash | DeepSeek | 92 | 85 | 88 | 78 | 76 | 91 | 93 | 92 | $0.3 / $1.2 |
-| Mistral Large | Mistral AI | 84 | 84 | 78 | 75 | 88 | 88 | 91 | 91 | $0.7 / $2.1 |
-| Muse Spark | Meta | 91 | 85 | 82 | 83 | 81 | 87 | 92 | 91 | $1.25 / $4.25 |
-| Kimi K3.1 Pro | Moonshot | 92 | 92 | 92 | 86 | 79 | 92 | 92 | 92 | $2 / $10 |
-| Grok 4.7 | xAI | 91 | 88 | 88 | 81 | 80 | 87 | 89 | 89 | $2 / $6 |
+| Claude Haiku | Anthropic | 89 | 89 | 86 | 73 | 83 | 84 | 90 | 87 | $0.1 / $0.5 |
+| GPT-6.1 Sol | OpenAI | 93 | 92 | 95 | 81 | 75 | 90 | 93 | 91 | $2 / $10 |
+| GPT-6 Luna | OpenAI | 95 | 90 | 87 | 77 | 69 | 91 | 91 | 92 | $0.1 / $0.5 |
+| GPT-5.5 | OpenAI | 94 | 93 | 92 | 77 | 78 | 93 | 95 | 94 | $5 / $30 |
+| Gemini 4 Argon | Google | 92 | 80 | 81 | 80 | 85 | 92 | 89 | 91 | $2 / $10 |
+| Gemini Flash | Google | 93 | 80 | 80 | 73 | 83 | 92 | 96 | 93 | $0.75 / $3.75 |
+| DeepSeek V4 Pro | DeepSeek | 91 | 88 | 83 | 75 | 83 | 91 | 91 | 91 | $1.32 / $3.96 |
+| DeepSeek Flash | DeepSeek | 93 | 85 | 88 | 77 | 75 | 90 | 93 | 92 | $0.3 / $1.2 |
+| Mistral Large | Mistral AI | 85 | 83 | 78 | 74 | 88 | 88 | 92 | 92 | $0.7 / $2.1 |
+| Muse Spark | Meta | 92 | 87 | 82 | 82 | 82 | 87 | 93 | 92 | $1.25 / $4.25 |
+| Kimi K3.1 Pro | Moonshot | 93 | 91 | 93 | 85 | 78 | 91 | 93 | 92 | $2 / $10 |
+| Grok 4.7 | xAI | 92 | 88 | 89 | 81 | 81 | 87 | 90 | 90 | $2 / $6 |
 
 ## Does routing beat one strong model?
 
@@ -72,7 +72,7 @@ The best pick depends on the request, not just the top score. A few points of qu
 
 ## Cite
 
-> The Router Index, Nivana (AW3 Technology), 2026-11-20. https://nivana.one/router-index. CC BY 4.0.
+> The Router Index, Nivana (AW3 Technology), 2026-11-23. https://nivana.one/router-index. CC BY 4.0.
 
 ---
 

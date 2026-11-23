@@ -2,21 +2,21 @@
   "name": "The Router Index",
   "source": "https://nivana.one/router-index",
   "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): free to reuse with a link to the source",
-  "updated": "2026-11-20",
+  "updated": "2026-11-23",
   "method": "Quality from weekly pairwise evals per task judged by models from several labs (0–100); cost from live AI Gateway list prices for a typical request of that kind; speed from live traffic.",
   "models": [
     {
       "name": "Claude Opus",
       "lab": "Anthropic",
       "quality": {
-        "quick answers": 83,
+        "quick answers": 82,
         "writing": 96,
         "coding": 98,
         "reasoning": 98,
-        "maths": 96,
+        "maths": 97,
         "structured data": 88,
-        "long documents": 88,
-        "translation": 93
+        "long documents": 87,
+        "translation": 94
       },
       "price_per_million_tokens": {
         "input": 4,
@@ -49,14 +49,14 @@
       "name": "Claude Haiku",
       "lab": "Anthropic",
       "quality": {
-        "quick answers": 88,
-        "writing": 88,
-        "coding": 85,
+        "quick answers": 89,
+        "writing": 89,
+        "coding": 86,
         "reasoning": 73,
-        "maths": 82,
-        "structured data": 85,
+        "maths": 83,
+        "structured data": 84,
         "long documents": 90,
-        "translation": 86
+        "translation": 87
       },
       "price_per_million_tokens": {
         "input": 0.1,
@@ -71,9 +71,9 @@
       "quality": {
         "quick answers": 93,
         "writing": 92,
-        "coding": 94,
-        "reasoning": 82,
-        "maths": 76,
+        "coding": 95,
+        "reasoning": 81,
+        "maths": 75,
         "structured data": 90,
         "long documents": 93,
         "translation": 91
@@ -90,11 +90,11 @@
       "lab": "OpenAI",
       "quality": {
         "quick answers": 95,
-        "writing": 89,
+        "writing": 90,
         "coding": 87,
-        "reasoning": 78,
+        "reasoning": 77,
         "maths": 69,
-        "structured data": 92,
+        "structured data": 91,
         "long documents": 91,
         "translation": 92
       },
@@ -112,10 +112,10 @@
         "quick answers": 94,
         "writing": 93,
         "coding": 92,
-        "reasoning": 78,
+        "reasoning": 77,
         "maths": 78,
-        "structured data": 94,
-        "long documents": 94,
+        "structured data": 93,
+        "long documents": 95,
         "translation": 94
       },
       "price_per_million_tokens": {
@@ -129,14 +129,14 @@
       "name": "Gemini 4 Argon",
       "lab": "Google",
       "quality": {
-        "quick answers": 91,
-        "writing": 81,
+        "quick answers": 92,
+        "writing": 80,
         "coding": 81,
         "reasoning": 80,
-        "maths": 86,
+        "maths": 85,
         "structured data": 92,
         "long documents": 89,
-        "translation": 90
+        "translation": 91
       },
       "price_per_million_tokens": {
         "input": 2,
@@ -149,12 +149,12 @@
       "name": "Gemini Flash",
       "lab": "Google",
       "quality": {
-        "quick answers": 92,
+        "quick answers": 93,
         "writing": 80,
-        "coding": 81,
+        "coding": 80,
         "reasoning": 73,
         "maths": 83,
-        "structured data": 93,
+        "structured data": 92,
         "long documents": 96,
         "translation": 93
       },
@@ -173,9 +173,9 @@
         "writing": 88,
         "coding": 83,
         "reasoning": 75,
-        "maths": 84,
-        "structured data": 92,
-        "long documents": 90,
+        "maths": 83,
+        "structured data": 91,
+        "long documents": 91,
         "translation": 91
       },
       "price_per_million_tokens": {
@@ -189,12 +189,12 @@
       "name": "DeepSeek Flash",
       "lab": "DeepSeek",
       "quality": {
-        "quick answers": 92,
+        "quick answers": 93,
         "writing": 85,
         "coding": 88,
-        "reasoning": 78,
-        "maths": 76,
-        "structured data": 91,
+        "reasoning": 77,
+        "maths": 75,
+        "structured data": 90,
         "long documents": 93,
         "translation": 92
       },
@@ -209,14 +209,14 @@
       "name": "Mistral Large",
       "lab": "Mistral AI",
       "quality": {
-        "quick answers": 84,
-        "writing": 84,
+        "quick answers": 85,
+        "writing": 83,
         "coding": 78,
-        "reasoning": 75,
+        "reasoning": 74,
         "maths": 88,
         "structured data": 88,
-        "long documents": 91,
-        "translation": 91
+        "long documents": 92,
+        "translation": 92
       },
       "price_per_million_tokens": {
         "input": 0.7,
@@ -229,14 +229,14 @@
       "name": "Muse Spark",
       "lab": "Meta",
       "quality": {
-        "quick answers": 91,
-        "writing": 85,
+        "quick answers": 92,
+        "writing": 87,
         "coding": 82,
-        "reasoning": 83,
-        "maths": 81,
+        "reasoning": 82,
+        "maths": 82,
         "structured data": 87,
-        "long documents": 92,
-        "translation": 91
+        "long documents": 93,
+        "translation": 92
       },
       "price_per_million_tokens": {
         "input": 1.25,
@@ -249,13 +249,13 @@
       "name": "Kimi K3.1 Pro",
       "lab": "Moonshot",
       "quality": {
-        "quick answers": 92,
-        "writing": 92,
-        "coding": 92,
-        "reasoning": 86,
-        "maths": 79,
-        "structured data": 92,
-        "long documents": 92,
+        "quick answers": 93,
+        "writing": 91,
+        "coding": 93,
+        "reasoning": 85,
+        "maths": 78,
+        "structured data": 91,
+        "long documents": 93,
         "translation": 92
       },
       "price_per_million_tokens": {
@@ -269,14 +269,14 @@
       "name": "Grok 4.7",
       "lab": "xAI",
       "quality": {
-        "quick answers": 91,
+        "quick answers": 92,
         "writing": 88,
-        "coding": 88,
+        "coding": 89,
         "reasoning": 81,
-        "maths": 80,
+        "maths": 81,
         "structured data": 87,
-        "long documents": 89,
-        "translation": 89
+        "long documents": 90,
+        "translation": 90
       },
       "price_per_million_tokens": {
         "input": 2,
@@ -303,7 +303,7 @@
         {
           "model": "Claude Haiku",
           "lab": "Anthropic",
-          "quality": 88,
+          "quality": 89,
           "expected_cost_usd": 0.000105,
           "expected_seconds": 1.8,
           "thinking_effort": null
@@ -311,7 +311,7 @@
         {
           "model": "DeepSeek Flash",
           "lab": "DeepSeek",
-          "quality": 92,
+          "quality": 93,
           "expected_cost_usd": 0.00027,
           "expected_seconds": 2.2,
           "thinking_effort": null
@@ -319,7 +319,7 @@
         {
           "model": "Gemini Flash",
           "lab": "Google",
-          "quality": 92,
+          "quality": 93,
           "expected_cost_usd": 0.000788,
           "expected_seconds": 1.4,
           "thinking_effort": null
@@ -342,7 +342,7 @@
         {
           "model": "Claude Haiku",
           "lab": "Anthropic",
-          "quality": 88,
+          "quality": 89,
           "expected_cost_usd": 0.000105,
           "expected_seconds": 1.8,
           "thinking_effort": null
@@ -350,7 +350,7 @@
         {
           "model": "Gemini Flash",
           "lab": "Google",
-          "quality": 92,
+          "quality": 93,
           "expected_cost_usd": 0.000788,
           "expected_seconds": 1.4,
           "thinking_effort": null
@@ -358,7 +358,7 @@
         {
           "model": "DeepSeek Flash",
           "lab": "DeepSeek",
-          "quality": 92,
+          "quality": 93,
           "expected_cost_usd": 0.00027,
           "expected_seconds": 2.2,
           "thinking_effort": null
@@ -381,7 +381,7 @@
         {
           "model": "Gemini Flash",
           "lab": "Google",
-          "quality": 92,
+          "quality": 93,
           "expected_cost_usd": 0.001912,
           "expected_seconds": 3.3,
           "thinking_effort": "low"
@@ -389,17 +389,17 @@
         {
           "model": "DeepSeek Flash",
           "lab": "DeepSeek",
-          "quality": 92,
+          "quality": 93,
           "expected_cost_usd": 0.00063,
           "expected_seconds": 5.2,
           "thinking_effort": "low"
         },
         {
-          "model": "GPT-6.1 Sol",
-          "lab": "OpenAI",
-          "quality": 93,
-          "expected_cost_usd": 0.0051,
-          "expected_seconds": 7.4,
+          "model": "Muse Spark",
+          "lab": "Meta",
+          "quality": 92,
+          "expected_cost_usd": 0.002288,
+          "expected_seconds": 4.7,
           "thinking_effort": "low"
         }
       ]
@@ -412,7 +412,7 @@
         {
           "model": "GPT-6 Luna",
           "lab": "OpenAI",
-          "quality": 89,
+          "quality": 90,
           "expected_cost_usd": 0.00037,
           "expected_seconds": 3.8,
           "thinking_effort": null
@@ -420,7 +420,7 @@
         {
           "model": "Claude Haiku",
           "lab": "Anthropic",
-          "quality": 88,
+          "quality": 89,
           "expected_cost_usd": 0.00037,
           "expected_seconds": 4.7,
           "thinking_effort": null
@@ -451,7 +451,7 @@
         {
           "model": "GPT-6 Luna",
           "lab": "OpenAI",
-          "quality": 89,
+          "quality": 90,
           "expected_cost_usd": 0.00037,
           "expected_seconds": 3.8,
           "thinking_effort": null
@@ -459,9 +459,17 @@
         {
           "model": "Claude Haiku",
           "lab": "Anthropic",
-          "quality": 88,
+          "quality": 89,
           "expected_cost_usd": 0.00037,
           "expected_seconds": 4.7,
+          "thinking_effort": null
+        },
+        {
+          "model": "Muse Spark",
+          "lab": "Meta",
+          "quality": 87,
+          "expected_cost_usd": 0.003625,
+          "expected_seconds": 5.1,
           "thinking_effort": null
         },
         {
@@ -471,36 +479,28 @@
           "expected_cost_usd": 0.0074,
           "expected_seconds": 8,
           "thinking_effort": null
-        },
-        {
-          "model": "GPT-6.1 Sol",
-          "lab": "OpenAI",
-          "quality": 92,
-          "expected_cost_usd": 0.0074,
-          "expected_seconds": 8.1,
-          "thinking_effort": null
         }
       ]
     },
     {
       "task": "writing",
       "difficulty": "hard",
-      "picked": "Claude Opus",
+      "picked": "Claude Sonnet",
       "candidates": [
-        {
-          "model": "Claude Opus",
-          "lab": "Anthropic",
-          "quality": 96,
-          "expected_cost_usd": 0.0208,
-          "expected_seconds": 19.2,
-          "thinking_effort": "low"
-        },
         {
           "model": "Claude Sonnet",
           "lab": "Anthropic",
           "quality": 93,
           "expected_cost_usd": 0.0104,
           "expected_seconds": 12.3,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "Claude Opus",
+          "lab": "Anthropic",
+          "quality": 96,
+          "expected_cost_usd": 0.0208,
+          "expected_seconds": 19.2,
           "thinking_effort": "low"
         },
         {
@@ -537,7 +537,7 @@
         {
           "model": "Claude Haiku",
           "lab": "Anthropic",
-          "quality": 85,
+          "quality": 86,
           "expected_cost_usd": 0.0005,
           "expected_seconds": 4.7,
           "thinking_effort": null
@@ -553,7 +553,7 @@
         {
           "model": "Gemini Flash",
           "lab": "Google",
-          "quality": 81,
+          "quality": 80,
           "expected_cost_usd": 0.00375,
           "expected_seconds": 3.6,
           "thinking_effort": null
@@ -563,8 +563,24 @@
     {
       "task": "coding",
       "difficulty": "medium",
-      "picked": "Claude Sonnet",
+      "picked": "Grok 4.7",
       "candidates": [
+        {
+          "model": "Grok 4.7",
+          "lab": "xAI",
+          "quality": 89,
+          "expected_cost_usd": 0.0098,
+          "expected_seconds": 10.9,
+          "thinking_effort": "low"
+        },
+        {
+          "model": "GPT-6.1 Sol",
+          "lab": "OpenAI",
+          "quality": 95,
+          "expected_cost_usd": 0.013,
+          "expected_seconds": 12.4,
+          "thinking_effort": "low"
+        },
         {
           "model": "Claude Sonnet",
           "lab": "Anthropic",
@@ -574,27 +590,11 @@
           "thinking_effort": "low"
         },
         {
-          "model": "GPT-6.1 Sol",
-          "lab": "OpenAI",
-          "quality": 94,
-          "expected_cost_usd": 0.013,
-          "expected_seconds": 12.4,
-          "thinking_effort": "low"
-        },
-        {
           "model": "Kimi K3.1 Pro",
           "lab": "Moonshot",
-          "quality": 92,
+          "quality": 93,
           "expected_cost_usd": 0.013,
           "expected_seconds": 14.4,
-          "thinking_effort": "low"
-        },
-        {
-          "model": "Claude Opus",
-          "lab": "Anthropic",
-          "quality": 98,
-          "expected_cost_usd": 0.026,
-          "expected_seconds": 19.2,
           "thinking_effort": "low"
         }
       ]
@@ -613,6 +613,14 @@
           "thinking_effort": "high"
         },
         {
+          "model": "GPT-6.1 Sol",
+          "lab": "OpenAI",
+          "quality": 95,
+          "expected_cost_usd": 0.06,
+          "expected_seconds": 79.6,
+          "thinking_effort": "high"
+        },
+        {
           "model": "Claude Sonnet",
           "lab": "Anthropic",
           "quality": 94,
@@ -621,19 +629,11 @@
           "thinking_effort": "high"
         },
         {
-          "model": "GPT-6.1 Sol",
-          "lab": "OpenAI",
-          "quality": 94,
+          "model": "Kimi K3.1 Pro",
+          "lab": "Moonshot",
+          "quality": 93,
           "expected_cost_usd": 0.06,
-          "expected_seconds": 79.6,
-          "thinking_effort": "high"
-        },
-        {
-          "model": "GPT-5.5",
-          "lab": "OpenAI",
-          "quality": 92,
-          "expected_cost_usd": 0.1775,
-          "expected_seconds": 111.5,
+          "expected_seconds": 92.8,
           "thinking_effort": "high"
         }
       ]
@@ -646,7 +646,7 @@
         {
           "model": "GPT-6 Luna",
           "lab": "OpenAI",
-          "quality": 78,
+          "quality": 77,
           "expected_cost_usd": 0.0004,
           "expected_seconds": 3.8,
           "thinking_effort": null
@@ -662,7 +662,7 @@
         {
           "model": "DeepSeek Flash",
           "lab": "DeepSeek",
-          "quality": 78,
+          "quality": 77,
           "expected_cost_usd": 0.00105,
           "expected_seconds": 5.7,
           "thinking_effort": null
@@ -701,7 +701,7 @@
         {
           "model": "Kimi K3.1 Pro",
           "lab": "Moonshot",
-          "quality": 86,
+          "quality": 85,
           "expected_cost_usd": 0.023,
           "expected_seconds": 34.4,
           "thinking_effort": "low"
@@ -709,7 +709,7 @@
         {
           "model": "Muse Spark",
           "lab": "Meta",
-          "quality": 83,
+          "quality": 82,
           "expected_cost_usd": 0.010375,
           "expected_seconds": 18.8,
           "thinking_effort": "medium"
@@ -740,7 +740,7 @@
         {
           "model": "Kimi K3.1 Pro",
           "lab": "Moonshot",
-          "quality": 86,
+          "quality": 85,
           "expected_cost_usd": 0.058,
           "expected_seconds": 92.8,
           "thinking_effort": "high"
@@ -748,7 +748,7 @@
         {
           "model": "Muse Spark",
           "lab": "Meta",
-          "quality": 83,
+          "quality": 82,
           "expected_cost_usd": 0.02525,
           "expected_seconds": 50.6,
           "thinking_effort": "high"
@@ -763,7 +763,7 @@
         {
           "model": "Claude Haiku",
           "lab": "Anthropic",
-          "quality": 82,
+          "quality": 83,
           "expected_cost_usd": 0.00048,
           "expected_seconds": 7.2,
           "thinking_effort": "low"
@@ -787,7 +787,7 @@
         {
           "model": "DeepSeek Flash",
           "lab": "DeepSeek",
-          "quality": 76,
+          "quality": 75,
           "expected_cost_usd": 0.0012,
           "expected_seconds": 8.7,
           "thinking_effort": "low"
@@ -810,7 +810,7 @@
         {
           "model": "Claude Opus",
           "lab": "Anthropic",
-          "quality": 96,
+          "quality": 97,
           "expected_cost_usd": 0.0432,
           "expected_seconds": 45.8,
           "thinking_effort": "medium"
@@ -818,18 +818,18 @@
         {
           "model": "Gemini 4 Argon",
           "lab": "Google",
-          "quality": 86,
+          "quality": 85,
           "expected_cost_usd": 0.0216,
           "expected_seconds": 29.8,
           "thinking_effort": "medium"
         },
         {
-          "model": "DeepSeek V4 Pro",
-          "lab": "DeepSeek",
+          "model": "Claude Sonnet",
+          "lab": "Anthropic",
           "quality": 84,
-          "expected_cost_usd": 0.008976,
-          "expected_seconds": 41.5,
-          "thinking_effort": "low"
+          "expected_cost_usd": 0.0216,
+          "expected_seconds": 29.5,
+          "thinking_effort": "medium"
         }
       ]
     },
@@ -841,7 +841,7 @@
         {
           "model": "Claude Opus",
           "lab": "Anthropic",
-          "quality": 96,
+          "quality": 97,
           "expected_cost_usd": 0.1132,
           "expected_seconds": 123.6,
           "thinking_effort": "high"
@@ -857,17 +857,17 @@
         {
           "model": "Gemini 4 Argon",
           "lab": "Google",
-          "quality": 86,
+          "quality": 85,
           "expected_cost_usd": 0.0566,
           "expected_seconds": 79.8,
           "thinking_effort": "high"
         },
         {
-          "model": "DeepSeek V4 Pro",
-          "lab": "DeepSeek",
+          "model": "Claude Sonnet",
+          "lab": "Anthropic",
           "quality": 84,
-          "expected_cost_usd": 0.022836,
-          "expected_seconds": 111.5,
+          "expected_cost_usd": 0.0566,
+          "expected_seconds": 79.5,
           "thinking_effort": "high"
         }
       ]
@@ -880,7 +880,7 @@
         {
           "model": "GPT-6 Luna",
           "lab": "OpenAI",
-          "quality": 92,
+          "quality": 91,
           "expected_cost_usd": 0.00055,
           "expected_seconds": 3.8,
           "thinking_effort": null
@@ -888,7 +888,7 @@
         {
           "model": "Claude Haiku",
           "lab": "Anthropic",
-          "quality": 85,
+          "quality": 84,
           "expected_cost_usd": 0.00055,
           "expected_seconds": 4.7,
           "thinking_effort": null
@@ -896,7 +896,7 @@
         {
           "model": "Gemini Flash",
           "lab": "Google",
-          "quality": 93,
+          "quality": 92,
           "expected_cost_usd": 0.004125,
           "expected_seconds": 3.6,
           "thinking_effort": null
@@ -904,7 +904,7 @@
         {
           "model": "DeepSeek Flash",
           "lab": "DeepSeek",
-          "quality": 91,
+          "quality": 90,
           "expected_cost_usd": 0.0015,
           "expected_seconds": 5.7,
           "thinking_effort": null
@@ -919,31 +919,31 @@
         {
           "model": "GPT-6 Luna",
           "lab": "OpenAI",
-          "quality": 92,
+          "quality": 91,
           "expected_cost_usd": 0.0007,
           "expected_seconds": 5.8,
           "thinking_effort": "low"
         },
         {
-          "model": "Claude Haiku",
-          "lab": "Anthropic",
-          "quality": 85,
-          "expected_cost_usd": 0.0007,
-          "expected_seconds": 7.2,
-          "thinking_effort": "low"
-        },
-        {
           "model": "Gemini Flash",
           "lab": "Google",
-          "quality": 93,
+          "quality": 92,
           "expected_cost_usd": 0.00525,
           "expected_seconds": 5.5,
           "thinking_effort": "low"
         },
         {
+          "model": "Claude Haiku",
+          "lab": "Anthropic",
+          "quality": 84,
+          "expected_cost_usd": 0.0007,
+          "expected_seconds": 7.2,
+          "thinking_effort": "low"
+        },
+        {
           "model": "DeepSeek Flash",
           "lab": "DeepSeek",
-          "quality": 91,
+          "quality": 90,
           "expected_cost_usd": 0.00186,
           "expected_seconds": 8.7,
           "thinking_effort": "low"
@@ -958,7 +958,7 @@
         {
           "model": "GPT-6 Luna",
           "lab": "OpenAI",
-          "quality": 92,
+          "quality": 91,
           "expected_cost_usd": 0.0013,
           "expected_seconds": 13.8,
           "thinking_effort": "medium"
@@ -966,7 +966,7 @@
         {
           "model": "Gemini Flash",
           "lab": "Google",
-          "quality": 93,
+          "quality": 92,
           "expected_cost_usd": 0.00975,
           "expected_seconds": 13,
           "thinking_effort": "medium"
@@ -974,7 +974,7 @@
         {
           "model": "DeepSeek Flash",
           "lab": "DeepSeek",
-          "quality": 91,
+          "quality": 90,
           "expected_cost_usd": 0.0033,
           "expected_seconds": 20.7,
           "thinking_effort": "low"
@@ -1099,7 +1099,7 @@
         {
           "model": "GPT-5.5",
           "lab": "OpenAI",
-          "quality": 94,
+          "quality": 95,
           "expected_cost_usd": 0.66,
           "expected_seconds": 41.5,
           "thinking_effort": "medium"
@@ -1122,7 +1122,7 @@
         {
           "model": "Claude Haiku",
           "lab": "Anthropic",
-          "quality": 86,
+          "quality": 87,
           "expected_cost_usd": 0.00035,
           "expected_seconds": 4.7,
           "thinking_effort": null
@@ -1161,7 +1161,7 @@
         {
           "model": "Claude Haiku",
           "lab": "Anthropic",
-          "quality": 86,
+          "quality": 87,
           "expected_cost_usd": 0.00035,
           "expected_seconds": 4.7,
           "thinking_effort": null
@@ -1216,7 +1216,7 @@
         {
           "model": "Muse Spark",
           "lab": "Meta",
-          "quality": 91,
+          "quality": 92,
           "expected_cost_usd": 0.00465,
           "expected_seconds": 7.9,
           "thinking_effort": "low"
